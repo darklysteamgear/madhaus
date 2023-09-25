@@ -1,0 +1,20 @@
+{
+	title: "Materials for Machinations",
+	x: 9.5d,
+	y: -1.5d,
+	text: [
+		"Is this the machine you just crafted? aww man, maybe you should actually look at the quests. you know it took me quite a while to come up with these stupid things the least you could do is look through them. *cocks gun* now laugh."
+	],
+	tasks: [{
+		uid: "f26586b3",
+		type: "item",
+		items: [{
+			item: "mekanism:oreblock"
+		}]
+	}],
+	rewards: [{
+		uid: "7a99b736",
+		type: "item",
+		item: "mekanism:machineblock 1 8"
+	}]
+}

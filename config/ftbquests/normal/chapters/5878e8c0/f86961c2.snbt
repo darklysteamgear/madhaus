@@ -1,0 +1,16 @@
+{
+	x: 8.0d,
+	y: 60.0d,
+	shape: "circle",
+	dependencies: [
+		"b8982ea8"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "2035fe55",
+		type: "dimension",
+		title: "Pluto",
+		icon: "extraplanets:pluto",
+		dim: -19
+	}]
+}

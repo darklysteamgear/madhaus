@@ -1,0 +1,10 @@
+{
+	title: "It's a Classic",
+	icon: "biomesoplenty:grass 1 5",
+	description: [
+		"Quests to make you feel nostalgic"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

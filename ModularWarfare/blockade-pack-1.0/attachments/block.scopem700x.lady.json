@@ -1,0 +1,16 @@
+{
+  "displayName": "M700 Lady Scope",
+  "internalName": "block.scopem700x.lady",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopem700x.lady",
+      "displayName": "M700 Scope - Lady"
+    }
+  ],
+  "sight": {
+    "scopeType": "15x",
+    "customOverlayTexture": "block.blockscopem700x",
+    "modeType": "pip"
+  }
+}

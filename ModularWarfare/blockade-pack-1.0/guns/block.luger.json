@@ -1,0 +1,67 @@
+{
+    "displayName": "Luger",
+    "internalName": "block.luger",
+    "gunDamage": 8.75,
+	"gunDamageHeadshotBonus": 1.5,
+    "roundsPerMin": 195,
+    "allowEmptyMagazines": true,
+    "weaponType": "pistol",
+	"extraLore": "For its time, it was an advanced development, but by 1940 it was morally outdated.",
+    "customFlashTexture": "prototype.advanced.flash",
+    "acceptedAmmo": [
+        "block.lugerammo"
+    ],
+    "fireModes": [
+        "full",
+        "semi"
+    ],
+    "recoilPitch": 0.6,
+    "recoilYaw": 0.4,
+    "randomRecoilPitch": 0.7,
+    "randomRecoilYaw": 0.0,
+	"bulletSpread": 1.25,
+    "armPose": "ITEM",
+    "armPoseAiming": "BOW_AND_ARROW",
+    "accuracySneakFactor": 0.75,
+    "moveSpeedModifier": 1,
+    "allowSprintFiring": true,
+    "dropBulletCasing": true,
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "block.luger.shoot",
+                "soundNameDistant": "block.plight.shoot.distant",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponReload": [
+            {
+                "soundEvent": "weaponReload",
+                "soundName": "block.luger.reload"
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "block.luger.shoot.sup",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+            }
+        ]
+    },
+    "acceptedAttachments": {
+        
+    },
+	"modelSkins": [
+        {
+            "internalName": "block.luger",
+            "skinAsset": "block.luger",
+            "displayName": "Default"
+        }
+    ]
+	
+}

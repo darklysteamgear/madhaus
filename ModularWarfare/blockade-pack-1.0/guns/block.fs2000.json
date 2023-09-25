@@ -1,0 +1,78 @@
+{
+    "internalName":"block.fs2000",
+    "displayName":"FN F2000",
+    "weaponType":"carbine",
+    "extraLore": "A strangely shaped weapon. A gift from aliens?",
+    "customFlashTexture":"prototype.advanced.flash",
+    "gunDamage":8.15,
+    "gunDamageHeadshotBonus":1.5,
+    "roundsPerMin":460,
+    "allowEmptyMagazines":true,
+    "recoilPitch": 3.3,
+    "recoilYaw":0.2,
+    "randomRecoilPitch": 0.8,
+    "randomRecoilYaw": 0.0,
+    "bulletSpread":0.25,
+    "accuracySneakFactor":0.125,
+    "moveSpeedModifier":0.9,
+    "allowSprintFiring":false,
+    "fireModes":[
+        "full",
+		"burst",
+        "semi"
+    ],
+    "acceptedAmmo":[
+        "block.fs2000ammo"
+    ],
+    "dropBulletCasing":true,
+    "shellEjectOffsetNormal":{
+        "x":-1.0,
+        "y":0.0,
+        "z":1.0
+    },
+    "shellEjectOffsetAiming":{
+        "x":-0.2,
+        "y":0.12,
+        "z":0.5
+    },
+    "weaponSoundMap":{
+        "weaponFire":[
+            {
+                "soundEvent":"weaponFire",
+                "soundName":"block.fs2000.shoot",
+                "soundNameDistant":"block.rifle.shoot.distant",
+                "soundRange":64,
+                "soundMaxRange":96,
+                "soundFadeMultiplier":1
+            }
+        ],
+        "weaponUnload":[
+            {
+                "soundEvent":"weaponReload",
+                "soundName":"prototype.generic.reload"
+            }
+        ],
+        "weaponFireSuppressed":[
+            {
+                "soundEvent":"weaponFireSuppressed",
+                "soundName":"block.fs2000.shoot.sup",
+                "soundRange":30,
+                "soundMaxRange":50,
+                "soundFadeMultiplier":1
+            }
+        ]
+    },
+    "acceptedAttachments":{
+		"sight": [
+            "block.scopefsx",
+			"block.scopefsxsmaller"
+        ]
+    },
+    "modelSkins":[
+        {
+            "internalName":"block.fs2000",
+            "skinAsset":"block.fs2000",
+            "displayName":"Default"
+        }
+    ]
+}

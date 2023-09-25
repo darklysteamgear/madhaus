@@ -1,0 +1,16 @@
+{
+  "displayName": "Kord Scope",
+  "internalName": "block.scopekordsx",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopekordsx",
+      "displayName": "Kord Scope - Default"
+    }
+  ],
+  "sight": {
+    "scopeType": "4x",
+    "customOverlayTexture": "block.blockscopekordsx",
+    "modeType": "pip"
+  }
+}

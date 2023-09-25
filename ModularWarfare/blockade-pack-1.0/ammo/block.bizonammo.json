@@ -1,0 +1,11 @@
+{
+    "internalName": "block.bizonammo",
+    "displayName": "Bizon Mag 64rnd ",
+    "ammoCapacity": 64,
+	"reloadTimeFactor": 1.4,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.smgbullet"
+    ],
+    "allowEmptyMagazines": true
+}

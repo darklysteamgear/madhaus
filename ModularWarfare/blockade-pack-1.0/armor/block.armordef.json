@@ -1,0 +1,19 @@
+{
+    "internalName": "block.armordef",
+    "defense": "0.29",
+    "durability": 750,
+    "armorTypes": 
+    {
+        "chest": 
+        {
+            "displayName": "Standard Armor"
+        }
+    },
+    "modelSkins":
+    [
+      {
+        "skinAsset": "block.armordef",
+        "displayName": "Armor - Standard"
+      }
+    ]
+}

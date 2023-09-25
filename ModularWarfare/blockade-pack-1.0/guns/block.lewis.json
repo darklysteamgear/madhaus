@@ -1,0 +1,78 @@
+{
+    "internalName":"block.lewis",
+    "displayName":"Lewis Machine Gun",
+    "weaponType":"carbine",
+    "extraLore": "The machine gun has a confusing history. Designed in the United States but not adopted there, it was developed and produced in the United Kingdom.",
+    "customFlashTexture":"prototype.advanced.flash",
+    "gunDamage":9.6,
+    "gunDamageHeadshotBonus":1.5,
+    "roundsPerMin":400,
+    "allowEmptyMagazines":true,
+    "recoilPitch": 3.8,
+    "recoilYaw":0.4,
+    "randomRecoilPitch": 0.6,
+    "randomRecoilYaw": 0.0,
+    "bulletSpread":0.25,
+    "accuracySneakFactor":0.125,
+    "moveSpeedModifier":0.865,
+    "allowSprintFiring":false,
+    "fireModes":[
+        "full"
+    ],
+    "acceptedAmmo":[
+        "block.lewisammo"
+    ],
+    "dropBulletCasing":true,
+    "shellEjectOffsetNormal":{
+        "x":-1.0,
+        "y":0.0,
+        "z":1.0
+    },
+    "shellEjectOffsetAiming":{
+        "x":-0.2,
+        "y":0.12,
+        "z":0.5
+    },
+    "weaponSoundMap":{
+        "weaponFire":[
+            {
+                "soundEvent":"weaponFire",
+                "soundName":"block.lewis.shoot",
+                "soundNameDistant":"block.lmg.shoot.distant",
+                "soundRange":64,
+                "soundMaxRange":96,
+                "soundFadeMultiplier":1
+            }
+        ],
+        "weaponUnload":[
+            {
+                "soundEvent":"weaponReload",
+                "soundName":"prototype.generic.reload"
+            }
+        ],
+		"weaponReload": [
+			{
+        "soundEvent": "weaponReload",
+        "soundName": "block.long25.reload"
+			}
+		],
+        "weaponFireSuppressed":[
+            {
+                "soundEvent":"weaponFireSuppressed",
+                "soundName":"block.lewis.shoot.sup",
+                "soundRange":30,
+                "soundMaxRange":50,
+                "soundFadeMultiplier":1
+            }
+        ]
+    },
+    "acceptedAttachments":{
+    },
+    "modelSkins":[
+        {
+            "internalName":"block.lewis",
+            "skinAsset":"block.lewis",
+            "displayName":"Default"
+        }
+    ]
+}

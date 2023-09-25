@@ -1,0 +1,78 @@
+{
+	title: "STOP IT",
+	x: 11.0d,
+	y: 16.0d,
+	description: "NO MORE, YOU ARE FINISHED HERE AND NOW!!!",
+	dependencies: [
+		"2266c07f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c4295f6e",
+		type: "observation",
+		icon: "minecraft:barrier",
+		match_type: "block_id",
+		match: "aether_legacy:enchanter",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "f65b31c5",
+		type: "command",
+		auto: "invisible",
+		command: "/execute @p ~ ~ ~ summon minecraft:wither"
+	},
+	{
+		uid: "f80eebfb",
+		type: "command",
+		auto: "invisible",
+		command: "/execute @p ~ ~ ~ summon minecraft:wither"
+	},
+	{
+		uid: "9fed88d4",
+		type: "command",
+		auto: "invisible",
+		command: "/execute @p ~ ~ ~ summon herobrine:herobrine_warrior"
+	},
+	{
+		uid: "e2821ef6",
+		type: "command",
+		auto: "invisible",
+		command: "/execute @p ~ ~ ~ summon minecraft:zombie"
+	},
+	{
+		uid: "35660f8a",
+		type: "command",
+		auto: "invisible",
+		command: "/execute @p ~ ~ ~ summon minecraft:zombie"
+	},
+	{
+		uid: "43c24822",
+		type: "command",
+		auto: "invisible",
+		command: "/execute @p ~ ~ ~ summon minecraft:zombie"
+	},
+	{
+		uid: "cb4b1aa3",
+		type: "command",
+		auto: "invisible",
+		command: "/execute @p ~ ~ ~ summon minecraft:zombie"
+	},
+	{
+		uid: "63e1d6a0",
+		type: "command",
+		auto: "invisible",
+		command: "/execute @p ~ ~ ~ summon herobrine:herobrine_mage"
+	},
+	{
+		uid: "6c662b1d",
+		type: "command",
+		auto: "invisible",
+		command: "/execute @p ~ ~ ~ summon weeping-angels:weepingangel"
+	},
+	{
+		uid: "5fc29401",
+		type: "command",
+		auto: "invisible",
+		command: "/execute @p ~ ~ ~ summon weeping-angels:weepingangel"
+	}]
+}

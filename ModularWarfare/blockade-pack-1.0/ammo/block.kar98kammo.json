@@ -1,0 +1,11 @@
+{
+  "displayName": "Kar98K Stripper Clip 5rnd",
+  "internalName": "block.kar98kammo",
+  "skinAsset": "default",
+  "ammoCapacity": 5,
+  "reloadTimeFactor": 1.6,
+  "allowEmptyMagazines": true,
+  "subAmmo": [
+    "block.sniperbullet"
+  ]
+}

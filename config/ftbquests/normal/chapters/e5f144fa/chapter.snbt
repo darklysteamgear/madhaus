@@ -1,0 +1,11 @@
+{
+	title: "dingusquest",
+	icon: "harvestcraft:cheeseitem",
+	description: [
+		"bottom text",
+		""
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

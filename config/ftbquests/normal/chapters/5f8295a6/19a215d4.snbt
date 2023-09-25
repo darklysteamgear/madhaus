@@ -1,0 +1,13 @@
+{
+	title: "I shoot my arrows in the air sometimes",
+	x: 3.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "3e35704f",
+		type: "item",
+		items: [{
+			item: "minecraft:arrow"
+		}],
+		count: 32L
+	}]
+}

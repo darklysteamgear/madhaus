@@ -1,0 +1,21 @@
+{
+	title: "pshh, what kind of loser would use this?",
+	x: 8.0d,
+	y: 1.5d,
+	text: [
+		"A wife and kids? hahahaha that's soo last year"
+	],
+	tasks: [{
+		uid: "5cbd4445",
+		type: "item",
+		items: [{
+			item: "mca:rose_gold_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "e1ff2aa3",
+		type: "item",
+		auto: "enabled",
+		item: "mca:book_romance"
+	}]
+}

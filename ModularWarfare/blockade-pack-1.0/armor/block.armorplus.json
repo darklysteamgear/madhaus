@@ -1,0 +1,19 @@
+{
+    "internalName": "block.armorplus",
+    "defense": "0.34",
+    "durability": 1000,
+    "armorTypes": 
+    {
+        "chest": 
+        {
+            "displayName": "Reinforced Armor"
+        }
+    },
+    "modelSkins":
+    [
+      {
+        "skinAsset": "block.armorplus",
+        "displayName": "Armor - Reinforced"
+      }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Need help? well, here we come",
+	x: 12.0d,
+	y: 17.5d,
+	description: "You looked like you could use some help, so we the order decided to relog",
+	dependencies: [
+		"60c0a428"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b99477a3",
+		type: "observation",
+		icon: "extrautils2:fireaxe",
+		match_type: "block_id",
+		match: "aether_legacy:enchanter",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "f6a31211",
+		type: "gamestage",
+		title: "help",
+		auto: "no_toast",
+		stage: "help"
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "I really hate you now, I hope you know that",
+	x: 6.5d,
+	y: 6.0d,
+	tasks: [{
+		uid: "d9b3cd2f",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:large_plate"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "28aba81c",
+		type: "command",
+		title: "BOOM",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon tnt"
+	},
+	{
+		uid: "d7780bd0",
+		type: "command",
+		title: "Lava because screw you",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon motnt:lava_tnt"
+	}]
+}

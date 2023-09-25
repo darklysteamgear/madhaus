@@ -1,0 +1,8 @@
+[toggle]
+	[toggle.from]
+		play_once = false
+		triggers = [ "mob-aoa3boss" ]
+		condition = 2
+	[toggle.to]
+		triggers = [ "dimension-alpha" "dimension-end" "dimension-creepy" "dimension-herobrine" "dimension-lost" "dimension-aoaabyss" "dimension-aoaancient_cavern" "dimension-aoabarathos" "dimension-aoacandyland" "dimension-aoaceleve" "dimension-aoacreeponia" "dimension-aoacrystevia" "dimension-aoadeeplands" "dimension-aoadustopia" "dimension-aoagardencia" "dimension-aoagreckon" "dimension-aoahaven" "dimension-aoaimmortallis" "dimension-aoairomine" "dimension-aoalborean" "dimension-aoalelyetia" "dimension-aoalunalus" "dimension-aoamysterium" "dimension-aoaprecasia" "dimension-aoarunandor" "dimension-aoashyrelands" "dimension-aoavox_ponds" "dimension-barrenspace" "dimension-atum" "dimension-cave" "dimension-beneath" "dimension-heck" "dimension-abyss" "dimension-tropics" "dimension-space" "dimension-planet" "dimension-moon" "home" "biome-cursedBiome" "biome-mountainBiomeD" "time-sunrise" "time-sunset" "time-day" "time-night" "height-underground" "bloodmoon" "harvestmoon" "mob-sans" "mob-mutant_creeper" "mob-mutant_skeleton" "mob-mutant_zombie" "mob-mutant_enderman" "mob-shrek" "mob-capybara" "mob-miniboss" ]
+		condition = "false"

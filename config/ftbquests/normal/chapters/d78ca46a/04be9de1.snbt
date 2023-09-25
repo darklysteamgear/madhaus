@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "2d84b852",
+		type: "item",
+		items: [{
+			id: "extraplanets:tier4_space_suit_helmet",
+			Damage: 100s,
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9fb21c78",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

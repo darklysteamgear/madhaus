@@ -1,0 +1,12 @@
+{
+	x: 83.0d,
+	y: -5.0d,
+	shape: "square",
+	tasks: [{
+		uid: "f38f526e",
+		type: "item",
+		items: [{
+			item: "moreplanets:inferumite_crystal"
+		}]
+	}]
+}

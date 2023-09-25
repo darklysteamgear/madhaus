@@ -1,0 +1,14 @@
+{
+	x: 102.5d,
+	y: -19.0d,
+	shape: "pentagon",
+	description: "MMM cheesecow",
+	tasks: [{
+		uid: "82adf11a",
+		type: "kill",
+		title: "Beesechurger",
+		icon: "harvestcraft:cheesesteakitem",
+		entity: "moreplanets:cheese_cow",
+		value: 20L
+	}]
+}

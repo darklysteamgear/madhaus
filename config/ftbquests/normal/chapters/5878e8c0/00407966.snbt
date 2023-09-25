@@ -1,0 +1,18 @@
+{
+	title: "Ceres",
+	icon: "extraplanets:ceres",
+	x: 19.0d,
+	y: 9.0d,
+	shape: "circle",
+	dependencies: [
+		"aff6cded"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "ae76ff27",
+		type: "dimension",
+		title: "Ceres",
+		icon: "extraplanets:ceres",
+		dim: -20
+	}]
+}

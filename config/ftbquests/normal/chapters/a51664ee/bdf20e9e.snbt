@@ -1,0 +1,21 @@
+{
+	title: "just another annoying gold quest",
+	x: 5.0d,
+	y: -1.5d,
+	text: [
+		"Really, there's nothing to see here. I don't know what you expected. why are you still here? what? do you want me to sing and dance for you? well, screw you. here's a peice of gold to bloat your inventory while your mining"
+	],
+	tasks: [{
+		uid: "2a5988c3",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "3bcda8f3",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:gold_ingot"
+	}]
+}

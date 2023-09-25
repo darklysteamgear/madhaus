@@ -1,0 +1,82 @@
+{
+    "internalName": "block.m1887",
+    "displayName": "M1887",
+    "weaponType": "shotgun",
+	"extraLore": "Is this a Terminator gun?",
+    "customFlashTexture": "prototype.advanced.flash",
+    "gunDamage": 3.75,
+	"numBullets": 14,
+    "roundsPerMin": 70,
+	"weaponMaxRange": 15,
+    "allowEmptyMagazines": true,
+    "recoilPitch": 11,
+    "recoilYaw": 0.5,
+    "randomRecoilPitch": 0.6,
+    "randomRecoilYaw": 0.0,
+    "bulletSpread": 4.3,
+    "accuracySneakFactor": 0.9,
+    "moveSpeedModifier":1.0,
+    "allowSprintFiring": false,
+    "fireModes": [
+        "full",
+        "semi"
+    ],
+    "acceptedBullets": [
+        "block.12gauge"
+    ],
+    "internalAmmoStorage": 7,
+    "reloadTime": 80,
+    "dropBulletCasing": true,
+    "shellEjectOffsetNormal": {
+        "x": -1,
+        "y": 0,
+        "z": 1
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+    "acceptedAttachments": {
+    },
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "block.m1887.shoot",
+                "soundNameDistant": "block.shotgun.shoot.distant",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "block.m1887.shoot.sup",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponBolt": [
+            {
+                "soundEvent": "weaponBolt",
+                "soundName": "block.m1887.pump"
+            }
+        ],
+        "weaponBulletLoad": [
+            {
+                "soundEvent": "weaponBulletLoad",
+                "soundName": "block.shotgun.chamber"
+            }
+        ]
+    },
+    "modelSkins": [
+        {
+            "internalName": "block.m1887",
+            "skinAsset": "block.m1887",
+            "displayName": "Default"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+	title: "I have an apple",
+	x: 1.5d,
+	y: -1.0d,
+	dependencies: [
+		"e22b1aa3"
+	],
+	tasks: [{
+		uid: "2b04b748",
+		type: "item",
+		items: [{
+			item: "memeinabottle:apple"
+		}]
+	}]
+}

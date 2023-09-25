@@ -1,0 +1,20 @@
+{
+	title: "Visit Lelyetia",
+	icon: {
+		id: "thermalexpansion:morb",
+		tag: {
+			Generic: 1b,
+			id: "aoa3:lelyetian_caster"
+		}
+	},
+	x: 2.0d,
+	y: -10.5d,
+	dependencies: [
+		"ef7ee976"
+	],
+	tasks: [{
+		uid: "bbea4081",
+		type: "dimension",
+		dim: 815
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: 6.0d,
+	y: 3.0d,
+	text: [
+		"It's never enough, is it?",
+		"I'm feeling nice today, so here's some more redstone. ALL THE REDSTONE"
+	],
+	tasks: [{
+		uid: "15665ab1",
+		type: "observation",
+		title: "Time to automate!",
+		icon: "densemetals:dense_redstone_ore",
+		match_type: "block_id",
+		match: "densemetals:dense_redstone_ore",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "eed1cead",
+		type: "xp_levels",
+		xp_levels: 4
+	},
+	{
+		uid: "1da8a716",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 64
+	}]
+}

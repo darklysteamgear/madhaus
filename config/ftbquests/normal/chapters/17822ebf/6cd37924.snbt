@@ -1,0 +1,24 @@
+{
+	title: "Jeez, just give it up already",
+	x: -1.5d,
+	y: 10.5d,
+	tasks: [{
+		uid: "0510904f",
+		type: "item",
+		items: [{
+			id: "conarm:boots_core",
+			tag: {
+				Material: "emeradic_actadd_plustic"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "405fde08",
+		type: "command",
+		title: "frick heck frick",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon motnt:zeus_tnt"
+	}]
+}

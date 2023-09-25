@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "b0c95592",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonsteel_fire_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "57aae84b",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

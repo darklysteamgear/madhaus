@@ -1,0 +1,79 @@
+{
+  "displayName": "Kar98K",
+  "internalName": "block.kar98k",
+  "weaponType": "boltsniper",
+  "extraLore": "This German rifle was developed in the last century, but for strange reasons is still popular today.",
+  "customFlashTexture": "prototype.advanced.flash",
+  "gunDamage": 22,
+  "gunDamageHeadshotBonus": 2,
+  "roundsPerMin": 34,
+  "acceptedAmmo": [
+    "block.kar98kammo"
+  ],
+  "fireModes": [
+    "semi"
+  ],
+  "recoilPitch": 4,
+  "recoilYaw": 0.3,
+  "randomRecoilPitch": 0.0,
+  "randomRecoilYaw": 0.0,
+  "bulletSpread": 0.125,
+  "allowSprintFiring": false,
+  "allowEmptyMagazines": true,
+  "moveSpeedModifier": 0.88,
+  "accuracySneakFactor": 0.125,
+  "dropBulletCasing": false,
+  "shellEjectOffsetNormal": {
+    "x": -1,
+    "y": 0,
+    "z": 1
+  },
+  "shellEjectOffsetAiming": {
+    "x": -0.2,
+    "y": 0.12,
+    "z": 0.5
+  },
+  "weaponSoundMap": {
+    "weaponFire": [
+      {
+        "soundEvent": "weaponFire",
+        "soundName": "block.kar98k.shoot",
+        "soundNameDistant": "block.bolt.shoot.distant",
+        "soundRange": 64,
+        "soundMaxRange": 96,
+        "soundFadeMultiplier": 1
+      }
+    ],
+    "weaponFireSuppressed": [
+      {
+        "soundEvent": "weaponFireSuppressed",
+        "soundName": "block.kar98k.shoot.sup",
+        "soundRange": 20,
+        "soundMaxRange": 50,
+        "soundFadeMultiplier": 1
+      }
+    ],
+    "weaponReload": [
+      {
+        "soundEvent": "weaponReload",
+        "soundName": "block.kar98k.reload"
+      }
+    ],
+    "weaponBolt": [
+      {
+        "soundEvent": "weaponBolt",
+        "soundName": "block.kar98k.bolt"
+      }
+    ]
+  },
+  "acceptedAttachments": {
+	  
+  },
+  "modelSkins": [
+    {
+      "internalName": "block.kar98k",
+      "skinAsset": "block.kar98k",
+      "displayName": "Default"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+	title: "The start of the factory!",
+	x: 5.5d,
+	y: 1.0d,
+	description: "THE FACTORY MUST GROW",
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "279b8cae",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 1s,
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e77833f1",
+		type: "ftbmoney:money",
+		ftb_money: 500L,
+		random_bonus: 500
+	}]
+}

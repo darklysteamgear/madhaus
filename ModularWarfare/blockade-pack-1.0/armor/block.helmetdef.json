@@ -1,0 +1,19 @@
+{
+    "internalName": "block.helmetdef",
+    "defense": "0.15",
+    "durability": 750,
+    "armorTypes": 
+    {
+        "head":
+        {
+            "displayName": "Standard Helmet"
+        }
+    },
+    "modelSkins":
+    [
+      {
+        "skinAsset": "block.helmetdef",
+        "displayName": "Helmet - Standart"
+      }
+    ]
+}

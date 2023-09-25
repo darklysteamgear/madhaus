@@ -1,0 +1,16 @@
+{
+	title: "lol, I dunno. just kill 100 flying silverfish or something",
+	x: 0.0d,
+	y: 4.0d,
+	description: "Because balacne",
+	tasks: [{
+		uid: "e05a7bed",
+		type: "kill",
+		icon: {
+			id: "botania:blackholetalisman",
+			tag: {}
+		},
+		entity: "specialmobs:flyingsilverfish",
+		value: 100L
+	}]
+}

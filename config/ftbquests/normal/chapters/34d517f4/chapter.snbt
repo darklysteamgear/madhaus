@@ -1,0 +1,10 @@
+{
+	title: "This means WAR!!!",
+	icon: "xreliquary:handgun",
+	description: [
+		"Take your revenge!"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

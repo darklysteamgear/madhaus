@@ -1,0 +1,32 @@
+{
+	title: "So... Guess that's it, huh?",
+	icon: "fossil:figurine 1 6",
+	x: 13.0d,
+	y: 0.0d,
+	text: [
+		". . .",
+		"Just. . .",
+		"Don't say i diddn't warn you.",
+		"Well.",
+		"I'm going to grillby's.",
+		"Papyrus, do you want anything?"
+	],
+	dependencies: [
+		"04ee3bf8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "65d362a1",
+		type: "kill",
+		title: "So. . .  Guess thats it, huh?",
+		entity: "memeinabottle:sans",
+		value: 3L
+	}],
+	rewards: [{
+		uid: "74a44e01",
+		type: "item",
+		item: "harvestcraft:onionhamburgeritem",
+		count: 2,
+		random_bonus: 16
+	}]
+}

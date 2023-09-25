@@ -1,0 +1,27 @@
+{
+	title: "You should probably start running",
+	x: 9.5d,
+	y: 1.5d,
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "bec895a1",
+		type: "observation",
+		title: "You better run",
+		icon: "quark:monster_box",
+		match_type: "block_id",
+		match: "quark:monster_box",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "30c2a308",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:swiftness"
+			}
+		}
+	}]
+}

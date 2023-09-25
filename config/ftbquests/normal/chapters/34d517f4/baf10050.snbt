@@ -1,0 +1,33 @@
+{
+	title: "Here comes the US air force!",
+	x: -10.5d,
+	y: 1.0d,
+	description: "Oh wait, that's just a civillian plane",
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a8d580f7",
+		type: "item",
+		title: "Sports Plane",
+		items: [{
+			id: "vehicle:vehicle_crate",
+			tag: {
+				BlockEntityTag: {
+					vehicle: "vehicle:sports_plane",
+					engineTier: 0,
+					wheelType: 0
+				}
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "17946135",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

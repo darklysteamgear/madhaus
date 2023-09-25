@@ -1,0 +1,16 @@
+{
+    "name": "Intro",
+    "icon": "minecraft:writable_book",
+    "category": "health",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "In this modpack, you're going to have to earn those extra hearts through fighting monsters, traversing dimensions, killing off everything and anything that is evil! You gotta take back your night from these evil monsters, ghouls, and goblins."
+        },
+            {
+            "type": "entity",
+            "entity": "dungeonmobs:dmghoul"
+            }
+    ]
+}

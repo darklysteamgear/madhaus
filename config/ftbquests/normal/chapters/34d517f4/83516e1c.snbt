@@ -1,0 +1,19 @@
+{
+	x: -6.0d,
+	y: -1.5d,
+	hide_dependency_lines: true,
+	hide: true,
+	tasks: [{
+		uid: "441c92ae",
+		type: "item",
+		items: [{
+			item: "modularwarfare:block.stigrenade"
+		}]
+	}],
+	rewards: [{
+		uid: "ac7dd3ec",
+		type: "ftbmoney:money",
+		ftb_money: 2500L,
+		random_bonus: 500
+	}]
+}

@@ -1,0 +1,128 @@
+{
+	title: "HE KNOWS YOU'RE HERE. YOU HAVE BEEN COMPROMISED!!!",
+	x: 5.0d,
+	y: 5.5d,
+	description: "Whats wrong? Snake, SNAAAAAAAKE!?!!!!",
+	text: [
+		"It's no longer possible to stealth your way through..."
+	],
+	optional: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "8290b8c2",
+		type: "observation",
+		title: "SPOTTED BY MAGE",
+		icon: "herobrine:herobrine_statue",
+		match_type: "entity_id",
+		match: "herobrine:fake_herobrine_mage",
+		timer: 0L
+	},
+	{
+		uid: "2c3372fb",
+		type: "observation",
+		title: "SPOTTED BY MAGE",
+		icon: "herobrine:herobrine_statue",
+		match_type: "entity_id",
+		match: "herobrine:herobrine_mage",
+		timer: 0L
+	},
+	{
+		uid: "07918f37",
+		type: "observation",
+		title: "SPOTTED BY BUILDER",
+		icon: "herobrine:herobrine_statue",
+		match_type: "entity_id",
+		match: "herobrine:herobrine_builder",
+		timer: 20L
+	},
+	{
+		uid: "f860703f",
+		type: "observation",
+		title: "SPOTTED BY SPY",
+		icon: "herobrine:herobrine_statue",
+		match_type: "entity_id",
+		match: "herobrine:herobrine_spy",
+		timer: 0L
+	},
+	{
+		uid: "d2f50714",
+		type: "observation",
+		title: "SPOTTED BY WARRIOR",
+		icon: "herobrine:herobrine_statue",
+		match_type: "entity_id",
+		match: "herobrine:herobrine_warrior",
+		timer: 0L
+	},
+	{
+		uid: "0b67b432",
+		type: "observation",
+		title: "SPOTTED BY INFECTED BAT",
+		icon: "herobrine:herobrine_statue",
+		match_type: "entity_id",
+		match: "herobrine:infected_bat",
+		timer: 20L
+	},
+	{
+		uid: "9a1db72e",
+		type: "observation",
+		title: "SPOTTED BY INFECTED CHICKEN",
+		icon: "herobrine:herobrine_statue",
+		match_type: "entity_id",
+		match: "herobrine:infected_chicken",
+		timer: 20L
+	},
+	{
+		uid: "46cc1522",
+		type: "observation",
+		title: "SPOTTED BY INFECTED COW",
+		icon: "herobrine:herobrine_statue",
+		match_type: "entity_id",
+		match: "herobrine:infected_cow",
+		timer: 20L
+	},
+	{
+		uid: "32dc7306",
+		type: "observation",
+		title: "SPOTTED BY INFECTED VILLAGER",
+		icon: "herobrine:herobrine_statue",
+		match_type: "entity_id",
+		match: "herobrine:infected_villager",
+		timer: 20L
+	},
+	{
+		uid: "f6205b03",
+		type: "gamestage",
+		title: "cursed",
+		icon: "herobrine:herobrine_statue",
+		stage: "cursed"
+	},
+	{
+		uid: "71e89dab",
+		type: "gamestage",
+		title: "ALERTED HEROBRINE",
+		icon: "herobrine:herobrine_statue",
+		stage: "stealthfail"
+	}],
+	rewards: [{
+		uid: "2578720d",
+		type: "command",
+		title: "He is not happy",
+		icon: "extrautils2:ironwood_sapling 1 1",
+		auto: "enabled",
+		command: "/say You really thought you could stealth your way through this? I AM EVERYWHERE."
+	},
+	{
+		uid: "96de3998",
+		type: "gamestage",
+		title: "Failed",
+		auto: "no_toast",
+		stage: "stealthfail"
+	},
+	{
+		uid: "f4ddaf63",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "stealth",
+		remove: true
+	}]
+}

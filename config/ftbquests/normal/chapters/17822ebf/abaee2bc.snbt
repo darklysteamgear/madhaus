@@ -1,0 +1,32 @@
+{
+	title: "I'm really starting to run out of clever puns",
+	x: -0.5d,
+	y: 9.5d,
+	description: "I really hate you for doing this. Conarm is overpowered",
+	tasks: [{
+		uid: "6d2a51e1",
+		type: "item",
+		items: [{
+			id: "conarm:armor_trim",
+			tag: {
+				Material: "emeradic_actadd_plustic"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "925a47ac",
+		type: "command",
+		title: "Screw you",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon zollerngalaxy:xenomorph"
+	},
+	{
+		uid: "d5ecabfe",
+		type: "command",
+		title: "Loser",
+		auto: "enabled",
+		command: "/say Deal with this heck, conarm user!"
+	}]
+}

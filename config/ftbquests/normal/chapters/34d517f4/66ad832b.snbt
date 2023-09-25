@@ -1,0 +1,28 @@
+{
+	title: "True farm-town hero!",
+	x: -0.5d,
+	y: 11.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "800aae6e",
+		type: "item",
+		items: [{
+			id: "aoa3:gardener",
+			tag: {
+				HideFlags: 2b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7a0df418",
+		type: "ftbmoney:money",
+		ftb_money: 3000L,
+		random_bonus: 1000
+	}]
+}

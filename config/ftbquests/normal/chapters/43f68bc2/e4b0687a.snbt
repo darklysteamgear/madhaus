@@ -1,0 +1,74 @@
+{
+	title: "A timewarp Paradox!",
+	x: -1.5d,
+	y: -13.5d,
+	description: "I am very pleased",
+	text: [
+		"Your sacrifice and pain has given me joy. You may now skip time whenever you please, mortal",
+		"Ha, it's fun talking like a god",
+		"Maybe I should have done that more often",
+		"Oh well"
+	],
+	can_repeat: true,
+	dependencies: [
+		"b0c5ab24",
+		"27ad8c2f",
+		"fb36a032",
+		"7f116db5",
+		"cbd56b33",
+		"acea6ead",
+		"65c72aef",
+		"6c81d7e9",
+		"4b5db914",
+		"4d820a4f",
+		"afb9df37",
+		"73af7a80",
+		"82c672e9",
+		"fa41f231",
+		"c7f64967",
+		"5a99ad8b",
+		"c0e15757",
+		"18d52d6c",
+		"a7c5dc7e",
+		"710abdd1"
+	],
+	hide: true,
+	size: 3.0d,
+	tasks: [{
+		uid: "66ac41dc",
+		type: "ftbmoney:money",
+		value: 4500L
+	},
+	{
+		uid: "a4ca2816",
+		type: "item",
+		items: [{
+			item: "bewitchment:opal"
+		}],
+		count: 2L,
+		consume_items: true
+	},
+	{
+		uid: "b4fd31c6",
+		type: "item",
+		items: [{
+			item: "bewitchment:garnet"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "d61ed8e5",
+		type: "command",
+		title: "The timewarp paradox",
+		auto: "enabled",
+		command: "/time add 32000"
+	},
+	{
+		uid: "285f5b09",
+		type: "command",
+		title: "Even though, there is still a cost for such power... you must eliminate all life in the surrounding area",
+		auto: "enabled",
+		command: "/effect @e[type=!minecraft:player] techguns:radiation 30 10"
+	}]
+}

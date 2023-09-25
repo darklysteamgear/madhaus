@@ -1,0 +1,16 @@
+{
+  "displayName": "SR-25 Snow Scope",
+  "internalName": "block.scopesr25x.snow",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopesr25x.snow",
+      "displayName": "SR-25 Scope - Snow"
+    }
+  ],
+  "sight": {
+    "scopeType": "15x",
+    "customOverlayTexture": "block.blockscopesr25x",
+    "modeType": "pip"
+  }
+}

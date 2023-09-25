@@ -1,0 +1,10 @@
+{
+	title: "Dimensions",
+	icon: "thebetweenlands:sapling_hearthgrove",
+	description: [
+		"Woah, look at all those places!"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

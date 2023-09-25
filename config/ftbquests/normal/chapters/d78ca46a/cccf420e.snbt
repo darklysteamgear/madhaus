@@ -1,0 +1,19 @@
+{
+	x: 6.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "7ea73a6b",
+		type: "item",
+		items: [{
+			item: "moreplanets:breathable_multalic_crystal_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "16eae3bb",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

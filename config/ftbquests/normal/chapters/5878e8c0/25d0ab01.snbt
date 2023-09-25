@@ -1,0 +1,13 @@
+{
+	title: "Mercury Mercury!",
+	x: -3.5d,
+	y: 7.0d,
+	shape: "square",
+	tasks: [{
+		uid: "d1605c23",
+		type: "item",
+		items: [{
+			item: "extraplanets:mercury 1 6"
+		}]
+	}]
+}

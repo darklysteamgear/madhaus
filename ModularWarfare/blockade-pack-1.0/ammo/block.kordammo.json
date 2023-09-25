@@ -1,0 +1,11 @@
+{
+    "internalName": "block.kordammo",
+    "displayName": "Kord Box 60rnd",
+    "ammoCapacity": 60,
+	"reloadTimeFactor": 3.2,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.lmgbullet"
+    ],
+    "allowEmptyMagazines": true
+}

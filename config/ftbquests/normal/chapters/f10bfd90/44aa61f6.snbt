@@ -1,0 +1,27 @@
+{
+	x: 2.5d,
+	y: -3.5d,
+	description: "That is pretty OP, how did you even kill it?",
+	dependencies: [
+		"f5ab61aa"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3a7db782",
+		type: "kill",
+		title: "SCP Contained.",
+		icon: "actuallyadditions:item_more_damage_lens",
+		entity: "scp:old_man",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "fc1328bf",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "cc52463e",
+		type: "item",
+		item: "scp:level5card"
+	}]
+}

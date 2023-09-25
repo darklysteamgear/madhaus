@@ -1,0 +1,16 @@
+{
+  "displayName": "SVU-AS Scope",
+  "internalName": "block.scopesvuasx",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopesvuasx",
+      "displayName": "SVU-AS Scope - Default"
+    }
+  ],
+  "sight": {
+    "scopeType": "15x",
+    "customOverlayTexture": "block.blockscopesvuasx",
+    "modeType": "pip"
+  }
+}

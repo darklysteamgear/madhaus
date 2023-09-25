@@ -1,0 +1,17 @@
+{
+	title: "The abyss...",
+	icon: "abyssalcraft:abycorore",
+	x: -8.0d,
+	y: -6.0d,
+	size: 2.0d,
+	tasks: [{
+		uid: "29c0490a",
+		type: "dimension",
+		dim: 50
+	}],
+	rewards: [{
+		uid: "379e35de",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	}]
+}

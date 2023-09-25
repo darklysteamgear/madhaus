@@ -1,0 +1,271 @@
+# Please refer to the wiki page located at https://github.com/TheComputerizer/Music-Triggers/wiki
+# or the discord server located at https://discord.gg/FZHXFYp8fc
+# for any specific questions you might have regarding the main config file
+
+[triggers]
+	[[triggers.dimension]]
+		fade_in = "30"
+		priority = "1"
+		resource_name = [ "61" ]
+		identifier = "pokemonDim"
+		persistence = "0"
+		trigger_delay = "100"
+	[[triggers.biome]]
+		fade_in = "30"
+		priority = "2"
+		resource_name = [ "pokecube_legends:ub" ]
+		identifier = "ultraDim"
+		persistence = "60"
+		start_delay = "25"
+	[[triggers.biome]]
+		fade_out = "50"
+		priority = "2"
+		identifier = "forestBiome"
+		resource_name = [ "forest" ]
+		persistence = "60"
+		start_delay = "25"
+	[[triggers.biome]]
+		fade_out = "50"
+		priority = "2"
+		identifier = "swampBiome"
+		resource_name = [ "swamp" ]
+		persistence = "15"
+	[[triggers.biome]]
+		fade_out = "50"
+		priority = "2"
+		identifier = "oceanBiome"
+		resource_name = [ "ocean" "beach" ]
+		persistence = "60"
+		start_delay = "25"
+	[[triggers.biome]]
+		fade_out = "50"
+		priority = "2"
+		identifier = "desertBiome"
+		resource_name = [ "desert" "mesa" ]
+		persistence = "60"
+		start_delay = "25"
+	[[triggers.biome]]
+		fade_out = "50"
+		priority = "2"
+		identifier = "snowBiome"
+		resource_name = [ "snow" "glacier" "cold" "ice" ]
+		persistence = "60"
+		start_delay = "25"
+	[[triggers.biome]]
+		fade_out = "50"
+		priority = "2"
+		identifier = "mountainBiome"
+		resource_name = [ "mountain" "extreme" ]
+		persistence = "60"
+		start_delay = "25"
+	[[triggers.biome]]
+		fade_out = "50"
+		priority = "2"
+		identifier = "taiBiome"
+		resource_name = [ "taiga" ]
+		persistence = "60"
+		start_delay = "25"
+	[[triggers.biome]]
+		fade_out = "50"
+		priority = "2"
+		identifier = "jungleBiome"
+		resource_name = [ "jungle" ]
+		persistence = "60"
+		start_delay = "25"
+	[[triggers.biome]]
+		fade_out = "50"
+		priority = "2"
+		identifier = "plainsBiome"
+		resource_name = [ "plains" ]
+		persistence = "60"
+		start_delay = "25"
+	[[triggers.mob]]
+		fade_in = "15"
+		fade_out = "40"
+		priority = "3"
+		resource_name = [ "pokecube_ml:furret" ]
+		detection_range = "20"
+		identifier = "furret"
+		level = "3"
+		mob_targeting = false
+		persistence = "25"
+	[[triggers.mob]]
+		fade_in = "15"
+		fade_out = "40"
+		priority = "3"
+		resource_name = [ "pokecube_ml" ]
+		detection_range = "20"
+		mob_nbt = "EQUAL:INVERT:ForgeCaps:pokecube:pokemob:ai_tag:combatState:0"
+		identifier = "wild"
+		level = "1"
+		persistence = "10"
+	[[triggers.mob]]
+		fade_in = "10"
+		fade_out = "20"
+		priority = "4"
+		resource_name = [ "pokecube_adventures:trainer" ]
+		mob_nbt = "GREATER:EQUAL:ForgeCaps:pokecube_adventures:ai:AI:160"
+		detection_range = "20"
+		identifier = "trainer"
+		level = "1"
+		persistence = "10"
+	[[triggers.mob]]
+		fade_in = "25"
+		fade_out = "20"
+		priority = "4"
+		resource_name = [ "mca:entityvillagermca" ]
+		mob_nbt = "VAL_PRESENT:INVERT:ForgeCaps:pokecube_adventures:AI:2"
+		detection_range = "20"
+		identifier = "villagetrainer"
+		level = "1"
+		persistence = "10"
+	[[triggers.mob]]
+		fade_in = "25"
+		fade_out = "20"
+		priority = "6"
+		resource_name = [ "pokecube_adventures:leader" ]
+		detection_range = "20"
+		identifier = "leader"
+		mob_nbt = "VAL_PRESENT:INVERT:ForgeCaps:pokecube_adventures:AI:162"
+		level = "1"
+	[[triggers.mob]]
+		fade_in = "25"
+		fade_out = "20"
+		priority = "5"
+		resource_name = [ "pokecube_adventures:trainermerchant" ]
+		detection_range = "8"
+		identifier = "store"
+		level = "1"
+		mob_targeting = false
+	[[triggers.mob]]
+		fade_in = "25"
+		fade_out = "20"
+		priority = "8"
+		resource_name = [ "vampirism:vampire" ]
+		detection_range = "15"
+		identifier = "glitchM"
+		level = "5"
+		mob_targeting = false
+	[triggers.lowhp]
+		fade_in = "15"
+		fade_out = "10"
+		priority = "7"
+		level = "25"
+[songs]
+	[songs.universal]
+	[songs.furretwalk]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "mob-furret" ]
+	[songs.criticalhealth]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "lowhp" ]
+	[songs.wild1]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "mob-wild" ]
+	[songs.ultrabattle]
+		volume = "0.3"
+		triggers = [ "biome-ultraDim" "mob-wild" ]
+	[songs.forest]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "biome-forestBiome" ]
+	[songs.ocean]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "biome-oceanBiome" ]
+	[songs.desert]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "biome-desertBiome" ]
+	[songs.snow]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "biome-snowBiome" ]
+	[songs.beach]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "biome-oceanBiome" ]
+	[songs.swamp]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "biome-swampBiome" ]
+	[songs.mountain]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "biome-mountainBiome" ]
+	[songs.plains]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "biome-plainsBiome" ]
+	[songs.plains2]
+		volume = "0.4"
+		triggers = [ "dimension-pokemonDim" "biome-plainsBiome" ]
+	[songs.taiga]
+		volume = "0.4"
+		triggers = [ "dimension-pokemonDim" "biome-taiBiome" ]
+	[songs.jungle]
+		volume = "0.4"
+		triggers = [ "dimension-pokemonDim" "biome-jungleBiome" ]
+	[songs.ultra]
+		volume = "0.5"
+		triggers = [ "biome-ultraDim" ]
+	[songs.corruptedbattle]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "mob-glitchM" ]
+		must_finish = true
+		play_once = "3"
+	[songs.default]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" ]
+	[songs.gymbattle1]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "mob-leader" ]
+	[songs.gymbattle2]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "mob-leader" ]
+	[songs.gymbattle3]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "mob-leader" ]
+	[songs.pokemart]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "mob-store" ]
+	[[songs.battle1]]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "mob-trainer" ]
+	[[songs.battle2]]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "mob-trainer" ]
+	[[songs.battle3]]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "mob-trainer" ]
+	[[songs.battle4]]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "mob-trainer" ]
+	[[songs.battle5]]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "mob-trainer" ]
+	[[songs.battle6]]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "mob-trainer" ]
+	[[songs.battle7]]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "mob-trainer" ]
+	[[songs.battle8]]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "mob-trainer" ]
+	[[songs.battle1]]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "mob-villagetrainer" ]
+	[[songs.battle2]]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "mob-villagetrainer" ]
+	[[songs.battle3]]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "mob-villagetrainer" ]
+	[[songs.battle4]]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "mob-villagetrainer" ]
+	[[songs.battle5]]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "mob-villagetrainer" ]
+	[[songs.battle6]]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "mob-villagetrainer" ]
+	[[songs.battle7]]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "mob-villagetrainer" ]
+	[[songs.battle8]]
+		volume = "0.3"
+		triggers = [ "dimension-pokemonDim" "mob-villagetrainer" ]

@@ -1,0 +1,20 @@
+{
+	title: "The dreadlands",
+	icon: "abyssalcraft:abydreadore",
+	x: -6.0d,
+	y: -6.0d,
+	dependencies: [
+		"b6b70739"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "45d36dd2",
+		type: "dimension",
+		dim: 51
+	}],
+	rewards: [{
+		uid: "81b80dbc",
+		type: "ftbmoney:money",
+		ftb_money: 20000L
+	}]
+}

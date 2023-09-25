@@ -1,0 +1,21 @@
+{
+	x: 2.0d,
+	y: 2.5d,
+	text: [
+		"hahahaha, you'll never complete this questline now!"
+	],
+	tasks: [{
+		uid: "56730367",
+		type: "observation",
+		title: "That's a worm",
+		icon: "actuallyadditions:item_worm",
+		match_type: "entity_id",
+		match: "moreplanets:giant_worm",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "3ef72741",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "The Core",
+	x: 3.5d,
+	y: -4.0d,
+	size: 2.0d,
+	tasks: [{
+		uid: "0e65a3f6",
+		type: "item",
+		items: [{
+			item: "rustic:core_root"
+		}]
+	}],
+	rewards: [{
+		uid: "6088c153",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "a7eb367f",
+		type: "random",
+		table: 1
+	}]
+}

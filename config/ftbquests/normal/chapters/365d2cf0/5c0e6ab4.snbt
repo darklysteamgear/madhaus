@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 7.0d,
+	dependencies: [
+		"87e84f70"
+	],
+	tasks: [{
+		uid: "d01cc22f",
+		type: "item",
+		items: [{
+			item: "aoa3:abyss_realmstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6fab014a",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "0f0142dd",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	}]
+}

@@ -1,0 +1,11 @@
+{
+    "internalName": "block.scoutammo",
+    "displayName": "Scout Mag 4rnd",
+    "ammoCapacity": 4,
+	"reloadTimeFactor": 1.5,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.sniperbullet"
+    ],
+    "allowEmptyMagazines": true
+}

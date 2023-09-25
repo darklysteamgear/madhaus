@@ -1,0 +1,23 @@
+{
+	x: -1.5d,
+	y: 2.0d,
+	shape: "gear",
+	description: "He has ancient knowledge of redstone flux tools",
+	dependencies: [
+		"93c5cf5d"
+	],
+	tasks: [{
+		uid: "3e6a6f8d",
+		type: "kill",
+		title: "End the Primordial",
+		icon: "aoa3:primordial_skull",
+		entity: "thebetweenlands:fortress_boss",
+		value: 3L
+	}],
+	rewards: [{
+		uid: "d5246949",
+		type: "ftbmoney:money",
+		ftb_money: 10000L,
+		random_bonus: 10000
+	}]
+}

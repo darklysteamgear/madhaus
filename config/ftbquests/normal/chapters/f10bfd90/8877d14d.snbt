@@ -1,0 +1,83 @@
+{
+	title: "It's over...",
+	x: 13.5d,
+	y: 15.0d,
+	description: "...So you hope. The world is much safer now, thanks to your efforts! He is sealed in the backrooms. Thanks for playing Madhaus! You should visit the farlands in the old worlds next if you haven't already, they are a true sight!",
+	dependencies: [
+		"60c0a428"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 3.0d,
+	tasks: [{
+		uid: "640c0708",
+		type: "item",
+		items: [{
+			item: "contenttweaker:charged_herobrine_banisher"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "406d7279",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "endgame",
+		remove: true
+	},
+	{
+		uid: "c29c6f35",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "finalbattle",
+		remove: true
+	},
+	{
+		uid: "ab938e3a",
+		type: "command",
+		auto: "invisible",
+		command: "/killall"
+	},
+	{
+		uid: "d8ccbec7",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "cursed",
+		remove: true
+	},
+	{
+		uid: "3b84045c",
+		type: "gamestage",
+		auto: "enabled",
+		stage: "infested",
+		remove: true
+	},
+	{
+		uid: "525d59ee",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "help",
+		remove: true
+	},
+	{
+		uid: "f13b44d5",
+		type: "loot",
+		table: 13
+	},
+	{
+		uid: "4d3959fa",
+		type: "loot",
+		table: 13
+	},
+	{
+		uid: "6aa0323a",
+		type: "loot",
+		table: 13
+	},
+	{
+		uid: "c73f87fc",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "banished"
+	}]
+}

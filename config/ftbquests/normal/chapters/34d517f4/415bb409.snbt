@@ -1,0 +1,28 @@
+{
+	title: "The shyre, Sire!",
+	x: -7.0d,
+	y: 7.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"63015229"
+	],
+	hide: true,
+	tasks: [{
+		uid: "43c91c18",
+		type: "item",
+		items: [{
+			id: "aoa3:shyre_blaster",
+			tag: {
+				HideFlags: 2b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a48305fa",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 3000
+	}]
+}

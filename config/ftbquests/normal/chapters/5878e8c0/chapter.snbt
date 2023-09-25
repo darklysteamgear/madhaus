@@ -1,0 +1,9 @@
+{
+	title: "Mad Galaxy",
+	description: [
+		"Change da woerld, my final message. Goodbye"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

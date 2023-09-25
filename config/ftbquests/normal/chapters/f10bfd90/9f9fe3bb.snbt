@@ -1,0 +1,14 @@
+{
+	icon: "harvestcraft:creepercookieitem",
+	x: 5.5d,
+	y: -4.5d,
+	description: "... No, I'm not telling you what kind of forbidden knowledge",
+	tasks: [{
+		uid: "3c5796f9",
+		type: "observation",
+		title: "Creeper",
+		match_type: "entity_id",
+		match: "mutantbeasts:mutant_creeper",
+		timer: 0L
+	}]
+}

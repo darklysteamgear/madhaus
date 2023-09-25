@@ -1,0 +1,20 @@
+{
+	title: "WHAT ARE YOU DOIN IN MY SWAMP!?!?!?!",
+	icon: "biomesoplenty:willow_vine",
+	x: 3.0d,
+	y: 7.5d,
+	shape: "pentagon",
+	description: "DON'T MAKE ME ANGRY",
+	text: [
+		"An ogre only ROARS when he's ANGRY"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "2e345e75",
+		type: "observation",
+		title: "WHAT ARE YOU DOIN IN MY SWAMP!?!?!",
+		match_type: "entity_id",
+		match: "memeinabottle:shrek",
+		timer: 0L
+	}]
+}

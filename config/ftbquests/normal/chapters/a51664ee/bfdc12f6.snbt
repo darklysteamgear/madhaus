@@ -1,0 +1,27 @@
+{
+	x: 7.0d,
+	y: 3.0d,
+	text: [
+		"HOT DIGGITY HECK, THAT'S ALOTTA DIAMONDS"
+	],
+	tasks: [{
+		uid: "6f367c14",
+		type: "observation",
+		title: "DIAMONDS FOR DAYYYSSSS",
+		icon: "densemetals:dense_diamond_ore",
+		match_type: "block_id",
+		match: "densemetals:dense_diamond_ore",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "59037c27",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "450d995f",
+		type: "ftbmoney:money",
+		ftb_money: 3000L,
+		random_bonus: 2500
+	}]
+}

@@ -1,0 +1,72 @@
+{
+	title: "OK sir that will be 100 dollars",
+	x: -2.0d,
+	y: -1.0d,
+	shape: "hexagon",
+	description: "Uhm uuuuhh I'll have one of every one of your pizzas please",
+	size: 2.0d,
+	tasks: [{
+		uid: "6354798f",
+		type: "item",
+		title: "Pizza time",
+		items: [{
+			item: "actuallyadditions:item_food 1 14"
+		},
+		{
+			item: "harvestcraft:pizzasoupitem"
+		},
+		{
+			item: "harvestcraft:hamandpineapplepizzaitem"
+		},
+		{
+			item: "harvestcraft:bbqchickenpizzaitem"
+		},
+		{
+			item: "harvestcraft:pizzasliceitem"
+		},
+		{
+			item: "harvestcraft:pizzasliceitem"
+		},
+		{
+			item: "harvestcraft:pizzaitem"
+		},
+		{
+			item: "harvestcraft:anchovypepperonipizzaitem"
+		},
+		{
+			item: "harvestcraft:supremepizzaitem"
+		},
+		{
+			item: "harvestcraft:supremepizzaitem"
+		},
+		{
+			item: "harvestcraft:meatfeastpizzaitem"
+		},
+		{
+			item: "scp:pizza"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "0dd9f8a1",
+		type: "item",
+		team_reward: true,
+		auto: "enabled",
+		item: "harvestcraft:calamarirawitem"
+	},
+	{
+		uid: "72d80cc2",
+		type: "item",
+		team_reward: true,
+		auto: "enabled",
+		item: "dmonsters:purgepill"
+	},
+	{
+		uid: "63c0ee4d",
+		type: "item",
+		team_reward: true,
+		auto: "enabled",
+		item: "morecreeps:money",
+		count: 100
+	}]
+}

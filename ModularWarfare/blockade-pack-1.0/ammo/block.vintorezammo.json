@@ -1,0 +1,11 @@
+{
+    "internalName": "block.vintorezammo",
+    "displayName": "Vintorez Mag 10rnd",
+    "ammoCapacity": 10,
+	"reloadTimeFactor": 1.5,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.sniperbullet"
+    ],
+    "allowEmptyMagazines": true
+}

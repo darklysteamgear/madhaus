@@ -1,0 +1,27 @@
+{
+	icon: "tconstruct:smeltery_controller",
+	x: -5.5d,
+	y: 6.5d,
+	tasks: [{
+		uid: "3ee6ebb0",
+		type: "observation",
+		title: "Haha, you thought",
+		match_type: "block_id",
+		match: "tconstruct:smeltery_controller",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "30051fcc",
+		type: "command",
+		title: "Haha",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon motnt:slimy_tnt"
+	},
+	{
+		uid: "888231c0",
+		type: "command",
+		title: "Loserrrrr",
+		auto: "enabled",
+		command: "/say Loser"
+	}]
+}

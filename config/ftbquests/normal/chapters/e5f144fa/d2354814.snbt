@@ -1,0 +1,329 @@
+{
+	title: "BEANS",
+	x: -4.0d,
+	y: 0.0d,
+	description: "Find themn all for a special prise",
+	dependencies: [
+		"e3183566"
+	],
+	tasks: [{
+		uid: "100ee6aa",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 3"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "1dabe5da",
+		type: "item",
+		items: [{
+			item: "ic2:crop_res"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "52b761a4",
+		type: "item",
+		items: [{
+			item: "moreplanets:jelly_beans"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "01d917c4",
+		type: "item",
+		items: [{
+			item: "tropicraft:coffee_beans"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "224a2b6e",
+		type: "item",
+		items: [{
+			item: "tropicraft:coffee_beans 1 1"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "67e843b2",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_coffee_beans"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "b4081e7a",
+		type: "item",
+		items: [{
+			item: "harvestcraft:coffeebeanitem"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "dc88a936",
+		type: "item",
+		items: [{
+			item: "harvestcraft:beanitem"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "9dd92d8d",
+		type: "item",
+		items: [{
+			item: "harvestcraft:beanseeditem"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "e6fe2f46",
+		type: "item",
+		items: [{
+			item: "harvestcraft:soybeanitem"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "34eb1b0e",
+		type: "item",
+		items: [{
+			item: "harvestcraft:soybeanseeditem"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "99dae131",
+		type: "item",
+		items: [{
+			item: "harvestcraft:vanillabeanitem"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "78cf9b4a",
+		type: "item",
+		items: [{
+			item: "harvestcraft:pamvanillabean"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "fba0ad98",
+		type: "item",
+		items: [{
+			item: "harvestcraft:refriedbeansitem"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "ca6b10da",
+		type: "item",
+		items: [{
+			item: "harvestcraft:bakedbeansitem"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "561a6b71",
+		type: "item",
+		items: [{
+			item: "harvestcraft:beansandriceitem"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "61d7ca8e",
+		type: "item",
+		items: [{
+			item: "harvestcraft:beanburritoitem"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "b87d1c65",
+		type: "item",
+		items: [{
+			item: "harvestcraft:jellybeansitem"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "8b01bc92",
+		type: "item",
+		items: [{
+			item: "harvestcraft:threebeansaladitem"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "e3efa903",
+		type: "item",
+		items: [{
+			item: "harvestcraft:greenbeancasseroleitem"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "3f1caaa3",
+		type: "item",
+		items: [{
+			item: "harvestcraft:sausagebeanmeltitem"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "f3bd3a9c",
+		type: "item",
+		items: [{
+			item: "harvestcraft:beansontoastitem"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "597daf89",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:filtered_silt_glass_stained 1 5"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "ca8aafd2",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:mud_brick_shingle_stained 1 5"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "163a8e3c",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:mud_brick_shingle_slab_stained_caribbean_green"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "11bcc40d",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:mud_brick_shingle_stairs_stained_caribbean_green"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "00295354",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:bog_bean_flower"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "75b52f80",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:samite 1 5"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "62e411b8",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:samite_canvas_panel 1 5"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "4ed09461",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:reed_mat_colored 1 5"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "54ec03ac",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_crushed 1 22"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "eb5d4f7a",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_plant_drop 1 7"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "38f8a1a7",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:bl_bucket",
+			tag: {
+				Fluid: {
+					FluidName: "dye_fluid",
+					Amount: 1000,
+					Tag: {
+						type: 5
+					}
+				}
+			}
+		}],
+		consume_items: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f968854a",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:bl_bucket",
+			Damage: 1s,
+			tag: {
+				Fluid: {
+					FluidName: "dye_fluid",
+					Amount: 1000,
+					Tag: {
+						type: 5
+					}
+				}
+			}
+		}],
+		consume_items: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "57486298",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:dye 1 5"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "d9a7da46",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:item_frame 1 5"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "5e9e658c",
+		type: "item",
+		item: "poop:poop_lantern"
+	},
+	{
+		uid: "42fae1f5",
+		type: "item",
+		item: "midnight:ebonys",
+		count: 69
+	}]
+}

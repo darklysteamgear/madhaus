@@ -1,0 +1,33 @@
+{
+	title: "Kubble land program",
+	x: -10.5d,
+	y: 11.0d,
+	description: "Now that's just lame",
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d61a05c8",
+		type: "item",
+		title: "Moped",
+		items: [{
+			id: "vehicle:vehicle_crate",
+			tag: {
+				BlockEntityTag: {
+					vehicle: "vehicle:moped",
+					engineTier: 0,
+					wheelType: 0
+				}
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "8cc6482a",
+		type: "ftbmoney:money",
+		ftb_money: 6000L,
+		random_bonus: 5000
+	}]
+}

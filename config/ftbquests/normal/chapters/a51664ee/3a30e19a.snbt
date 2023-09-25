@@ -1,0 +1,68 @@
+{
+	title: "Silver and gold",
+	x: 5.5d,
+	y: 5.0d,
+	text: [
+		"Silver and gold",
+		"Silver and gold",
+		"Ev'ryone wishes",
+		"For silver and gold",
+		"How do you measure",
+		"It's worth",
+		"Just by the pleasure",
+		"It gives here on Earth?",
+		"Silver and gold",
+		"Silver and gold",
+		"Mean so much more when I see",
+		"Silver and gold decorations",
+		"On ev'ry Christmas tree",
+		"Silver and gold",
+		"Silver and gold",
+		"Ev'ryone wishes",
+		"For silver and gold",
+		"Silver and gold",
+		"Silver and gold",
+		"Mean so much more when I see",
+		"Silver and gold decorations",
+		"On ev'ry Christmas tree"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f0e596b1",
+		"bdf20e9e"
+	],
+	tasks: [{
+		uid: "69bd3707",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 2"
+		}]
+	},
+	{
+		uid: "8ad400ec",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "d36feedc",
+		type: "item",
+		item: "cfm:tree_bottom"
+	},
+	{
+		uid: "01cbbce0",
+		type: "item",
+		item: "motnt:troll_tnt"
+	},
+	{
+		uid: "98e59fad",
+		type: "item",
+		item: "thebetweenlands:christmas_pudding"
+	},
+	{
+		uid: "d83ab197",
+		type: "ftbmoney:money",
+		ftb_money: 1240L
+	}]
+}

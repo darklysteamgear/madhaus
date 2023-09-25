@@ -1,0 +1,98 @@
+{
+	"frame": {
+		"type": "LATERAL_OR_VERTICAL",
+		"size": {
+			"lateral": {
+				"minWidth": 4,
+				"maxWidth": 30,
+				"minHeight": 4,
+				"maxHeight": 30
+			},
+			"verticalX": {
+				"minWidth": 4,
+				"maxWidth": 30,
+				"minHeight": 4,
+				"maxHeight": 30
+			},
+			"verticalZ": {
+				"minWidth": 4,
+				"maxWidth": 30,
+				"minHeight": 4,
+				"maxHeight": 30
+			}
+		},
+		"blocks": [
+			{
+				"registryName": "minecraft:bedrock",
+				"meta": 32767,
+				"minimumAmount": 12
+			}
+		],
+		"requiredCorner": "ANY_NON_AIR",
+		"cornerBlocksContributeToMinimumAmount": true,
+		"doGeneratedFramesDrop": true
+	},
+	"activation": {
+		"canBeActivatedByFire": false,
+		"activators": [
+			{
+				"registryName": "herobrine:bedrock_sword",
+				"meta": 32767
+			}
+		],
+		"activatorConsumeBehavior": "CONSUME",
+		"spawnFireBeforeActivating": false,
+		"activationSounds": [
+			"minecraft:entity.player.levelup"
+		]
+	},
+	"color": {
+		"colors": [
+			"BLACK"
+		],
+		"dyeBehavior": "ONLY_DEFINED_COLORS"
+	},
+	"destination": {
+		"dimensionID": 1000,
+		"locationDetectionBehavior": "IGNORE_INITIAL",
+		"initialLocation": {
+			"x": 0,
+			"y": 61,
+			"z": 0,
+			"useTopSolidY": false
+		},
+		"coordinateMultiplier": 1.0,
+		"teleportToPortal": true,
+		"oneWay": true,
+		"ensureReturnToSameDimension": false,
+		"generatePortalIfNotFound": false,
+		"portalGenerationBehavior": "CLONE",
+		"generatedFrameType": "VERTICAL",
+		"generatedFrameSize": {
+			"lateral": {
+				"minWidth": 0,
+				"maxWidth": 4,
+				"minHeight": 0,
+				"maxHeight": 4
+			},
+			"verticalX": {
+				"minWidth": 0,
+				"maxWidth": 4,
+				"minHeight": 0,
+				"maxHeight": 4
+			},
+			"verticalZ": {
+				"minWidth": 0,
+				"maxWidth": 4,
+				"minHeight": 0,
+				"maxHeight": 4
+			}
+		}
+	},
+	"teleportationDelay": {
+		"lateral": 0,
+		"verticalX": 0,
+		"verticalZ": 0
+	},
+	"decorative": false
+}

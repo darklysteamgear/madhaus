@@ -1,0 +1,40 @@
+{
+	title: "Transmuteify",
+	x: 2.0d,
+	y: -13.5d,
+	description: "Behold, I will now transmute your useless ores into BEANS... wait, I mean ENDER PEARLS. same thing",
+	can_repeat: true,
+	dependencies: [
+		"e4b0687a"
+	],
+	hide: true,
+	size: 3.0d,
+	tasks: [{
+		uid: "133ec92f",
+		type: "item",
+		items: [{
+			item: "bewitchment:opal"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "c0cbd28f",
+		type: "item",
+		items: [{
+			item: "bewitchment:garnet"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "30a8b777",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:basic_item_venus 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "b576b977",
+		type: "item",
+		item: "minecraft:ender_pearl"
+	}]
+}

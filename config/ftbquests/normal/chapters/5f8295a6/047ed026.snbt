@@ -1,0 +1,17 @@
+{
+	title: "T-bag his ghost and now his sulfur's mine",
+	x: 6.0d,
+	y: 3.0d,
+	dependencies: [
+		"0aae03ef"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2d1b6bae",
+		type: "item",
+		items: [{
+			item: "minecraft:gunpowder"
+		}],
+		count: 64L
+	}]
+}

@@ -1,0 +1,62 @@
+{
+	title: "DNAsino",
+	loot_size: 1,
+	rewards: [{
+		item: "fossil:cow_dna",
+		weight: 100
+	},
+	{
+		item: "fossil:pig_dna",
+		weight: 100
+	},
+	{
+		item: "fossil:sheep_dna",
+		weight: 100
+	},
+	{
+		item: "fossil:donkey_dna",
+		weight: 100
+	},
+	{
+		item: "fossil:chicken_dna",
+		weight: 100
+	},
+	{
+		item: "fossil:parrot_dna",
+		weight: 100
+	},
+	{
+		item: "fossil:polarbear_dna",
+		weight: 100
+	},
+	{
+		item: "fossil:rabbit_dna",
+		weight: 100
+	},
+	{
+		item: "fossil:llama_dna",
+		weight: 100
+	},
+	{
+		item: "fossil:dodo_dna"
+	},
+	{
+		item: "fossil:mammoth_dna"
+	},
+	{
+		item: "fossil:platybelodon_dna"
+	},
+	{
+		item: "fossil:smilodon_dna"
+	}],
+	loot_crate: {
+		string_id: "dnasino",
+		item_name: "DNAsino",
+		color: 65280,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

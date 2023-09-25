@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 5.0d,
+	dependencies: [
+		"c880d1e9"
+	],
+	tasks: [{
+		uid: "90ceb228",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:tree_fluid_extractor"
+		}]
+	}],
+	rewards: [{
+		uid: "ea9f6927",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

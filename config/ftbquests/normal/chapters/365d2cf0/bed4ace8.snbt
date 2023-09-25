@@ -1,0 +1,21 @@
+{
+	x: 4.0d,
+	y: 2.5d,
+	dependencies: [
+		"a35921e9"
+	],
+	tasks: [{
+		uid: "a31de1ca",
+		type: "item",
+		items: [{
+			item: "aoa3:crystevia_realmstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "48dfda69",
+		type: "loot",
+		table: 3
+	}]
+}

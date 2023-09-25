@@ -1,0 +1,73 @@
+{
+    "internalName":"block.stg44",
+    "displayName":"StG-44",
+    "weaponType":"carbine",
+    "extraLore": "One of the first assault rifles. For some reason, many believe that the AK-47 was created on its basis, although this is not the case. Or...",
+    "customFlashTexture":"prototype.advanced.flash",
+    "gunDamage":8.35,
+    "gunDamageHeadshotBonus":1.5,
+    "roundsPerMin":450,
+    "allowEmptyMagazines":true,
+    "recoilPitch": 3.8,
+    "recoilYaw": 0.3,
+    "randomRecoilPitch": 0.8,
+    "randomRecoilYaw": 0.0,
+    "bulletSpread":0.25,
+    "accuracySneakFactor":0.125,
+    "moveSpeedModifier":0.9,
+    "allowSprintFiring":false,
+    "fireModes":[
+        "full",
+        "semi"
+    ],
+    "acceptedAmmo":[
+        "block.stg44ammo"
+    ],
+    "dropBulletCasing":true,
+    "shellEjectOffsetNormal":{
+        "x":-1.0,
+        "y":0.0,
+        "z":1.0
+    },
+    "shellEjectOffsetAiming":{
+        "x":-0.2,
+        "y":0.12,
+        "z":0.5
+    },
+    "weaponSoundMap":{
+        "weaponFire":[
+            {
+                "soundEvent":"weaponFire",
+                "soundName":"block.stg44.shoot",
+                "soundNameDistant":"block.rifle.shoot.distant",
+                "soundRange":64,
+                "soundMaxRange":96,
+                "soundFadeMultiplier":1
+            }
+        ],
+        "weaponUnload":[
+            {
+                "soundEvent":"weaponReload",
+                "soundName":"prototype.generic.reload"
+            }
+        ],
+        "weaponFireSuppressed":[
+            {
+                "soundEvent":"weaponFireSuppressed",
+                "soundName":"block.stg44.shoot.sup",
+                "soundRange":30,
+                "soundMaxRange":50,
+                "soundFadeMultiplier":1
+            }
+        ]
+    },
+    "acceptedAttachments":{
+    },
+    "modelSkins":[
+        {
+            "internalName":"block.stg44",
+            "skinAsset":"block.stg44",
+            "displayName":"Default"
+        }
+    ]
+}

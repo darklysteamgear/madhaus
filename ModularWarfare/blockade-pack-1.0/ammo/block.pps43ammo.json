@@ -1,0 +1,10 @@
+{
+    "internalName": "block.pps43ammo",
+    "displayName": "PPS-43 Mag 35rnd ",
+    "ammoCapacity": 35,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.smgbullet"
+    ],
+    "allowEmptyMagazines": true
+}

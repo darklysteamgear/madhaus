@@ -1,0 +1,79 @@
+{
+    "internalName": "block.fmg9",
+    "displayName": "FMG-9",
+    "weaponType": "smg",
+	"extraLore": "A modern representative of folding submachine guns.",
+    "customFlashTexture": "prototype.advanced.flash",
+    "gunDamage": 6.75,
+    "gunDamageHeadshotBonus": 1.5,
+    "roundsPerMin": 550,
+    "allowEmptyMagazines": true,
+    "recoilPitch": 4.0,
+    "recoilYaw": 0.3,
+    "randomRecoilPitch": 0.8,
+    "randomRecoilYaw": 0.0,
+    "bulletSpread": 1.3,
+    "accuracySneakFactor": 0.5,
+    "moveSpeedModifier": 1,
+    "allowSprintFiring": true,
+    "dropBulletCasing": true,
+    "fireModes": [
+        "full",
+        "burst",
+        "semi"
+    ],
+    "acceptedAmmo": [
+        "block.fmg9ammo"
+    ],
+    "shellEjectOffsetNormal": {
+        "x": -1,
+        "y": 0,
+        "z": 1
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "block.fmg9.shoot",
+                "soundNameDistant": "block.plight.shoot.distant",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponUnload": [
+            {
+                "soundEvent": "weaponReload",
+                "soundName": "prototype.generic.reload"
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "block.fmg9.shoot.sup",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+            }
+        ]
+    },
+    "acceptedAttachments": {
+    },
+    "modelSkins": [
+        {
+            "internalName": "block.fmg9",
+            "skinAsset": "block.fmg9",
+            "displayName": "Default"
+        },
+        {
+            "internalName":"block.fmg9.gold",
+            "skinAsset":"block.fmg9.gold",
+            "displayName":"Gold"
+        }
+    ]
+}

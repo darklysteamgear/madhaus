@@ -1,0 +1,19 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "61ed8d12",
+		type: "item",
+		items: [{
+			item: "moreplanets:multalic_crystal_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2431a1a2",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

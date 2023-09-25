@@ -1,0 +1,72 @@
+{
+    "displayName": "Deagle",
+    "internalName": "block.deagle",
+    "gunDamage": 11,
+	"gunDamageHeadshotBonus": 1.5,
+    "roundsPerMin": 110,
+    "allowEmptyMagazines": true,
+    "weaponType": "pistol",
+	"extraLore": "For those who like chrome plated weapons.",
+    "customFlashTexture": "prototype.advanced.flash",
+    "acceptedAmmo": [
+        "block.deagleammo"
+    ],
+    "fireModes": [
+        "full",
+        "semi"
+    ],
+    "recoilPitch": 2.7,
+    "recoilYaw": 0.5,
+    "randomRecoilPitch": 2.7,
+    "randomRecoilYaw": 0.0,
+	"bulletSpread": 1.05,
+    "armPose": "ITEM",
+    "armPoseAiming": "BOW_AND_ARROW",
+    "accuracySneakFactor": 0.75,
+    "moveSpeedModifier": 1,
+    "allowSprintFiring": true,
+    "dropBulletCasing": true,
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "block.deagle.shoot",
+                "soundNameDistant": "block.phard.shoot.distant",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponReload": [
+            {
+                "soundEvent": "weaponReload",
+                "soundName": "block.deagle.reload"
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "block.deagle.shoot.sup",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+            }
+        ]
+    },
+    "acceptedAttachments": {
+        
+    },
+	"modelSkins": [
+        {
+            "internalName": "block.deagle",
+            "skinAsset": "block.deagle",
+            "displayName": "Default"
+        },
+        {
+            "internalName":"block.deagle.gold",
+            "skinAsset":"block.deagle.gold",
+            "displayName":"Gold"
+        }
+    ]
+	
+}

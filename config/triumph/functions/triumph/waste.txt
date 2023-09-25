@@ -1,0 +1,5 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"After killing the snowman, you feel as if you have gained insight in building new kinds of generators","color":"blue","italic":true}]
+playsound rftools:teleport_whoosh ambient @a[r=50] ~ ~ ~ 1 0.5
+gamestage silentadd @p waste

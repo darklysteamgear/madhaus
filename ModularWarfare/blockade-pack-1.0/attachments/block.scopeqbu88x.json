@@ -1,0 +1,16 @@
+{
+  "displayName": "QBU-88 Scope",
+  "internalName": "block.scopeqbu88x",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopeqbu88x",
+      "displayName": "QBU-88 Scope - Default"
+    }
+  ],
+  "sight": {
+    "scopeType": "15x",
+    "customOverlayTexture": "block.blockscopeawx",
+    "modeType": "pip"
+  }
+}

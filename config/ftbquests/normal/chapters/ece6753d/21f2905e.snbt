@@ -1,0 +1,26 @@
+{
+	icon: "extrautils2:quarry",
+	x: -2.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "7f963401",
+		type: "item",
+		items: [{
+			item: "extrautils2:quarry"
+		}]
+	},
+	{
+		uid: "7b9e5bb6",
+		type: "item",
+		items: [{
+			item: "extrautils2:quarryproxy"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "b2e91437",
+		type: "ftbmoney:money",
+		ftb_money: 15000L,
+		random_bonus: 5000
+	}]
+}

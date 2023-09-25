@@ -1,0 +1,11 @@
+{
+    "internalName": "block.mg13ammo",
+    "displayName": "MG13 Drum Mags 50rnd",
+    "ammoCapacity": 50,
+	"reloadTimeFactor": 2.8,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.lmgbullet"
+    ],
+    "allowEmptyMagazines": true
+}

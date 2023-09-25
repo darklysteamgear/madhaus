@@ -1,0 +1,33 @@
+{
+	title: "OOOH, so you really wanna play this game?",
+	x: 6.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "372a6107",
+		type: "item",
+		items: [{
+			item: "tconstruct:pattern"
+		}]
+	}],
+	rewards: [{
+		uid: "926de986",
+		type: "command",
+		title: "Well let's see how that works out for you",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon motnt:cluster_tnt"
+	},
+	{
+		uid: "2f2356e9",
+		type: "command",
+		title: "loser",
+		auto: "enabled",
+		command: "/say This is what you get, you filthy tinkers construct user!"
+	},
+	{
+		uid: "8c4843bc",
+		type: "command",
+		title: "No drops for you",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon motnt:fire_tnt"
+	}]
+}

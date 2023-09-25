@@ -1,0 +1,16 @@
+{
+  "displayName": "Vintorez Scope",
+  "internalName": "block.scopevssx",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopevssx",
+      "displayName": "Vintorez Scope - Default"
+    }
+  ],
+  "sight": {
+    "scopeType": "15x",
+    "customOverlayTexture": "block.blockscopevssx",
+    "modeType": "pip"
+  }
+}

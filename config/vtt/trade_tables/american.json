@@ -1,0 +1,221 @@
+{
+    "Profession": "vtt:armsdealer",
+    "Career": "american",
+    "Offers": {
+        "Recipes": [
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 2,"max": 4}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "morecreeps:money",
+                    "Count": [
+                        {"min": 10,"max": 25}
+                    ]
+                },
+                "sell": {
+                    "id":"modularwarfare:block.12gauge",
+                    "Count": {"min":12, "max":24}
+                },
+                "CareerLevel": 1
+            },
+                                    {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 25,"max": 40},
+                        {"min": 25,"max": 40},
+                        {"min": 25,"max": 40},
+                        {"min": 25,"max": 40},
+                        {"min": 25,"max": 40},
+                        {"min": 25,"max": 40}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "minecraft:gold_ingot",
+                    "Count": [
+                        {"min": 6,"max": 12},
+                        {"min": 6,"max": 12},
+                        {"min": 6,"max": 12},
+                        {"min": 6,"max": 12},
+                        {"min": 6,"max": 12},
+                        {"min": 6,"max": 12}
+                    ]
+                },
+                "sell": {
+                    "id": [
+                        "modularwarfare:block.nova",
+                        "modularwarfare:block.m2",
+                        "modularwarfare:block.bekas",
+                        "modularwarfare:block.m1887",
+                        "modularwarfare:block.r870",
+                        "modularwarfare:block.saiga"
+
+                    ],
+                    "Count": [1,1,1,1,1,1]
+                },
+                "CareerLevel": 2
+            },
+                                    {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 35,"max": 45},
+                        {"min": 35,"max": 45},
+                        {"min": 35,"max": 45},
+                        {"min": 35,"max": 45},
+                        {"min": 35,"max": 45}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "minecraft:gold_ingot",
+                    "Count": [
+                        {"min": 12,"max": 24},
+                        {"min": 12,"max": 24},
+                        {"min": 12,"max": 24},
+                        {"min": 12,"max": 24},
+                        {"min": 12,"max": 24}
+                    ]
+                },
+                "sell": {
+                    "id": [
+                        "modularwarfare:block.ns2000",
+                        "modularwarfare:block.m4",
+                        "modularwarfare:block.m3",
+                        "modularwarfare:block.ms500",
+                        "modularwarfare:block.honcho"
+
+                    ],
+                    "Count": [1,1,1,1,1]
+                },
+                "CareerLevel": 4
+            },
+                                    {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 45,"max": 55},
+                        {"min": 45,"max": 55},
+                        {"min": 45,"max": 55},
+                        {"min": 45,"max": 55}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "minecraft:gold_ingot",
+                    "Count": [
+                        {"min": 16,"max": 28},
+                        {"min": 16,"max": 28},
+                        {"min": 16,"max": 28},
+                        {"min": 16,"max": 28}
+                    ]
+                },
+                "sell": {
+                    "id": [
+                        "modularwarfare:block.spas12",
+                        "modularwarfare:block.jackhammer",
+                        "modularwarfare:block.aa12",
+                        "modularwarfare:block.vepr12"
+
+                    ],
+                    "Count": [1,1,1,1]
+                },
+                "CareerLevel": 5
+            },
+           {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 8,"max": 12}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "minecraft:gold_ingot",
+                    "Count": [
+                        {"min": 4,"max": 8}
+                    ]
+                },
+                "sell": {
+                    "id":"modularwarfare:block.saigaammo",
+                    "Count": [
+                        {"min":1, "max":2}
+                    ]
+                },
+                "CareerLevel": 3
+            },
+           {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 8,"max": 12}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "minecraft:gold_ingot",
+                    "Count": [
+                        {"min": 4,"max": 8}
+                    ]
+                },
+                "sell": {
+                    "id":"modularwarfare:block.jackhammerammo",
+                    "Count": [
+                        {"min":1, "max":2}
+                    ]
+                },
+                "CareerLevel": 3
+            },
+           {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 8,"max": 12}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "minecraft:gold_ingot",
+                    "Count": [
+                        {"min": 4,"max": 8}
+                    ]
+                },
+                "sell": {
+                    "id":"modularwarfare:block.aa12ammo",
+                    "Count": [
+                        {"min":1, "max":2}
+                    ]
+                },
+                "CareerLevel": 3
+            },
+           {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 8,"max": 12}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "minecraft:gold_ingot",
+                    "Count": [
+                        {"min": 4,"max": 8}
+                    ]
+                },
+                "sell": {
+                    "id":"modularwarfare:block.vepr12ammo",
+                    "Count": [
+                        {"min":1, "max":2}
+                    ]
+                },
+                "CareerLevel": 3
+            }
+        ]
+    }
+}

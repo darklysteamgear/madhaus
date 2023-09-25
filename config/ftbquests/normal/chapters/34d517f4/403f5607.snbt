@@ -1,0 +1,23 @@
+{
+	title: "Cold war",
+	x: -6.0d,
+	y: -0.5d,
+	description: "Blow em up!",
+	hide_dependency_lines: true,
+	hide: true,
+	tasks: [{
+		uid: "e6d722e0",
+		type: "item",
+		items: [{
+			item: "icbmclassic:launcherbase"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e329d93d",
+		type: "ftbmoney:money",
+		ftb_money: 500L,
+		random_bonus: 2000
+	}]
+}

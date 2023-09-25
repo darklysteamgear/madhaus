@@ -1,0 +1,10 @@
+{
+    "internalName": "block.m1a1ammo",
+    "displayName": "M1A1 Mag 20rnd ",
+    "ammoCapacity": 20,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.smgbullet"
+    ],
+    "allowEmptyMagazines": true
+}

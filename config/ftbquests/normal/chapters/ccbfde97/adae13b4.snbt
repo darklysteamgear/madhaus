@@ -1,0 +1,32 @@
+{
+	title: "The four cats of the meme",
+	x: 3.0d,
+	y: 4.0d,
+	description: "You have found all four of the meme cats! now just give me fish, and you may have a random cat spawn egg",
+	dependencies: [
+		"50693261",
+		"5d4cfa7c",
+		"cb620c22",
+		"0e570076",
+		"bdec2992"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fa16190d",
+		type: "item",
+		items: [{
+			item: "minecraft:fish"
+		}],
+		count: 32L
+	},
+	{
+		uid: "ba1371e3",
+		type: "ftbmoney:money",
+		value: 2500L
+	}],
+	rewards: [{
+		uid: "f67a96bf",
+		type: "random",
+		table: 12
+	}]
+}

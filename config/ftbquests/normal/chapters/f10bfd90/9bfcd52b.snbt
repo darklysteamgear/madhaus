@@ -1,0 +1,44 @@
+{
+	x: -4.0d,
+	y: 0.5d,
+	size: 2.0d,
+	optional: true,
+	tasks: [{
+		uid: "f0fe46a8",
+		type: "kill",
+		title: "Defeat the Ender-Dragon, win the war!",
+		icon: "grimoireofgaia:doll_ender_girl",
+		entity: "minecraft:ender_dragon",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "c0b32b70",
+		type: "ftbmoney:money",
+		ftb_money: 25000L
+	},
+	{
+		uid: "78c167d1",
+		type: "random",
+		table: 8
+	},
+	{
+		uid: "2999d21d",
+		type: "random",
+		table: 8
+	},
+	{
+		uid: "1f2c6ae9",
+		type: "random",
+		table: 8
+	},
+	{
+		uid: "24fa5bd5",
+		type: "random",
+		table: 8
+	},
+	{
+		uid: "dcb2bb84",
+		type: "random",
+		table: 8
+	}]
+}

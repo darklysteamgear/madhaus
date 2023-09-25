@@ -1,0 +1,10 @@
+{
+	title: "Resources",
+	icon: "minecraft:iron_ingot",
+	description: [
+		"Instructions unclear, only added 4 quests"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,10 @@
+{
+  "displayName": "MK3 Mk.6",
+  "internalName": "block.mk3nodestroy",
+  "grenadeType": "frag",
+  "fuseTime": 3,
+  "damageWorld": false,
+  "explosionPower": 8,
+  "throwStrength": 1.0,
+  "throwerVulnerable": true
+}

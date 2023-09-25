@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: -8.0d,
+	dependencies: [
+		"8693f11c"
+	],
+	tasks: [{
+		uid: "6e5f2488",
+		type: "item",
+		items: [{
+			item: "aoa3:candyland_realmstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

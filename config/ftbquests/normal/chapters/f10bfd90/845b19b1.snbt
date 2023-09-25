@@ -1,0 +1,18 @@
+{
+	x: 1.5d,
+	y: -4.5d,
+	tasks: [{
+		uid: "87a8b124",
+		type: "observation",
+		title: "Oh no... \"He\" grows stronger",
+		icon: "jmr:immortality_gem",
+		match_type: "entity_id",
+		match: "jmr:john",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "436d973d",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

@@ -1,0 +1,74 @@
+{
+  "displayName": "Crossbow",
+  "internalName": "block.crossbow",
+  "weaponType": "boltsniper",
+  "extraLore": "Fact: this weapon can kill someone standing on the opposite side of the map.",
+  "customFlashTexture": "prototype.advanced.flash",
+  "gunDamage": 24,
+  "gunDamageHeadshotBonus": 2,
+  "roundsPerMin": 34,
+  "weaponMaxRange": 100,
+  "acceptedBullets": [
+        "block.boltx"
+    ],
+  "internalAmmoStorage": 1,
+  "reloadTime": 50,
+  "fireModes": [
+    "semi"
+  ],
+  "recoilPitch": 0.1,
+  "recoilYaw": 0.1,
+  "randomRecoilPitch": 0.0,
+  "randomRecoilYaw": 0.0,
+  "bulletSpread": 0.1,
+  "allowSprintFiring": false,
+  "allowEmptyMagazines": true,
+  "moveSpeedModifier": 0.95,
+  "accuracySneakFactor": 0.1,
+  "dropBulletCasing": false,
+  "shellEjectOffsetNormal": {
+    "x": -501.0,
+    "y": -500.0,
+    "z": 501.0
+  },
+  "shellEjectOffsetAiming": {
+    "x": -500.2,
+    "y": -500.0,
+    "z": 500.5
+  },
+  "weaponSoundMap": {
+    "weaponFire": [
+      {
+        "soundEvent": "weaponFire",
+        "soundName": "block.crossbow.shoot",
+        "soundRange": 10,
+        "soundMaxRange": 12,
+        "soundFadeMultiplier": 1
+      }
+    ],
+	"weaponUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "prototype.generic.unload"
+            }
+        ],
+    "weaponReload": [
+      {
+        "soundEvent": "weaponReload",
+        "soundName": "block.crossbow.load"
+      }
+    ]
+  },
+  "acceptedAttachments": {
+		"sight": [
+			"block.scopecrossx"
+        ]
+	},
+  "modelSkins": [
+    {
+      "internalName": "block.crossbow",
+      "skinAsset": "block.crossbow",
+      "displayName": "Default"
+    }
+  ]
+}

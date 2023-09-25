@@ -1,0 +1,21 @@
+{
+	x: -1.5d,
+	y: 3.0d,
+	dependencies: [
+		"a62bf368"
+	],
+	hide: true,
+	size: 3.0d,
+	tasks: [{
+		uid: "49eafbf0",
+		type: "stat",
+		title: "That's it, RAGE QUIT!!!",
+		stat: "stat.leaveGame",
+		value: 1
+	}],
+	rewards: [{
+		uid: "ac0270ab",
+		type: "item",
+		item: "motnt:fire_tnt"
+	}]
+}

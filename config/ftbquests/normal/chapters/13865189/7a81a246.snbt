@@ -1,0 +1,16 @@
+{
+	title: "Like a rocket inside, oh-oh,",
+	x: -7.0d,
+	y: -38.0d,
+	dependencies: [
+		"0b4c9f94"
+	],
+	hide: true,
+	tasks: [{
+		uid: "22086b5e",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:mars 1 2"
+		}]
+	}]
+}

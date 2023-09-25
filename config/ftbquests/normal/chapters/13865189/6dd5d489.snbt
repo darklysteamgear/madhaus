@@ -1,0 +1,22 @@
+{
+	title: "So strap yourself into the rocket now, rocket now,",
+	x: -7.0d,
+	y: -18.0d,
+	dependencies: [
+		"8d5ba0ba"
+	],
+	hide: true,
+	tasks: [{
+		uid: "df732481",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:rocket_t1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9b6783e9",
+		type: "ftbmoney:money",
+		ftb_money: 3000L
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 10.0d,
+	y: 2.0d,
+	dependencies: [
+		"53cba0ce"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "fd509779",
+		type: "stat",
+		title: "dog ma i@)(EQJE(QEJQ)(@EJ)(Q@J) (NQ)( N)(E()J@Q)(EJ)(@QJE)(Q@JE)(JQ@EJQ@)(EJQPOQDJPODPOWMDWDMWD)(@D",
+		stat: "stat.mobKills",
+		value: 1
+	}],
+	rewards: [{
+		uid: "911a0138",
+		type: "item",
+		auto: "enabled",
+		item: "scalinghealth:difficultychanger 1 1",
+		count: 64
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	icon: "evilcraft:blood_infusion_core",
+	x: 6.5d,
+	y: 0.0d,
+	dependencies: [
+		"1dfd5dc9"
+	],
+	tasks: [{
+		uid: "4382b678",
+		type: "stat",
+		title: "Are You OK?",
+		icon: {
+			id: "openblocks:tank",
+			tag: {
+				tank: {
+					FluidName: "evilcraftblood",
+					Amount: 16000
+				}
+			}
+		},
+		stat: "stat.deaths",
+		value: 50
+	}],
+	rewards: [{
+		uid: "d252ba52",
+		type: "ftbmoney:money",
+		ftb_money: 3000L,
+		random_bonus: 2500
+	},
+	{
+		uid: "90e5f067",
+		type: "item",
+		item: {
+			id: "botania:bloodpendant",
+			tag: {
+				brewKey: "regenWeak"
+			}
+		}
+	}]
+}

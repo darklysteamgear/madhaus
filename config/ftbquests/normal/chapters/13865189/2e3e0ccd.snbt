@@ -1,0 +1,17 @@
+{
+	title: "Your dream burning like a rocket, oh-oh.",
+	x: -7.0d,
+	y: -44.0d,
+	dependencies: [
+		"addc69b2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bb6bdf1f",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:rocket_t3"
+		}],
+		ignore_nbt: 1b
+	}]
+}

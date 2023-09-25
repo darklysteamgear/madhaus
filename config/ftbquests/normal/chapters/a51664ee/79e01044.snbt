@@ -1,0 +1,17 @@
+{
+	title: "Better then Diamond",
+	x: 11.0d,
+	y: 1.5d,
+	tasks: [{
+		uid: "27e96531",
+		type: "item",
+		items: [{
+			item: "aoa3:sapphire"
+		}]
+	}],
+	rewards: [{
+		uid: "c752bb98",
+		type: "ftbmoney:money",
+		ftb_money: 1200L
+	}]
+}

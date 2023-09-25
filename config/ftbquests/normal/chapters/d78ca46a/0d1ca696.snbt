@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "de8b18b1",
+		type: "item",
+		items: [{
+			id: "extraplanets:tier4_space_suit_boots",
+			Damage: 100s,
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "75dbcc4f",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

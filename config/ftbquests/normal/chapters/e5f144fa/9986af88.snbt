@@ -1,0 +1,28 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	description: "I dont care just kill him or something. he's like the gatekeeper of the abyss of something",
+	dependencies: [
+		"7c20a4ad",
+		"6af92882"
+	],
+	tasks: [{
+		uid: "a00f430e",
+		type: "kill",
+		title: "Woah this dude sounds pretty cool",
+		icon: "srparasites:ada_devourer_drop",
+		entity: "abyssalcraft:jzahar",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "f1f7b2f0",
+		type: "item",
+		item: "morecreeps:money",
+		count: 20
+	},
+	{
+		uid: "db98b3a2",
+		type: "random",
+		table: 3
+	}]
+}

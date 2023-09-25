@@ -1,0 +1,29 @@
+{
+	title: "You really suck, you know that?",
+	x: -2.5d,
+	y: 8.5d,
+	tasks: [{
+		uid: "42d34767",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "conarm:chest_core"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "340a37b1",
+		type: "command",
+		title: "Crash da game",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon tnt"
+	},
+	{
+		uid: "ca11d9e6",
+		type: "command",
+		title: "lol you thought. Don't try me",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon motnt:fire_tnt"
+	}]
+}

@@ -1,0 +1,16 @@
+{
+  "displayName": "L96A1 Forest Scope",
+  "internalName": "block.scopeawx.forest",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopeawx.forest",
+      "displayName": "L96A1 Scope - Forest"
+    }
+  ],
+  "sight": {
+    "scopeType": "15x",
+    "customOverlayTexture": "block.blockscopeawx",
+    "modeType": "pip"
+  }
+}

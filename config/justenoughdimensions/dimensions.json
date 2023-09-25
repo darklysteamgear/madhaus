@@ -1,0 +1,198 @@
+{
+  "config_version": {
+    "id": "__default",
+    "version": 0
+  },
+  "dimensions": [
+    {
+      "dim": 54,
+      "load_on_start": true,
+      "dimensiontype": {
+        "id": 54,
+        "name": "Pack.png",
+        "suffix": "_Packpng",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurfaceJED",
+        "require_exact_match": true,
+        "force_register" : true,
+        "allow_different_id" : false
+      },
+      "worldinfo_onetime": {
+        "generatorName": "modernbeta",
+        "generatorOptions":"{\"chunkSource\":\"beta\",\"biomeSource\":\"beta\",\"replaceOceanBiomes\":false,\"replaceBeachBiomes\":false,\"coordinateScale\":684.412,\"heightScale\":684.412,\"lowerLimitScale\":512.0,\"upperLimitScale\":512.0,\"depthNoiseScaleX\":200.0,\"depthNoiseScaleZ\":200.0,\"depthNoiseScaleExponent\":0.5,\"mainNoiseScaleX\":80.0,\"mainNoiseScaleY\":160.0,\"mainNoiseScaleZ\":80.0,\"baseSize\":8.5,\"stretchY\":12.0,\"seaLevel\":64,\"height\":128,\"useCaves\":true,\"useDungeons\":true,\"dungeonChance\":8,\"useStrongholds\":false,\"useVillages\":false,\"useMineShafts\":false,\"useTemples\":false,\"useMonuments\":false,\"useMansions\":false,\"useRavines\":false,\"useWaterLakes\":true,\"waterLakeChance\":4,\"useLavaLakes\":true,\"lavaLakeChance\":80,\"useLavaOceans\":false,\"fixedBiome\":\"minecraft:ocean\",\"claySize\":33,\"clayCount\":10,\"clayMinHeight\":0,\"clayMaxHeight\":128,\"dirtSize\":33,\"dirtCount\":20,\"dirtMinHeight\":0,\"dirtMaxHeight\":128,\"gravelSize\":33,\"gravelCount\":10,\"gravelMinHeight\":0,\"gravelMaxHeight\":128,\"graniteSize\":33,\"graniteCount\":0,\"graniteMinHeight\":0,\"graniteMaxHeight\":80,\"dioriteSize\":33,\"dioriteCount\":0,\"dioriteMinHeight\":0,\"dioriteMaxHeight\":80,\"andesiteSize\":33,\"andesiteCount\":0,\"andesiteMinHeight\":0,\"andesiteMaxHeight\":80,\"coalSize\":17,\"coalCount\":20,\"coalMinHeight\":0,\"coalMaxHeight\":128,\"ironSize\":9,\"ironCount\":20,\"ironMinHeight\":0,\"ironMaxHeight\":64,\"goldSize\":9,\"goldCount\":2,\"goldMinHeight\":0,\"goldMaxHeight\":32,\"redstoneSize\":8,\"redstoneCount\":8,\"redstoneMinHeight\":0,\"redstoneMaxHeight\":16,\"diamondSize\":8,\"diamondCount\":1,\"diamondMinHeight\":0,\"diamondMaxHeight\":16,\"lapisSize\":7,\"lapisCount\":1,\"lapisCenterHeight\":16,\"lapisSpread\":16,\"useTallGrass\":true,\"useNewFlowers\":false,\"useLilyPads\":false,\"useMelons\":false,\"useDesertWells\":false,\"useFossils\":false,\"tempNoiseScale\":1.0,\"rainNoiseScale\":1.0,\"detailNoiseScale\":1.0}",
+        "RandomSeed": "3257840388504953787"
+      },
+      "override": true
+    },
+    {
+      "dim": 55,
+      "load_on_start": true,
+      "dimensiontype": {
+        "id": 55,
+        "name": "Gargamel",
+        "suffix": "_Gargamel",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurfaceJED",
+        "require_exact_match": true,
+        "force_register" : true,
+        "allow_different_id" : false
+      },
+      "worldinfo_onetime": {
+        "generatorName": "modernbeta",
+        "generatorOptions":"{\"chunkSource\":\"beta\",\"biomeSource\":\"beta\",\"replaceOceanBiomes\":false,\"replaceBeachBiomes\":false,\"coordinateScale\":684.412,\"heightScale\":684.412,\"lowerLimitScale\":512.0,\"upperLimitScale\":512.0,\"depthNoiseScaleX\":200.0,\"depthNoiseScaleZ\":200.0,\"depthNoiseScaleExponent\":0.5,\"mainNoiseScaleX\":80.0,\"mainNoiseScaleY\":160.0,\"mainNoiseScaleZ\":80.0,\"baseSize\":8.5,\"stretchY\":12.0,\"seaLevel\":64,\"height\":128,\"useCaves\":true,\"useDungeons\":true,\"dungeonChance\":8,\"useStrongholds\":false,\"useVillages\":false,\"useMineShafts\":false,\"useTemples\":false,\"useMonuments\":false,\"useMansions\":false,\"useRavines\":false,\"useWaterLakes\":true,\"waterLakeChance\":4,\"useLavaLakes\":true,\"lavaLakeChance\":80,\"useLavaOceans\":false,\"fixedBiome\":\"minecraft:ocean\",\"claySize\":33,\"clayCount\":10,\"clayMinHeight\":0,\"clayMaxHeight\":128,\"dirtSize\":33,\"dirtCount\":20,\"dirtMinHeight\":0,\"dirtMaxHeight\":128,\"gravelSize\":33,\"gravelCount\":10,\"gravelMinHeight\":0,\"gravelMaxHeight\":128,\"graniteSize\":33,\"graniteCount\":0,\"graniteMinHeight\":0,\"graniteMaxHeight\":80,\"dioriteSize\":33,\"dioriteCount\":0,\"dioriteMinHeight\":0,\"dioriteMaxHeight\":80,\"andesiteSize\":33,\"andesiteCount\":0,\"andesiteMinHeight\":0,\"andesiteMaxHeight\":80,\"coalSize\":17,\"coalCount\":20,\"coalMinHeight\":0,\"coalMaxHeight\":128,\"ironSize\":9,\"ironCount\":20,\"ironMinHeight\":0,\"ironMaxHeight\":64,\"goldSize\":9,\"goldCount\":2,\"goldMinHeight\":0,\"goldMaxHeight\":32,\"redstoneSize\":8,\"redstoneCount\":8,\"redstoneMinHeight\":0,\"redstoneMaxHeight\":16,\"diamondSize\":8,\"diamondCount\":1,\"diamondMinHeight\":0,\"diamondMaxHeight\":16,\"lapisSize\":7,\"lapisCount\":1,\"lapisCenterHeight\":16,\"lapisSpread\":16,\"useTallGrass\":true,\"useNewFlowers\":false,\"useLilyPads\":false,\"useMelons\":false,\"useDesertWells\":false,\"useFossils\":false,\"tempNoiseScale\":1.0,\"rainNoiseScale\":1.0,\"detailNoiseScale\":1.0}",
+        "RandomSeed": "gargamel"
+      },
+      "override": true
+    },
+    {
+      "dim": 56,
+      "load_on_start": true,
+      "dimensiontype": {
+        "id": 56,
+        "name": "Glacier",
+        "suffix": "_Glacier",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurfaceJED",
+        "require_exact_match": true,
+        "force_register" : true,
+        "allow_different_id" : false
+      },
+      "worldinfo_onetime": {
+        "generatorName": "modernbeta",
+        "generatorOptions":"{\"chunkSource\":\"beta\",\"biomeSource\":\"beta\",\"replaceOceanBiomes\":false,\"replaceBeachBiomes\":false,\"coordinateScale\":684.412,\"heightScale\":684.412,\"lowerLimitScale\":512.0,\"upperLimitScale\":512.0,\"depthNoiseScaleX\":200.0,\"depthNoiseScaleZ\":200.0,\"depthNoiseScaleExponent\":0.5,\"mainNoiseScaleX\":80.0,\"mainNoiseScaleY\":160.0,\"mainNoiseScaleZ\":80.0,\"baseSize\":8.5,\"stretchY\":12.0,\"seaLevel\":64,\"height\":128,\"useCaves\":true,\"useDungeons\":true,\"dungeonChance\":8,\"useStrongholds\":false,\"useVillages\":false,\"useMineShafts\":false,\"useTemples\":false,\"useMonuments\":false,\"useMansions\":false,\"useRavines\":false,\"useWaterLakes\":true,\"waterLakeChance\":4,\"useLavaLakes\":true,\"lavaLakeChance\":80,\"useLavaOceans\":false,\"fixedBiome\":\"minecraft:ocean\",\"claySize\":33,\"clayCount\":10,\"clayMinHeight\":0,\"clayMaxHeight\":128,\"dirtSize\":33,\"dirtCount\":20,\"dirtMinHeight\":0,\"dirtMaxHeight\":128,\"gravelSize\":33,\"gravelCount\":10,\"gravelMinHeight\":0,\"gravelMaxHeight\":128,\"graniteSize\":33,\"graniteCount\":0,\"graniteMinHeight\":0,\"graniteMaxHeight\":80,\"dioriteSize\":33,\"dioriteCount\":0,\"dioriteMinHeight\":0,\"dioriteMaxHeight\":80,\"andesiteSize\":33,\"andesiteCount\":0,\"andesiteMinHeight\":0,\"andesiteMaxHeight\":80,\"coalSize\":17,\"coalCount\":20,\"coalMinHeight\":0,\"coalMaxHeight\":128,\"ironSize\":9,\"ironCount\":20,\"ironMinHeight\":0,\"ironMaxHeight\":64,\"goldSize\":9,\"goldCount\":2,\"goldMinHeight\":0,\"goldMaxHeight\":32,\"redstoneSize\":8,\"redstoneCount\":8,\"redstoneMinHeight\":0,\"redstoneMaxHeight\":16,\"diamondSize\":8,\"diamondCount\":1,\"diamondMinHeight\":0,\"diamondMaxHeight\":16,\"lapisSize\":7,\"lapisCount\":1,\"lapisCenterHeight\":16,\"lapisSpread\":16,\"useTallGrass\":true,\"useNewFlowers\":false,\"useLilyPads\":false,\"useMelons\":false,\"useDesertWells\":false,\"useFossils\":false,\"tempNoiseScale\":1.0,\"rainNoiseScale\":1.0,\"detailNoiseScale\":1.0}",
+        "RandomSeed": "Glacier"
+      },
+      "override": true
+    },
+    {
+      "dim": 57,
+      "load_on_start": true,
+      "dimensiontype": {
+        "id": 57,
+        "name": "Dev\u0027s First Ever Playthrough Seed",
+        "suffix": "_Desert",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurfaceJED",
+        "require_exact_match": true,
+        "force_register" : true,
+        "allow_different_id" : false
+      },
+      "worldinfo_onetime": {
+        "generatorName": "modernbeta",
+        "generatorOptions":"{\"chunkSource\":\"beta\",\"biomeSource\":\"beta\",\"replaceOceanBiomes\":false,\"replaceBeachBiomes\":false,\"coordinateScale\":684.412,\"heightScale\":684.412,\"lowerLimitScale\":512.0,\"upperLimitScale\":512.0,\"depthNoiseScaleX\":200.0,\"depthNoiseScaleZ\":200.0,\"depthNoiseScaleExponent\":0.5,\"mainNoiseScaleX\":80.0,\"mainNoiseScaleY\":160.0,\"mainNoiseScaleZ\":80.0,\"baseSize\":8.5,\"stretchY\":12.0,\"seaLevel\":64,\"height\":128,\"useCaves\":true,\"useDungeons\":true,\"dungeonChance\":8,\"useStrongholds\":false,\"useVillages\":false,\"useMineShafts\":false,\"useTemples\":false,\"useMonuments\":false,\"useMansions\":false,\"useRavines\":false,\"useWaterLakes\":true,\"waterLakeChance\":4,\"useLavaLakes\":true,\"lavaLakeChance\":80,\"useLavaOceans\":false,\"fixedBiome\":\"minecraft:ocean\",\"claySize\":33,\"clayCount\":10,\"clayMinHeight\":0,\"clayMaxHeight\":128,\"dirtSize\":33,\"dirtCount\":20,\"dirtMinHeight\":0,\"dirtMaxHeight\":128,\"gravelSize\":33,\"gravelCount\":10,\"gravelMinHeight\":0,\"gravelMaxHeight\":128,\"graniteSize\":33,\"graniteCount\":0,\"graniteMinHeight\":0,\"graniteMaxHeight\":80,\"dioriteSize\":33,\"dioriteCount\":0,\"dioriteMinHeight\":0,\"dioriteMaxHeight\":80,\"andesiteSize\":33,\"andesiteCount\":0,\"andesiteMinHeight\":0,\"andesiteMaxHeight\":80,\"coalSize\":17,\"coalCount\":20,\"coalMinHeight\":0,\"coalMaxHeight\":128,\"ironSize\":9,\"ironCount\":20,\"ironMinHeight\":0,\"ironMaxHeight\":64,\"goldSize\":9,\"goldCount\":2,\"goldMinHeight\":0,\"goldMaxHeight\":32,\"redstoneSize\":8,\"redstoneCount\":8,\"redstoneMinHeight\":0,\"redstoneMaxHeight\":16,\"diamondSize\":8,\"diamondCount\":1,\"diamondMinHeight\":0,\"diamondMaxHeight\":16,\"lapisSize\":7,\"lapisCount\":1,\"lapisCenterHeight\":16,\"lapisSpread\":16,\"useTallGrass\":true,\"useNewFlowers\":false,\"useLilyPads\":false,\"useMelons\":false,\"useDesertWells\":false,\"useFossils\":false,\"tempNoiseScale\":1.0,\"rainNoiseScale\":1.0,\"detailNoiseScale\":1.0}",
+        "RandomSeed": "-1335249899"
+      },
+      "override": true
+    },
+    {
+      "dim": 58,
+      "load_on_start": true,
+      "dimensiontype": {
+        "id": 58,
+        "name": "Alpha World",
+        "suffix": "_Alpha",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurfaceJED",
+        "require_exact_match": true,
+        "force_register" : true,
+        "allow_different_id" : false
+      },
+            "jed": {
+                "Colors": {
+                    "FoliageColors": [ { "biome_regex": ".*",  "color": "2EFF00" } ],
+                    "GrassColors":   [ { "biome_regex": ".*",  "color": "C1FF7A" } ]
+                }
+            },
+      "worldinfo_onetime": {
+        "generatorName": "modernbeta",
+        "generatorOptions": "{\"chunkSource\":\"alpha\",\"biomeSource\":\"single\",\"replaceOceanBiomes\":false,\"replaceBeachBiomes\":false,\"coordinateScale\":684.412,\"heightScale\":684.412,\"lowerLimitScale\":512.0,\"upperLimitScale\":512.0,\"depthNoiseScaleX\":100.0,\"depthNoiseScaleZ\":100.0,\"depthNoiseScaleExponent\":0.5,\"mainNoiseScaleX\":80.0,\"mainNoiseScaleY\":160.0,\"mainNoiseScaleZ\":80.0,\"baseSize\":8.5,\"stretchY\":12.0,\"seaLevel\":64,\"height\":128,\"useCaves\":true,\"useDungeons\":true,\"dungeonChance\":8,\"useStrongholds\":false,\"useVillages\":false,\"useMineShafts\":false,\"useTemples\":false,\"useMonuments\":false,\"useMansions\":false,\"useRavines\":false,\"useWaterLakes\":false,\"waterLakeChance\":4,\"useLavaLakes\":false,\"lavaLakeChance\":80,\"useLavaOceans\":false,\"fixedBiome\":\"modernbetaforge:alpha\",\"claySize\":33,\"clayCount\":10,\"clayMinHeight\":0,\"clayMaxHeight\":128,\"dirtSize\":33,\"dirtCount\":20,\"dirtMinHeight\":0,\"dirtMaxHeight\":128,\"gravelSize\":33,\"gravelCount\":10,\"gravelMinHeight\":0,\"gravelMaxHeight\":128,\"graniteSize\":33,\"graniteCount\":0,\"graniteMinHeight\":0,\"graniteMaxHeight\":80,\"dioriteSize\":33,\"dioriteCount\":0,\"dioriteMinHeight\":0,\"dioriteMaxHeight\":80,\"andesiteSize\":33,\"andesiteCount\":0,\"andesiteMinHeight\":0,\"andesiteMaxHeight\":80,\"coalSize\":17,\"coalCount\":20,\"coalMinHeight\":0,\"coalMaxHeight\":128,\"ironSize\":9,\"ironCount\":20,\"ironMinHeight\":0,\"ironMaxHeight\":64,\"goldSize\":9,\"goldCount\":2,\"goldMinHeight\":0,\"goldMaxHeight\":32,\"redstoneSize\":8,\"redstoneCount\":8,\"redstoneMinHeight\":0,\"redstoneMaxHeight\":16,\"diamondSize\":8,\"diamondCount\":1,\"diamondMinHeight\":0,\"diamondMaxHeight\":16,\"lapisSize\":7,\"lapisCount\":0,\"lapisCenterHeight\":16,\"lapisSpread\":16,\"useTallGrass\":false,\"useNewFlowers\":false,\"useLilyPads\":false,\"useMelons\":false,\"useDesertWells\":false,\"useFossils\":false,\"tempNoiseScale\":1.0,\"rainNoiseScale\":1.0,\"detailNoiseScale\":1.0}",
+        "RandomSeed": "-6984854390176336655"
+      },
+      "override": true
+    },
+    {
+      "dim": 59,
+      "load_on_start": true,
+      "dimensiontype": {
+        "id": 59,
+        "name": "Herobrine's World",
+        "suffix": "_Herobrine",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurfaceJED",
+        "require_exact_match": true,
+        "force_register" : true
+      },
+      "worldinfo_onetime": {
+          "generatorName": "modernbeta",
+          "RandomSeed": "478868574082066804",
+          "generatorOptions": "{\"chunkSource\":\"alpha\",\"biomeSource\":\"single\",\"replaceOceanBiomes\":false,\"replaceBeachBiomes\":false,\"coordinateScale\":684.412,\"heightScale\":684.412,\"lowerLimitScale\":512.0,\"upperLimitScale\":512.0,\"depthNoiseScaleX\":100.0,\"depthNoiseScaleZ\":100.0,\"depthNoiseScaleExponent\":0.5,\"mainNoiseScaleX\":80.0,\"mainNoiseScaleY\":160.0,\"mainNoiseScaleZ\":80.0,\"baseSize\":8.5,\"stretchY\":12.0,\"seaLevel\":64,\"height\":128,\"useCaves\":true,\"useDungeons\":true,\"dungeonChance\":8,\"useStrongholds\":false,\"useVillages\":false,\"useMineShafts\":false,\"useTemples\":false,\"useMonuments\":false,\"useMansions\":false,\"useRavines\":false,\"useWaterLakes\":false,\"waterLakeChance\":4,\"useLavaLakes\":false,\"lavaLakeChance\":80,\"useLavaOceans\":false,\"fixedBiome\":\"herobrine:cursed_forest\",\"claySize\":33,\"clayCount\":10,\"clayMinHeight\":0,\"clayMaxHeight\":128,\"dirtSize\":33,\"dirtCount\":20,\"dirtMinHeight\":0,\"dirtMaxHeight\":128,\"gravelSize\":33,\"gravelCount\":10,\"gravelMinHeight\":0,\"gravelMaxHeight\":128,\"graniteSize\":33,\"graniteCount\":0,\"graniteMinHeight\":0,\"graniteMaxHeight\":80,\"dioriteSize\":33,\"dioriteCount\":0,\"dioriteMinHeight\":0,\"dioriteMaxHeight\":80,\"andesiteSize\":33,\"andesiteCount\":0,\"andesiteMinHeight\":0,\"andesiteMaxHeight\":80,\"coalSize\":17,\"coalCount\":20,\"coalMinHeight\":0,\"coalMaxHeight\":128,\"ironSize\":9,\"ironCount\":20,\"ironMinHeight\":0,\"ironMaxHeight\":64,\"goldSize\":9,\"goldCount\":2,\"goldMinHeight\":0,\"goldMaxHeight\":32,\"redstoneSize\":8,\"redstoneCount\":8,\"redstoneMinHeight\":0,\"redstoneMaxHeight\":16,\"diamondSize\":8,\"diamondCount\":1,\"diamondMinHeight\":0,\"diamondMaxHeight\":16,\"lapisSize\":7,\"lapisCount\":0,\"lapisCenterHeight\":16,\"lapisSpread\":16,\"useTallGrass\":false,\"useNewFlowers\":false,\"useLilyPads\":false,\"useMelons\":false,\"useDesertWells\":false,\"useFossils\":false,\"tempNoiseScale\":1.0,\"rainNoiseScale\":1.0,\"detailNoiseScale\":1.0}"
+      },
+    "jed": {
+        "Colors": {
+            "FoliageColors": [ { "biome_regex": ".*",  "color": "825B21" } ],
+            "GrassColors":   [ { "biome_regex": ".*",  "color": "825B21" } ]
+        },
+      "HasXZFog": true,
+      "SkyRenderType": 1,
+      "CloudHeight": 128
+      },
+      "override": true
+    },
+    {
+      "dim": 60,
+      "load_on_start": true,
+      "dimensiontype": {
+        "id": 60,
+        "name": "Biomes O Plenty World",
+        "suffix": "_BoP",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurfaceJED",
+        "require_exact_match": true,
+        "force_register" : true,
+        "allow_different_id" : false
+      },
+      "jed": {
+            "SpawnPointSearchType": {
+                "type": "cavern",
+                "min_y": 10,
+                "max_y": 240
+      }
+    },
+          "worldinfo_onetime": {
+        "generatorName": "BIOMESOP"
+      },
+      "override": true
+    },
+        {
+      "dim": 61,
+      "load_on_start": true,
+      "dimensiontype": {
+        "id": 61,
+        "name": "Pokemon World",
+        "suffix": "_Pokemon",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurfaceJED",
+        "require_exact_match": true,
+        "force_register" : true,
+        "allow_different_id" : false
+      },
+      "jed": {
+            "SpawnPointSearchType": {
+                "type": "cavern",
+                "min_y": 10,
+                "max_y": 240
+      }
+    },
+          "worldinfo_onetime": {
+        "generatorName": "modernbeta",
+        "RandomSeed": "broken",
+        "generatorOptions":"{\"chunkSource\":\"alpha\",\"biomeSource\":\"single\",\"replaceOceanBiomes\":false,\"replaceBeachBiomes\":false,\"coordinateScale\":684.412,\"heightScale\":684.412,\"lowerLimitScale\":2817.3381,\"upperLimitScale\":3767.8523,\"depthNoiseScaleX\":100.0,\"depthNoiseScaleZ\":100.0,\"depthNoiseScaleExponent\":0.5,\"mainNoiseScaleX\":80.0,\"mainNoiseScaleY\":2465.2957,\"mainNoiseScaleZ\":80.0,\"baseSize\":8.5,\"stretchY\":12.0,\"seaLevel\":0,\"height\":74,\"useCaves\":false,\"useDungeons\":false,\"dungeonChance\":1,\"useStrongholds\":false,\"useVillages\":false,\"useMineShafts\":false,\"useTemples\":false,\"useMonuments\":false,\"useMansions\":false,\"useRavines\":false,\"useWaterLakes\":false,\"waterLakeChance\":100,\"useLavaLakes\":false,\"lavaLakeChance\":100,\"useLavaOceans\":false,\"fixedBiome\":\"iceandfire:glacier\",\"claySize\":33,\"clayCount\":0,\"clayMinHeight\":0,\"clayMaxHeight\":128,\"dirtSize\":33,\"dirtCount\":0,\"dirtMinHeight\":0,\"dirtMaxHeight\":128,\"gravelSize\":33,\"gravelCount\":0,\"gravelMinHeight\":0,\"gravelMaxHeight\":128,\"graniteSize\":33,\"graniteCount\":0,\"graniteMinHeight\":0,\"graniteMaxHeight\":80,\"dioriteSize\":33,\"dioriteCount\":0,\"dioriteMinHeight\":0,\"dioriteMaxHeight\":80,\"andesiteSize\":33,\"andesiteCount\":0,\"andesiteMinHeight\":0,\"andesiteMaxHeight\":80,\"coalSize\":17,\"coalCount\":0,\"coalMinHeight\":0,\"coalMaxHeight\":128,\"ironSize\":9,\"ironCount\":0,\"ironMinHeight\":0,\"ironMaxHeight\":64,\"goldSize\":9,\"goldCount\":0,\"goldMinHeight\":0,\"goldMaxHeight\":32,\"redstoneSize\":8,\"redstoneCount\":0,\"redstoneMinHeight\":0,\"redstoneMaxHeight\":16,\"diamondSize\":8,\"diamondCount\":0,\"diamondMinHeight\":0,\"diamondMaxHeight\":16,\"lapisSize\":7,\"lapisCount\":0,\"lapisCenterHeight\":16,\"lapisSpread\":16,\"useTallGrass\":false,\"useNewFlowers\":false,\"useLilyPads\":false,\"useMelons\":false,\"useDesertWells\":false,\"useFossils\":false,\"tempNoiseScale\":1.0,\"rainNoiseScale\":1.0,\"detailNoiseScale\":1.0}"
+      },
+      "override": true
+    },
+        {
+      "dim": -2541,
+      "unregister": true
+    }
+  ]
+}

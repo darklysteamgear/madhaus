@@ -1,0 +1,28 @@
+{
+	title: "Stinky Balls",
+	x: 2.0d,
+	y: -2.0d,
+	text: [
+		"You now have stinky balls",
+		"Hahahahaha, I am so mature"
+	],
+	tasks: [{
+		uid: "628afec1",
+		type: "item",
+		title: "Stinky",
+		items: [{
+			item: "biomesoplenty:plant_1 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "948729dd",
+		type: "item",
+		auto: "enabled",
+		item: "harvestcraft:sweetandsourmeatballsitem"
+	},
+	{
+		uid: "0d687817",
+		type: "ftbmoney:money",
+		ftb_money: 420L
+	}]
+}

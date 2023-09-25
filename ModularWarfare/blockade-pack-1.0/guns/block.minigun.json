@@ -1,0 +1,69 @@
+{
+    "displayName": "Minigun",
+    "internalName": "block.minigun",
+    "gunDamage": 8,
+	"gunDamageHeadshotBonus": 1.5,
+    "roundsPerMin": 600,
+    "allowEmptyMagazines": true,
+	"extraLore": "Feel like a hero of the fantastic movie.",
+    "weaponType": "revolver",
+    "customFlashTexture": "prototype.advanced.flash",
+    "fireModes": [
+        "full"
+    ],
+    "acceptedAmmo": [
+        "block.minigunammo"
+    ],
+    "numBullets": 1,
+    "internalAmmoStorage": 6,
+    "reloadTime": 60,
+    "bulletSpread": 3.0,
+    "recoilPitch": 1.5,
+    "recoilYaw": 0.5,
+    "randomRecoilPitch": 0.75,
+    "randomRecoilYaw": 1.0,
+    "armPose": "ITEM",
+    "armPoseAiming": "BOW_AND_ARROW",
+    "accuracySneakFactor": 0.75,
+    "moveSpeedModifier": 0.4,
+    "allowSprintFiring": false,
+    "dropBulletCasing": false,
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "block.minigun.shoot",
+                "soundNameDistant": "block.lmg.shoot.distant",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponUnload":[
+            {
+                "soundEvent":"weaponReload",
+                "soundName":"prototype.generic.reload"
+            }
+        ],
+		"weaponReload": [
+			{
+        "soundEvent": "weaponReload",
+        "soundName": "block.long45.reload"
+			}
+		]
+    },
+    "acceptedAttachments":{
+    },
+    "modelSkins": [
+        {
+            "internalName": "block.minigun",
+            "skinAsset": "block.minigun",
+            "displayName": "Default"
+        },
+        {
+            "internalName":"block.minigun.z",
+            "skinAsset":"block.minigun.z",
+            "displayName":"Zombie"
+        }
+    ]
+}

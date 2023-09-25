@@ -1,0 +1,35 @@
+{
+	title: "Diabeetus",
+	x: 2.0d,
+	y: -8.0d,
+	dependencies: [
+		"60786a19"
+	],
+	tasks: [{
+		uid: "134251b2",
+		type: "item",
+		items: [{
+			item: "aoa3:heart_fruit"
+		}]
+	}],
+	rewards: [{
+		uid: "e0c1ed7f",
+		type: "item",
+		item: "harvestcraft:chocolatesprinklecakeitem"
+	},
+	{
+		uid: "33d73829",
+		type: "item",
+		item: "harvestcraft:chocolatedonutitem"
+	},
+	{
+		uid: "53175a50",
+		type: "item",
+		item: "harvestcraft:paradiseburgeritem"
+	},
+	{
+		uid: "e266adfe",
+		type: "item",
+		item: "actuallyadditions:item_food 1 4"
+	}]
+}

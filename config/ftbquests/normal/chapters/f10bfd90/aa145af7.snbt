@@ -1,0 +1,18 @@
+{
+	x: 2.5d,
+	y: -4.5d,
+	tasks: [{
+		uid: "90e69ae7",
+		type: "observation",
+		title: "The end is upon us...",
+		icon: "jmr:immortality_sword",
+		match_type: "entity_id",
+		match: "jmr:megajohn",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "b5da5ceb",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

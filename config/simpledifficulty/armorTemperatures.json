@@ -1,0 +1,330 @@
+{
+  "simpledifficulty:ice_chestplate": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": -2.0
+    }
+  ],
+  "simpledifficulty:ice_helmet": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": -2.0
+    }
+  ],
+  "simpledifficulty:wool_helmet": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 2.0
+    }
+  ],
+  "simpledifficulty:ice_boots": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": -2.0
+    }
+  ],
+  "simpledifficulty:wool_boots": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 2.0
+    }
+  ],
+  "baubles:ring": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": -0.25
+    }
+  ],
+  "simpledifficulty:wool_leggings": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 2.0
+    }
+  ],
+  "simpledifficulty:wool_chestplate": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 2.0
+    }
+  ],
+  "simpledifficulty:ice_leggings": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": -2.0
+    }
+  ],
+   "aoa3:ice_boots": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.0
+         }
+   ],
+   "aoa3:ice_chestplate": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.0
+         }
+   ],
+   "aoa3:ice_helmet": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.0
+         }
+   ],
+   "aoa3:ice_legs": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.0
+         }
+   ],
+      "iceandfire:dragonsteel_ice_boots": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.0
+         }
+   ],
+   "iceandfire:dragonsteel_ice_chestplate": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.0
+         }
+   ],
+   "iceandfire:dragonsteel_ice_helmet": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.0
+         }
+   ],
+   "iceandfire:dragonsteel_ice_leggings": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.0
+         }
+   ],
+      "iceandfire:dragonsteel_fire_boots": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":2.0
+         }
+   ],
+   "iceandfire:dragonsteel_fire_chestplate": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":2.0
+         }
+   ],
+   "iceandfire:dragonsteel_fire_helmet": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":2.0
+         }
+   ],
+   "iceandfire:dragonsteel_fire_leggings": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":2.0
+         }
+   ],
+   "atum:wanderer_boots": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.0
+         }
+   ],
+   "atum:wanderer_chest": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.0
+         }
+   ],
+   "atum:wanderer_helmet": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.0
+         }
+   ],
+   "atum:wanderer_legs": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.0
+         }
+   ],
+   "atum:desert_boots_diamond": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.0
+         }
+   ],
+   "atum:desert_boots_gold": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.0
+         }
+   ],
+   "atum:desert_boots_iron": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.0
+         }
+   ],
+   "atum:desert_chest_diamond": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.0
+         }
+   ],
+   "atum:desert_chest_gold": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.0
+         }
+   ],
+   "atum:desert_chest_iron": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.0
+         }
+   ],
+   "atum:desert_helmet_diamond": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.0
+         }
+   ],
+   "atum:desert_helmet_gold": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.0
+         }
+   ],
+   "atum:desert_helmet_iron": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.0
+         }
+   ],
+   "atum:desert_legs_diamond": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.0
+         }
+   ],
+   "atum:desert_legs_gold": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.0
+         }
+   ],
+   "atum:desert_legs_iron": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.0
+         }
+   ],
+   "atum:halo_of_ra": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.5
+         }
+   ],
+      "atum:body_of_ra": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.5
+         }
+   ],
+      "atum:legs_of_ra": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.5
+         }
+   ],
+      "atum:feet_of_ra": [
+     {
+         "identity": {
+             "metadata": -1
+             },
+     "temperature":-2.5
+         }
+   ],
+}

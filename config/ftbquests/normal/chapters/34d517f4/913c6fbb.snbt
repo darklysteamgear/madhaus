@@ -1,0 +1,28 @@
+{
+	title: "Water ballon fight!!!",
+	x: 2.0d,
+	y: 5.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"63015229"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5877d2f5",
+		type: "item",
+		items: [{
+			id: "aoa3:water_balloon_bomber",
+			tag: {
+				HideFlags: 2b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "616d79a0",
+		type: "ftbmoney:money",
+		ftb_money: 2000L,
+		random_bonus: 2000
+	}]
+}

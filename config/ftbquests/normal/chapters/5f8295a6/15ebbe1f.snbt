@@ -1,0 +1,17 @@
+{
+	title: "I'll build a city oh so big big big big",
+	x: -0.5d,
+	y: 3.0d,
+	dependencies: [
+		"d9b8072c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6a5c4b09",
+		type: "item",
+		items: [{
+			item: "minecraft:brick_block"
+		}],
+		count: 100L
+	}]
+}

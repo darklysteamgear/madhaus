@@ -1,0 +1,20 @@
+{
+	title: "DOOT DOOT",
+	x: 7.0d,
+	y: 3.0d,
+	description: "DOOT",
+	tasks: [{
+		uid: "9c4997c1",
+		type: "item",
+		items: [{
+			item: "memeinabottle:trumpet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "892baa32",
+		type: "item",
+		item: "fossil:figurine 1 1"
+	}]
+}

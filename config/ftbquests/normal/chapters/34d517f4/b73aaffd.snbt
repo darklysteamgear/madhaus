@@ -1,0 +1,46 @@
+{
+	title: "Now this is where the REAL fun begins",
+	x: -2.5d,
+	y: 14.0d,
+	description: "Come on over creeper, i have a present for you!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643",
+		"7a63bd7d"
+	],
+	hide: true,
+	size: 3.0d,
+	tasks: [{
+		uid: "d9def0b7",
+		type: "item",
+		items: [{
+			id: "icbmclassic:missile",
+			Damage: 15s,
+			ForgeCaps: {
+				Parent: {
+					explosive: {}
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "17a350ae",
+		type: "item",
+		items: [{
+			id: "icbmclassic:grenade",
+			Damage: 4s,
+			ForgeCaps: {
+				Parent: {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6eeaffd5",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 2500
+	}]
+}

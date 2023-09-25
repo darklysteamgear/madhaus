@@ -1,0 +1,12 @@
+{
+	x: 34.5d,
+	y: -4.0d,
+	shape: "square",
+	tasks: [{
+		uid: "32d312c5",
+		type: "item",
+		items: [{
+			item: "extraplanets:jupiter 1 6"
+		}]
+	}]
+}

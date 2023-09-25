@@ -1,0 +1,27 @@
+{
+	title: "Now, stop clowning around!",
+	x: 2.0d,
+	y: -12.0d,
+	dependencies: [
+		"ef7ee976"
+	],
+	tasks: [{
+		uid: "340c04f8",
+		type: "item",
+		items: [{
+			item: "aoa3:lelyetian_greatblade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8e9f78b0",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "4c288423",
+		type: "item",
+		item: "minecraft:fish 1 2"
+	}]
+}

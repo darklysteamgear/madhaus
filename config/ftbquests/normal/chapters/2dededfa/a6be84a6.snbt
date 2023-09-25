@@ -1,0 +1,20 @@
+{
+	x: 3.0d,
+	y: 1.0d,
+	dependencies: [
+		"44aabf9a"
+	],
+	tasks: [{
+		uid: "0f0df768",
+		type: "item",
+		items: [{
+			item: "simplegenerators:geothermal_upgradable"
+		}]
+	}],
+	rewards: [{
+		uid: "79512102",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 2500
+	}]
+}

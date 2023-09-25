@@ -1,0 +1,22 @@
+{
+	title: "Final checks then you close your eyes,",
+	x: -7.0d,
+	y: -33.0d,
+	dependencies: [
+		"3484b51b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6a769917",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:rocket_t2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2803a065",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	}]
+}

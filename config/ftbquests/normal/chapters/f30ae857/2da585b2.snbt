@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "dfaedb33",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:diamond_paxel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f2ecd7ba",
+		type: "ftbmoney:money",
+		ftb_money: 2500L,
+		random_bonus: 2500
+	}]
+}

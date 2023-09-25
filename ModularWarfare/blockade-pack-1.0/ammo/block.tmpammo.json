@@ -1,0 +1,10 @@
+{
+    "internalName": "block.tmpammo",
+    "displayName": "TMP Mag 30rnd ",
+    "ammoCapacity": 30,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.smgbullet"
+    ],
+    "allowEmptyMagazines": true
+}

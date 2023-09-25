@@ -1,0 +1,13 @@
+setIcon(<minecraft:stone>)
+setTitle("Kill Anu")
+setDescription("Find the statue of Anu in the nether, and kill the ancient god. Killing Anu will inspire you to dream ambitiously, and release a new magic onto the world. This will be incredibly useful in your journey.")
+
+addRewardFunction("triumph:pokemon")
+addParent("triumph:events/root")
+
+criteria = addCriteria("anu", "minecraft:player_killed_entity")
+criteria.setEntityType("fossil:fossil.anu")
+
+hideLines()
+alwaysVisible()
+setPos(-117,77)

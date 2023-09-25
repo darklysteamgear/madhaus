@@ -1,0 +1,17 @@
+{
+    "name": "Custom Dimensions",
+    "icon": "minecraft:writable_book",
+    "category": "dimensions",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Make a wish, and hope for the best... There are 10 all new custom dimensions for you to explore. Some from a time long past, others from a bleak future... The key to stopping the madness lies within these worlds!"
+        },
+        {
+        "type" : "crafting", 
+        "recipe" : "contenttweaker:wish",
+        "text" : "Make a wish upon a custom portal, and see where it takes you... Look at the quests to discover how to uncover portal recipes for worlds lost to time!"
+        }
+    ]
+}

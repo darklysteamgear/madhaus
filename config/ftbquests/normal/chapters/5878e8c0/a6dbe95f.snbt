@@ -1,0 +1,12 @@
+{
+	x: 12.0d,
+	y: -7.5d,
+	shape: "square",
+	tasks: [{
+		uid: "4ad5e4f8",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:item_basic_mars"
+		}]
+	}]
+}

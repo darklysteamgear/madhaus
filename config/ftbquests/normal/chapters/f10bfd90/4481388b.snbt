@@ -1,0 +1,16 @@
+{
+	title: "How did you?",
+	icon: "extrautils2:snowglobe 1 1",
+	x: 3.5d,
+	y: 5.0d,
+	description: "You really got yourself lost didn't you?",
+	text: [
+		"I don't even know how we got to this point"
+	],
+	hide: true,
+	tasks: [{
+		uid: "56fe3b79",
+		type: "dimension",
+		dim: -9999
+	}]
+}

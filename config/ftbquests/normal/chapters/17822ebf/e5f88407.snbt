@@ -1,0 +1,34 @@
+{
+	title: "Please Stop, I don't want to do this",
+	x: -3.5d,
+	y: 3.0d,
+	tasks: [{
+		uid: "da87f2ab",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			Damage: 1s,
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "32d28bb3",
+		type: "command",
+		title: "You really don't want to do this",
+		auto: "enabled",
+		command: "/kill @p"
+	},
+	{
+		uid: "06444c1e",
+		type: "command",
+		title: "You",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon lightning_bolt"
+	}]
+}

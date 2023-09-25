@@ -1,0 +1,95 @@
+{
+    "name": "Where to start",
+    "icon": "minecraft:writable_book",
+    "category": "wheretostart",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "text",
+            "text": "So, you're not sure what to do on your first few days in madhaus? Fortunetly, I have some things you can do to get started!"
+        },
+                {
+        "type" : "image", 
+        "images": [
+            "madhaus:textures/book/far.png"
+        ]
+        },
+        {
+            "type": "text",
+            "text": "Make sure you read the quests! You can find all of the quests by opening your inventory and clicking on the book icon located at the top left of your screen! They will help to guide you through what you should do."
+        },
+        {
+            "type": "text",
+            "text": "Madhaus is an open ended pack based on events and a mystery you will discover throught your playthrough. It is important to establish yourself before you explore though!"
+        },
+        {
+            "type": "text",
+            "text": "Start by building a base, utilize any mods you are familiar with as well to build, craft, and mine. Start with something simple, and focus on building/carving out during day one. This will mitagate the chaos of the night."
+        },
+                {
+        "type" : "image", 
+        "images": [
+            "madhaus:textures/book/start.png"
+        ]
+        },
+        {
+            "type": "text",
+            "text" : "Once you are happy with your base, create a container and put it somewhere the zombies cannot reach it. zombies can and will wallbang you if you build without corners, be wary."
+        },
+                        {
+        "type" : "image", 
+        "images": [
+            "madhaus:textures/book/crate.png"
+        ]
+        },
+        {
+        "type" : "crafting", 
+        "recipe" : "actuallyadditions:recipes162",
+        "text" : "How to craft a crate"
+        },
+        {
+            "type": "text",
+            "text" : "Next, I recommend you create a gunpowder factory. This will give you a means to craft ammunition for several weapons without fighting creepers at the start, which can really help if you decide to craft a gun."
+        },
+        {
+        "type" : "crafting", 
+        "recipe" : "actuallyadditions:recipes145",
+        "text" : "First, Build a power generator. You can go about this in many ways, but for now build a basic coal generator as such."
+        },
+        {
+        "type" : "crafting", 
+        "recipe" : "mekanism:machineblock_8",
+        "text" : "Then, Build a metallurgic infuser. This will allow you to create steel, which is used to make universal wires, and then hook up all of your machines. You make steel by throwing iron with coal into the infuser."
+        },
+        {
+        "type" : "crafting", 
+        "recipe" : "mekanism:transmitter_0",
+        "text" : "Now it's time to build the wires! Use these to connect your coal generator to all of your machines!"
+        },
+        {
+        "type" : "crafting", 
+        "recipe" : "thermalexpansion:machine_1",
+        "text" : "Next, build a pulverizer. This is the first step to creating gunpowder from cobblestone. throw the cobblestone into the pulverizer, and it will turn into gravel."
+        },
+        {
+        "type" : "crafting", 
+        "recipe" : "ic2:83",
+        "text" : "Next, build a macerator. We're almost there, baby steps to figure this out. Throw the gravel you created with the pulverizer into the macerator, and it will create flint."
+        },
+        {
+        "type" : "crafting", 
+        "recipe" : "mekanism:machineblock_3",
+        "text" : "Finally, Build a crusher. It turns flint into gunpowder. Create an assembly line with these parts using a pipe mod of your choice, or the factory manually."
+        },
+                        {
+        "type" : "image", 
+        "images": [
+            "madhaus:textures/book/house.png"
+        ]
+        },
+        {
+            "type": "text",
+            "text" : "There are many ways to journey through the madness, let these beginning steps help you in keeping your head clear for navigating the storm, and good luck!"
+        }
+    ]
+}

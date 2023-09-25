@@ -1,0 +1,14 @@
+{
+	title: "All the wrongs now turned to right",
+	icon: "fossil:figurine 1 2",
+	x: 6.5d,
+	y: -4.5d,
+	description: "Nope, not saying anything else...",
+	tasks: [{
+		uid: "6c4623a5",
+		type: "observation",
+		match_type: "entity_id",
+		match: "mutantbeasts:mutant_zombie",
+		timer: 0L
+	}]
+}

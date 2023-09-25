@@ -1,0 +1,19 @@
+{
+	x: -2.0d,
+	y: 0.5d,
+	dependencies: [
+		"93c5cf5d"
+	],
+	tasks: [{
+		uid: "9b045241",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 18"
+		}]
+	}],
+	rewards: [{
+		uid: "cb9a9dde",
+		type: "random",
+		table: 11
+	}]
+}

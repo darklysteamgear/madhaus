@@ -1,0 +1,25 @@
+{
+	title: "The End is Bugged... PRESS THE BUTTON IN THIS QUEST TO END THE LAG",
+	x: -6.0d,
+	y: 0.5d,
+	description: "I really lead you on this time, didn't I? Let me help you with that. Really hope you weren't preparing for this battle",
+	dependencies: [
+		"7cb9470b"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "68bff5a2",
+		type: "dimension",
+		title: "The enderdragon is bugged right now",
+		dim: 1
+	}],
+	rewards: [{
+		uid: "fdd4bec0",
+		type: "command",
+		title: "DISABLE THE LAAAAAAAAGGGGGGGG",
+		icon: "projectred-illumination:light_button 1 14",
+		auto: "disabled",
+		command: "/killall"
+	}]
+}

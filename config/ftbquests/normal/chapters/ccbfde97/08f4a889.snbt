@@ -1,0 +1,40 @@
+{
+	title: "Pen Pineapple Apple Pen!",
+	x: 7.0d,
+	y: 0.0d,
+	description: "Please kill me",
+	dependencies: [
+		"33ae79f2",
+		"42e7dd6c"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "f2c77def",
+		type: "item",
+		items: [{
+			item: "memeinabottle:pen_pineapple_apple_pen"
+		}]
+	}],
+	rewards: [{
+		uid: "46536289",
+		type: "command",
+		title: "That was awful",
+		icon: "zollerngalaxy:bloodsand",
+		auto: "enabled",
+		command: "/kill @p"
+	},
+	{
+		uid: "3f260d12",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "f0199da9",
+		type: "command",
+		title: "Heck no",
+		icon: "evilcraft:blood_orb 1 1",
+		auto: "enabled",
+		command: "/say That meme should have stayed dead. I'm doing this world a favor. YOU'VE GONE TOO FAR THIS TIME. I know you're just gonna respawn so just take this money and never do that again."
+	}]
+}

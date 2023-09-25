@@ -1,0 +1,11 @@
+{
+    "internalName": "block.kacpdwammo",
+    "displayName": "KAC PDW Mag 30rnd",
+    "ammoCapacity": 30,
+	"reloadTimeFactor": 1.0,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.riflebullet"
+    ],
+    "allowEmptyMagazines": true
+}

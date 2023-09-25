@@ -1,0 +1,18 @@
+{
+	title: "Youll need this if you ever wanna hook that reactor up to RF machines",
+	x: -11.5d,
+	y: 4.0d,
+	description: "yay",
+	tasks: [{
+		uid: "adaf058d",
+		type: "item",
+		items: [{
+			item: "energyconverters:energy_bridge"
+		}]
+	}],
+	rewards: [{
+		uid: "a0d54eaa",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	}]
+}

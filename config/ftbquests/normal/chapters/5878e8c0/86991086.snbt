@@ -1,0 +1,69 @@
+{
+	title: "Get all the CHEESE",
+	x: 104.5d,
+	y: -19.0d,
+	shape: "rsquare",
+	description: "Cgheese blanet mmmm",
+	tasks: [{
+		uid: "cd1e332c",
+		type: "item",
+		items: [{
+			item: "moreplanets:cheese_slimeball"
+		}],
+		count: 2L
+	},
+	{
+		uid: "a4cf2535",
+		type: "item",
+		items: [{
+			item: "moreplanets:cheese_spore_seed"
+		}]
+	},
+	{
+		uid: "c121e131",
+		type: "item",
+		items: [{
+			item: "moreplanets:cheese_milk_cake"
+		}]
+	},
+	{
+		uid: "2f45fa9d",
+		type: "item",
+		items: [{
+			item: "moreplanets:cheese_spore_seed"
+		}]
+	},
+	{
+		uid: "d925bbb2",
+		type: "item",
+		items: [{
+			item: "moreplanets:cheese_spore_berry"
+		}]
+	},
+	{
+		uid: "287fc0d2",
+		type: "item",
+		items: [{
+			item: "moreplanets:cheese_milk_curd"
+		}]
+	},
+	{
+		uid: "a59f64a7",
+		type: "item",
+		items: [{
+			item: "moreplanets:cheese_spore_flower"
+		}]
+	},
+	{
+		uid: "f2626606",
+		type: "item",
+		items: [{
+			item: "moreplanets:raw_cheese_beef"
+		}]
+	}],
+	rewards: [{
+		uid: "b5a49529",
+		type: "item",
+		item: "galacticraftcore:food 1 8"
+	}]
+}

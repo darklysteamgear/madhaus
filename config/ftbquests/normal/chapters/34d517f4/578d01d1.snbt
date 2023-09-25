@@ -1,0 +1,22 @@
+{
+	title: "Hiding out in the islands!",
+	x: -5.0d,
+	y: -1.5d,
+	hide_dependency_lines: true,
+	hide: true,
+	tasks: [{
+		uid: "96dfe1f1",
+		type: "item",
+		items: [{
+			item: "modularwarfare:block.type99"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "91376640",
+		type: "ftbmoney:money",
+		ftb_money: 2000L,
+		random_bonus: 500
+	}]
+}

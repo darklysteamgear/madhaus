@@ -1,0 +1,16 @@
+{
+  "displayName": "Zombie Kord Scope",
+  "internalName": "block.scopekordsxz",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopekordsxz",
+      "displayName": "Kord Scope - Zombie"
+    }
+  ],
+  "sight": {
+    "scopeType": "4x",
+    "customOverlayTexture": "block.blockscopekordsx",
+    "modeType": "pip"
+  }
+}

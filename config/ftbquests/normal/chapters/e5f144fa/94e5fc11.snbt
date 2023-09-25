@@ -1,0 +1,30 @@
+{
+	x: -5.0d,
+	y: 1.5d,
+	description: "Why? BECAUSE I SAID SO.",
+	text: [
+		"THis is what you get for trying to 100% this pack you dingus"
+	],
+	dependencies: [
+		"d2354814"
+	],
+	tasks: [{
+		uid: "b2157a2f",
+		type: "kill",
+		title: "Kill pingu",
+		icon: "aoa3:penguin_slab",
+		entity: "memeinabottle:pingu",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "c7133955",
+		type: "item",
+		item: "morecreeps:money",
+		count: 20
+	},
+	{
+		uid: "f7d25798",
+		type: "random",
+		table: 3
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "I'm ending this NOW.",
+	x: 7.0d,
+	y: 14.0d,
+	description: "You really pissed him off now... You are so close to stopping the madness, stay determined!",
+	dependencies: [
+		"6815fd83"
+	],
+	tasks: [{
+		uid: "6a03d9dc",
+		type: "dimension",
+		title: "You really did it this time",
+		dim: 1003
+	}],
+	rewards: [{
+		uid: "5507ad40",
+		type: "gamestage",
+		title: "Goodbye",
+		auto: "invisible",
+		stage: "endgame"
+	},
+	{
+		uid: "278ae088",
+		type: "command",
+		title: "GET OUT!!!",
+		icon: "randomportals:vertical_end_portal_frame",
+		auto: "invisible",
+		command: "/tpj @p 0"
+	}]
+}

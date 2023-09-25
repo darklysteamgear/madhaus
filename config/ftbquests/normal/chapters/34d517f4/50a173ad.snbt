@@ -1,0 +1,23 @@
+{
+	title: "Ello govna, I can't STENd you any longer!",
+	x: -5.0d,
+	y: -2.5d,
+	description: "Yeah, I tried too hard on that one",
+	hide_dependency_lines: true,
+	hide: true,
+	tasks: [{
+		uid: "2cb78522",
+		type: "item",
+		items: [{
+			item: "modularwarfare:block.sten"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c092548e",
+		type: "ftbmoney:money",
+		ftb_money: 2000L,
+		random_bonus: 500
+	}]
+}

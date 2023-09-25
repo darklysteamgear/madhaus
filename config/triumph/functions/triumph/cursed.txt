@@ -1,0 +1,5 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"You feel as if someone is watching you... You turn around, but no one is there. A screech echoes violently across the dead landscape...","color":"dark_red","italic":true}]
+playsound minecraft:entity.ghast.scream ambient @a[r=50] ~ ~ ~ 1 0.5
+gamestage silentadd @p cursed

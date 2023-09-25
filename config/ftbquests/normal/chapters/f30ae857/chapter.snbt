@@ -1,0 +1,10 @@
+{
+	title: "Gadgets",
+	icon: "actuallyadditions:diamond_paxel",
+	description: [
+		"Only the essentials"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,16 @@
+{
+  "displayName": "SVT-40 Scope",
+  "internalName": "block.scopesvt40x",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopesvt40x",
+      "displayName": "SVT-40 Scope - Default"
+    }
+  ],
+  "sight": {
+    "scopeType": "15x",
+    "customOverlayTexture": "block.blockscopesvt40x",
+    "modeType": "pip"
+  }
+}

@@ -1,0 +1,29 @@
+{
+	x: 9.5d,
+	y: 4.5d,
+	dependencies: [
+		"6c6827f1",
+		"ff4980f2"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "ef7af182",
+		type: "gamestage",
+		title: "YOU FAILED",
+		stage: "stealthfail"
+	},
+	{
+		uid: "5e9d28bc",
+		type: "gamestage",
+		stage: "stealth"
+	}],
+	rewards: [{
+		uid: "ee1b7a7d",
+		type: "gamestage",
+		title: "YOU CAN NO LONGER STEALTH",
+		auto: "no_toast",
+		stage: "stealth",
+		remove: true
+	}]
+}

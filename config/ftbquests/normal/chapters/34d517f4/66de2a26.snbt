@@ -1,0 +1,58 @@
+{
+	title: "BONSAIIII!!!",
+	x: -2.5d,
+	y: -5.0d,
+	description: "oh no, BEHIND YOU!!!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7db44ecb",
+		type: "item",
+		items: [{
+			item: "modularwarfare:block.m249"
+		}]
+	}],
+	rewards: [{
+		uid: "e7a5a0e9",
+		type: "command",
+		title: "THEY CAME FROM THE PALM TREES",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon specialmobs:endercreeper"
+	},
+	{
+		uid: "8bfa6616",
+		type: "command",
+		title: "Oh no....",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon specialmobs:deathcreeper"
+	},
+	{
+		uid: "df37809b",
+		type: "command",
+		title: "Owch",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon specialmobs:dirtcreeper"
+	},
+	{
+		uid: "cc844f20",
+		type: "command",
+		title: "Look out!",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon specialmobs:specialcreeper"
+	},
+	{
+		uid: "92e5c168",
+		type: "command",
+		title: "They just keep comming...",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon specialmobs:specialcreeper"
+	}]
+}

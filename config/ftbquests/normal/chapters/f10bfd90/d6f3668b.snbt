@@ -1,0 +1,60 @@
+{
+	title: "CHEATERS DIE HORRIBLY",
+	x: 7.5d,
+	y: 3.5d,
+	description: "You should have never picked that up... Don't pick up the aether invisibility cloak",
+	optional: true,
+	tasks: [{
+		uid: "b75fce4c",
+		type: "item",
+		title: "Marked for Death",
+		items: [{
+			item: "aether_legacy:invisibility_cape"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "46881145",
+		type: "gamestage",
+		stage: "truth"
+	}],
+	rewards: [{
+		uid: "d84c9dd6",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "cursed"
+	},
+	{
+		uid: "f59a7548",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "endgame"
+	},
+	{
+		uid: "68b90a06",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "finalbattle"
+	},
+	{
+		uid: "cf9028dc",
+		type: "command",
+		title: "Nope",
+		auto: "invisible",
+		command: "/tpj @p 59"
+	},
+	{
+		uid: "880d703a",
+		type: "command",
+		title: "F",
+		auto: "invisible",
+		command: "/say You were cursed to a horrible fate from the start. You should have never picked up that cloak..."
+	},
+	{
+		uid: "b213c01b",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "infested"
+	}]
+}

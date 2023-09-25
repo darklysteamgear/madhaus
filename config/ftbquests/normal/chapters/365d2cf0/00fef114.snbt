@@ -1,0 +1,40 @@
+{
+	title: "UFO! UFO! UFO! UFO! UFO! UFO! UFO! UFO!",
+	x: 4.0d,
+	y: 5.5d,
+	description: "He's the source of the invasion!!!",
+	dependencies: [
+		"790dcc8f"
+	],
+	tasks: [{
+		uid: "d6a32de8",
+		type: "kill",
+		title: "Kill the Visualent",
+		icon: "aoa3:visualent_statue",
+		entity: "aoa3:visualent",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "a2a015c2",
+		type: "gamestage",
+		title: "Tell the ufos to go away",
+		icon: "botania:thirdeye",
+		auto: "no_toast",
+		stage: "ufo",
+		remove: true
+	},
+	{
+		uid: "ccda788e",
+		type: "command",
+		title: "Goodbye UFOs",
+		icon: "moreplanets:glowing_alien_fish",
+		auto: "enabled",
+		command: "/say The UFOs are terrified of your power. They leave after hearing of their leader's death over the comms. The invasion is over."
+	},
+	{
+		uid: "47bf2b17",
+		type: "loot",
+		auto: "enabled",
+		table: 4
+	}]
+}

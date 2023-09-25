@@ -1,0 +1,27 @@
+{
+	title: "Why Are you doing this? I have to kill you",
+	x: -4.5d,
+	y: 4.0d,
+	tasks: [{
+		uid: "9e7e7e77",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			Damage: 2s,
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4d8f073e",
+		type: "command",
+		title: "why",
+		auto: "enabled",
+		command: "/kill @p"
+	}]
+}

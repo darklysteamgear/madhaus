@@ -1,0 +1,23 @@
+{
+	title: "WAIT!, before you eat that...",
+	x: 5.5d,
+	y: 11.0d,
+	description: "You could instead shoot it at a zombie!!!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"a3458a37"
+	],
+	hide: true,
+	tasks: [{
+		uid: "12664c79",
+		type: "item",
+		items: [{
+			item: "minecraft:potato"
+		}]
+	}],
+	rewards: [{
+		uid: "7f34c2fe",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

@@ -1,0 +1,457 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1694216140508,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/iRyF8FqCDp"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1694212855115,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "C:\\Users\\Alex\\curseforge\\minecraft\\Instances\\Madhaus (A Successor to Dark Evolutions) (1)\\config\\heap-2023-09-08_18.40.35.hprof"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1694212615701,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/6Q7itm1gYq"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1694209939974,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/rinIeReQKD"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1694206109106,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/BNWodyVjch"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1694201140199,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "C:\\Users\\Alex\\curseforge\\minecraft\\Instances\\Madhaus (A Successor to Dark Evolutions) (1)\\config\\heap-2023-09-08_15.25.31.hprof"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1694200780031,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/tiOXto2gyV"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1694200244910,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Gf2h0PyiaX"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1694199947559,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/7IyeXQcYrE"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1694199243295,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/WIZfuM6ZJN"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1694133906503,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/L1yd9EIhha"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1694132230799,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/JFiBa0EaRO"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1694131773771,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/PleIghjOpj"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1693992328708,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/YW0sR8keFQ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1693991188175,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/DJ6c8k3TjA"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1693942880678,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/R0qNY9DouF"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1691616930355,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/RkOyiCvjP9"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1691616436435,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/yo99w2A07Q"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1691616263657,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/w6OjJGvqdu"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1691614995446,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/da1ycC1y9S"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1691609410473,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ABQBfxoBZT"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1691530325712,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/x84F5PmY2z"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1691524997274,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/fOOhc6vBMw"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1690478168165,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/dsdTa4Ivd4"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1690399745896,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/hKRDAIuEwK"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1690398041343,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Ip5d4MZGm9"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1689745770878,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/16k3vIIZq3"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1689740546729,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/CZg8cYjUQj"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1689739132483,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/yvJqVHm6pQ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1689732125290,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/utgiNiLysT"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1689731482184,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/jAGL4c2wHJ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1689729569772,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Cr4Ox2KDZ7"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1689645476290,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/dCA6aQC9ih"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1682460346254,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "C:\\Users\\Alex\\curseforge\\minecraft\\Instances\\Madhaus (A Successor to Dark Evolutions) (1)\\config\\heap-2023-04-25_18.05.34.hprof"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Darkly_SteamGear",
+      "uniqueId": "6a339ccb-7699-4166-990b-4aacd878e3ba"
+    },
+    "time": 1682458469228,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "C:\\Users\\Alex\\curseforge\\minecraft\\Instances\\Madhaus (A Successor to Dark Evolutions) (1)\\config\\heap-2023-04-25_17.34.10.hprof"
+    }
+  }
+]

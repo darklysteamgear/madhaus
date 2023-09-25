@@ -1,0 +1,16 @@
+{
+  "displayName": "VSK-94 Scope",
+  "internalName": "block.scopevsk94x",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopevsk94x",
+      "displayName": "VSK-94 Scope - Default"
+    }
+  ],
+  "sight": {
+    "scopeType": "15x",
+    "customOverlayTexture": "block.blockscopevsk94x",
+    "modeType": "pip"
+  }
+}

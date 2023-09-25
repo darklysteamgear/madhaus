@@ -1,0 +1,33 @@
+{
+    "name": "Dungeons, Structures",
+    "icon": "minecraft:writable_book",
+    "category": "underground",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "text",
+            "text": "There are many dungeons in the underground. most of which are incredibly dangerous, but have some amazing and useful loot if you can brave through them"
+        },
+                {
+        "type" : "image", 
+        "images": [
+            "madhaus:textures/book/dungeon.png"
+        ]
+        },
+                {
+            "type": "text",
+            "text": "Stay safe down there. you never know what sort of traps or monsters lie below."
+        },
+                {
+        "type" : "image", 
+        "images": [
+            "madhaus:textures/book/careful.png"
+        ]
+        },
+                {
+            "type": "text",
+            "text": "Also, be sure to look out for a ruined AoA portal, this portal is key to start getting very powerful weapons to help you survive!"
+        }
+    ]
+
+}

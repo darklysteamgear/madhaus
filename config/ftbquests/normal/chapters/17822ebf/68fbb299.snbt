@@ -1,0 +1,18 @@
+{
+	title: "The beggining of a great adventure!",
+	x: 3.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "8cb43e1e",
+		type: "item",
+		items: [{
+			item: "travelersbackpack:travelers_backpack"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4e644312",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	}]
+}

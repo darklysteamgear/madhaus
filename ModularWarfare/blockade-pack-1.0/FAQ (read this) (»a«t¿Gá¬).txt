@@ -1,0 +1,44 @@
+Если вы копируете данный пак на свой "ресурс", не удаляйте данный файл.
+If you are copying this weapon pack to your "resource", do not delete this file.
+ 
+(EN):
+Weapon pack imported directly from the game "Blockade 3D Classic". 
+There is no melee weapon in this version, 
+but as soon as it becomes possible to add it, I will release a separate pack. 
+In the current form, the weapons have not undergone much changes on my part, 
+as I tried to keep a touch of the originality of those weapons that were presented in the game.
+
+As for the 3D weapons from the "blockade", I do not plan to port them yet.
+
+
+The pack was developed for the mod version: 1.1.1f   ||  MCglTF is not required.
+Authors of models, sounds and textures: NovaLink
+For the saved timing of the review of current weapons, thanks to: "Pak B ATAKE", "dayrex" and other YouTubers.
+Imported models and reworked them: ilvinchikov (Kostya_X)
+================================================================================================
+(RUS):
+Оружейный пак импортированный из игры "Блокада 3D Classic". 
+В данной версии отсутствует оружие ближнего боя, 
+но как появится возможность его добавить, я выпущу отдельный пак. 
+В текущем виде оружия не подверглись сильным изменениям с моей стороны, 
+так как я постарался сохранить нотку оригинальности тех оружий, что были представлены в игре. 
+Что касаемо 3D оружий из "блокады", то я не планирую пока их портировать.
+Пак разрабатывался под версию мода: 1.1.1f  ||  MCglTF не требуется.
+Авторы моделей, звуков и текстур: NovaLink
+За сохранённый хронометраж обзора текущих оружий спасибо:  "Pak B ATAKE", "dayrex" и остальным ютуберам.
+Импортировал модели и переработал их: ilvinchikov (Kostya_X)
+================================================================================================
+(UKR):
+Збройовий пак імпортований прямі з гри "Блокада 3D Classic". 
+У цій версії відсутня зброя ближнього бою, 
+але як з'явиться можливість додати, я випущу окремий пак. 
+У поточному вигляді зброї не зазнало сильних змін з мого боку, 
+тому що я постарався зберегти нотку оригінальності зброї, що були представлені в грі.
+
+Що стосується 3D зброї з "блокади", то я не планую поки їх портувати.
+Пак розроблявся під версію моди: 1.1.1f  || MCglTF не потрібно.
+Автори моделей, звуків та текстур: NovaLink
+
+За збережений хронометраж огляду поточної зброї дякую: "Pak B ATAKE", "dayrex" та іншим ютуберам.
+
+Імпортував моделі та переробив їх: ilvinchikov (Kostya_X)

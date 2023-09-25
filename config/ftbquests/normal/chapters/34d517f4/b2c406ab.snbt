@@ -1,0 +1,22 @@
+{
+	title: "Murican ranger!",
+	x: -7.0d,
+	y: -1.5d,
+	hide_dependency_lines: true,
+	hide: true,
+	tasks: [{
+		uid: "4d34b4ad",
+		type: "item",
+		items: [{
+			item: "modularwarfare:block.anaconda"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "abdfc563",
+		type: "ftbmoney:money",
+		ftb_money: 2000L,
+		random_bonus: 500
+	}]
+}

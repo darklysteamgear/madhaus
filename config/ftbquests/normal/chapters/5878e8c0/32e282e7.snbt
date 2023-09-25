@@ -1,0 +1,52 @@
+{
+	title: "Lazendus System",
+	icon: "aoa3:blue_gemstones",
+	x: 84.0d,
+	y: -21.0d,
+	shape: "circle",
+	dependencies: [
+		"2007b7ef",
+		"0c8ed1fc",
+		"ca446438",
+		"880faffa"
+	],
+	size: 7.0d,
+	tasks: [{
+		uid: "f93c3b18",
+		type: "checkmark",
+		title: "Lazendus System",
+		icon: "aoa3:blue_gemstones"
+	}],
+	rewards: [{
+		uid: "9ae7fbe2",
+		type: "ftbmoney:money",
+		ftb_money: 150000L,
+		random_bonus: 100000
+	},
+	{
+		uid: "64fe2595",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					id: 70,
+					lvl: 1s
+				}]
+			}
+		}
+	},
+	{
+		uid: "d620fc94",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					id: 144,
+					lvl: 1s
+				}]
+			}
+		}
+	}]
+}

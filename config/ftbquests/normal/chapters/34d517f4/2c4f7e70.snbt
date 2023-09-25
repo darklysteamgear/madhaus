@@ -1,0 +1,24 @@
+{
+	title: "HOW DO YOU LIKE THESE POTATOES????",
+	x: -5.5d,
+	y: 3.0d,
+	description: "And that's the way the potato mashes",
+	hide_dependency_lines: true,
+	dependencies: [
+		"a3458a37"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8dc78ba7",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:potato_cannon_turret"
+		}]
+	}],
+	rewards: [{
+		uid: "77505b06",
+		type: "ftbmoney:money",
+		ftb_money: 2000L,
+		random_bonus: 3000
+	}]
+}

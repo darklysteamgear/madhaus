@@ -1,0 +1,68 @@
+{
+    "internalName":"block.asval",
+    "displayName":"Asval",
+    "weaponType":"carbine",
+    "extraLore": "Used by Spetsnaz guys.",
+    "customFlashTexture":"prototype.advanced.flash",
+    "gunDamage":8.75,
+    "gunDamageHeadshotBonus":1.5,
+    "roundsPerMin":500,
+    "allowEmptyMagazines":true,
+    "recoilPitch": 5.5,
+    "recoilYaw":0.5,
+    "randomRecoilPitch": 1,
+    "randomRecoilYaw": 0.0,
+    "bulletSpread":0.25,
+    "accuracySneakFactor":0.125,
+    "moveSpeedModifier":0.9,
+    "allowSprintFiring":false,
+    "fireModes":[
+        "full",
+        "semi"
+    ],
+    "acceptedAmmo":[
+        "block.asvalammo"
+    ],
+    "dropBulletCasing":true,
+    "shellEjectOffsetNormal":{
+        "x":-1.0,
+        "y":0.0,
+        "z":1.0
+    },
+    "shellEjectOffsetAiming":{
+        "x":-0.2,
+        "y":0.12,
+        "z":0.5
+    },
+    "weaponSoundMap":{
+        "weaponFire":[
+            {
+                "soundEvent":"weaponFire",
+                "soundName":"block.asval.shoot",
+                "soundRange":64,
+                "soundMaxRange":96,
+                "soundFadeMultiplier":1
+            }
+        ],
+        "weaponUnload":[
+            {
+                "soundEvent":"weaponReload",
+                "soundName":"prototype.generic.reload"
+            }
+        ]
+    },
+    "acceptedAttachments":{
+    },
+    "modelSkins":[
+        {
+            "internalName":"block.asval",
+            "skinAsset":"block.asval",
+            "displayName":"Default"
+        },
+        {
+            "internalName":"block.asval.z",
+            "skinAsset":"block.asval.z",
+            "displayName":"Zombie camo"
+        }
+    ]
+}

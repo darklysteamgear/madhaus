@@ -1,0 +1,17 @@
+{
+	title: "It's Ruby!",
+	x: 3.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "6ff29795",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:gem 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "fc1458cc",
+		type: "ftbmoney:money",
+		ftb_money: 2100L
+	}]
+}

@@ -1,0 +1,11 @@
+{
+    "internalName": "block.mauzerammo",
+    "displayName": "Mauzer Mag 10rnd",
+    "numBullets": 1,
+    "ammoCapacity": 10,
+    "subAmmo": [
+        "block.pistolbullet"
+    ],
+    "magazineCount": 1,
+    "reloadTime": 3
+}

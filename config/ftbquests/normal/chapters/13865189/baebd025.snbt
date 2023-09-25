@@ -1,0 +1,25 @@
+{
+	x: -5.5d,
+	y: -7.5d,
+	dependencies: [
+		"c236d4bb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "14da671e",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:machine2"
+		}]
+	}],
+	rewards: [{
+		uid: "5e405aa5",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "b7da8297",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	}]
+}

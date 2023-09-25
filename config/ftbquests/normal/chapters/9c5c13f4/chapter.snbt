@@ -1,0 +1,16 @@
+{
+	title: "Botania",
+	icon: {
+		id: "botania:manatablet",
+		tag: {
+			mana: 500000,
+			creative: 1b
+		}
+	},
+	description: [
+		"hahahaha, plants"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

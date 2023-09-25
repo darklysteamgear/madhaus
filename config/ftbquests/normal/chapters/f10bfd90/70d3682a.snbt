@@ -1,0 +1,16 @@
+{
+	x: 13.0d,
+	y: 1.0d,
+	dependencies: [
+		"53cba0ce"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "5634b25d",
+		type: "kill",
+		title: "Death is an illusion",
+		entity: "herobrine:herobrine_builder",
+		value: 1L
+	}]
+}

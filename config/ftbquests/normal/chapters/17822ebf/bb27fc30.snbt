@@ -1,0 +1,21 @@
+{
+	title: "Problem with your money not showing up?",
+	x: -7.5d,
+	y: 2.0d,
+	text: [
+		"Then give me one dirt, and I'll update your money! :L"
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "ad1ab732",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}]
+	}],
+	rewards: [{
+		uid: "907d8360",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

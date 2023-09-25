@@ -1,0 +1,29 @@
+{
+	title: "I could do this all day, but i'm probably not going to",
+	x: 6.5d,
+	y: 5.0d,
+	tasks: [{
+		uid: "edb41cc5",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:tough_binding"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f73ee20d",
+		type: "command",
+		title: "SMITEEEE",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon lightning_bolt"
+	},
+	{
+		uid: "6d2651c1",
+		type: "command",
+		title: "BIG BOOM",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon motnt:tnt5"
+	}]
+}

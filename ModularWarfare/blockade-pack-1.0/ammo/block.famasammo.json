@@ -1,0 +1,11 @@
+{
+    "internalName": "block.famasammo",
+    "displayName": "FAMAS Mag 25rnd",
+    "ammoCapacity": 25,
+	"reloadTimeFactor": 0.9,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.riflebullet"
+    ],
+    "allowEmptyMagazines": true
+}

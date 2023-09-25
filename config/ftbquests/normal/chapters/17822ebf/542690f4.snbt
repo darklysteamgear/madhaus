@@ -1,0 +1,29 @@
+{
+	title: "You really want to die, don't you?",
+	x: 5.5d,
+	y: 5.0d,
+	tasks: [{
+		uid: "44bac6f8",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:binding"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d2f99a6f",
+		type: "command",
+		title: "SMITE",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon lightning_bolt"
+	},
+	{
+		uid: "92ffc92a",
+		type: "command",
+		title: "boom",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon tnt"
+	}]
+}

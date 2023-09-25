@@ -1,0 +1,20 @@
+{
+	x: 0.5d,
+	y: -6.0d,
+	dependencies: [
+		"231313dd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "56b82084",
+		type: "kill",
+		title: "His power grows weaker, but still \"He\" is here",
+		entity: "jmr:babyjohn",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "84d716dc",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -2.0d,
+	y: 14.0d,
+	dependencies: [
+		"80d4ca0b"
+	],
+	tasks: [{
+		uid: "fa01571c",
+		type: "item",
+		items: [{
+			id: "botania:dice",
+			tag: {
+				soulbindUUID: "859f0fbe-4a08-4e17-bdc7-ec9224780292"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ec0d127c",
+		type: "ftbmoney:money",
+		ftb_money: 15000L,
+		random_bonus: 5000
+	}]
+}

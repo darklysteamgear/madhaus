@@ -1,0 +1,21 @@
+{
+	title: "A young dwarf dreaming of a world he never knew,",
+	x: -7.0d,
+	y: -1.5d,
+	dependencies: [
+		"2a647673"
+	],
+	hide: true,
+	tasks: [{
+		uid: "926b401a",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:basic_item 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "bcd65bf0",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

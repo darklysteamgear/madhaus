@@ -1,0 +1,10 @@
+{
+    "internalName": "block.scorpionammo",
+    "displayName": "Scorpion Mag 24rnd",
+    "ammoCapacity": 24,
+    "magazineCount": 1,
+    "allowEmptyMagazines": true,
+    "subAmmo": [
+        "block.smgbullet"
+    ]
+}

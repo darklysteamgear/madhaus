@@ -1,0 +1,16 @@
+{
+  "displayName": "SVD Scope",
+  "internalName": "block.scopesvdx",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopesvdx",
+      "displayName": "SVD Scope - Default"
+    }
+  ],
+  "sight": {
+    "scopeType": "15x",
+    "customOverlayTexture": "block.blockscopesvdx",
+    "modeType": "pip"
+  }
+}

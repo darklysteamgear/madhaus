@@ -1,0 +1,27 @@
+{
+	title: "Begin his banishment!!!",
+	icon: "scp:nightvision_goggles",
+	x: 17.5d,
+	y: 9.5d,
+	description: "He has no idea what is coming!",
+	dependencies: [
+		"8f0b4e18"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "ba5e3867",
+		type: "item",
+		items: [{
+			item: "contenttweaker:herobrine_banisher"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "150fb5b0",
+		type: "gamestage",
+		title: "stealth",
+		stage: "stealth"
+	}]
+}

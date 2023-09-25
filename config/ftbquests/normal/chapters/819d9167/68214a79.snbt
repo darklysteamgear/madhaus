@@ -1,0 +1,34 @@
+{
+	title: "Coward, It's too late now",
+	x: -7.0d,
+	y: 1.0d,
+	shape: "diamond",
+	description: "You really are a coward aren't you? Don't even try to get this, it has been completely removed. Do the right thing and give it here if you have this. Either way, you have been cursed forever",
+	can_repeat: true,
+	dependencies: [
+		"152834b7"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "ac6c8026",
+		type: "item",
+		items: [{
+			item: "aether_legacy:invisibility_cape"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "63d5c38b",
+		type: "command",
+		title: "coward",
+		auto: "enabled",
+		command: "/say You did the right thing. some items are just too overpowered to be fun"
+	},
+	{
+		uid: "aadf99df",
+		type: "item",
+		auto: "enabled",
+		item: "harvestcraft:creepercookieitem"
+	}]
+}

@@ -1,0 +1,88 @@
+{
+	x: 8.0d,
+	y: 1.0d,
+	or_tasks: true,
+	tasks: [{
+		uid: "8c45b97e",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_red_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0dccd57c",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_bronze_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ba702692",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_green_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "13e599fd",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_gray_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "df692f65",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_blue_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a82e0a34",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_white_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a5b8faf6",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_sapphire_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a50297bd",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_silver_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "07d4dbc1",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	},
+	{
+		uid: "f1cf33c7",
+		type: "loot",
+		table: 2
+	}]
+}

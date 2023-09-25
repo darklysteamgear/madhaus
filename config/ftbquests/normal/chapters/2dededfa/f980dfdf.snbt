@@ -1,0 +1,20 @@
+{
+	x: 3.0d,
+	y: 3.0d,
+	dependencies: [
+		"44aabf9a"
+	],
+	tasks: [{
+		uid: "9de20102",
+		type: "item",
+		items: [{
+			item: "simplegenerators:nether_upgradable"
+		}]
+	}],
+	rewards: [{
+		uid: "c3f8e91d",
+		type: "ftbmoney:money",
+		ftb_money: 10000L,
+		random_bonus: 5000
+	}]
+}

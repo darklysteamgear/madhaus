@@ -1,0 +1,28 @@
+{
+    "name": "Seasons",
+    "icon": "minecraft:writable_book",
+    "category": "events",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Some plants and crops will not grow during certain seasons without a greenhouse. be wary, so you don't end up losing all of your crop during the winter time, or find new dimensions for your crops to florish!"
+        },
+        {
+        "type" : "image", 
+        "images": [
+            "madhaus:textures/book/wintertime.png"
+        ]
+        },
+        {
+        "type" : "crafting", 
+        "recipe" : "sereneseasons:greenhouse_glass",
+        "text" : "Here's how you make greenhouse glass, to keep out the cold."
+        },
+        {
+        "type" : "crafting", 
+        "recipe" : "sereneseasons:season_clock",
+        "text" : "And here's how you make a seasonal clock, so you can know when winter is coming."
+        }
+    ]
+}

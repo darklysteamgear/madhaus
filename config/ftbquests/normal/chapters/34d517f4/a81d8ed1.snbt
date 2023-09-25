@@ -1,0 +1,26 @@
+{
+	title: "Aww, how adorable!",
+	x: -1.0d,
+	y: 1.5d,
+	description: "Try giving it wheat!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "09ee587e",
+		type: "observation",
+		title: "Aww, how adorable!!",
+		icon: "bewitchment:flower_siphoning_tulip_orange",
+		match_type: "entity_id",
+		match: "morecreeps:guineapig",
+		timer: 20L
+	}],
+	rewards: [{
+		uid: "94c4798d",
+		type: "item",
+		item: "minecraft:wheat",
+		count: 3
+	}]
+}

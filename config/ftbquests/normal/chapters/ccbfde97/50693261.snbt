@@ -1,0 +1,24 @@
+{
+	title: "Nya nya nyanyanyanyanya",
+	x: 3.0d,
+	y: 3.0d,
+	description: "It's kinda cute, I wonder if it can be tamed",
+	text: [
+		"Let's find out!"
+	],
+	tasks: [{
+		uid: "14a59683",
+		type: "observation",
+		title: "Nya Nya Nya Nya Nya",
+		icon: "aoa3:rainbow_grass",
+		match_type: "entity_id",
+		match: "memeinabottle:nyan_cat",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "03a6d112",
+		type: "item",
+		item: "minecraft:fish",
+		count: 12
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Please For the love of all things holy, DON'T OPEN THAT",
+	x: -1.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "9153f1bc",
+		type: "item",
+		items: [{
+			item: "pandorasbox:pandorasbox"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8e3c6c05",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	}]
+}

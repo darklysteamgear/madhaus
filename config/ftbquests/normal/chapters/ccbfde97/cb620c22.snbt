@@ -1,0 +1,13 @@
+{
+	x: 4.5d,
+	y: 3.0d,
+	tasks: [{
+		uid: "7bfcdcac",
+		type: "observation",
+		title: "Oh no, it's evil nyan cat!!!",
+		icon: "botania:cosmetic 1 13",
+		match_type: "entity_id",
+		match: "memeinabottle:tac_nayn",
+		timer: 0L
+	}]
+}

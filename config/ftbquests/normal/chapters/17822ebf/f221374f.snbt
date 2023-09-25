@@ -1,0 +1,22 @@
+{
+	title: "You have chosen death I see",
+	x: 5.5d,
+	y: 4.0d,
+	tasks: [{
+		uid: "051f288c",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:tool_rod"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "282432b1",
+		type: "command",
+		title: "smite the cheater",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon lightning_bolt"
+	}]
+}

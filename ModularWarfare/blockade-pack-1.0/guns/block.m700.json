@@ -1,0 +1,87 @@
+{
+  "displayName": "M700",
+  "internalName": "block.m700",
+  "weaponType": "boltsniper",
+  "extraLore": "Did you tell that you will to shoot at flies? I doubt it.",
+  "customFlashTexture": "prototype.advanced.flash",
+  "gunDamage": 25,
+  "gunDamageHeadshotBonus": 2,
+  "roundsPerMin": 34,
+  "acceptedAmmo": [
+    "block.m700ammo"
+  ],
+  "fireModes": [
+    "semi"
+  ],
+  "recoilPitch": 3.5,
+  "recoilYaw": 0.4,
+  "randomRecoilPitch": 0.5,
+  "randomRecoilYaw": 0.0,
+  "bulletSpread": 0.125,
+  "allowSprintFiring": false,
+  "allowEmptyMagazines": true,
+  "moveSpeedModifier": 0.86,
+  "accuracySneakFactor": 0.125,
+  "dropBulletCasing": false,
+  "shellEjectOffsetNormal": {
+    "x": -1,
+    "y": 0,
+    "z": 1
+  },
+  "shellEjectOffsetAiming": {
+    "x": -0.2,
+    "y": 0.12,
+    "z": 0.5
+  },
+  "weaponSoundMap": {
+    "weaponFire": [
+      {
+        "soundEvent": "weaponFire",
+        "soundName": "block.m700.shoot",
+        "soundNameDistant": "block.bolt.shoot.distant",
+        "soundRange": 64,
+        "soundMaxRange": 96,
+        "soundFadeMultiplier": 1
+      }
+    ],
+    "weaponFireSuppressed": [
+      {
+        "soundEvent": "weaponFireSuppressed",
+        "soundName": "block.m700.shoot.sup",
+        "soundRange": 20,
+        "soundMaxRange": 50,
+        "soundFadeMultiplier": 1
+      }
+    ],
+	"weaponReload": [
+      {
+        "soundEvent": "weaponReload",
+        "soundName": "block.m700.reload"
+      }
+    ],
+    "weaponBolt": [
+      {
+        "soundEvent": "weaponBolt",
+        "soundName": "block.m700.bolt"
+      }
+    ]
+  },
+  "acceptedAttachments": {
+        "sight": [
+            "block.scopem700x",
+			"block.scopem700x.lady"
+        ]
+    },
+  "modelSkins": [
+    {
+      "internalName": "block.m700",
+      "skinAsset": "block.m700",
+      "displayName": "Default"
+    },
+	{
+      "internalName": "block.m700.lady",
+      "skinAsset": "block.m700.lady",
+      "displayName": "Lady"
+    }
+  ]
+}

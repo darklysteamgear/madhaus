@@ -1,0 +1,17 @@
+{
+	x: -3.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "275c598e",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_misc 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "3a2fc7d3",
+		type: "ftbmoney:money",
+		ftb_money: 2500L,
+		random_bonus: 2500
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	title: "Biome to biome you shall roam roam roam roam",
+	icon: "tropicraft:sapling",
+	x: 12.0d,
+	y: 2.0d,
+	dependencies: [
+		"756932ac"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b457674b",
+		type: "dimension",
+		dim: -153
+	}]
+}

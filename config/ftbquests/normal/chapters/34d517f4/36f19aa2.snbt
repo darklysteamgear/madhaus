@@ -1,0 +1,23 @@
+{
+	title: "American mowdown",
+	x: -7.0d,
+	y: -2.5d,
+	description: "Time to mow some zombies down, old american style",
+	hide_dependency_lines: true,
+	hide: true,
+	tasks: [{
+		uid: "ef24eadd",
+		type: "item",
+		items: [{
+			item: "modularwarfare:block.m1a1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "80473cb2",
+		type: "ftbmoney:money",
+		ftb_money: 2000L,
+		random_bonus: 500
+	}]
+}

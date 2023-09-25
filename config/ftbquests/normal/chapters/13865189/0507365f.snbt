@@ -1,0 +1,21 @@
+{
+	title: "They told him dwarves could never fly so high",
+	x: -8.0d,
+	y: -7.5d,
+	dependencies: [
+		"6feb72c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f3d7a58d",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:machine 1 12"
+		}]
+	}],
+	rewards: [{
+		uid: "0bb1e47b",
+		type: "ftbmoney:money",
+		ftb_money: 1200L
+	}]
+}

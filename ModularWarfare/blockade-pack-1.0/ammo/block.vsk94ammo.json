@@ -1,0 +1,11 @@
+{
+    "internalName": "block.vsk94ammo",
+    "displayName": "VSK-94 Mag 20rnd",
+    "ammoCapacity": 20,
+	"reloadTimeFactor": 1.9,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.sniperbullet"
+    ],
+    "allowEmptyMagazines": true
+}

@@ -1,0 +1,30 @@
+{
+	title: "Cook me some bacon take a swig swig swig",
+	x: -0.5d,
+	y: 0.0d,
+	dependencies: [
+		"f4405666"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1dffefce",
+		type: "item",
+		items: [{
+			item: "harvestcraft:epicbaconitem"
+		}],
+		count: 10L
+	},
+	{
+		uid: "2ebdd3e0",
+		type: "item",
+		items: [{
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:water"
+			}
+		}],
+		count: 10L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

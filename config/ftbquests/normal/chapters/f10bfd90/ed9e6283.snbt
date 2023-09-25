@@ -1,0 +1,26 @@
+{
+	title: "So fight the past Take back the night!",
+	x: 6.5d,
+	y: -6.0d,
+	dependencies: [
+		"0692efe8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "31157e2f",
+		type: "kill",
+		entity: "mutantbeasts:mutant_zombie",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "98b01c2e",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "33712a34",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

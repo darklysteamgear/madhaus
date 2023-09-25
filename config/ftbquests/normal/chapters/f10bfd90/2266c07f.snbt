@@ -1,0 +1,32 @@
+{
+	x: 9.0d,
+	y: 16.0d,
+	description: "Don't give up! This is your final stand against this madness!",
+	dependencies: [
+		"7d1284f8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1c52f84e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:herobrine_banisher"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4da63a41",
+		type: "gamestage",
+		title: "Finish it",
+		icon: "contenttweaker:herobrine_banisher",
+		stage: "endgame"
+	}],
+	rewards: [{
+		uid: "6d53d791",
+		type: "gamestage",
+		title: "I'm coming for you",
+		auto: "invisible",
+		stage: "finalbattle"
+	}]
+}

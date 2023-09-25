@@ -1,0 +1,19 @@
+{
+	title: "TNT's just really cool",
+	icon: "motnt:packed_tnt",
+	x: 18.5d,
+	y: -3.0d,
+	dependencies: [
+		"aabef944"
+	],
+	hide: true,
+	tasks: [{
+		uid: "05d38f45",
+		type: "observation",
+		title: "Observe a cluster tnt explosion at point blank range, and try not to lag out",
+		icon: "motnt:packed_tnt",
+		match_type: "entity_id",
+		match: "motnt:cluster_tnt",
+		timer: 0L
+	}]
+}

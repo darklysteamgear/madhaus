@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: 0.5d,
+	dependencies: [
+		"93c5cf5d"
+	],
+	tasks: [{
+		uid: "6c16352a",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:octine_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "3c2779bb",
+		type: "random",
+		table: 11
+	}]
+}

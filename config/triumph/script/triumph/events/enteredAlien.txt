@@ -1,0 +1,17 @@
+setIcon(<minecraft:stone>)
+setTitle("Aliens")
+setDescription("...")
+
+addRewardFunction("triumph:ufo")
+addParent("triumph:events/root")
+
+criteria = addCriteria("alien", "minecraft:changed_dimension")
+criteria.setDimensionOrigin("planet.diona")
+criteria.setDimensionDestination("overworld")
+criteria.setCount(1)
+
+hideLines()
+setHidden(true)
+setShowToast(false)
+setAnnounceToChat(false)
+setPos(-3,-48)

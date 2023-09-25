@@ -1,0 +1,23 @@
+{
+	title: "Realativity is a myth",
+	x: -4.0d,
+	y: 4.0d,
+	description: "And the earth is flat",
+	hide_dependency_lines: true,
+	dependencies: [
+		"14ebbade"
+	],
+	hide: true,
+	tasks: [{
+		uid: "02498729",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:relativistic_turret"
+		}]
+	}],
+	rewards: [{
+		uid: "9a813163",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	}]
+}

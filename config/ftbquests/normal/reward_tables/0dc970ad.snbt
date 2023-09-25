@@ -1,0 +1,44 @@
+{
+	title: "The gift of the dead meme cats",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "memeinabottle:grumpy_cat"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "memeinabottle:nyan_cat"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "memeinabottle:bongo_cat"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:ocelot"
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "ROARRRRRR",
+	icon: "tconstruct:edible 1 10",
+	x: 3.0d,
+	y: 9.5d,
+	description: "Oh yeah. he was pretty angry",
+	dependencies: [
+		"e27ed7b4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2fc77cc6",
+		type: "kill",
+		entity: "memeinabottle:shrek",
+		value: 3L
+	}],
+	rewards: [{
+		uid: "9a5a9bee",
+		type: "item",
+		title: "Ogres are like onions",
+		item: "memeinabottle:onion",
+		count: 2,
+		random_bonus: 16
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -1.0d,
+	y: -11.0d,
+	dependencies: [
+		"99860435"
+	],
+	tasks: [{
+		uid: "8da6d9db",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedcobblestone 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "35e11612",
+		type: "ftbmoney:money",
+		ftb_money: 2000L,
+		random_bonus: 3500
+	}]
+}

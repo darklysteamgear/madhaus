@@ -1,0 +1,60 @@
+{
+    "Profession": "minecraft:nitwit",
+    "Career": "nitwit",
+    "Offers": {
+        "Recipes": [
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:poisonous_potato",
+                    "Count": {
+                        "min": 15,
+                        "max": 19
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 10,
+                        "max": 32
+                    }
+                },
+                "sell": {
+                    "id": "contenttweaker:piss",
+                    "Count": 1
+                },
+                "CareerLevel": 2
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 64,
+                        "max": 64
+                    }
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 64,
+                        "max": 64
+                    }
+                },
+                "sell": {
+                    "id": "contenttweaker:gamer_girl_bathwater",
+                    "Count": 1
+                },
+                "CareerLevel": 3
+            }
+        ]
+    }
+}

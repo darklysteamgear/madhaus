@@ -1,0 +1,70 @@
+{
+	title: "Get some scuba gear, it may come in handy later![CURRENTLY BROKEN]",
+	icon: {
+		id: "mekanism:scubatank",
+		tag: {
+			mekData: {
+				stored: {
+					gasName: "oxygen",
+					amount: 24000
+				}
+			}
+		}
+	},
+	x: -5.0d,
+	y: -4.5d,
+	description: "I may fix this later. stay tuned for the next update!",
+	dependencies: [
+		"6611d352"
+	],
+	optional: true,
+	tasks: [{
+		uid: "e1114713",
+		type: "item",
+		items: [{
+			item: "tropicraft:yellow_chestplate_gear"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5be17c7f",
+		type: "item",
+		items: [{
+			item: "tropicraft:yellow_scuba_goggles"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "178bbbee",
+		type: "item",
+		items: [{
+			id: "tropicraft:yellow_scuba_tank",
+			tag: {
+				airType: "regular",
+				pressure: 3200.0f
+			},
+			Count: 1b
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "64cf5860",
+		type: "item",
+		items: [{
+			item: "tropicraft:yellow_flippers"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6c38ced2",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "7ce0016d",
+		type: "ftbmoney:money",
+		ftb_money: 8000L
+	}]
+}

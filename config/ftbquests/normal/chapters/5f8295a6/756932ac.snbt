@@ -1,0 +1,19 @@
+{
+	title: "Expel you out of house and home home home home",
+	icon: "extrautils2:snowglobe",
+	x: 12.0d,
+	y: 4.5d,
+	dependencies: [
+		"73dd070a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "adb0bd16",
+		type: "observation",
+		title: "Set off a tnt x20 at point blank range",
+		icon: "motnt:tnt20",
+		match_type: "entity_id",
+		match: "motnt:tnt20",
+		timer: 0L
+	}]
+}

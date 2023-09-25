@@ -1,0 +1,11 @@
+{
+    "internalName": "block.m700ammo",
+    "displayName": "M700 Mag 5rnd",
+    "ammoCapacity": 5,
+	"reloadTimeFactor": 2.0,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.sniperbullet"
+    ],
+    "allowEmptyMagazines": true
+}

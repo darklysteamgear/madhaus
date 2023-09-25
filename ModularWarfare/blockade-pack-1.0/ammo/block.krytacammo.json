@@ -1,0 +1,11 @@
+{
+    "internalName": "block.krytacammo",
+    "displayName": "Krytac LMG Mag 100rnd",
+    "ammoCapacity": 100,
+	"reloadTimeFactor": 3.9,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.lmgbullet"
+    ],
+    "allowEmptyMagazines": true
+}

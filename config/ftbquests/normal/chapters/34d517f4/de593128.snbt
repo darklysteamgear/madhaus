@@ -1,0 +1,22 @@
+{
+	title: "Let's blow em up!!!",
+	x: -5.5d,
+	y: 4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"14ebbade"
+	],
+	hide: true,
+	tasks: [{
+		uid: "994dfb0b",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:grenade_turret"
+		}]
+	}],
+	rewards: [{
+		uid: "e6c1d6c2",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	}]
+}

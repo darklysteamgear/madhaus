@@ -1,0 +1,11 @@
+{
+    "internalName": "block.minigunammo",
+    "displayName": "Minigun Box 150rnd",
+    "ammoCapacity": 150,
+	"reloadTimeFactor": 4.5,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.lmgbullet"
+    ],
+    "allowEmptyMagazines": true
+}

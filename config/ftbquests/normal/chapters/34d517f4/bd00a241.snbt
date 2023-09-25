@@ -1,0 +1,22 @@
+{
+	title: "Time to build some powered defenses!",
+	x: 5.5d,
+	y: 5.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fded5af6",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:turret_base"
+		}]
+	}],
+	rewards: [{
+		uid: "7d9fa1b6",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

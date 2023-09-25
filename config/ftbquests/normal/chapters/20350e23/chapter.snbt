@@ -1,0 +1,10 @@
+{
+	title: "Death and Reconciliation (If you get that give yourself a pat on the back)",
+	icon: "minecraft:gravel",
+	description: [
+		"I really hate that level"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

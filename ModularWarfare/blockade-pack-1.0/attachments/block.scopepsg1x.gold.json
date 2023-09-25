@@ -1,0 +1,16 @@
+{
+  "displayName": "PSG-1 Gold Scope",
+  "internalName": "block.scopepsg1x.gold",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopepsg1x.gold",
+      "displayName": "PSG-1 Scope - Gold"
+    }
+  ],
+  "sight": {
+    "scopeType": "15x",
+    "customOverlayTexture": "block.blockscopepsg1x",
+    "modeType": "pip"
+  }
+}

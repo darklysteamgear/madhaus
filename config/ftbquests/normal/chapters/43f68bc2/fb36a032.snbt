@@ -1,0 +1,112 @@
+{
+	x: 0.5d,
+	y: -1.5d,
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "f4ff1f32",
+		type: "item",
+		title: "And you thought it would be good loot",
+		items: [{
+			item: "poop:poop"
+		}]
+	}],
+	rewards: [{
+		uid: "278284de",
+		type: "item",
+		auto: "enabled",
+		item: "poop:poop_trophy",
+		count: 100
+	},
+	{
+		uid: "494de6d7",
+		type: "item",
+		auto: "enabled",
+		item: "poop:poop_trophy",
+		count: 100
+	},
+	{
+		uid: "fae24881",
+		type: "item",
+		auto: "enabled",
+		item: "poop:poop_trophy",
+		count: 100
+	},
+	{
+		uid: "e1f57a64",
+		type: "item",
+		auto: "enabled",
+		item: "poop:poop_trophy",
+		count: 100
+	},
+	{
+		uid: "cf2b2466",
+		type: "item",
+		auto: "enabled",
+		item: "poop:poop_trophy",
+		count: 100
+	},
+	{
+		uid: "0bbbd99d",
+		type: "item",
+		auto: "enabled",
+		item: "poop:poop_trophy",
+		count: 100
+	},
+	{
+		uid: "5041b21a",
+		type: "item",
+		auto: "enabled",
+		item: "poop:poop_trophy",
+		count: 100
+	},
+	{
+		uid: "65c01803",
+		type: "item",
+		auto: "enabled",
+		item: "poop:poop_trophy",
+		count: 100
+	},
+	{
+		uid: "18c7242a",
+		type: "item",
+		auto: "enabled",
+		item: "poop:poop_trophy",
+		count: 100
+	},
+	{
+		uid: "6a75233b",
+		type: "item",
+		auto: "enabled",
+		item: "poop:poop_trophy",
+		count: 100
+	},
+	{
+		uid: "9208da1d",
+		type: "item",
+		auto: "enabled",
+		item: "poop:poop_trophy",
+		count: 100
+	},
+	{
+		uid: "337963e1",
+		type: "item",
+		auto: "enabled",
+		item: "poop:poop_trophy",
+		count: 100
+	},
+	{
+		uid: "bf9815cb",
+		type: "item",
+		auto: "enabled",
+		item: "poop:poop_trophy",
+		count: 100
+	},
+	{
+		uid: "1aebba1a",
+		type: "item",
+		auto: "enabled",
+		item: "poop:poop_trophy",
+		count: 100
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "So strap yourself into the rocket now, rocket now,",
+	x: -7.0d,
+	y: -28.0d,
+	dependencies: [
+		"5053374f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e800e078",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:meteoric_iron_raw"
+		}]
+	}]
+}

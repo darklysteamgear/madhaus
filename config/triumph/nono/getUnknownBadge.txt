@@ -1,0 +1,13 @@
+setIcon(<minecraft:stone>)
+setTitle("Get the unknown badge")
+setDescription("Getting this badge allows you to travel to the ultra dimension")
+
+addRewardFunction("triumph:ultra")
+addParent("triumph:events/root")
+
+criteria = addCriteria("unknown", "minecraft:inventory_changed")
+criteria.addItem("pokecube_adventures:badge_unknown")
+
+hideLines()
+alwaysVisible()
+setPos(-114,77)

@@ -1,0 +1,17 @@
+{
+	x: 82.5d,
+	y: -38.0d,
+	shape: "circle",
+	dependencies: [
+		"aea89960",
+		"465863a7"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "ad7a34bf",
+		type: "dimension",
+		title: "I'm Floatinggggg!!",
+		icon: "moreplanets:koentus_regolith",
+		dim: -2642
+	}]
+}

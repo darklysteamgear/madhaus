@@ -1,0 +1,14 @@
+{
+	icon: "moreplanets:alien_miner_part",
+	x: 78.0d,
+	y: -43.0d,
+	shape: "pentagon",
+	description: "They are mean",
+	tasks: [{
+		uid: "7672b212",
+		type: "kill",
+		title: "Kill the miners!",
+		entity: "moreplanets:alien_miner",
+		value: 10L
+	}]
+}

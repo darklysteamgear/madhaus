@@ -1,0 +1,22 @@
+{
+	title: "WOOO! LET'S GOOO",
+	x: 2.0d,
+	y: 1.5d,
+	hide_dependency_lines: true,
+	hide: true,
+	tasks: [{
+		uid: "9e57211f",
+		type: "item",
+		items: [{
+			item: "modularwarfare:block.barret"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0afda8e2",
+		type: "ftbmoney:money",
+		ftb_money: 2000L,
+		random_bonus: 750
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Guns away!!!",
+	x: -2.0d,
+	y: 3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a54a0d44"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3c3ebbd4",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:machine_gun_turret"
+		}]
+	}],
+	rewards: [{
+		uid: "c0d998b3",
+		type: "ftbmoney:money",
+		ftb_money: 3500L,
+		random_bonus: 1500
+	}]
+}

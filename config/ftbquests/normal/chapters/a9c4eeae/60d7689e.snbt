@@ -1,0 +1,22 @@
+{
+	title: "Winter Foraging Bundle",
+	x: 5.0d,
+	y: -6.0d,
+	shape: "rsquare",
+	description: "Wait, what winter foraging?",
+	size: 2.0d,
+	tasks: [{
+		uid: "2e54f094",
+		type: "item",
+		items: [{
+			item: "minecraft:snow"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "3ec9c83a",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	}]
+}

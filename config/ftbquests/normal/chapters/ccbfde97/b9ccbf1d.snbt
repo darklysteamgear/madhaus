@@ -1,0 +1,27 @@
+{
+	title: "I'm really glad that's over now...",
+	icon: "evilcraft:blood_potash",
+	x: 4.5d,
+	y: -4.0d,
+	description: "That \"Thing\" needed to go back to where it came from",
+	text: [
+		"You can keep my M9, I have a few more of them in storage. here, have some extra clips in case it ever comes back"
+	],
+	dependencies: [
+		"74dd1a9a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3dd532ee",
+		type: "kill",
+		title: "Kill it!",
+		entity: "memeinabottle:knuckles_queen",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "93d6aa5f",
+		type: "item",
+		item: "modularwarfare:block.ttammo",
+		count: 4
+	}]
+}

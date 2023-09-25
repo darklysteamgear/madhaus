@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: 3.0d,
+	dependencies: [
+		"c880d1e9"
+	],
+	tasks: [{
+		uid: "1090a531",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_duplicator"
+		}]
+	}],
+	rewards: [{
+		uid: "9191a2d1",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

@@ -1,0 +1,16 @@
+{
+  "displayName": "XM8 Scope",
+  "internalName": "block.scopexm8",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopexm8",
+      "displayName": "XM8 Scope - Default"
+    }
+  ],
+  "sight": {
+    "scopeType": "4x",
+    "customOverlayTexture": "block.blockscope4x",
+    "modeType": "pip"
+  }
+}

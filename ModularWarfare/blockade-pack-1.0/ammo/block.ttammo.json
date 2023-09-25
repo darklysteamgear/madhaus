@@ -1,0 +1,11 @@
+{
+    "internalName": "block.ttammo",
+    "displayName": "TT Mag 8rnd",
+    "numBullets": 1,
+    "ammoCapacity": 8,
+    "subAmmo": [
+        "block.pistolbullet"
+    ],
+    "magazineCount": 1,
+    "reloadTime": 9
+}

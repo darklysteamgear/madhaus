@@ -1,0 +1,27 @@
+{
+	title: "The Beggining of the end",
+	x: 8.0d,
+	y: 7.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"cec54dfd",
+		"fe50a871"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "6bfea817",
+		type: "item",
+		items: [{
+			item: "herobrine:purified_diamond"
+		}]
+	}],
+	rewards: [{
+		uid: "c037c3b5",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 6
+	}]
+}

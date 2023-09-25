@@ -1,0 +1,19 @@
+{
+	icon: "ic2:te 1 111",
+	x: 9.5d,
+	y: 5.5d,
+	tasks: [{
+		uid: "da33b3ef",
+		type: "observation",
+		title: "Find minecraft steve",
+		match_type: "entity_id",
+		match: "herobrine:steve_survivor",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "38e7e55e",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 10000
+	}]
+}

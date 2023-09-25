@@ -1,0 +1,13 @@
+{
+	title: "The End",
+	x: -7.0d,
+	y: 0.5d,
+	description: "It's the end... Of vanilla minecraft. We're just getting started.",
+	tasks: [{
+		uid: "f7e29134",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_eye"
+		}]
+	}]
+}

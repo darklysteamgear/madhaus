@@ -1,0 +1,79 @@
+{
+    "internalName": "block.p90",
+    "displayName": "P90",
+    "weaponType": "smg",
+	"extraLore": "For quiet fights.",
+    "customFlashTexture": "prototype.advanced.flash",
+    "gunDamage": 6.75,
+    "gunDamageHeadshotBonus": 1.5,
+    "roundsPerMin": 500,
+    "allowEmptyMagazines": true,
+    "recoilPitch": 3.7,
+    "recoilYaw": 0.5,
+    "randomRecoilPitch": 0.8,
+    "randomRecoilYaw": 0.0,
+    "bulletSpread": 1.25,
+    "accuracySneakFactor": 0.5,
+    "moveSpeedModifier": 1,
+    "allowSprintFiring": true,
+    "dropBulletCasing": true,
+    "fireModes": [
+        "full",
+        "burst",
+        "semi"
+    ],
+    "acceptedAmmo": [
+        "block.p90ammo"
+    ],
+    "shellEjectOffsetNormal": {
+        "x": -1,
+        "y": 0,
+        "z": 1
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "block.p90.shoot",
+                "soundNameDistant": "block.plight.shoot.distant",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponUnload": [
+            {
+                "soundEvent": "weaponReload",
+                "soundName": "prototype.generic.reload"
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "block.p90.shoot.sup",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+            }
+        ]
+    },
+    "acceptedAttachments": {
+    },
+    "modelSkins": [
+        {
+            "internalName": "block.p90",
+            "skinAsset": "block.p90",
+            "displayName": "Default"
+        },
+        {
+            "internalName":"block.p90.snow",
+            "skinAsset":"block.p90.snow",
+            "displayName":"Snow"
+        }
+    ]
+}

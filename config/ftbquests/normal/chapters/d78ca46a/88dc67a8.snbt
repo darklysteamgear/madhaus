@@ -1,0 +1,19 @@
+{
+	x: 5.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "b895c47a",
+		type: "item",
+		items: [{
+			item: "aoa3:void_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fc943b33",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

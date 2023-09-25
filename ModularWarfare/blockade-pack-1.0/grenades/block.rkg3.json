@@ -1,0 +1,10 @@
+{
+  "displayName": "RKG-3",
+  "internalName": "block.rkg3",
+  "grenadeType": "frag",
+  "fuseTime": 3,
+  "damageWorld": true,
+  "explosionPower": 5,
+  "throwStrength": 0.8,
+  "throwerVulnerable": true
+}

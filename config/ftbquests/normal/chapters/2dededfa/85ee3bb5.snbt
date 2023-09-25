@@ -1,0 +1,17 @@
+{
+	x: -5.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "edf0069e",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:petrified_fuel_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "b76914e7",
+		type: "ftbmoney:money",
+		ftb_money: 2500L,
+		random_bonus: 2500
+	}]
+}

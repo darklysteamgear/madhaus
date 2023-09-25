@@ -1,0 +1,34 @@
+{
+    "machine": "pokeprocessor",
+    "registryName": "pokeprocessor_hammer_iron",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "pixelmon:iron_disc"
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "pixelmon:iron_base"
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "water",
+            "amount": 1000
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "steam",
+            "amount": 1000
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Obtain Creeponia Realmstone",
+	x: 0.0d,
+	y: -3.5d,
+	dependencies: [
+		"87e84f70"
+	],
+	tasks: [{
+		uid: "1daaed08",
+		type: "item",
+		items: [{
+			item: "aoa3:creeponia_realmstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a2ce7a65",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "789e8340",
+		type: "random",
+		table: 2
+	}]
+}

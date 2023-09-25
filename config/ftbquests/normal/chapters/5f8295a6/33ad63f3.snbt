@@ -1,0 +1,33 @@
+{
+	title: "All the animals will fear me",
+	x: 18.5d,
+	y: 0.0d,
+	dependencies: [
+		"f4bed02b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "25510506",
+		type: "kill",
+		entity: "minecraft:pig",
+		value: 10L
+	},
+	{
+		uid: "2498f0b7",
+		type: "kill",
+		entity: "minecraft:cow",
+		value: 10L
+	},
+	{
+		uid: "f43b8e47",
+		type: "kill",
+		entity: "minecraft:chicken",
+		value: 10L
+	},
+	{
+		uid: "bf6ad886",
+		type: "kill",
+		entity: "minecraft:sheep",
+		value: 10L
+	}]
+}

@@ -1,0 +1,16 @@
+{
+  "displayName": "SR-25 Scope",
+  "internalName": "block.scopesr25x",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopesr25x",
+      "displayName": "SR-25 Scope - Default"
+    }
+  ],
+  "sight": {
+    "scopeType": "15x",
+    "customOverlayTexture": "block.blockscopesr25x",
+    "modeType": "pip"
+  }
+}

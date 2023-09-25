@@ -1,0 +1,45 @@
+{
+	title: "Hope and pray that you'll make it now, make it now,",
+	x: -7.0d,
+	y: -23.0d,
+	dependencies: [
+		"a77ee066"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7e5a3d6a",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:oxygen_tank_light_full"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d53d2529",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:oxygen_gear"
+		}]
+	},
+	{
+		uid: "a3b70e0d",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:oxygen_mask"
+		}]
+	},
+	{
+		uid: "9f9d4cc3",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:parachute"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0761fef9",
+		type: "ftbmoney:money",
+		ftb_money: 3000L
+	}]
+}

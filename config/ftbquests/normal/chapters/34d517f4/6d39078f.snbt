@@ -1,0 +1,21 @@
+{
+	x: -7.0d,
+	y: 1.5d,
+	hide_dependency_lines: true,
+	hide: true,
+	tasks: [{
+		uid: "ce3c27a3",
+		type: "item",
+		items: [{
+			item: "modularwarfare:block.nova"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3e044395",
+		type: "ftbmoney:money",
+		ftb_money: 2000L,
+		random_bonus: 500
+	}]
+}

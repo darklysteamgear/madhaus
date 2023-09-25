@@ -1,0 +1,19 @@
+HELLO STRANGER, WELCOME TO 
+                  _ _                     
+  /\/\   __ _  __| | |__   __ _ _   _ ___ 
+ /    \ / _` |/ _` | '_ \ / _` | | | / __|
+/ /\/\ \ (_| | (_| | | | | (_| | |_| \__ \
+\/    \/\__,_|\__,_|_| |_|\__,_|\__,_|___/
+ALPHA
+A minecraft modpack by Darkly_SteamGear.
+
+
+HOW TO INSTALL:
+1. extract the contents of this folder somewhere
+2. install the forge located inside of this zip (forge version 14.23.5.2854)
+3. set up a minecraft profile in the launcher that links to the madhaus folder in this zip file
+4. ALLOCATE AT LEAST 9 GIGABYTES OF RAM WHILE SETTING UP THE MINECRAFT PROFILE, THIS IS IMPORTANT
+5. Make sure it actually works by running minecraft. if it crashes, notify me immediately. you have my discord if I sent you this link.
+6.If it loads, have fun! make structures, try to break the game, and more importantly, D I E. >:3
+
+Don't forget to submit any worlds or structures you want me to feature in this modpack. I'll make sure to give you credit. be sure to also leave some cool loot in the structure, and a book that gives you proper credit so people know who built the structure. the theme is nostalgia remember!

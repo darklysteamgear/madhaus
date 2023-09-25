@@ -1,0 +1,18 @@
+{
+	x: -5.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "b6543ca9",
+		type: "observation",
+		title: "Find The Corrupted Traveler",
+		icon: "aoa3:ghoulish_helmet",
+		match_type: "entity_id",
+		match: "aoa3:corrupted_traveller",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "b5bb2965",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

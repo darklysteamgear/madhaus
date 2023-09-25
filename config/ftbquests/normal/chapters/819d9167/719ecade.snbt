@@ -1,0 +1,20 @@
+{
+	title: "The Dark ones...",
+	icon: "scp:hunter_in_the_dark",
+	x: -2.0d,
+	y: -6.0d,
+	dependencies: [
+		"70ea9641"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "9ea05cf8",
+		type: "dimension",
+		dim: 53
+	}],
+	rewards: [{
+		uid: "efc8da67",
+		type: "ftbmoney:money",
+		ftb_money: 50000L
+	}]
+}

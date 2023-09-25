@@ -1,0 +1,11 @@
+{
+    "internalName": "block.scarammo",
+    "displayName": "SCAR-H Mag 30rnd",
+    "ammoCapacity": 30,
+	"reloadTimeFactor": 1.3,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.riflebullet"
+    ],
+    "allowEmptyMagazines": true
+}

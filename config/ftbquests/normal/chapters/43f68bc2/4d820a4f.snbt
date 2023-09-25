@@ -1,0 +1,19 @@
+{
+	x: 0.5d,
+	y: 4.5d,
+	description: "It's far too late for the overworld now...",
+	tasks: [{
+		uid: "771b1bc5",
+		type: "observation",
+		title: "You really should have left the world to die at day 100...",
+		icon: "srparasites:canisteractive",
+		match_type: "entity_id",
+		match: "srparasites:sim_human",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "b49aefba",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	}]
+}

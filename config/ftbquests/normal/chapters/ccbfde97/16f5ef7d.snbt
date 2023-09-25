@@ -1,0 +1,26 @@
+{
+	icon: "memeinabottle:mcw_belt",
+	x: 8.0d,
+	y: 0.0d,
+	description: "AND WE HAVE A NEW CHAMPION!!!",
+	text: [
+		"Sorry kid, we ran out of actual champion belts, so here's a leather one to keep your pants up",
+		"",
+		"",
+		"",
+		"",
+		"Ha, loser."
+	],
+	tasks: [{
+		uid: "e649ff19",
+		type: "kill",
+		title: "AND HIS NAME WAS JOHN CENA!!!!",
+		entity: "memeinabottle:john_cena",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "c822bdcb",
+		type: "item",
+		item: "memeinabottle:leather_belt"
+	}]
+}

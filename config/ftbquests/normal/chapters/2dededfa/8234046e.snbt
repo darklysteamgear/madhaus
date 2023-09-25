@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: 5.0d,
+	dependencies: [
+		"c880d1e9"
+	],
+	tasks: [{
+		uid: "987b4ad9",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:material_stonework_factory"
+		}]
+	}],
+	rewards: [{
+		uid: "1a6e915b",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "Evil Machinations",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "evilcraftblood",
+			Amount: 1000
+		}
+	},
+	description: [
+		"Blood for the blood god"
+	],
+	always_invisible: false,
+	group: 770567674,
+	default_quest_shape: ""
+}

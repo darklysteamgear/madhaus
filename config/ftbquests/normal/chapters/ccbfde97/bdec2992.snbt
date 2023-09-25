@@ -1,0 +1,28 @@
+{
+	title: "Kill them, and restore peace amongst memes!",
+	icon: "extrautils2:ingredients 1 10",
+	x: 4.5d,
+	y: 4.0d,
+	description: "What did that even mean? I don't even know anymore",
+	text: [
+		"I should be doing homework, but instead I'm writing in quests about dead memes",
+		"This is great"
+	],
+	dependencies: [
+		"cb620c22"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0314a21e",
+		type: "kill",
+		entity: "memeinabottle:tac_nayn",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "94295b7c",
+		type: "item",
+		item: "memeinabottle:poptart",
+		count: 4,
+		random_bonus: 4
+	}]
+}

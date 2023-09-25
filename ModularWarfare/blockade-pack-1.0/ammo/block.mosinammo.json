@@ -1,0 +1,11 @@
+{
+  "displayName": "Mosin Stripper Clip 5rnd",
+  "internalName": "block.mosinammo",
+  "skinAsset": "default",
+  "ammoCapacity": 5,
+  "reloadTimeFactor": 1.6,
+  "allowEmptyMagazines": true,
+  "subAmmo": [
+    "block.sniperbullet"
+  ]
+}

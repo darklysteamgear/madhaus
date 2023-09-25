@@ -1,0 +1,16 @@
+setIcon(<minecraft:stone>)
+setTitle("You did it! You won!")
+setDescription("...")
+
+addRewardFunction("triumph:banished")
+addParent("triumph:events/root")
+
+criteria = addCriteria("banished", "triumph:gamestage")
+criteria.setStage("banished")
+criteria.setCount(1)
+
+hideLines()
+setHidden(true)
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(80,-24)

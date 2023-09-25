@@ -1,0 +1,11 @@
+{
+    "internalName": "block.ppsh41ammo",
+    "displayName": "PPSh-41 Drum Mag 71rnd ",
+    "ammoCapacity": 71,
+	"reloadTimeFactor": 1.5,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.smgbullet"
+    ],
+    "allowEmptyMagazines": true
+}

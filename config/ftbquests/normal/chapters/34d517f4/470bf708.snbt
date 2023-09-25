@@ -1,0 +1,29 @@
+{
+	title: "Lasers",
+	x: -1.0d,
+	y: 0.5d,
+	description: "Pew pew pew",
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "557432e1",
+		type: "item",
+		items: [{
+			id: "moreplanets:laser_gun",
+			tag: {
+				electricity: 100000.0f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f69677c1",
+		type: "ftbmoney:money",
+		ftb_money: 3000L,
+		random_bonus: 1500
+	}]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Loot Crates",
+    "icon": "minecraft:writable_book",
+    "category": "loot",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "text",
+            "text": "There are many treasures you can obtain. one of them is the loot crate. It could be filled with literal crap, or maybe the rarest item in the modpack. you never know. it's recommended you keep a chest or crate labeled specifically for loot crates if you plan on opening them... they can really bloat your chests with all the stuff that's in them."
+        },
+        {
+            "type" : "spotlight",
+            "item": "ftbquests:lootcrate",
+            "text": "This is a loot crate, open it to see what you might get!"
+        }
+    ]
+}

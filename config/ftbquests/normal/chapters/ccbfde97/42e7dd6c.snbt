@@ -1,0 +1,14 @@
+{
+	x: 4.5d,
+	y: -1.0d,
+	dependencies: [
+		"e92515f2"
+	],
+	tasks: [{
+		uid: "e14eedda",
+		type: "item",
+		items: [{
+			item: "memeinabottle:apple_pen"
+		}]
+	}]
+}

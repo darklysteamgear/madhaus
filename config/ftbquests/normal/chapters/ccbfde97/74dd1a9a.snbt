@@ -1,0 +1,30 @@
+{
+	x: 4.5d,
+	y: -3.0d,
+	description: "EW EW EW EW EW EW EW EW EW EW EW EW EW",
+	text: [
+		"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+	],
+	tasks: [{
+		uid: "7a6c5c3a",
+		type: "observation",
+		title: "HORRIBLE!!! DISGUSTING!!! SHOOT IT, SHOOT IT PLEASE!!!",
+		icon: "morecreeps:gun",
+		match_type: "entity_id",
+		match: "memeinabottle:knuckles_queen",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "fc073018",
+		type: "item",
+		auto: "enabled",
+		item: "modularwarfare:block.tt"
+	},
+	{
+		uid: "a21b55f2",
+		type: "item",
+		auto: "enabled",
+		item: "modularwarfare:block.ttammo",
+		count: 2
+	}]
+}

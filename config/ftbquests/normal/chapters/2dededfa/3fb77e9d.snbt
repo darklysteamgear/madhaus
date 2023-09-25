@@ -1,0 +1,20 @@
+{
+	x: -5.0d,
+	y: -2.0d,
+	dependencies: [
+		"03b5d08f"
+	],
+	tasks: [{
+		uid: "54a7d333",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "f4f6bc81",
+		type: "ftbmoney:money",
+		ftb_money: 10000L,
+		random_bonus: 5000
+	}]
+}

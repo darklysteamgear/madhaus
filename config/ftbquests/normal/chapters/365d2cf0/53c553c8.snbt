@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: -12.0d,
+	dependencies: [
+		"fa536929"
+	],
+	tasks: [{
+		uid: "8f87ef72",
+		type: "item",
+		items: [{
+			item: "aoa3:celeve_realmstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

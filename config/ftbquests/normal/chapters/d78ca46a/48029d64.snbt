@@ -1,0 +1,20 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "eecc5b52",
+		type: "item",
+		items: [{
+			id: "botania:terrasteelhelm",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d41c3471",
+		type: "ftbmoney:money",
+		ftb_money: 10000L,
+		random_bonus: 5000
+	}]
+}

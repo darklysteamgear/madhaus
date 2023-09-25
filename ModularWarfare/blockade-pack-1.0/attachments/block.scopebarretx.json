@@ -1,0 +1,16 @@
+{
+  "displayName": "Barrett Scope",
+  "internalName": "block.scopebarretx",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopebarretx",
+      "displayName": "Barrett Scope - Default"
+    }
+  ],
+  "sight": {
+    "scopeType": "15x",
+    "customOverlayTexture": "block.blockscopebarretx",
+    "modeType": "pip"
+  }
+}

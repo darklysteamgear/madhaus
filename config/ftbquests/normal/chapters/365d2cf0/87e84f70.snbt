@@ -1,0 +1,21 @@
+{
+	x: -2.5d,
+	y: -1.5d,
+	dependencies: [
+		"02e035a0"
+	],
+	tasks: [{
+		uid: "62878139",
+		type: "item",
+		items: [{
+			item: "aoa3:blank_realmstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4c3b1395",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

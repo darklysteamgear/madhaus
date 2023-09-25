@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 6.0d,
+	dependencies: [
+		"17fb340c"
+	],
+	tasks: [{
+		uid: "60d61169",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "22cf9e4c",
+		type: "ftbmoney:money",
+		ftb_money: 1500L,
+		random_bonus: 1500
+	}]
+}

@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "dimensions": "id\u003d54"
+    },
+    {
+      "dimensions": "id\u003d55"
+    },
+    {
+      "dimensions": "id\u003d56"
+    },
+    {
+      "dimensions": "id\u003d57"
+    },
+    {
+      "dimensions": "id\u003d58"
+    }
+  ],
+  "metadata": {
+    "title": "Legacy Dimensions",
+    "description": [
+      "For normal spawning in legacy dimensions"
+    ]
+  }
+}

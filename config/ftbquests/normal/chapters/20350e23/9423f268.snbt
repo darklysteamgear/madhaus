@@ -1,0 +1,18 @@
+{
+	x: 4.0d,
+	y: 2.0d,
+	description: "He likes raw fish, raw porkchops, and raw beef",
+	dependencies: [
+		"6157c1a3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c68b29b2",
+		type: "observation",
+		title: "Give this zombie some raw meat, and he will fight for you!",
+		icon: "minecraft:fish",
+		match_type: "entity_id",
+		match: "zombie_players:zombie_player",
+		timer: 0L
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "Darkness",
+	icon: "extrautils2:teleporter 1 1",
+	loot_size: 1,
+	rewards: [{
+		item: "beneath:teleporterbeneath"
+	},
+	{
+		item: "midnight:dark_pearl",
+		count: 12
+	},
+	{
+		item: "evilcraft:dark_power_gem"
+	},
+	{
+		item: "abyssalcraft:shadowgem"
+	},
+	{
+		item: "midnight:tenebrum_ingot",
+		count: 5
+	},
+	{
+		item: "biomesoplenty:terrarium 1 9"
+	},
+	{
+		item: "extrautils2:ingredients 1 10",
+		count: 2
+	},
+	{
+		item: "extrautils2:ingredients 1 17",
+		count: 3
+	},
+	{
+		item: "moreplanets:dark_energy_protection_capsule",
+		random_bonus: 5
+	}]
+}

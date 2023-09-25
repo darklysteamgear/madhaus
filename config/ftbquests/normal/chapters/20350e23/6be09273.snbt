@@ -1,0 +1,20 @@
+{
+	icon: "biomesoplenty:flower_1 1 5",
+	x: -0.5d,
+	y: 0.0d,
+	dependencies: [
+		"3957366c"
+	],
+	tasks: [{
+		uid: "dcbe79a1",
+		type: "stat",
+		title: "Oof",
+		stat: "stat.deaths",
+		value: 3
+	}],
+	rewards: [{
+		uid: "da54036e",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

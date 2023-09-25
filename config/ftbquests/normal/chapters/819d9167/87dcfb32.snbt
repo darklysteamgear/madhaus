@@ -1,0 +1,21 @@
+{
+	title: "Crack it open!",
+	x: -6.0d,
+	y: -4.0d,
+	dependencies: [
+		"f1115f43"
+	],
+	tasks: [{
+		uid: "707723e5",
+		type: "item",
+		items: [{
+			item: "midnight:geode"
+		}]
+	}],
+	rewards: [{
+		uid: "759d0178",
+		type: "ftbmoney:money",
+		ftb_money: 500L,
+		random_bonus: 1000
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Oh, you thought you could get away with that? NOPE",
+	x: 6.5d,
+	y: 4.0d,
+	tasks: [{
+		uid: "519669c3",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:tough_tool_rod"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e39d8946",
+		type: "command",
+		title: "smite",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon lightning_bolt"
+	},
+	{
+		uid: "71d1e176",
+		type: "command",
+		title: "boom",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon tnt"
+	}]
+}

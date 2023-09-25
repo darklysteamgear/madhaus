@@ -1,0 +1,23 @@
+setIcon(<minecraft:stone>)
+setTitle("Kill the Mutants")
+setDescription("The mutants hold information that will be valuable to your journey, kill them all and take back the night!")
+
+addRewardFunction("triumph:tcon")
+addParent("triumph:events/root")
+
+criteria = addCriteria("creeper", "minecraft:player_killed_entity")
+criteria.setEntityType("mutantbeasts:mutant_creeper")
+
+criteria = addCriteria("enderman", "minecraft:player_killed_entity")
+criteria.setEntityType("mutantbeasts:mutant_enderman")
+
+criteria = addCriteria("skeleton", "minecraft:player_killed_entity")
+criteria.setEntityType("mutantbeasts:mutant_skeleton")
+
+criteria = addCriteria("skeleton", "minecraft:player_killed_entity")
+criteria.setEntityType("mutantbeasts:mutant_zombie")
+
+setRequirements("all")
+hideLines()
+alwaysVisible()
+setPos(53,77)

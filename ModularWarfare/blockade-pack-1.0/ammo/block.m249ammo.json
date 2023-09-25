@@ -1,0 +1,11 @@
+{
+    "internalName": "block.m249ammo",
+    "displayName": "M249 Box 100rnd",
+    "ammoCapacity": 100,
+	"reloadTimeFactor": 3.4,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.lmgbullet"
+    ],
+    "allowEmptyMagazines": true
+}

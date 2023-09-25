@@ -1,0 +1,11 @@
+{
+    "internalName": "block.l96a1ammo",
+    "displayName": "L96A1 Mag 5rnd",
+    "ammoCapacity": 5,
+	"reloadTimeFactor": 2.6,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.sniperbullet"
+    ],
+    "allowEmptyMagazines": true
+}

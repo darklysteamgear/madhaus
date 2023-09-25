@@ -1,0 +1,90 @@
+{
+    "internalName": "block.saiga",
+    "displayName": "Saiga",
+    "weaponType": "shotgun",
+	"extraLore": "A hunting carbine-shotgun based on the legendary assault rifle.",
+    "customFlashTexture": "prototype.advanced.flash",
+    "gunDamage": 2.62,
+	"numBullets": 8,
+    "roundsPerMin": 200,
+	"weaponMaxRange": 18,
+    "allowEmptyMagazines": true,
+    "recoilPitch": 9,
+    "recoilYaw": 0.5,
+    "randomRecoilPitch": 0.5,
+    "randomRecoilYaw": 0.0,
+    "bulletSpread": 3.3,
+    "accuracySneakFactor": 0.9,
+    "moveSpeedModifier":0.9,
+    "allowSprintFiring": false,
+    "fireModes": [
+        "full",
+        "semi"
+    ],
+    "acceptedAmmo": [
+        "block.saigaammo"
+    ],
+    "dropBulletCasing": true,
+    "shellEjectOffsetNormal": {
+        "x": -1,
+        "y": 0,
+        "z": 1
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+    "acceptedAttachments": {
+    },
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "block.saiga.shoot",
+                "soundNameDistant": "block.shotgun.shoot.distant",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "block.saiga.shoot.sup",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+            }
+        ],
+		"weaponReload": [
+			{
+        "soundEvent": "weaponReload",
+        "soundName": "block.long15.reload"
+			}
+		],
+        "weaponUnload": [
+            {
+                "soundEvent": "weaponReload",
+                "soundName": "prototype.generic.reload"
+            }
+        ]
+    },
+    "modelSkins": [
+        {
+            "internalName": "block.saiga",
+            "skinAsset": "block.saiga",
+            "displayName": "Default"
+        },
+		{
+            "internalName": "block.saiga.snow",
+            "skinAsset": "block.saiga.snow",
+            "displayName": "Snow"
+        },
+		{
+            "internalName": "block.saiga.gold",
+            "skinAsset": "block.saiga.gold",
+            "displayName": "Gold"
+        }
+    ]
+}

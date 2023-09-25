@@ -1,0 +1,30 @@
+{
+	title: "Spring Foraging Bundle",
+	x: 7.0d,
+	y: 2.5d,
+	shape: "rsquare",
+	size: 2.0d,
+	tasks: [{
+		uid: "c0d60de2",
+		type: "item",
+		items: [{
+			item: "harvestcraft:leekitem"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "37190d82",
+		type: "item",
+		items: [{
+			item: "harvestcraft:celeryitem"
+		}],
+		count: 32L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "eb31afff",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	}]
+}

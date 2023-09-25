@@ -1,0 +1,18 @@
+{
+	x: 1.5d,
+	y: -4.0d,
+	tasks: [{
+		uid: "1de0f64e",
+		type: "observation",
+		title: "He's back!",
+		icon: "stupidthings:mine_turtle",
+		match_type: "entity_id",
+		match: "memeinabottle:bill_cipher",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "6e46c97a",
+		type: "item",
+		item: "betterbuilderswands:wandstone"
+	}]
+}

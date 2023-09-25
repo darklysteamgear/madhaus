@@ -1,0 +1,43 @@
+{
+	icon: "minecraft:skull",
+	x: 11.0d,
+	y: 0.0d,
+	shape: "heart",
+	text: [
+		"Heya.",
+		"You've been busy, huh?",
+		". . .",
+		"So, i've got a question for ya.",
+		"Do you think even the worst person can change. . . ?",
+		"That everybody can be a good person, if they just try?",
+		"Heh heh heh he. . .",
+		"All right.",
+		"Well here's a better question.",
+		"Do you wanna have a bad time?",
+		"'Cause if you take another step forward. . .",
+		"You are REALLY not going to like what happens next.",
+		"Welp.",
+		"Sorry, old lady",
+		"This is why i never make promises.",
+		"It's a beautiful day outside.",
+		"Birds are singing, flowers are blooming. . .",
+		"On days like these, kids like you. . .",
+		"Should be burning in hell.",
+		"MEGALOVANIA INTENSIFIES"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "ac35373d",
+		type: "observation",
+		title: "You feel like you're going to have a bad time...",
+		match_type: "entity_id",
+		match: "memeinabottle:sans",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "d8b8be19",
+		type: "item",
+		auto: "enabled",
+		item: "mysticalworld:amethyst_knife"
+	}]
+}

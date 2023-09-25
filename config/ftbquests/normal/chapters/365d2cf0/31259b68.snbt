@@ -1,0 +1,15 @@
+{
+	title: "Visit immortalis",
+	icon: "aoa3:immortal_banner",
+	x: 2.0d,
+	y: -1.5d,
+	description: "Complete the trials, and then we will talk about a solution to one of your problems",
+	dependencies: [
+		"6928577d"
+	],
+	tasks: [{
+		uid: "a1ebdfca",
+		type: "dimension",
+		dim: 812
+	}]
+}

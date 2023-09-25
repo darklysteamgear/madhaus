@@ -1,0 +1,22 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "d5110517",
+		type: "item",
+		items: [{
+			id: "actuallyadditions:item_drill",
+			Damage: 3s,
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c64fb6de",
+		type: "ftbmoney:money",
+		ftb_money: 2500L,
+		random_bonus: 2500
+	}]
+}

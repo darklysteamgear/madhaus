@@ -1,0 +1,11 @@
+{
+    "internalName": "block.hk416ammo",
+    "displayName": "HK416 Mag 30rnd",
+    "ammoCapacity": 30,
+	"reloadTimeFactor": 1.2,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.riflebullet"
+    ],
+    "allowEmptyMagazines": true
+}

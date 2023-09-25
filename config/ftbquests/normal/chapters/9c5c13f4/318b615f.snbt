@@ -1,0 +1,51 @@
+{
+	title: "P L A N T",
+	x: 0.0d,
+	y: 16.5d,
+	description: "Transmutation!",
+	dependencies: [
+		"3d0dc047"
+	],
+	hide: true,
+	size: 3.0d,
+	tasks: [{
+		uid: "9d2726a4",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 4"
+		}],
+		count: 4L,
+		consume_items: true
+	},
+	{
+		uid: "4020fba7",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "daffomill"
+			}
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "b4d68dae",
+		type: "item",
+		items: [{
+			item: "moreplanets:terrapuff_herb"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "61385bb4",
+		type: "item",
+		item: "minecraft:diamond",
+		random_bonus: 4
+	},
+	{
+		uid: "d139b9f5",
+		type: "xp_levels",
+		xp_levels: 12
+	}]
+}

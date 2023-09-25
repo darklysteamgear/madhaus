@@ -1,0 +1,22 @@
+{
+	title: "The trees are speaking veitnamese",
+	x: -2.0d,
+	y: 0.5d,
+	hide_dependency_lines: true,
+	hide: true,
+	tasks: [{
+		uid: "3ab6870f",
+		type: "item",
+		items: [{
+			item: "modularwarfare:block.m16a4"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f35818c8",
+		type: "ftbmoney:money",
+		ftb_money: 2000L,
+		random_bonus: 500
+	}]
+}

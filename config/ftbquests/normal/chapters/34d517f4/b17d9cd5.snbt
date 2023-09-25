@@ -1,0 +1,18 @@
+{
+	title: "AAAnd the final upgrade",
+	x: 0.5d,
+	y: 4.0d,
+	description: "well... finally!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"17e73f18"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8fb47d19",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:intermediate_tiered 1 9"
+		}]
+	}]
+}

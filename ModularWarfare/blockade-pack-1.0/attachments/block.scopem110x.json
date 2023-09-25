@@ -1,0 +1,16 @@
+{
+  "displayName": "M110 Scope",
+  "internalName": "block.scopem110x",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopem110x",
+      "displayName": "M110 Scope - Default"
+    }
+  ],
+  "sight": {
+    "scopeType": "15x",
+    "customOverlayTexture": "block.blockscopesr25x",
+    "modeType": "pip"
+  }
+}

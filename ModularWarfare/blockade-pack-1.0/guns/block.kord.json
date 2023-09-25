@@ -1,0 +1,87 @@
+{
+    "internalName":"block.kord",
+    "displayName":"Kord",
+    "weaponType":"carbine",
+    "extraLore": "How the hell do they carry it in the hands?",
+    "customFlashTexture":"prototype.advanced.flash",
+    "gunDamage":10.0,
+    "gunDamageHeadshotBonus":1.5,
+    "roundsPerMin":400,
+    "allowEmptyMagazines":true,
+    "recoilPitch": 4.8,
+    "recoilYaw": 0.5,
+    "randomRecoilPitch": 0.6,
+    "randomRecoilYaw": 0.0,
+    "bulletSpread":0.25,
+    "accuracySneakFactor":0.125,
+    "moveSpeedModifier":0.05,
+    "allowSprintFiring":false,
+    "fireModes":[
+        "full"
+    ],
+    "acceptedAmmo":[
+        "block.kordammo"
+    ],
+    "dropBulletCasing":true,
+    "shellEjectOffsetNormal":{
+        "x":-1.0,
+        "y":0.0,
+        "z":1.0
+    },
+    "shellEjectOffsetAiming":{
+        "x":-0.2,
+        "y":0.12,
+        "z":0.5
+    },
+    "weaponSoundMap":{
+        "weaponFire":[
+            {
+                "soundEvent":"weaponFire",
+                "soundName":"block.kord.shoot",
+                "soundNameDistant":"block.lmg.shoot.distant",
+                "soundRange":64,
+                "soundMaxRange":96,
+                "soundFadeMultiplier":1
+            }
+        ],
+        "weaponUnload":[
+            {
+                "soundEvent":"weaponReload",
+                "soundName":"prototype.generic.reload"
+            }
+        ],
+		"weaponReload": [
+			{
+        "soundEvent": "weaponReload",
+        "soundName": "block.long35.reload"
+			}
+		],
+        "weaponFireSuppressed":[
+            {
+                "soundEvent":"weaponFireSuppressed",
+                "soundName":"block.kord.shoot.sup",
+                "soundRange":30,
+                "soundMaxRange":50,
+                "soundFadeMultiplier":1
+            }
+        ]
+    },
+    "acceptedAttachments":{
+		"sight": [
+            "block.scopekordsx",
+            "block.scopekordsxz"
+        ]
+    },
+    "modelSkins":[
+        {
+            "internalName":"block.kord",
+            "skinAsset":"block.kord",
+            "displayName":"Default"
+        },
+        {
+            "internalName":"block.kord.z",
+            "skinAsset":"block.kord.z",
+            "displayName":"Zombie"
+        }
+    ]
+}

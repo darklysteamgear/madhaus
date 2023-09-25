@@ -1,0 +1,11 @@
+{
+    "internalName": "block.rpkammo",
+    "displayName": "RPK Mag 40rnd",
+    "ammoCapacity": 40,
+	"reloadTimeFactor": 1.6,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.lmgbullet"
+    ],
+    "allowEmptyMagazines": true
+}

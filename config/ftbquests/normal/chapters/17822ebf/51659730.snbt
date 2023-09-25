@@ -1,0 +1,21 @@
+{
+	title: "Hey, check this quest's description!",
+	icon: "minecraft:writable_book",
+	x: 5.0d,
+	y: -2.0d,
+	text: [
+		"Hello there! I'm currently taking build submissions, for any build you may create on here",
+		"I'm really looking forward to adding some real community creations into this pack!",
+		"Also, any suggestions you may have for the pack, I would really like to hear on the modpack's discord!",
+		"Thank you so much for checking out my pack! It took me over a year to create this modpack!",
+		"-Darkly_SteamGear"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "a5af1837",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ore"
+		}]
+	}]
+}

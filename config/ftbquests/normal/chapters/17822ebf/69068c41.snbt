@@ -1,0 +1,31 @@
+{
+	title: "I hope you know I made one of these crash the game",
+	x: -1.5d,
+	y: 8.5d,
+	tasks: [{
+		uid: "4c85cd72",
+		type: "item",
+		items: [{
+			id: "conarm:chest_core",
+			tag: {
+				Material: "emeradic_actadd_plustic"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "70e80abe",
+		type: "command",
+		title: "return to cheater",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon tnt"
+	},
+	{
+		uid: "5bd54683",
+		type: "command",
+		title: "you heck",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon motnt:fire_tnt"
+	}]
+}

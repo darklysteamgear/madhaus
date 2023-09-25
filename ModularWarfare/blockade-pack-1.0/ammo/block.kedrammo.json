@@ -1,0 +1,11 @@
+{
+    "internalName": "block.kedrammo",
+    "displayName": "PP-91 Kedr Mag 20rnd ",
+    "ammoCapacity": 20,
+	"reloadTimeFactor": 0.95,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.smgbullet"
+    ],
+    "allowEmptyMagazines": true
+}

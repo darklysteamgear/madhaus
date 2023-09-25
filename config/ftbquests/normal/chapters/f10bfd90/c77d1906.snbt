@@ -1,0 +1,27 @@
+{
+	x: 3.5d,
+	y: -6.0d,
+	dependencies: [
+		"4634fe72"
+	],
+	hide: true,
+	tasks: [{
+		uid: "519a3d21",
+		type: "kill",
+		title: "I'll end your evil tonight!",
+		icon: "extrautils2:interactionproxy",
+		entity: "mutantbeasts:mutant_enderman",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "fc9fb6bb",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "1ee35881",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

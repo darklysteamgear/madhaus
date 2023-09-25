@@ -1,0 +1,21 @@
+{
+	x: 2.5d,
+	y: -6.0d,
+	dependencies: [
+		"aa145af7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3a8fda98",
+		type: "kill",
+		title: "Your effort is futile...",
+		entity: "jmr:megajohn",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "ffd879f8",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 7000
+	}]
+}

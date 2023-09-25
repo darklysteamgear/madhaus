@@ -1,0 +1,30 @@
+{
+	x: 2.0d,
+	y: -7.0d,
+	dependencies: [
+		"60786a19"
+	],
+	tasks: [{
+		uid: "c733d697",
+		type: "dimension",
+		title: "Visit Precasia",
+		icon: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "aoa3:precasian_lottoman"
+			}
+		},
+		dim: 818
+	}],
+	rewards: [{
+		uid: "1b607641",
+		type: "item",
+		item: "fossil:tar_fossil"
+	},
+	{
+		uid: "5d8ce1d6",
+		type: "ftbmoney:money",
+		ftb_money: 3000L
+	}]
+}

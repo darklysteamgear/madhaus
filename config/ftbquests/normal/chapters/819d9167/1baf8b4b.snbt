@@ -1,0 +1,27 @@
+{
+	x: -11.0d,
+	y: -5.5d,
+	shape: "gear",
+	dependencies: [
+		"8e786515"
+	],
+	tasks: [{
+		uid: "f605fbb8",
+		type: "kill",
+		title: "The Mummy",
+		icon: "thebetweenlands:mummy_bait",
+		entity: "atum:pharaoh",
+		value: 3L
+	}],
+	rewards: [{
+		uid: "5d21a060",
+		type: "item",
+		item: "atum:loot_gold_idol"
+	},
+	{
+		uid: "d4b8041d",
+		type: "ftbmoney:money",
+		ftb_money: 10000L,
+		random_bonus: 10000
+	}]
+}

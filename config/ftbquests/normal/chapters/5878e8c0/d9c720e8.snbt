@@ -1,0 +1,12 @@
+{
+	x: 88.0d,
+	y: -3.0d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "5e372a26",
+		type: "item",
+		items: [{
+			item: "moreplanets:infected_cactus"
+		}]
+	}]
+}

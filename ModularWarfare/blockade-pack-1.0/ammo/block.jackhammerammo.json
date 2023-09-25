@@ -1,0 +1,11 @@
+{
+    "internalName": "block.jackhammerammo",
+    "displayName": "Jackhammer Cylinder Mag 10rnd ",
+    "ammoCapacity": 10,
+	"reloadTimeFactor": 1.5,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.12gauge"
+    ],
+    "allowEmptyMagazines": true
+}

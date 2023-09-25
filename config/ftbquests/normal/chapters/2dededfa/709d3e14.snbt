@@ -1,0 +1,20 @@
+{
+	x: -2.0d,
+	y: 5.0d,
+	dependencies: [
+		"9aedaf0c"
+	],
+	tasks: [{
+		uid: "3214a03a",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_furnace_double"
+		}]
+	}],
+	rewards: [{
+		uid: "3e09ba89",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

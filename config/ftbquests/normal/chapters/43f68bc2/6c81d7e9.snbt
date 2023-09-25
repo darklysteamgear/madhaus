@@ -1,0 +1,22 @@
+{
+	title: "Hope you brought a torch... or 100",
+	x: 0.5d,
+	y: 1.5d,
+	text: [
+		"Yeah, I couldn't get it to detect when you reached a certain height limit, so just craft a firerod or something"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d3e1fbca",
+		type: "item",
+		items: [{
+			item: "reforged:firerod"
+		}]
+	}],
+	rewards: [{
+		uid: "acf86821",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:torch"
+	}]
+}

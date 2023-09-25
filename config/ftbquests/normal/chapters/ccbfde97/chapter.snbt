@@ -1,0 +1,10 @@
+{
+	title: "Dead Memes",
+	icon: "memeinabottle:pen_pineapple_apple_pen",
+	description: [
+		"Dead memes to make your insides curdle with cringe!"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

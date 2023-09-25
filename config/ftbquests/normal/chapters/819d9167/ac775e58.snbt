@@ -1,0 +1,23 @@
+{
+	x: -0.5d,
+	y: 2.0d,
+	shape: "gear",
+	description: "He has ancient knowledge of redstone flux tools",
+	dependencies: [
+		"93c5cf5d"
+	],
+	tasks: [{
+		uid: "4f6a4305",
+		type: "kill",
+		title: "End the Sludge Menace",
+		icon: "aoa3:sludge_parasite",
+		entity: "thebetweenlands:sludge_menace",
+		value: 3L
+	}],
+	rewards: [{
+		uid: "9abcfbc9",
+		type: "ftbmoney:money",
+		ftb_money: 10000L,
+		random_bonus: 10000
+	}]
+}

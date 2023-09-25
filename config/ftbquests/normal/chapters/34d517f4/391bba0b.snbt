@@ -1,0 +1,23 @@
+{
+	title: "Shields: Online",
+	x: 0.5d,
+	y: 7.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"2a0f71b7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "de000e9d",
+		type: "item",
+		items: [{
+			item: "sapturretmod:turret_forcefield"
+		}]
+	}],
+	rewards: [{
+		uid: "35d195b4",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 1500
+	}]
+}

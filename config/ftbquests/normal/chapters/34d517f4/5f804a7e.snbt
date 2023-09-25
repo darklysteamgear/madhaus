@@ -1,0 +1,53 @@
+{
+	title: "Troops for the cause!",
+	x: 1.0d,
+	y: -2.5d,
+	description: "I may not have too much, but here's some snow devils and guinea pigs to tame",
+	text: [
+		"No trick here... just be cafeful, those snow devils WILL BITE when you spawn them in!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b79a9b6e",
+		"8eb2abde",
+		"5a33d1ee"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d063d4fe",
+		type: "item",
+		items: [{
+			item: "minecraft:gunpowder"
+		}]
+	}],
+	rewards: [{
+		uid: "95486d2a",
+		type: "command",
+		title: "Lil Frien",
+		command: "/execute @p ~ ~ ~ summon morecreeps:guineapig"
+	},
+	{
+		uid: "c90a7d70",
+		type: "command",
+		title: "Another lil frien",
+		command: "/execute @p ~ ~ ~ summon morecreeps:guineapig"
+	},
+	{
+		uid: "90f8d1ff",
+		type: "command",
+		title: "More frien",
+		command: "/execute @p ~ ~ ~ summon morecreeps:guineapig"
+	},
+	{
+		uid: "b68d1f57",
+		type: "command",
+		title: "Angy frien",
+		command: "/execute @p ~ ~ ~ summon morecreeps:snowdevil"
+	},
+	{
+		uid: "ee53cac6",
+		type: "command",
+		title: "Another angy frien",
+		command: "/execute @p ~ ~ ~ summon morecreeps:snowdevil"
+	}]
+}

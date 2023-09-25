@@ -1,0 +1,18 @@
+{
+    "name": "Nyx Events",
+    "icon": "minecraft:writable_book",
+    "category": "events",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Celestial events can be either a curse or a blessing. It could rain stars, or death, You never really know. Be weary of bloodmoons, as they are one of the most deadly events in the madhaus!"
+        },
+        {
+        "type" : "image", 
+        "images": [
+            "madhaus:textures/book/bloodmoon.png"
+        ]
+        }
+    ]
+}

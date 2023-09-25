@@ -1,0 +1,33 @@
+{
+	title: "Here comes the TANK!!!",
+	x: -10.5d,
+	y: -3.0d,
+	description: "...Wait, that's not a tank",
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fece0bb7",
+		type: "item",
+		title: "Golf Cart",
+		items: [{
+			id: "vehicle:vehicle_crate",
+			tag: {
+				BlockEntityTag: {
+					vehicle: "vehicle:golf_cart",
+					engineTier: 0,
+					wheelType: 0
+				}
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "b5459027",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

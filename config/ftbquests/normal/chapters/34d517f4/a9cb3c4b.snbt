@@ -1,0 +1,23 @@
+{
+	title: "Inglorious B**tard",
+	x: -6.0d,
+	y: -2.5d,
+	description: "I don't even know if that's the right reference",
+	hide_dependency_lines: true,
+	hide: true,
+	tasks: [{
+		uid: "d78da107",
+		type: "item",
+		items: [{
+			item: "modularwarfare:block.mp40"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1680b644",
+		type: "ftbmoney:money",
+		ftb_money: 2000L,
+		random_bonus: 500
+	}]
+}

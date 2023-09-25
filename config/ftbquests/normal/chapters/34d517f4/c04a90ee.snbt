@@ -1,0 +1,28 @@
+{
+	title: "Pure destruction",
+	x: -7.0d,
+	y: 2.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"63015229"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ca2b3510",
+		type: "item",
+		items: [{
+			id: "aoa3:destruction_shotgun",
+			tag: {
+				HideFlags: 2b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1eb7797e",
+		type: "ftbmoney:money",
+		ftb_money: 2000L,
+		random_bonus: 500
+	}]
+}

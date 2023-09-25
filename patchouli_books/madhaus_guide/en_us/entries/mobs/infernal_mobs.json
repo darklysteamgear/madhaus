@@ -1,0 +1,18 @@
+{
+    "name": "Infernal Mobs",
+    "icon": "minecraft:writable_book",
+    "category": "mobs",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Infernal mobs are mobs that have special abilities, and will absolutely destroy you if you give them the chance. Not to be confused with blight mobs, these mobs have a confetti effect, and can shoot fireballs, spawn webs at you, and create all kinds of chaos. Their loot can be very beneficial, if you can defeat them."
+        },
+                {
+        "type" : "image", 
+        "images": [
+            "madhaus:textures/book/sans.png"
+        ]
+        }
+    ]
+}

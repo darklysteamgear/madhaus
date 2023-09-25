@@ -1,0 +1,11 @@
+{
+    "internalName": "block.negevammo",
+    "displayName": "Negev Box 50rnd",
+    "ammoCapacity": 50,
+	"reloadTimeFactor": 3.0,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.lmgbullet"
+    ],
+    "allowEmptyMagazines": true
+}

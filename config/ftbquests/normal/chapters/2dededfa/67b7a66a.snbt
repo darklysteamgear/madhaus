@@ -1,0 +1,55 @@
+{
+	title: "Extreme Reactors",
+	icon: "bigreactors:reactorcontroller",
+	x: -5.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "b29297e4",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcontroller"
+		}]
+	},
+	{
+		uid: "40a23e76",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcasing"
+		}]
+	},
+	{
+		uid: "527f2c96",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorfuelrod"
+		}]
+	},
+	{
+		uid: "8bbd4273",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcontrolrod"
+		}]
+	},
+	{
+		uid: "7a0f37f1",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorpowertaprf"
+		}]
+	},
+	{
+		uid: "b14c1b36",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactoraccessport"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "a70e1082",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

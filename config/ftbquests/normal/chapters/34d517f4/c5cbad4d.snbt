@@ -1,0 +1,57 @@
+{
+	title: "The Axis",
+	icon: "modularwarfare:block.mp40",
+	x: -3.0d,
+	y: 0.5d,
+	description: "They can provide some support for your efforts!",
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a9cb3c4b",
+		"461a8178",
+		"543b7ddd",
+		"9c58b333",
+		"578d01d1",
+		"83516e1c",
+		"6b1dc8a0",
+		"639211ef"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b1552497",
+		type: "ftbmoney:money",
+		value: 22500L
+	},
+	{
+		uid: "f691a139",
+		type: "item",
+		items: [{
+			item: "morecreeps:money"
+		}],
+		count: 50L
+	}],
+	rewards: [{
+		uid: "25d0bcb7",
+		type: "command",
+		title: "Secret german technology!",
+		team_reward: true,
+		auto: "enabled",
+		command: "/say BEACON SUPPORT INCOMING!!! DROPPING ORBITAL GOLEM!!!"
+	},
+	{
+		uid: "d6bc6ee4",
+		type: "command",
+		title: "Holy heck",
+		team_reward: true,
+		auto: "enabled",
+		command: "/effect @p regeneration 45 3"
+	},
+	{
+		uid: "38b896f3",
+		type: "command",
+		title: "Orbital golem",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon minecraft:villager_golem"
+	}]
+}

@@ -1,0 +1,11 @@
+{
+  "modelFileName": "block.scopevsk94x.obj",
+  "extra": {
+    "modelScale": 1.0
+  },
+  "sight": {
+    "fovZoom": 9.0,
+    "mouseSensitivityFactor": 0.5,
+    "rectileScale": 3.0
+  }
+}

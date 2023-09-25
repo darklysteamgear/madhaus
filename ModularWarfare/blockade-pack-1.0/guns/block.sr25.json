@@ -1,0 +1,88 @@
+{
+    "internalName": "block.sr25",
+    "displayName": "SR-25",
+    "weaponType": "carbine",
+	"extraLore": "Fact: the rate of firing of this weapon was almost equal to the rate of clatter of horse hooves during a gallop.",
+    "customFlashTexture": "prototype.advanced.flash",
+    "gunDamage": 10,
+    "gunDamageHeadshotBonus": 2,
+    "roundsPerMin": 190,
+    "allowEmptyMagazines": true,
+    "recoilPitch": 3.3,
+    "recoilYaw": 0.4,
+    "randomRecoilPitch": 0.4,
+    "randomRecoilYaw": 0.0,
+    "bulletSpread": 0.125,
+    "accuracySneakFactor": 0.125,
+    "moveSpeedModifier": 0.88,
+    "allowSprintFiring": false,
+    "fireModes": [
+        "full",
+        "semi"
+    ],
+    "acceptedAmmo": [
+        "block.sr25ammo"
+    ],
+    "dropBulletCasing": true,
+    "shellEjectOffsetNormal": {
+        "x": -1,
+        "y": 0,
+        "z": 1
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "block.sr25.shoot",
+                "soundNameDistant":"block.bolt.shoot.distant",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponUnload": [
+            {
+                "soundEvent": "weaponReload",
+                "soundName": "prototype.generic.reload"
+            }
+        ],
+		"weaponReload": [
+			{
+        "soundEvent": "weaponReload",
+        "soundName": "block.long25.reload"
+			}
+		],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "block.sr25.shoot.sup",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+            }
+        ]
+    },
+    "acceptedAttachments": {
+		"sight": [
+            "block.scopesr25x",
+			"block.scopesr25x.snow"
+        ]
+	},
+    "modelSkins": [
+        {
+            "internalName": "block.sr25",
+            "skinAsset": "block.sr25",
+            "displayName": "Default"
+        },
+		{
+            "internalName": "block.sr25.snow",
+            "skinAsset": "block.sr25.snow",
+            "displayName": "Snow"
+        }
+    ]
+}

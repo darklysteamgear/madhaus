@@ -1,0 +1,28 @@
+{
+	x: -1.0d,
+	y: 8.0d,
+	dependencies: [
+		"a3760867"
+	],
+	tasks: [{
+		uid: "2e8b7364",
+		type: "item",
+		items: [{
+			id: "botania:twigwand",
+			tag: {
+				color1: 0,
+				color2: 0,
+				boundTileZ: 0,
+				boundTileX: 0,
+				boundTileY: -1
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b17efa47",
+		type: "ftbmoney:money",
+		ftb_money: 1000L,
+		random_bonus: 500
+	}]
+}

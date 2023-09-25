@@ -1,0 +1,35 @@
+{
+	title: "Summon the Mutant Zombie",
+	icon: "mutantbeasts:hulk_hammer",
+	x: 10.5d,
+	y: -10.5d,
+	description: "You can find him in cursed or abyssal lands",
+	can_repeat: true,
+	size: 3.0d,
+	tasks: [{
+		uid: "7a0af022",
+		type: "item",
+		items: [{
+			item: "xreliquary:mob_ingredient 1 6"
+		}],
+		count: 8L,
+		consume_items: true
+	},
+	{
+		uid: "fe2c5eec",
+		type: "item",
+		items: [{
+			item: "mutantbeasts:chemical_x"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6316db28",
+		type: "command",
+		title: "Big boi time",
+		icon: "fossil:figurine 1 2",
+		command: "/execute @p ~ ~ ~ summon mutantbeasts:mutant_zombie"
+	}]
+}

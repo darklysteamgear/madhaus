@@ -1,0 +1,18 @@
+{
+	title: "It came from the nether!!!",
+	x: 12.5d,
+	y: 1.5d,
+	tasks: [{
+		uid: "9e1d891a",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:gem"
+		}]
+	}],
+	rewards: [{
+		uid: "a8c0addb",
+		type: "ftbmoney:money",
+		ftb_money: 666L,
+		random_bonus: 1000
+	}]
+}

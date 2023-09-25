@@ -1,0 +1,16 @@
+{
+  "displayName": "PSG-1 Scope",
+  "internalName": "block.scopepsg1x",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopepsg1x",
+      "displayName": "PSG-1 Scope - Default"
+    }
+  ],
+  "sight": {
+    "scopeType": "15x",
+    "customOverlayTexture": "block.blockscopepsg1x",
+    "modeType": "pip"
+  }
+}

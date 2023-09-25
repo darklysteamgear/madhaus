@@ -1,0 +1,17 @@
+{
+	title: "Very Nice",
+	x: 11.0d,
+	y: 0.0d,
+	text: [
+		"Yeah, I'm pretty sure that's rarer then diamonds",
+		"...",
+		"You want money for that? lol, you're clearly rich enough after finding whatever this thing is"
+	],
+	tasks: [{
+		uid: "cdd49ba3",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 5"
+		}]
+	}]
+}

@@ -1,0 +1,5 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"He knows. You no longer have the element of surprise","color":"red","italic":true}]
+playsound minecraft:entity.ghast.scream ambient @a[r=50] ~ ~ ~ 1 0.5
+gamestage silentadd @p stealthfail

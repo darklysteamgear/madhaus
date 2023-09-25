@@ -1,0 +1,11 @@
+{
+    "internalName": "block.saigaammo",
+    "displayName": "Saiga Mag 8rnd ",
+    "ammoCapacity": 8,
+	"reloadTimeFactor": 1.4,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.12gauge"
+    ],
+    "allowEmptyMagazines": true
+}

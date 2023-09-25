@@ -1,0 +1,57 @@
+{
+	title: "Who knows what we'll find beneath? Diamonds, rubies, gold and more Hidden in the mountain store",
+	x: 4.0d,
+	y: 5.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"63894889",
+		"1b50eeb8",
+		"bdf20e9e",
+		"efcda211",
+		"3d4217dd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6d23f5dc",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	},
+	{
+		uid: "89724f58",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:gem 1 1"
+		}]
+	},
+	{
+		uid: "f89eeb60",
+		type: "item",
+		items: [{
+			item: "projectred-core:resource_item 1 200"
+		}]
+	},
+	{
+		uid: "b0c74000",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "8c201b98",
+		type: "ftbmoney:money",
+		ftb_money: 50000L
+	},
+	{
+		uid: "d335f10c",
+		type: "loot",
+		table: 7
+	},
+	{
+		uid: "486ab135",
+		type: "loot",
+		table: 4
+	}]
+}

@@ -1,0 +1,11 @@
+{
+    "internalName": "block.p90ammo",
+    "displayName": "P90 Mag 50rnd ",
+    "ammoCapacity": 50,
+	"reloadTimeFactor": 1.3,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.smgbullet"
+    ],
+    "allowEmptyMagazines": true
+}

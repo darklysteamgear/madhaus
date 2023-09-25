@@ -1,0 +1,13 @@
+setIcon(<minecraft:stone>)
+setTitle("Kill the sludge menace")
+setDescription("Go to the betweenlands and kill the sludge menace, many tales tell of vast knowledge stored in it's tentacles")
+
+addRewardFunction("triumph:dimensions")
+addParent("triumph:events/root")
+
+criteria = addCriteria("sludgemenace", "minecraft:player_killed_entity")
+criteria.setEntityType("thebetweenlands:sludge_menace")
+
+hideLines()
+alwaysVisible()
+setPos(-76,77)

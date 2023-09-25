@@ -1,0 +1,18 @@
+{
+	title: "The start of something evil",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Aren't you the edgy one",
+	tasks: [{
+		uid: "5e9fddfd",
+		type: "item",
+		items: [{
+			item: "evilcraft:dark_gem"
+		}]
+	}],
+	rewards: [{
+		uid: "5cf9ecac",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

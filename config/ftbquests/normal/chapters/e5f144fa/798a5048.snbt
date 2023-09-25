@@ -1,0 +1,39 @@
+{
+	title: "Microplastics in my water",
+	x: -2.0d,
+	y: -6.5d,
+	dependencies: [
+		"e0e5fa7c",
+		"875fe29c"
+	],
+	tasks: [{
+		uid: "b79c432b",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:plastic"
+		}],
+		count: 42069L,
+		consume_items: true
+	},
+	{
+		uid: "4e3c3ab7",
+		type: "item",
+		items: [{
+			item: "minecraft:water_bucket"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dbb6b1a5",
+		type: "item",
+		item: "morecreeps:money",
+		count: 20
+	},
+	{
+		uid: "aa91e487",
+		type: "random",
+		table: 3
+	}]
+}

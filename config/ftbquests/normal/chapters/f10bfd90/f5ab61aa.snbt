@@ -1,0 +1,20 @@
+{
+	x: 0.5d,
+	y: -3.5d,
+	tasks: [{
+		uid: "97305c5c",
+		type: "observation",
+		title: "106?",
+		icon: {
+			id: "scp:document_keter",
+			tag: {
+				ObjectClass: "KETER",
+				Number: "106",
+				ObjectName: "The Old Man"
+			}
+		},
+		match_type: "entity_id",
+		match: "scp:old_man",
+		timer: 0L
+	}]
+}

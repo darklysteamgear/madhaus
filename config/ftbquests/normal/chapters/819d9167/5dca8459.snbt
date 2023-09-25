@@ -1,0 +1,21 @@
+{
+	title: "spiky",
+	x: -7.0d,
+	y: -4.5d,
+	dependencies: [
+		"f1115f43"
+	],
+	tasks: [{
+		uid: "8307984d",
+		type: "item",
+		items: [{
+			item: "midnight:bladeshroom_cap"
+		}]
+	}],
+	rewards: [{
+		uid: "daed006e",
+		type: "ftbmoney:money",
+		ftb_money: 500L,
+		random_bonus: 1000
+	}]
+}

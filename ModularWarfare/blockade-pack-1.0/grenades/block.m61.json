@@ -1,0 +1,10 @@
+{
+  "displayName": "M61",
+  "internalName": "block.m61",
+  "grenadeType": "frag",
+  "fuseTime": 3,
+  "damageWorld": true,
+  "explosionPower": 4,
+  "throwStrength": 1.0,
+  "throwerVulnerable": true
+}

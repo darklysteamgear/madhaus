@@ -1,0 +1,18 @@
+{
+    "name": "AoA Events",
+    "icon": "minecraft:writable_book",
+    "category": "events",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "You can check known AoA events by pressing /. AoA events are how you can get better equipment, and be more effective offensively!"
+        },
+        {
+        "type" : "image", 
+        "images": [
+            "madhaus:textures/book/aoa.png"
+        ]
+        }
+    ]
+}

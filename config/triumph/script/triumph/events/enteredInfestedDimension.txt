@@ -1,0 +1,29 @@
+setIcon(<minecraft:stone>)
+setTitle("Infected...")
+setDescription("...")
+
+addRewardFunction("triumph:infested")
+addParent("triumph:events/root")
+
+criteria = addCriteria("nibiru", "minecraft:changed_dimension")
+criteria.setDimensionDestination("planet.nibiru")
+criteria.setCount(1)
+
+criteria = addCriteria("titan", "minecraft:changed_dimension")
+criteria.setDimensionDestination("moon.titan")
+criteria.setCount(5)
+
+criteria = addCriteria("moon", "minecraft:changed_dimension")
+criteria.setDimensionDestination("moon.moon")
+criteria.setCount(25)
+
+criteria = addCriteria("wasteland", "triumph:changed_dimension")
+criteria.setDimensionDestination(112)
+criteria.setCount(3)
+
+setRequirements("any")
+setHidden(true)
+setShowToast(false)
+setAnnounceToChat(false)
+setUncompletedIconColor(71,71,71)
+setPos(43,-24)

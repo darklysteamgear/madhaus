@@ -1,0 +1,23 @@
+{
+	icon: "fossil:anu_statue",
+	x: 6.0d,
+	y: -4.5d,
+	size: 3.0d,
+	tasks: [{
+		uid: "7c80b8ba",
+		type: "kill",
+		title: "Kill Anu",
+		entity: "fossil:fossil.anu",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "86c6a449",
+		type: "loot",
+		table: 10
+	},
+	{
+		uid: "fb5b2048",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	}]
+}

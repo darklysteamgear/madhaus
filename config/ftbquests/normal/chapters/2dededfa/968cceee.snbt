@@ -1,0 +1,23 @@
+{
+	x: -1.0d,
+	y: 2.0d,
+	dependencies: [
+		"d9be356c",
+		"acddb640",
+		"984d01e0",
+		"8bcba24d"
+	],
+	tasks: [{
+		uid: "8184f114",
+		type: "item",
+		items: [{
+			item: "extrautils2:rainbowgenerator"
+		}]
+	}],
+	rewards: [{
+		uid: "1ac45e88",
+		type: "ftbmoney:money",
+		ftb_money: 50000L,
+		random_bonus: 50000
+	}]
+}

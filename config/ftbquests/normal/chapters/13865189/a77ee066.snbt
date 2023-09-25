@@ -1,0 +1,16 @@
+{
+	title: "Watch as the countdown seconds tick by,",
+	x: -8.0d,
+	y: -20.5d,
+	dependencies: [
+		"6dd5d489"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d9e6b534",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:landing_pad"
+		}]
+	}]
+}

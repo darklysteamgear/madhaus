@@ -1,0 +1,17 @@
+{
+	title: "And I'll make myself tons of TNT",
+	x: 6.0d,
+	y: -3.0d,
+	dependencies: [
+		"f33c1e05"
+	],
+	hide: true,
+	tasks: [{
+		uid: "79b920fa",
+		type: "item",
+		items: [{
+			item: "minecraft:tnt"
+		}],
+		count: 100L
+	}]
+}

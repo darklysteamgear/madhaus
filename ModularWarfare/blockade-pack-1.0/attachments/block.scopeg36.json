@@ -1,0 +1,16 @@
+{
+  "displayName": "G36 Veteran Scope",
+  "internalName": "block.scopeg36",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopeg36",
+      "displayName": "G36 Veteran Scope - Default"
+    }
+  ],
+  "sight": {
+    "scopeType": "4x",
+    "customOverlayTexture": "block.blockscopeg36",
+    "modeType": "pip"
+  }
+}

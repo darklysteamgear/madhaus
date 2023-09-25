@@ -1,0 +1,41 @@
+{
+	title: "YOU WERE WARNED",
+	x: -3.5d,
+	y: 5.0d,
+	tasks: [{
+		uid: "ba0f5db1",
+		type: "observation",
+		icon: "tconstruct:tooltables 1 3",
+		match_type: "block_id",
+		match: "tconstruct:tooltables",
+		timer: 0L
+	},
+	{
+		uid: "9e3dd570",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "7304f1b6",
+		type: "command",
+		title: "NOOOOO",
+		auto: "enabled",
+		command: "/kill @p"
+	},
+	{
+		uid: "48f86ef4",
+		type: "command",
+		title: "smite",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon lightning_bolt"
+	},
+	{
+		uid: "af7f3426",
+		type: "command",
+		title: "boom boom",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon tnt"
+	}]
+}

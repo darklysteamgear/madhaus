@@ -1,0 +1,18 @@
+{
+	title: "The lost city",
+	icon: "minecraft:brick_block",
+	x: 2.0d,
+	y: -6.5d,
+	description: "A city long abandoned and lost to time... Get here through placing a bed on top of diamond blocks and placing skulls around the bed",
+	size: 2.0d,
+	tasks: [{
+		uid: "4c469ab5",
+		type: "dimension",
+		dim: 111
+	}],
+	rewards: [{
+		uid: "66efb5f6",
+		type: "ftbmoney:money",
+		ftb_money: 8000L
+	}]
+}

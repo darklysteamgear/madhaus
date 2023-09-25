@@ -1,0 +1,11 @@
+{
+    "internalName": "block.asvalammo",
+    "displayName": "Asval Mag 20rnd",
+    "ammoCapacity": 20,
+	"reloadTimeFactor": 1.2,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.riflebullet"
+    ],
+    "allowEmptyMagazines": true
+}

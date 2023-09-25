@@ -1,0 +1,20 @@
+{
+	title: "Alien",
+	icon: "moreplanets:diona_surface_rock",
+	x: 78.0d,
+	y: -40.5d,
+	shape: "circle",
+	dependencies: [
+		"bd1f3b9f",
+		"3a4f5e0e",
+		"780439d9",
+		"4a30cade",
+		"44f5ae32"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "7c644f9a",
+		type: "dimension",
+		dim: -2542
+	}]
+}

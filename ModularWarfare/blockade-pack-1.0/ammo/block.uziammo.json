@@ -1,0 +1,10 @@
+{
+    "internalName": "block.uziammo",
+    "displayName": "Uzi Mag 25rnd ",
+    "ammoCapacity": 25,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.smgbullet"
+    ],
+    "allowEmptyMagazines": true
+}

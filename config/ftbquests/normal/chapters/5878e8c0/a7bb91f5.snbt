@@ -1,0 +1,13 @@
+{
+	x: 27.0d,
+	y: -2.0d,
+	shape: "circle",
+	size: 2.0d,
+	tasks: [{
+		uid: "8dc1bfe5",
+		type: "dimension",
+		title: "Europa",
+		icon: "extraplanets:europa",
+		dim: -1501
+	}]
+}

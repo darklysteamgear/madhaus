@@ -1,0 +1,39 @@
+{
+	title: "He's never gonna let you down!",
+	x: -1.0d,
+	y: 3.0d,
+	text: [
+		"We're no strangers to love",
+		"You know the rules and so do I",
+		"A full commitment's what I'm thinking of",
+		"You wouldn't get this from any other guy",
+		"",
+		"I just wanna tell you how I'm feeling",
+		"Gotta make you understand",
+		"",
+		"Never gonna give you up",
+		"Never gonna let you down",
+		"Never gonna run around and desert you",
+		"Never gonna make you cry",
+		"Never gonna say goodbye",
+		"Never gonna tell a lie and hurt you"
+	],
+	tasks: [{
+		uid: "add1d8d9",
+		type: "kill",
+		title: "Kill the alpha yeti 3 times",
+		icon: "memeinabottle:meme_record_3",
+		entity: "twilightforest:yeti_alpha",
+		value: 3L
+	}],
+	rewards: [{
+		uid: "4abc5371",
+		type: "item",
+		item: "memeinabottle:meme_record_3"
+	},
+	{
+		uid: "dfe8b3f3",
+		type: "random",
+		table: 7
+	}]
+}

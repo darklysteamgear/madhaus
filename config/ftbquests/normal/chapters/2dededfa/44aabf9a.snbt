@@ -1,0 +1,17 @@
+{
+	x: 3.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "6cc75658",
+		type: "item",
+		items: [{
+			item: "simplegenerators:combustion_upgradable"
+		}]
+	}],
+	rewards: [{
+		uid: "c4d94d97",
+		type: "ftbmoney:money",
+		ftb_money: 2500L,
+		random_bonus: 2500
+	}]
+}

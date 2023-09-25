@@ -1,0 +1,19 @@
+{
+	x: -4.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "fd96c502",
+		type: "item",
+		items: [{
+			item: "scp:telekill_diamond_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "42f98407",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 1000
+	}]
+}

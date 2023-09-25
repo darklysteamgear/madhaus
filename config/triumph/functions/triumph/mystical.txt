@@ -1,0 +1,5 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"You feel the magic from several dimensions seep into the world...","color":"dark_blue","italic":true}]
+playsound iceandfire:pixie_wand ambient @a[r=50] ~ ~ ~ 1 0.5
+gamestage silentadd @p mystical

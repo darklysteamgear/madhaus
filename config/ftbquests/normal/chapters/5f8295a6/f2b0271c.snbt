@@ -1,0 +1,18 @@
+{
+	title: "Not today no",
+	x: 6.0d,
+	y: 0.0d,
+	dependencies: [
+		"a6b44d93"
+	],
+	hide: true,
+	tasks: [{
+		uid: "50f3981d",
+		type: "item",
+		items: [{
+			item: "memeinabottle:trumpet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

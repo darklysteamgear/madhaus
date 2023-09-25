@@ -1,0 +1,17 @@
+{
+	title: "You really don't know what you're doing... Please, stop. before it's too late!",
+	x: 7.5d,
+	y: -0.5d,
+	dependencies: [
+		"e31a5dfe"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "fca5db06",
+		type: "item",
+		items: [{
+			item: "herobrine:herobrine_alter"
+		}]
+	}]
+}

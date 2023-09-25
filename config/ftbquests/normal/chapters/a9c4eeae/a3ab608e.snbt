@@ -1,0 +1,48 @@
+{
+	title: "Fall Foraging Bundle",
+	x: -7.0d,
+	y: -6.0d,
+	shape: "rsquare",
+	size: 2.0d,
+	tasks: [{
+		uid: "20bc03fd",
+		type: "item",
+		items: [{
+			item: "minecraft:brown_mushroom"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "b0b8e50d",
+		type: "item",
+		items: [{
+			item: "harvestcraft:plumitem"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "074a002a",
+		type: "item",
+		items: [{
+			item: "harvestcraft:hazelnutitem"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "eae0eec0",
+		type: "item",
+		items: [{
+			item: "harvestcraft:blackberryitem"
+		}],
+		count: 32L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "c2a1a6b0",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	}]
+}

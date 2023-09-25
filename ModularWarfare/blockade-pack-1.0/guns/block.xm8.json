@@ -1,0 +1,77 @@
+{
+    "internalName":"block.xm8",
+    "displayName":"XM8",
+    "weaponType":"carbine",
+    "extraLore": "An assault rifle with an unusual appearance and decent firepower, developed to replace the M16 and M4A1.",
+    "customFlashTexture":"prototype.advanced.flash",
+    "gunDamage":8.55,
+    "gunDamageHeadshotBonus":1.5,
+    "roundsPerMin":460,
+    "allowEmptyMagazines":true,
+    "recoilPitch": 3.9,
+    "recoilYaw": 0.3,
+    "randomRecoilPitch": 0.8,
+    "randomRecoilYaw": 0.0,
+    "bulletSpread":0.25,
+    "accuracySneakFactor":0.125,
+    "moveSpeedModifier":0.9,
+    "allowSprintFiring":false,
+    "fireModes":[
+        "full",
+		"burst",
+        "semi"
+    ],
+    "acceptedAmmo":[
+        "block.xm8ammo"
+    ],
+    "dropBulletCasing":true,
+    "shellEjectOffsetNormal":{
+        "x":-1.0,
+        "y":0.0,
+        "z":1.0
+    },
+    "shellEjectOffsetAiming":{
+        "x":-0.2,
+        "y":0.12,
+        "z":0.5
+    },
+    "weaponSoundMap":{
+        "weaponFire":[
+            {
+                "soundEvent":"weaponFire",
+                "soundName":"block.xm8.shoot",
+                "soundNameDistant":"block.rifle.shoot.distant",
+                "soundRange":64,
+                "soundMaxRange":96,
+                "soundFadeMultiplier":1
+            }
+        ],
+        "weaponUnload":[
+            {
+                "soundEvent":"weaponReload",
+                "soundName":"prototype.generic.reload"
+            }
+        ],
+        "weaponFireSuppressed":[
+            {
+                "soundEvent":"weaponFireSuppressed",
+                "soundName":"block.xm8.shoot.sup",
+                "soundRange":30,
+                "soundMaxRange":50,
+                "soundFadeMultiplier":1
+            }
+        ]
+    },
+   "acceptedAttachments":{
+		"sight": [
+            "block.scopexm8"
+        ]
+    },
+    "modelSkins":[
+        {
+            "internalName":"block.xm8",
+            "skinAsset":"block.xm8",
+            "displayName":"Default"
+        }
+    ]
+}

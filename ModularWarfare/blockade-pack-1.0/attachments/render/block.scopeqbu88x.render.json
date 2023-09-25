@@ -1,0 +1,11 @@
+{
+  "modelFileName": "block.scopeqbu88x.obj",
+  "extra": {
+    "modelScale": 1.0
+  },
+  "sight": {
+    "fovZoom": 11.0,
+    "mouseSensitivityFactor": 0.5,
+    "rectileScale": 3.0
+  }
+}

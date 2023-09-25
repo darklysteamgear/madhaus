@@ -1,0 +1,38 @@
+{
+	icon: "minecraft:packed_ice",
+	x: 2.0d,
+	y: 2.0d,
+	text: [
+		"Make a wish upon a portal made of darkstone to visit a world of great landscapes, lost to the waves of time."
+	],
+	dependencies: [
+		"442ab6a0"
+	],
+	tasks: [{
+		uid: "bb045b87",
+		type: "dimension",
+		dim: 56
+	}],
+	rewards: [{
+		uid: "3baf6eb5",
+		type: "item",
+		item: "motnt:festive_tnt",
+		count: 4
+	},
+	{
+		uid: "6cbedcec",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "82a9646e",
+		type: "ftbmoney:money",
+		ftb_money: 6000L
+	},
+	{
+		uid: "e00e03f2",
+		type: "item",
+		item: "iceandfire:dragonsteel_ice_ingot",
+		count: 4
+	}]
+}

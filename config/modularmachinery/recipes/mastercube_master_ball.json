@@ -1,0 +1,45 @@
+{
+    "machine": "mastercube",
+    "registryName": "mastercube_master_ball",
+    "recipeTime": 1200,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "projectex:final_star_shard"
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "pixelmon:poke_ball"
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "extendedcrafting:singularity_ultimate"
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "experience",
+            "amount": 100000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "pixelmon:master_ball",
+			"nbt": {
+            "display": {
+                "Lore": [
+                    "Synthetic Master Ball"
+					]
+				}
+			}
+        }
+    ]
+}

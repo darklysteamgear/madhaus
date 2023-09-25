@@ -1,0 +1,21 @@
+{
+	icon: "morecreeps:battery",
+	x: -1.0d,
+	y: 6.0d,
+	can_repeat: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "d4b0446d",
+		type: "kill",
+		title: "Tod is better",
+		entity: "morecreeps:robot_ted",
+		value: 35L
+	}],
+	rewards: [{
+		uid: "4c15913b",
+		type: "item",
+		item: "morecreeps:battery",
+		count: 8,
+		random_bonus: 8
+	}]
+}

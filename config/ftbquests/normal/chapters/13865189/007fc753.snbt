@@ -1,0 +1,21 @@
+{
+	title: "He'd fail if he tried",
+	x: -8.0d,
+	y: -11.5d,
+	dependencies: [
+		"c236d4bb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "07340a30",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:rocket_workbench"
+		}]
+	}],
+	rewards: [{
+		uid: "1283201e",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	title: "Summon the Mutant Skeleton",
+	icon: "mutantbeasts:mutant_skeleton_rib_cage",
+	x: 4.5d,
+	y: -10.5d,
+	description: "This mutant hasn't been seen in a long time...",
+	can_repeat: true,
+	size: 3.0d,
+	tasks: [{
+		uid: "3c558808",
+		type: "item",
+		items: [{
+			item: "xreliquary:mob_ingredient"
+		}],
+		count: 12L,
+		consume_items: true
+	},
+	{
+		uid: "e93398e8",
+		type: "item",
+		items: [{
+			item: "mutantbeasts:chemical_x"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "392c4198",
+		type: "item",
+		items: [{
+			item: "herobrine:cursed_dust"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "8b898d82",
+		type: "command",
+		title: "He's part of FaZe clan",
+		icon: "mutantbeasts:mutant_skeleton_skull",
+		command: "/execute @p ~ ~ ~ summon mutantbeasts:mutant_skeleton"
+	}]
+}

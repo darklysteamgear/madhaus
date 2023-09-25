@@ -1,0 +1,11 @@
+{
+    "internalName": "block.svuasammo",
+    "displayName": "SVU-AS Mag 10rnd",
+    "ammoCapacity": 10,
+	"reloadTimeFactor": 1.8,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.sniperbullet"
+    ],
+    "allowEmptyMagazines": true
+}

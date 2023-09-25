@@ -1,0 +1,22 @@
+{
+	title: "AND another upgrade!",
+	x: -3.0d,
+	y: 4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"14ebbade"
+	],
+	hide: true,
+	tasks: [{
+		uid: "eaeefa79",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:intermediate_tiered 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "f390db98",
+		type: "ftbmoney:money",
+		ftb_money: 3000L
+	}]
+}

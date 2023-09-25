@@ -1,0 +1,16 @@
+{
+	x: 10.0d,
+	y: -3.0d,
+	dependencies: [
+		"53cba0ce"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "e3225d8c",
+		type: "stat",
+		title: "(@_QDOD(Q)@DJ)DAWD02Q92QDQ0NWIDN09Q8*)dn#d)#nwdw#**f080F8N308F)*f)*)#*wnF038830fn)wnF8w#08wF083N0F8n*#FNYOUCANNOTESCAPE03N083*(#fw(*f(N8W3*F9",
+		stat: "stat.mobKills",
+		value: 1
+	}]
+}

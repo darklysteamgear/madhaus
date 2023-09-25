@@ -1,0 +1,12 @@
+{
+	x: 83.5d,
+	y: -3.0d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "a5ed9ec7",
+		type: "item",
+		items: [{
+			item: "moreplanets:batasia_dandelion"
+		}]
+	}]
+}

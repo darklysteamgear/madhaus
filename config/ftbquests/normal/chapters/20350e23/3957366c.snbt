@@ -1,0 +1,12 @@
+{
+	icon: "minecraft:iron_shovel",
+	x: -2.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "40113465",
+		type: "stat",
+		title: "You can use a shovel to get rid of your dead bodies!",
+		stat: "stat.deaths",
+		value: 1
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Time to pulse these fools!",
+	x: 2.0d,
+	y: 6.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"63015229"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0789f8f5",
+		type: "item",
+		items: [{
+			id: "aoa3:pulse_cannon",
+			tag: {
+				HideFlags: 2b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "45e807a8",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 1000
+	}]
+}

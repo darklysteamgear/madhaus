@@ -1,0 +1,19 @@
+{
+    "internalName": "block.helmetplus",
+    "defense": "0.18",
+    "durability": 1000,
+    "armorTypes": 
+    {
+        "head":
+        {
+            "displayName": "Reinforced Helmet"
+        }
+    },
+    "modelSkins":
+    [
+      {
+        "skinAsset": "block.helmetplus",
+        "displayName": "Helmet - Reinforced"
+      }
+    ]
+}

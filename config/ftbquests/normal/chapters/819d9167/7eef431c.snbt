@@ -1,0 +1,17 @@
+{
+	title: "Sandy and arid...",
+	icon: "atum:sand",
+	x: -11.0d,
+	y: -3.0d,
+	size: 2.0d,
+	tasks: [{
+		uid: "b4e03cf1",
+		type: "dimension",
+		dim: 17
+	}],
+	rewards: [{
+		uid: "b5b73b55",
+		type: "ftbmoney:money",
+		ftb_money: 8000L
+	}]
+}

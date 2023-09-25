@@ -1,0 +1,19 @@
+{
+	x: 79.5d,
+	y: -12.5d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "36b235a7",
+		type: "item",
+		title: "Fronos Flora",
+		items: [{
+			item: "moreplanets:nemophila"
+		},
+		{
+			item: "moreplanets:pink_blechnum"
+		},
+		{
+			item: "moreplanets:fronos_lily_pad"
+		}]
+	}]
+}

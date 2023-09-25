@@ -1,0 +1,15 @@
+{
+	title: "Why would you",
+	x: 8.0d,
+	y: -9.0d,
+	shape: "circle",
+	description: "I woudn't even wish this potion on my worst enemy",
+	size: 2.0d,
+	tasks: [{
+		uid: "228d6653",
+		type: "item",
+		items: [{
+			item: "memeinabottle:splash_meme_in_a_bottle"
+		}]
+	}]
+}

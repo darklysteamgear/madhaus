@@ -1,0 +1,75 @@
+{
+	title: "Lost Pamphlet",
+	x: 11.0d,
+	y: 7.0d,
+	shape: "gear",
+	description: "The survivor I met told me a story about an age lost to time. A special document was created during this time that detailed a way to stop herobrine. I must find it. It can only be read in a certain way, which is what the survivors have taught me.",
+	can_repeat: true,
+	dependencies: [
+		"cec54dfd",
+		"fe50a871"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	size: 2.0d,
+	tasks: [{
+		uid: "1c318ecd",
+		type: "item",
+		items: [{
+			item: "contenttweaker:truth"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9d98ec88",
+		type: "gamestage",
+		title: "Stopping the madness",
+		icon: "herobrine:herobrine_statue",
+		auto: "enabled",
+		stage: "truth"
+	},
+	{
+		uid: "2f0750fe",
+		type: "command",
+		title: "Pamphlet",
+		auto: "enabled",
+		command: "/say This pamphlet details how you can banish herobrine by trapping his essence into the backrooms. How to do so is detailed by using a poppet bound to herobrine, backrooms essence, and a time resetter. This is not going to be easy..."
+	},
+	{
+		uid: "c6f9046b",
+		type: "command",
+		title: "Pamphlet Page 2",
+		auto: "enabled",
+		command: "/say First, taglock a herobrine image, bind it to a poppet. then, find a way into the backrooms, which is accessed in some way through the cursed world. methods of getting here are unknown. only one thing is known about it: pickaxes don't work."
+	},
+	{
+		uid: "1109ce19",
+		type: "command",
+		title: "Pamphlet Page 3",
+		auto: "enabled",
+		command: "/say Note that if you manage to make it into the backrooms, herobrine will almost certainly know, and try to stop you. Find the door that exits into the overworld, harvest it, and throw it into an extractor. combine all 3 items."
+	},
+	{
+		uid: "a4a46249",
+		type: "command",
+		title: "Pamphlet Page 4",
+		auto: "enabled",
+		command: "/say After combining all of these items, you should have a banishing poppet. Unfortunetly, this is not enough to keep him trapped. the final step is to enchant the poppet with the altar. many of us theorize this will take several minecraft days."
+	},
+	{
+		uid: "50f42d88",
+		type: "command",
+		title: "Pamphlet Page 5",
+		auto: "enabled",
+		command: "/say If you can make it out alive, herobrine will be banished forever inside the walls of the backrooms, and free the servers of haus from his eternal madness. We have theorized that this would work, hopefully."
+	},
+	{
+		uid: "6ad2ac27",
+		type: "command",
+		title: "Pamphlet Page 6",
+		auto: "enabled",
+		command: "/say The pamphlet mysteriously vanishes, as if it glitched out of existance. You still remember everything it detailed to craft. It's time to stop this madness"
+	}]
+}

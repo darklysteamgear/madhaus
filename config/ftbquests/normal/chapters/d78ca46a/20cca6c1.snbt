@@ -1,0 +1,19 @@
+{
+	x: 6.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "9688207f",
+		type: "item",
+		items: [{
+			item: "moreplanets:multalic_crystal_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "95be134f",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

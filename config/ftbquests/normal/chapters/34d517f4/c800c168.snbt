@@ -1,0 +1,22 @@
+{
+	title: "I'll be the judge of that!",
+	x: -5.5d,
+	y: 1.5d,
+	hide_dependency_lines: true,
+	hide: true,
+	tasks: [{
+		uid: "acb361c0",
+		type: "item",
+		items: [{
+			item: "modularwarfare:block.honcho"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1f20bfd4",
+		type: "ftbmoney:money",
+		ftb_money: 2000L,
+		random_bonus: 500
+	}]
+}

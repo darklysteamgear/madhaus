@@ -1,0 +1,24 @@
+{
+	title: "Visit The Deeplands",
+	icon: "aoa3:deeplands_tokens",
+	x: 2.0d,
+	y: 3.5d,
+	dependencies: [
+		"0764384f"
+	],
+	tasks: [{
+		uid: "9278524c",
+		type: "dimension",
+		dim: 807
+	}],
+	rewards: [{
+		uid: "1f96c7ea",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "d3e85657",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	}]
+}

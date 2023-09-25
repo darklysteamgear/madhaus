@@ -1,0 +1,14 @@
+{
+	icon: "mutantbeasts:mutant_skeleton_skull",
+	x: 4.5d,
+	y: -4.5d,
+	description: "... Kill all 4 mutants for forbidden knowledge",
+	tasks: [{
+		uid: "eefebfce",
+		type: "observation",
+		title: "A change is due, a different view, we must go on.",
+		match_type: "entity_id",
+		match: "mutantbeasts:mutant_skeleton",
+		timer: 0L
+	}]
+}

@@ -1,0 +1,16 @@
+{
+  "displayName": "M14 EBR Scope",
+  "internalName": "block.scopem14ebrx",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopem14ebrx",
+      "displayName": "M14 EBR Scope - Default"
+    }
+  ],
+  "sight": {
+    "scopeType": "4x",
+    "customOverlayTexture": "block.blockscope4x",
+    "modeType": "pip"
+  }
+}

@@ -1,0 +1,5 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"You feel more powerful as you hold the unknown badge in your hand. A new dimension awaits you.","color":"yellow","italic":true}]
+playsound minecraft:ambient.cave ambient @a[r=50] ~ ~ ~ 1 0.5
+gamestage silentadd @p ultra

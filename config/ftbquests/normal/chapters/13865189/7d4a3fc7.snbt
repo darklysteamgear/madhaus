@@ -1,0 +1,21 @@
+{
+	title: "He looked above, to trees and mountain height,",
+	x: -8.0d,
+	y: -3.5d,
+	dependencies: [
+		"d1ea4034"
+	],
+	hide: true,
+	tasks: [{
+		uid: "24f5e133",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:aluminum_wire"
+		}]
+	}],
+	rewards: [{
+		uid: "b5e2999d",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "ADVANCED WARFARE",
+	x: 1.5d,
+	y: -5.0d,
+	description: "Oh no... LOOK OUT!!!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d9164285",
+		type: "item",
+		items: [{
+			item: "modularwarfare:block.minigun"
+		}]
+	}],
+	rewards: [{
+		uid: "91724e3b",
+		type: "command",
+		title: "IT CAME FROM THE NETHER",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon aoa3:hellcat"
+	}]
+}

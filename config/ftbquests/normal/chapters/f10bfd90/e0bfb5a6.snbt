@@ -1,0 +1,25 @@
+{
+	title: "The best item ever",
+	x: 0.5d,
+	y: 8.0d,
+	description: "yes",
+	text: [
+		"I know I may have not been the best with these quests, in terms of getting you killed, but I mean, you REALLY have to play with this thing",
+		"It is the best thing ever"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "80ff3c1c",
+		type: "item",
+		items: [{
+			item: "morecreeps:mobile_phone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "739d4a18",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	}]
+}

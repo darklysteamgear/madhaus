@@ -1,0 +1,22 @@
+{
+	title: "FOR ALLAH!!!",
+	x: -4.0d,
+	y: 1.5d,
+	hide_dependency_lines: true,
+	hide: true,
+	tasks: [{
+		uid: "1592b1e9",
+		type: "item",
+		items: [{
+			item: "modularwarfare:block.ak47"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "049efa80",
+		type: "ftbmoney:money",
+		ftb_money: 2000L,
+		random_bonus: 500
+	}]
+}

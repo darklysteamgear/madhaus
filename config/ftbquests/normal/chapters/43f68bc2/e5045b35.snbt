@@ -1,0 +1,50 @@
+{
+	title: "It's fun watching you eat poop, but I've got something better...",
+	x: 2.0d,
+	y: -0.5d,
+	text: [
+		"More suffering for better food, How does that sound?"
+	],
+	can_repeat: true,
+	hide: true,
+	tasks: [{
+		uid: "da20f99d",
+		type: "item",
+		items: [{
+			item: "poop:chocolate_bar"
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "ba57998b",
+		type: "command",
+		title: "Melon Smoothie",
+		icon: "harvestcraft:melonsmoothieitem",
+		auto: "enabled",
+		command: "/effect @p nausea 120 3"
+	},
+	{
+		uid: "18481515",
+		type: "command",
+		title: "Summer Radish Salad",
+		icon: "harvestcraft:summerradishsaladitem",
+		auto: "enabled",
+		command: "/say Haha, LOSER"
+	},
+	{
+		uid: "8ec8f30c",
+		type: "command",
+		title: "5x Berry",
+		icon: "biomesoplenty:berries 5",
+		auto: "enabled",
+		command: "/effect @p poison 120 4"
+	},
+	{
+		uid: "ab4b60aa",
+		type: "item",
+		title: "2x Pizzer Slice",
+		icon: "scp:pizza 2",
+		item: "harvestcraft:hamandpineapplepizzaitem",
+		only_one: true
+	}]
+}

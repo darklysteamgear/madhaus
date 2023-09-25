@@ -1,0 +1,23 @@
+{
+	x: 8.5d,
+	y: 2.0d,
+	dependencies: [
+		"53cba0ce"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "9e8ee44c",
+		type: "stat",
+		title: "*#*HJFDEIO*)WDAj92j2qje 90qjepJ092Q()@ Je)q e)(jqp (ej(waiodhaefoh(#hf8H3h9hr33rw9h3rpwjc93r9wo",
+		stat: "stat.mobKills",
+		value: 1
+	}],
+	rewards: [{
+		uid: "bdce6b01",
+		type: "item",
+		auto: "enabled",
+		item: "scalinghealth:difficultychanger 1 1",
+		count: 100
+	}]
+}

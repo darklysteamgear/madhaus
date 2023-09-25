@@ -1,0 +1,11 @@
+{
+    "internalName": "block.aa12ammo",
+    "displayName": "AA-12 Drum Mag 20rnd ",
+    "ammoCapacity": 20,
+	"reloadTimeFactor": 1.9,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.12gauge"
+    ],
+    "allowEmptyMagazines": true
+}

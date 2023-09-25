@@ -1,0 +1,16 @@
+{
+	x: -3.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "6d5b97f1",
+		type: "fluid",
+		fluid: "cryotheum",
+		amount: 50000000
+	}],
+	rewards: [{
+		uid: "5a6d108a",
+		type: "ftbmoney:money",
+		ftb_money: 25000L,
+		random_bonus: 25000
+	}]
+}

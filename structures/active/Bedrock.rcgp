@@ -1,0 +1,49 @@
+{
+  "data": {
+    "factors": [
+      {
+        "type": "limit",
+        "factor": {
+          "priority": 1.0300429,
+          "rays": [
+            {
+              "type": "dynpos",
+              "ray": {
+                "type": "sealevel"
+              }
+            },
+            {
+              "type": "dynmove",
+              "ray": {
+                "type": "structure_height",
+                "up": false,
+                "weight": 0.0
+              }
+            },
+            {
+              "type": "average",
+              "ray": {
+                "weight": 0.08215868,
+                "up": false,
+                "destExpression": ""
+              }
+            },
+            {
+              "type": "dynpos",
+              "ray": {
+                "type": "bedrock",
+                "weight": 1.0239598
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "title": "Bedrock",
+    "description": [
+      "Place the Structure at bedrock"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+	x: 1.0d,
+	y: 3.0d,
+	dependencies: [
+		"c880d1e9"
+	],
+	tasks: [{
+		uid: "7117c70d",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:black_hole_unit"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "02b5f80e",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

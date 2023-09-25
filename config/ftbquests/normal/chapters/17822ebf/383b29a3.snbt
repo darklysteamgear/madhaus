@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "65850677",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "82a04c07",
+		type: "ftbmoney:money",
+		ftb_money: 2500L,
+		random_bonus: 2500
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Wait, you're not hans!",
+	x: -7.0d,
+	y: -0.5d,
+	hide_dependency_lines: true,
+	hide: true,
+	tasks: [{
+		uid: "75944284",
+		type: "item",
+		items: [{
+			id: "mekanism:flamethrower",
+			tag: {
+				mekData: {
+					stored: {
+						gasName: "hydrogen",
+						amount: 24000
+					}
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7796b2d8",
+		type: "ftbmoney:money",
+		ftb_money: 2500L,
+		random_bonus: 500
+	}]
+}

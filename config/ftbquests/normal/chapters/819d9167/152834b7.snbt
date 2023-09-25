@@ -1,0 +1,18 @@
+{
+	title: "Glowstone and a bucket of water!",
+	icon: "minecraft:glowstone",
+	x: -5.0d,
+	y: -1.0d,
+	size: 2.0d,
+	tasks: [{
+		uid: "89ec5ab5",
+		type: "dimension",
+		dim: 70
+	}],
+	rewards: [{
+		uid: "ba4c0004",
+		type: "ftbmoney:money",
+		ftb_money: 1000L,
+		random_bonus: 1500
+	}]
+}

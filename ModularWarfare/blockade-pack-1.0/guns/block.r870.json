@@ -1,0 +1,82 @@
+{
+    "internalName": "block.r870",
+    "displayName": "Remington 870",
+    "weaponType": "shotgun",
+	"extraLore": "One of the most famous classic pump action shotguns in the world.",
+    "customFlashTexture": "prototype.advanced.flash",
+    "gunDamage": 4.85,
+	"numBullets": 9,
+    "roundsPerMin": 70,
+	"weaponMaxRange": 20,
+    "allowEmptyMagazines": true,
+    "recoilPitch": 11,
+    "recoilYaw": 0.4,
+    "randomRecoilPitch": 0.3,
+    "randomRecoilYaw": 0.0,
+    "bulletSpread": 3.3,
+    "accuracySneakFactor": 0.9,
+    "moveSpeedModifier":0.9,
+    "allowSprintFiring": false,
+    "fireModes": [
+        "full",
+        "semi"
+    ],
+    "acceptedBullets": [
+        "block.12gauge"
+    ],
+    "internalAmmoStorage": 8,
+    "reloadTime": 90,
+    "dropBulletCasing": true,
+    "shellEjectOffsetNormal": {
+        "x": -1,
+        "y": 0,
+        "z": 1
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+    "acceptedAttachments": {
+    },
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "block.r870.shoot",
+                "soundNameDistant": "block.shotgun.shoot.distant",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "block.r870.shoot.sup",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponBolt": [
+            {
+                "soundEvent": "weaponBolt",
+                "soundName": "block.r870.pump"
+            }
+        ],
+        "weaponBulletLoad": [
+            {
+                "soundEvent": "weaponBulletLoad",
+                "soundName": "block.shotgun.chamber"
+            }
+        ]
+    },
+    "modelSkins": [
+        {
+            "internalName": "block.r870",
+            "skinAsset": "block.r870",
+            "displayName": "Default"
+        }
+    ]
+}

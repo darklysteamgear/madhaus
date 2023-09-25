@@ -1,0 +1,21 @@
+{
+	x: 1.5d,
+	y: -6.0d,
+	dependencies: [
+		"845b19b1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e9d46f6c",
+		type: "kill",
+		title: "\"He\" cannot be stopped, A valiant effort, but \"He\" will persist",
+		entity: "jmr:john",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "3b02eeb1",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 2000
+	}]
+}

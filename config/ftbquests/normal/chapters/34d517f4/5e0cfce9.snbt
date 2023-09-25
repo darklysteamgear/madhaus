@@ -1,0 +1,61 @@
+{
+	title: "Hans...",
+	x: -4.5d,
+	y: -5.0d,
+	description: "GET ZE FLAMMENWARFER!!!",
+	text: [
+		"THERE ARE TOO MANY!!!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2e19631c",
+		type: "item",
+		items: [{
+			item: "modularwarfare:block.mauzer"
+		}]
+	}],
+	rewards: [{
+		uid: "f225a54e",
+		type: "command",
+		title: "Round 1 \"CoD: Zombies music starts to mysteriously play\"",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon specialmobs:specialzombie"
+	},
+	{
+		uid: "12658f78",
+		type: "command",
+		title: "F",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon specialmobs:specialzombie"
+	},
+	{
+		uid: "3bbd569e",
+		type: "command",
+		title: "FF",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon specialmobs:specialzombie"
+	},
+	{
+		uid: "913eac31",
+		type: "command",
+		title: "FFF",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon specialmobs:specialzombie"
+	},
+	{
+		uid: "92a2637a",
+		type: "command",
+		title: "Oh no...",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon specialmobs:plaguezombie"
+	}]
+}

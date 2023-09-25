@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "92f20820",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:armor.plate_invar"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7dc71e2c",
+		type: "ftbmoney:money",
+		ftb_money: 2000L,
+		random_bonus: 1000
+	}]
+}

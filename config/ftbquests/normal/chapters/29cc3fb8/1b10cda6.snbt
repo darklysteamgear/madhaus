@@ -1,0 +1,22 @@
+{
+	title: "Tenacious",
+	x: 0.0d,
+	y: -10.0d,
+	dependencies: [
+		"7dadef20"
+	],
+	tasks: [{
+		uid: "906dd7e6",
+		type: "item",
+		items: [{
+			item: "evilcraft:promise"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2f8c5187",
+		type: "ftbmoney:money",
+		ftb_money: 1000L,
+		random_bonus: 2000
+	}]
+}

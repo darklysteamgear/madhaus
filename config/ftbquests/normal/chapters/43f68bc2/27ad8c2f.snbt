@@ -1,0 +1,32 @@
+{
+	title: "Gluten Free Dairy Free Vegan BREAD!",
+	x: -1.0d,
+	y: -0.5d,
+	text: [
+		"Here's your soybeans, and extra virgin pumpkin spice latte with extra whipped cream, all sugar farm-raised and cage free with our vegan caramel topping sir. That'll be 2199$"
+	],
+	hide: true,
+	tasks: [{
+		uid: "98fc0e4f",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_food 1 17"
+		}]
+	},
+	{
+		uid: "a806e09d",
+		type: "ftbmoney:money",
+		value: 2199L
+	}],
+	rewards: [{
+		uid: "2479a742",
+		type: "item",
+		item: "harvestcraft:soybeanitem",
+		count: 4
+	},
+	{
+		uid: "1164821c",
+		type: "item",
+		item: "harvestcraft:pumpkinspicelatteitem"
+	}]
+}

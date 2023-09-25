@@ -1,0 +1,65 @@
+{
+	title: "THEY'RE EVERYWHERE!!!",
+	x: -10.5d,
+	y: -5.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9a0a359f",
+		type: "item",
+		items: [{
+			item: "modularwarfare:block.kord"
+		}]
+	}],
+	rewards: [{
+		uid: "66736420",
+		type: "command",
+		title: "f",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon specialmobs:specialzombie"
+	},
+	{
+		uid: "1f06332c",
+		type: "command",
+		title: "ff",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon specialmobs:specialzombie"
+	},
+	{
+		uid: "6f080f73",
+		type: "command",
+		title: "fff",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon specialmobs:specialzombie"
+	},
+	{
+		uid: "ab0fa878",
+		type: "command",
+		title: "ffff",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon specialmobs:specialzombie"
+	},
+	{
+		uid: "650abc83",
+		type: "command",
+		title: "I dont even know why I put f for all of these",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon specialmobs:specialzombie"
+	},
+	{
+		uid: "318b5295",
+		type: "command",
+		title: "ffffff",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon specialmobs:specialzombie"
+	}]
+}

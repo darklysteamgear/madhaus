@@ -1,0 +1,20 @@
+{
+	x: -4.0d,
+	y: 4.0d,
+	dependencies: [
+		"9aedaf0c"
+	],
+	tasks: [{
+		uid: "d4c3bf78",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_atomic_reconstructor"
+		}]
+	}],
+	rewards: [{
+		uid: "7f803d3d",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

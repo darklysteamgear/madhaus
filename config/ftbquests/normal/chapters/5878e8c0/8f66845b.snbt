@@ -1,0 +1,22 @@
+{
+	title: "Uranus",
+	icon: "extraplanets:uranus",
+	x: 15.0d,
+	y: 42.5d,
+	shape: "circle",
+	description: "Insert unfunny joke",
+	dependencies: [
+		"de7ca2a4",
+		"a5ee201e",
+		"cd1f62ad",
+		"585aae1d"
+	],
+	size: 5.0d,
+	tasks: [{
+		uid: "2efb8e32",
+		type: "dimension",
+		title: "Uranus",
+		icon: "extraplanets:uranus",
+		dim: -17
+	}]
+}

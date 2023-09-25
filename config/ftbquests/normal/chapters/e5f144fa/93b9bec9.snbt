@@ -1,0 +1,76 @@
+{
+	title: "UFO Lover",
+	icon: "extraplanets:item_tier4_rocket",
+	x: 1.5d,
+	y: -1.5d,
+	description: "UFO! UFO! UFO! UFO!UFO! UFO! UFO! UFO!UFO! UFO! UFO! UFO!UFO! UFO! UFO! UFO!",
+	text: [
+		"U F O   U F O   U F O   U F O   U F O    U F O ",
+		"UFO! UFO! UFO! UFO!UFO! UFO! UFO! UFO!",
+		"Don't you run away I can see you exactly as you areI wanted to take one more chance before I lose you to the starsYou hide your face from the world and your pride is your façade(And) I know you better to see you for what you keep in your heart",
+		"What kind of language are you speaking me?If only I could read your mindEvery little part of you, I love the way you doAnd now I wait for your sign",
+		"You give me UFO kinds of love, sweet babeYou are my, UFO lover!You are more precious to me than oxygenI love you, like no other!",
+		"Let’s go for a crazy ride, a galactic rendezvousI'll give you the universe in your hand if that gets me to you",
+		"What kind of language are you speaking me?If only I could read your mindEvery little part of you, I love the way you doAnd now I wait for your sign",
+		"You give me UFO kinds of love, sweet babeYou are my, UFO lover!You are more precious to me than oxygenI love you, like no other!You give me UFO kinds of love, sweet babeYou are my, UFO lover!You are more precious to me than oxygenI love you, like no ",
+		"UFO! UFO! UFO! UFO!UFO! UFO! UFO! UFO!UFO! UFO! UFO! UFO!UFO! UFO! UFO! UFO!",
+		"What kind of language are you speaking me?If only I could read your mindEvery little part of you, I love the way you doAnd now I wait for your sign",
+		"You give me UFO kinds of love, sweet babeYou are my, UFO lover!You are more precious to me than oxygenI love you, like no other!",
+		"You give me UFO kinds of love, sweet babeYou are my, UFO lover!You are more precious to me than oxygenI love you, like no other!"
+	],
+	min_required_dependencies: 1,
+	dependencies: [
+		"7c644f9a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e5b422b9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:gamer_girl_bathwater"
+		}],
+		count: 3L,
+		consume_items: true
+	},
+	{
+		uid: "40ad0fc8",
+		type: "item",
+		items: [{
+			item: "poop:poop_raw_ingot"
+		}],
+		count: 12L,
+		consume_items: true
+	},
+	{
+		uid: "a647317f",
+		type: "gamestage",
+		title: "THE ALIENS ARE HERE!!!",
+		icon: "moreplanets:alien_miner_part",
+		stage: "ufo"
+	}],
+	rewards: [{
+		uid: "5c570a52",
+		type: "gamestage",
+		title: "The aliens leave...",
+		icon: "moreplanets:alien_miner_part",
+		auto: "no_toast",
+		stage: "ufo",
+		remove: true
+	},
+	{
+		uid: "7aff5552",
+		type: "command",
+		title: "There appears to be no signs of intelligent life here",
+		icon: "poop:poop_raw_ingot",
+		auto: "enabled",
+		command: "/say You give the aliens the bathwater and poop... They left immedietly, realizing there is no intelligent life on this planet."
+	},
+	{
+		uid: "07e19fcd",
+		type: "command",
+		title: "Weirdo",
+		icon: "poop:poop_ingot",
+		auto: "enabled",
+		command: "/say Soo much for getting that alien [CENSORED]. You sure are weird for even going down this questline"
+	}]
+}

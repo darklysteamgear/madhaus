@@ -1,0 +1,28 @@
+{
+	title: "FIRE THE MISSILES!!!",
+	x: -7.0d,
+	y: 5.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"63015229"
+	],
+	hide: true,
+	tasks: [{
+		uid: "41b3693b",
+		type: "item",
+		items: [{
+			id: "aoa3:missile_maker",
+			tag: {
+				HideFlags: 2b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b7988134",
+		type: "ftbmoney:money",
+		ftb_money: 3000L,
+		random_bonus: 1000
+	}]
+}

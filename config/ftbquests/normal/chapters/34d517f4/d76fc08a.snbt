@@ -1,0 +1,23 @@
+{
+	title: "FREEZE, SKELETON!",
+	x: -5.5d,
+	y: 6.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"2a0f71b7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "44f0ea69",
+		type: "item",
+		items: [{
+			item: "sapturretmod:turret_cryolator"
+		}]
+	}],
+	rewards: [{
+		uid: "473f1b71",
+		type: "ftbmoney:money",
+		ftb_money: 3500L,
+		random_bonus: 1000
+	}]
+}

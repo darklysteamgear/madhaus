@@ -1,0 +1,25 @@
+{
+	title: "oh-oh-oh,",
+	icon: "galacticraftplanets:venus",
+	x: -7.0d,
+	y: -47.0d,
+	dependencies: [
+		"2e3e0ccd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0c11aa9d",
+		type: "dimension",
+		dim: 9005
+	}],
+	rewards: [{
+		uid: "3af96709",
+		type: "ftbmoney:money",
+		ftb_money: 20000L
+	},
+	{
+		uid: "60413d9a",
+		type: "loot",
+		table: 13
+	}]
+}

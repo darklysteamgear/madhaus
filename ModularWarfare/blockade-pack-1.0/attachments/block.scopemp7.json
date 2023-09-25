@@ -1,0 +1,16 @@
+{
+  "displayName": "MP7 Scope",
+  "internalName": "block.scopemp7",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopemp7",
+      "displayName": "MP7 Scope - Default"
+    }
+  ],
+  "sight": {
+    "scopeType": "2x",
+    "customOverlayTexture": "block.blockscope2x",
+    "modeType": "pip"
+  }
+}

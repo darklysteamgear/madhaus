@@ -1,0 +1,21 @@
+{
+    "name": "Special Health Items",
+    "icon": "minecraft:writable_book",
+    "category": "health",
+        "sortnum": 3,
+    "pages": [
+        {
+        "type" : "image", 
+        "images": [
+            "madhaus:textures/book/heartore.png",
+            "madhaus:textures/book/healthhint.png" 
+        ]
+        },
+        {
+            "type": "spotlight",
+            "item": "scalinghealth:crystalore",
+            "text": "You never know what items you may find in this Madhaus to help give you more health..."
+
+        }
+    ]
+}

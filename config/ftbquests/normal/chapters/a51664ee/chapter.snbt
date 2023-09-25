@@ -1,0 +1,10 @@
+{
+	title: "Diggy Diggy Hole",
+	icon: "thebetweenlands:stalactite",
+	description: [
+		"I am a dwarf and I'm digging a hole"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

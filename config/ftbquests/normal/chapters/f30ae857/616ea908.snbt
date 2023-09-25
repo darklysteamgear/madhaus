@@ -1,0 +1,17 @@
+{
+	x: -4.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "2e413ad1",
+		type: "item",
+		items: [{
+			item: "gravitygun:gravitygun"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3fa6b5a9",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	}]
+}

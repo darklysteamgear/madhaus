@@ -1,0 +1,17 @@
+{
+	title: "Every spelunker needs one!",
+	x: 4.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "06ba641d",
+		type: "item",
+		items: [{
+			item: "scp:flashlight"
+		}]
+	}],
+	rewards: [{
+		uid: "538ded95",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	}]
+}

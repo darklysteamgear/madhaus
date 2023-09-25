@@ -1,0 +1,10 @@
+{
+	title: "Introduction",
+	icon: "minecraft:crafting_table",
+	description: [
+		"Hello, and welcome to Madhaus!"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

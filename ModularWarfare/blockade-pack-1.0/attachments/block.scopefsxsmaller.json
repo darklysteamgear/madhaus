@@ -1,0 +1,16 @@
+{
+  "displayName": "FN F2000 Scope (For Small GUI in Video Settings)",
+  "internalName": "block.scopefsxsmaller",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopefsx",
+      "displayName": "FN F2000 Scope - Default"
+    }
+  ],
+  "sight": {
+    "scopeType": "2x",
+    "customOverlayTexture": "block.blockscopefsx",
+    "modeType": "pip"
+  }
+}

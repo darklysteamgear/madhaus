@@ -1,0 +1,83 @@
+{
+    "internalName":"block.pkp",
+    "displayName":"PKP",
+    "weaponType":"carbine",
+    "extraLore": "In the people is called Pecheneg. A serious argument in the dispute of who to live and who to die.",
+    "customFlashTexture":"prototype.advanced.flash",
+    "gunDamage":9.75,
+    "gunDamageHeadshotBonus":1.5,
+    "roundsPerMin":400,
+    "allowEmptyMagazines":true,
+    "recoilPitch": 4.5,
+    "recoilYaw":0.5,
+    "randomRecoilPitch": 0.5,
+    "randomRecoilYaw": 0.0,
+    "bulletSpread":0.25,
+    "accuracySneakFactor":0.125,
+    "moveSpeedModifier":0.82,
+    "allowSprintFiring":false,
+    "fireModes":[
+        "full"
+    ],
+    "acceptedAmmo":[
+        "block.pkpammo"
+    ],
+    "dropBulletCasing":true,
+    "shellEjectOffsetNormal":{
+        "x":-1.0,
+        "y":0.0,
+        "z":1.0
+    },
+    "shellEjectOffsetAiming":{
+        "x":-0.2,
+        "y":0.12,
+        "z":0.5
+    },
+    "weaponSoundMap":{
+        "weaponFire":[
+            {
+                "soundEvent":"weaponFire",
+                "soundName":"block.pkp.shoot",
+                "soundNameDistant":"block.lmg.shoot.distant",
+                "soundRange":64,
+                "soundMaxRange":96,
+                "soundFadeMultiplier":1
+            }
+        ],
+        "weaponUnload":[
+            {
+                "soundEvent":"weaponReload",
+                "soundName":"prototype.generic.reload"
+            }
+        ],
+		"weaponReload": [
+			{
+        "soundEvent": "weaponReload",
+        "soundName": "block.long35.reload"
+			}
+		],
+        "weaponFireSuppressed":[
+            {
+                "soundEvent":"weaponFireSuppressed",
+                "soundName":"block.pkp.shoot.sup",
+                "soundRange":30,
+                "soundMaxRange":50,
+                "soundFadeMultiplier":1
+            }
+        ]
+    },
+    "acceptedAttachments":{
+    },
+    "modelSkins":[
+        {
+            "internalName":"block.pkp",
+            "skinAsset":"block.pkp",
+            "displayName":"Default"
+        },
+        {
+            "internalName":"block.pkp.gold",
+            "skinAsset":"block.pkp.gold",
+            "displayName":"Gold"
+        }
+    ]
+}

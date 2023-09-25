@@ -1,0 +1,12 @@
+{
+	x: 82.0d,
+	y: -3.0d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "53f215c6",
+		type: "item",
+		items: [{
+			item: "moreplanets:pure_herb"
+		}]
+	}]
+}

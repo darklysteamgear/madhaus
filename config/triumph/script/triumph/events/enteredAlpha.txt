@@ -1,0 +1,17 @@
+setIcon(<minecraft:stone>)
+setTitle("Creeps")
+setDescription("...")
+
+addRewardFunction("triumph:creeps")
+addParent("triumph:events/root")
+
+criteria = addCriteria("alpha", "triumph:changed_dimension")
+criteria.setDimensionOrigin(58)
+criteria.setDimensionDestination(0)
+criteria.setCount(1)
+
+hideLines()
+setHidden(true)
+setShowToast(false)
+setAnnounceToChat(false)
+setPos(80,-24)

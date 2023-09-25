@@ -1,0 +1,20 @@
+{
+	x: -5.0d,
+	y: 3.0d,
+	dependencies: [
+		"ed849369"
+	],
+	tasks: [{
+		uid: "60d189a5",
+		type: "item",
+		items: [{
+			item: "aether_legacy:zanite_gemstone"
+		}]
+	}],
+	rewards: [{
+		uid: "d8f57e39",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 2500
+	}]
+}

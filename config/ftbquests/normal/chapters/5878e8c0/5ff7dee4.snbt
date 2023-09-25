@@ -1,0 +1,13 @@
+{
+	x: -9.0d,
+	y: 6.5d,
+	shape: "square",
+	description: "Use this to make solar arrays!",
+	tasks: [{
+		uid: "695a2d4c",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:basic_item_venus 1 4"
+		}]
+	}]
+}

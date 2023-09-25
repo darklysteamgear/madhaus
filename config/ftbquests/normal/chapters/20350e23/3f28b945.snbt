@@ -1,0 +1,27 @@
+{
+	x: 8.0d,
+	y: 0.0d,
+	dependencies: [
+		"1dfd5dc9",
+		"d7136c7c"
+	],
+	tasks: [{
+		uid: "73d134ab",
+		type: "stat",
+		title: "Wow, You Suck. Just take it",
+		icon: "poop:poop_raw_ingot",
+		stat: "stat.deaths",
+		value: 100
+	}],
+	rewards: [{
+		uid: "e78de113",
+		type: "item",
+		item: "scalinghealth:heartcontainer",
+		count: 5
+	},
+	{
+		uid: "d8511236",
+		type: "loot",
+		table: 13
+	}]
+}

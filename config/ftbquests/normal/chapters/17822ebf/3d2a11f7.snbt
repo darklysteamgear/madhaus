@@ -1,0 +1,18 @@
+{
+	title: "Then just give them to me :3",
+	x: -5.5d,
+	y: -3.0d,
+	dependencies: [
+		"fbaa7a3b"
+	],
+	tasks: [{
+		uid: "a2e3c19c",
+		type: "item",
+		items: [{
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "mysticalworld:world_guide"
+			}
+		}]
+	}]
+}

@@ -1,0 +1,134 @@
+{
+	title: "Uncommon",
+	loot_size: 1,
+	rewards: [{
+		item: "minecraft:cobblestone",
+		count: 64
+	},
+	{
+		item: "minecraft:stone",
+		count: 32
+	},
+	{
+		item: "minecraft:log",
+		count: 32
+	},
+	{
+		item: "minecraft:glass",
+		count: 16
+	},
+	{
+		item: "minecraft:sand",
+		count: 32
+	},
+	{
+		item: "minecraft:gravel",
+		count: 32
+	},
+	{
+		item: "minecraft:wool",
+		count: 8
+	},
+	{
+		item: "minecraft:coal",
+		count: 16
+	},
+	{
+		item: "extrautils2:endershard"
+	},
+	{
+		item: "tconstruct:materials 1 9"
+	},
+	{
+		item: "actuallyadditions:item_misc 1 7"
+	},
+	{
+		item: "minecraft:slime_ball"
+	},
+	{
+		item: "minecraft:feather",
+		count: 4
+	},
+	{
+		item: "minecraft:leather",
+		count: 4
+	},
+	{
+		item: "minecraft:reeds",
+		count: 8
+	},
+	{
+		item: "minecraft:paper",
+		count: 8
+	},
+	{
+		item: "minecraft:egg",
+		count: 4
+	},
+	{
+		item: "storagedrawers:upgrade_template",
+		count: 4
+	},
+	{
+		item: "storagedrawers:upgrade_storage 1 1",
+		count: 2
+	},
+	{
+		item: "scp:level2card"
+	},
+	{
+		item: "scp:battery"
+	},
+	{
+		ftb_money: 1000L,
+		type: "ftbmoney:money"
+	},
+	{
+		item: {
+			id: "claysoldiers:doll_soldier",
+			tag: {
+				dollSoldier: {
+					team: "ca383b5d-ddaf-4523-9001-5a5685ef5fba"
+				}
+			}
+		},
+		count: 6
+	},
+	{
+		item: "minecraft:ender_pearl"
+	},
+	{
+		item: "poop:poop",
+		weight: 2
+	},
+	{
+		item: "modularwarfare:block.pistolbullet",
+		count: 12
+	},
+	{
+		item: "modularwarfare:block.uspammo"
+	},
+	{
+		item: {
+			id: "reforged:iron_musket",
+			tag: {}
+		}
+	},
+	{
+		item: "reforged:musket_bullet",
+		count: 12
+	},
+	{
+		item: "mekanism:ingot 1 4",
+		count: 6
+	}],
+	loot_crate: {
+		string_id: "uncommon",
+		color: 3648105,
+		drops: {
+			passive: 0,
+			monster: 90,
+			boss: 0
+		}
+	}
+}

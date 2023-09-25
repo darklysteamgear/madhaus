@@ -1,0 +1,1148 @@
+# Please refer to the wiki page located at https://github.com/TheComputerizer/Music-Triggers/wiki
+# or the discord server located at https://discord.gg/FZHXFYp8fc
+# for any specific questions you might have regarding the main config file
+
+[triggers]
+	#DEFAULT WORLD TRIGGERS#
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "200:700"
+		resource_name = [ "54" "58" ]
+		identifier = "alpha"
+		persistence = "60"
+		start_delay = "200"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "200:700"
+		resource_name = [ "1" ]
+		identifier = "end"
+		persistence = "60"
+		start_delay = "200"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "200:700"
+		resource_name = [ "-27" "684" ]
+		identifier = "creepy"
+		persistence = "60"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "200:700"
+		resource_name = [ "59" ]
+		identifier = "herobrine"
+		persistence = "60"
+		start_delay = "200"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "200:700"
+		resource_name = [ "111" "112" ]
+		identifier = "lost"
+		persistence = "60"
+		start_delay = "200"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "1000:2000"
+		resource_name = [ "800" ]
+		identifier = "aoaabyss"
+		persistence = "60"
+		start_delay = "100"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "200:600"
+		resource_name = [ "801" ]
+		identifier = "aoaancient_cavern"
+		persistence = "60"
+		start_delay = "100"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "1000:2000"
+		resource_name = [ "802" ]
+		identifier = "aoabarathos"
+		persistence = "60"
+		start_delay = "100"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "1000:2000"
+		resource_name = [ "803" ]
+		identifier = "aoacandyland"
+		persistence = "60"
+		start_delay = "100"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "1000:2000"
+		resource_name = [ "804" ]
+		identifier = "aoaceleve"
+		persistence = "60"
+		start_delay = "100"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "1000:2000"
+		resource_name = [ "805" ]
+		identifier = "aoacreeponia"
+		persistence = "60"
+		start_delay = "100"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "1000:2000"
+		resource_name = [ "806" ]
+		identifier = "aoacrystevia"
+		persistence = "60"
+		start_delay = "100"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "1000:2000"
+		resource_name = [ "807" ]
+		identifier = "aoadeeplands"
+		persistence = "60"
+		start_delay = "100"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "1000:2000"
+		resource_name = [ "808" ]
+		identifier = "aoadustopia"
+		persistence = "60"
+		start_delay = "100"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "1000:2000"
+		resource_name = [ "809" ]
+		identifier = "aoagardencia"
+		persistence = "60"
+		start_delay = "100"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "1000:2000"
+		resource_name = [ "810" ]
+		identifier = "aoagreckon"
+		persistence = "60"
+		start_delay = "100"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "1000:2000"
+		resource_name = [ "811" ]
+		identifier = "aoahaven"
+		persistence = "60"
+		start_delay = "100"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "200:600"
+		resource_name = [ "812" ]
+		identifier = "aoaimmortallis"
+		persistence = "60"
+		start_delay = "100"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "1000:2000"
+		resource_name = [ "813" ]
+		identifier = "aoairomine"
+		persistence = "60"
+		start_delay = "100"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "1000:2000"
+		resource_name = [ "814" ]
+		identifier = "aoalborean"
+		persistence = "60"
+		start_delay = "100"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "1000:2000"
+		resource_name = [ "815" ]
+		identifier = "aoalelyetia"
+		persistence = "60"
+		start_delay = "100"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "1000:2000"
+		resource_name = [ "816" ]
+		identifier = "aoalunalus"
+		persistence = "60"
+		start_delay = "100"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "1000:2000"
+		resource_name = [ "817" ]
+		identifier = "aoamysterium"
+		persistence = "60"
+		start_delay = "100"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "1000:2000"
+		resource_name = [ "818" ]
+		identifier = "aoaprecasia"
+		persistence = "60"
+		start_delay = "100"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "1000:2000"
+		resource_name = [ "819" ]
+		identifier = "aoarunandor"
+		persistence = "60"
+		start_delay = "100"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "1000:2000"
+		resource_name = [ "820" ]
+		identifier = "aoashyrelands"
+		persistence = "60"
+		start_delay = "100"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "1000:2000"
+		resource_name = [ "821" ]
+		identifier = "aoavox_ponds"
+		persistence = "60"
+		start_delay = "100"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "200:700"
+		resource_name = [ "59" ]
+		identifier = "barrenspace"
+		persistence = "60"
+		start_delay = "200"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "200:800"
+		resource_name = [ "17" ]
+		identifier = "atum"
+		persistence = "60"
+		start_delay = "200"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "400:800"
+		resource_name = [ "-11325" "10" ]
+		identifier = "cave"
+		persistence = "60"
+		start_delay = "500"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "400:800"
+		resource_name = [ "10" ]
+		identifier = "beneath"
+		persistence = "60"
+		start_delay = "500"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "300:800"
+		resource_name = [ "-1" "-23" ]
+		identifier = "heck"
+		persistence = "60"
+		start_delay = "300"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "300:800"
+		resource_name = [ "50" "51" "52" "53" ]
+		identifier = "abyss"
+		persistence = "60"
+		start_delay = "300"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "300:800"
+		resource_name = [ "-153" ]
+		identifier = "tropics"
+		persistence = "60"
+		start_delay = "300"
+	[triggers.gamestage]
+		fade_in = "30"
+		fade_out = "50"
+		priority = "105"
+		resource_name = [ "help" ]
+		identifier = "finale"
+		persistence = "250"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "400:900"
+		resource_name = [ "-7982" "-7996" "-7994" "-7988" "-7983" "-7990" "9008" "-7777" "-7998" "-7979" "-7878" "-7877" "-7980" "-7675" "-7991" "-7997" "-7985" "-7986" "-7993" "-4552" "-13" "-20" "-15" "-16" "-17" "-18" "-19" "-21" "-22" "-2542" "-2543" "-2544" "-2545" "9003" "9005" "9004" "-7981" "-1504" "-1501" "-1500" "-1503" "-1502" "-1505" "-1506" "-1507" "-1508" "-1509" "-1510" "-1511" "-2642" "9000" ]
+		identifier = "space"
+		persistence = "60"
+		start_delay = "400"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "400:900"
+		resource_name = [ "113" "-7982" "-7996" "-7994" "-7988" "-7983" "-7990" "9008" "-7777" "-7998" "-7979" "-7878" "-7877" "-7980" "-7675" "-7991" "-7997" "-7985" "-7986" "-7993" "-4552" "-13" "-20" "-15" "-16" "-17" "-18" "-19" "-21" "-22" "-2542" "-2543" "-2544" "-2545" "9003" "9005" ]
+		identifier = "planet"
+		persistence = "60"
+		start_delay = "400"
+	[[triggers.dimension]]
+		fade_out = "50"
+		priority = "10"
+		song_delay = "400:900"
+		resource_name = [ "9004" "-7981" "-1504" "-1501" "-1500" "-1503" "-1502" "-1505" "-1506" "-1507" "-1508" "-1509" "-1510" "-1511" "-2642" "9000" ]
+		identifier = "moon"
+		persistence = "60"
+		start_delay = "400"
+	[triggers.home]
+		fade_out = "50"
+		priority = "3"
+		song_delay = "200:500"
+		detection_range = "1000"
+		persistence = "20"
+		start_delay = "200"
+	[[triggers.biome]]
+		fade_out = "50"
+		priority = "2"
+		song_delay = "200:500"
+		identifier = "cursedBiome"
+		resource_name = [ "cursed" "vampire" ]
+		persistence = "60"
+		start_delay = "200"
+	[[triggers.biome]]
+		fade_out = "50"
+		priority = "2"
+		song_delay = "200:500"
+		identifier = "mountainBiomeD"
+		resource_name = [ "crag" "alps" "highland" "cliffs" "mountain" ]
+		persistence = "1200"
+	[[triggers.time]]
+		fade_out = "300"
+		priority = "3"
+		song_delay = "50:500"
+		time_bundle = "sunrise"
+		identifier = "sunrise"
+		persistence = "1250"
+		start_delay = "200"
+	[[triggers.time]]
+		fade_out = "300"
+		priority = "3"
+		song_delay = "50:500"
+		time_bundle = "sunset"
+		identifier = "sunset"
+		persistence = "1000"
+		start_delay = "200"
+	[triggers.dead]
+		fade_out = "100"
+		priority = "103"
+		persistence = "600"
+		start_delay = "20"
+	[[triggers.time]]
+		fade_out = "50"
+		priority = "2"
+		song_delay = "300:1000"
+		time_bundle = "day"
+		identifier = "day"
+		persistence = "60"
+		start_delay = "250"
+		trigger_delay = "1000"
+	[[triggers.time]]
+		fade_out = "50"
+		priority = "2"
+		song_delay = "200:500"
+		time_bundle = "night"
+		identifier = "night"
+		persistence = "60"
+		start_delay = "250"
+	[triggers.height]
+		fade_out = "50"
+		priority = "4"
+		song_delay = "200:700"
+		level = "40"
+		identifier = "underground"
+		persistence = "60"
+		start_delay = "200"
+	[triggers.bloodmoon]
+		fade_out = "50"
+		priority = "4"
+		song_delay = "50"
+		persistence = "60"
+		start_delay = "25:100"
+	[triggers.harvestmoon]
+		fade_out = "50"
+		priority = "4"
+		song_delay = "50"
+		persistence = "60"
+		start_delay = "25:100"
+	[triggers.menu]
+		fade_out = "50"
+		priority = "1"
+		persistence = "60"
+		start_delay = "5"
+	[triggers.lowhp]
+		fade_in = "20"
+		fade_out = "10"
+		priority = "102"
+		level = "35"
+		#UNIVERSAL MOB TRIGGERS#
+	[[triggers.mob]]
+		fade_in = "25"
+		fade_out = "20"
+		priority = "101"
+		resource_name = [ "memeinabottle:sans" ]
+		detection_range = "100"
+		identifier = "sans"
+		level = "1"
+		persistence = "100"
+	[[triggers.mob]]
+		fade_in = "25"
+		fade_out = "20"
+		priority = "101"
+		resource_name = [ "mutantbeasts:mutant_creeper" ]
+		detection_range = "100"
+		identifier = "mutant_creeper"
+		level = "1"
+		persistence = "100"
+	[[triggers.mob]]
+		fade_in = "25"
+		fade_out = "20"
+		priority = "101"
+		resource_name = [ "mutantbeasts:mutant_skeleton" ]
+		detection_range = "100"
+		identifier = "mutant_skeleton"
+		level = "1"
+		persistence = "100"
+	[[triggers.mob]]
+		fade_in = "25"
+		fade_out = "20"
+		priority = "200"
+		resource_name = [ "aoa3" ]
+		mob_nbt = "GREATER;Health;1000.0"
+		detection_range = "30"
+		identifier = "aoa3boss"
+		level = "1"
+		persistence = "100"
+		mob_targeting = false
+	[[triggers.mob]]
+		fade_in = "25"
+		fade_out = "20"
+		priority = "201"
+		resource_name = [ "aoa3:klobber" "aoa3:proshield" "aoa3:mirage" "aoa3:flash" ]
+		detection_range = "30"
+		identifier = "aoa3klobber"
+		level = "1"
+		persistence = "100"
+	[[triggers.mob]]
+		fade_in = "25"
+		fade_out = "20"
+		priority = "101"
+		resource_name = [ "mutantbeasts:mutant_zombie" ]
+		detection_range = "100"
+		identifier = "mutant_zombie"
+		level = "1"
+		persistence = "100"
+	[[triggers.mob]]
+		fade_in = "25"
+		fade_out = "20"
+		priority = "101"
+		resource_name = [ "mutantbeasts:mutant_enderman" ]
+		detection_range = "100"
+		identifier = "mutant_enderman"
+		level = "1"
+		persistence = "100"
+	[[triggers.mob]]
+		fade_in = "25"
+		fade_out = "20"
+		priority = "101"
+		resource_name = [ "memeinabottle:shrek" ]
+		detection_range = "100"
+		identifier = "shrek"
+		level = "1"
+		persistence = "100"
+	[[triggers.mob]]
+		fade_in = "25"
+		fade_out = "20"
+		priority = "101"
+		resource_name = [ "zoocraftdiscoveries:capybara" ]
+		detection_range = "10"
+		identifier = "capybara"
+		level = "1"
+		persistence = "100"
+		mob_targeting = false
+	[[triggers.mob]]
+		fade_in = "25"
+		fade_out = "20"
+		priority = "99"
+		resource_name = [ "MOB" ]
+		detection_range = "100"
+		identifier = "miniboss"
+		infernal = [ "ALL" ]
+		level = "1"
+		persistence = "100"
+	[[triggers.mob]]
+		fade_in = "25"
+		fade_out = "100"
+		priority = "104"
+		resource_name = [ "herobrine:fake_herobrine_mage" "herobrine:herobrine_builder" "herobrine:herobrine_warrior" "herobrine:herobrine_spy" "herobrine:herobrine_mage" ]
+		detection_range = "100"
+		identifier = "herobrine"
+		level = "1"
+		persistence = "1000"
+	[[triggers.mob]]
+		fade_in = "25"
+		fade_out = "20"
+		priority = "100"
+		resource_name = [ "atum:pharaoh" ]
+		detection_range = "100"
+		identifier = "pharaoh"
+		level = "1"
+		persistence = "100"
+	[[triggers.mob]]
+		fade_in = "25"
+		fade_out = "20"
+		priority = "100"
+		resource_name = [ "fossil:fossil.anu" ]
+		detection_range = "50"
+		identifier = "anu"
+		level = "1"
+		persistence = "100"
+		mob_targeting = false
+		#MUSIC SHUTTER UPPER#
+	[[triggers.dimension]]
+		fade_in = "25"
+		fade_out = "20"
+		priority = "106"
+		resource_name = [ "70" "7" "69" "1000" "-1000" "1001" "1002" "1003" "1004" "1005" "1006" "684" ]
+		identifier = "shut"
+	[[triggers.dimension]]
+		fade_in = "25"
+		fade_out = "20"
+		priority = "106"
+		resource_name = [ "61" ]
+		identifier = "broken"
+	[triggers.raining]
+		fade_in = "25"
+		fade_out = "20"
+		priority = "2"
+	[[triggers.biome]]
+		fade_in = "25"
+		fade_out = "20"
+		priority = "105"
+		resource_name = [ "pokecube_legends:ub" ]
+		identifier = "shut"
+[songs]
+	[songs.universal]
+		#UNIVERSAL BOSS MOB SONGS#
+	[songs.sans]
+		volume = "0.5"
+		triggers = [ "mob-sans" ]
+	[songs.shrek]
+		volume = "0.5"
+		triggers = [ "mob-shrek" ]
+	[songs.capybara]
+		volume = "0.5"
+		triggers = [ "mob-capybara" ]
+	[songs.creeper]
+		volume = "0.5"
+		triggers = [ "mob-mutant_creeper" ]
+	[songs.skeleton]
+		volume = "0.5"
+		triggers = [ "mob-mutant_skeleton" ]
+	[songs.zombie]
+		volume = "0.5"
+		triggers = [ "mob-mutant_zombie" ]
+	[songs.enderman]
+		volume = "0.5"
+		triggers = [ "mob-mutant_enderman" ]
+	[songs.atumboss]
+		volume = "0.5"
+		triggers = [ "dimension-atum" "mob-pharaoh" ]
+	[songs.klobber]
+		volume = "0.7"
+		triggers = [ "mob-aoa3klobber" ]
+	[songs.anu]
+		volume = "0.75"
+		triggers = [ "mob-anu" ]
+	[songs.herobrinebattle]
+		volume = "1.25"
+		triggers = [ "gamestage-finale" ]
+		#DEFAULT WORLD MUSIC#
+	[[songs.sunrise1]]
+		volume = "0.5"
+		triggers = [ "home" "time-sunrise" ]
+	[[songs.sunrise2]]
+		volume = "0.65"
+		triggers = [ "home" "time-sunrise" ]
+	[[songs.sunrise3]]
+		volume = "0.5"
+		triggers = [ "home" "time-sunrise" ]
+		#DEATH/LOWHP SONGS#
+	[songs.dontmine]
+		chance = "500"
+		triggers = [ "dead" "time-night" "height-underground" ]
+	[songs.sunset2]
+		volume = "0.8"
+		chance = "1"
+		triggers = [ "dead" ]
+	[[songs.menu2]]
+		chance = "1"
+		triggers = [ "dead" ]
+	[songs.mineatnight]
+		volume = "0.7"
+		chance = "300"
+		triggers = [ "lowhp" "time-night" "height-underground" ]
+	[songs.madworld]
+		volume = "0.8"
+		chance = "1"
+		triggers = [ "lowhp" ]
+	[songs.tropicaldeath]
+		chance = "2000000000"
+		triggers = [ "dead" "dimension-tropics" ]
+	[songs.fallen]
+		volume = "0.5"
+		chance = "1"
+		triggers = [ "lowhp" ]
+	[[songs.day1]]
+		volume = "0.5"
+		triggers = [ "home" "time-day" ]
+	[[songs.day2]]
+		volume = "0.5"
+		triggers = [ "home" "time-day" ]
+	[[songs.day3]]
+		volume = "0.5"
+		triggers = [ "home" "time-day" ]
+	[[songs.day4]]
+		volume = "0.5"
+		triggers = [ "home" "time-day" ]
+	[[songs.day5]]
+		volume = "0.5"
+		triggers = [ "home" "time-day" ]
+	[[songs.day6]]
+		volume = "0.5"
+		triggers = [ "home" "time-day" ]
+	[[songs.day7]]
+		volume = "0.5"
+		triggers = [ "home" "time-day" ]
+	[[songs.day8]]
+		volume = "0.5"
+		triggers = [ "home" "time-day" ]
+	[[songs.day9]]
+		volume = "0.5"
+		triggers = [ "home" "time-day" ]
+	[[songs.day10]]
+		volume = "0.5"
+		triggers = [ "home" "time-day" ]
+	[[songs.day11]]
+		volume = "0.5"
+		triggers = [ "home" "time-day" ]
+	[[songs.day12]]
+		volume = "0.5"
+		triggers = [ "home" "time-day" ]
+	[[songs.day13]]
+		volume = "0.5"
+		triggers = [ "home" "time-day" ]
+	[[songs.day14]]
+		volume = "0.5"
+		triggers = [ "home" "time-day" ]
+	[[songs.night1]]
+		volume = "0.5"
+		triggers = [ "home" "time-night" ]
+	[[songs.night2]]
+		volume = "0.6"
+		triggers = [ "home" "time-night" ]
+	[[songs.night3]]
+		volume = "0.5"
+		triggers = [ "home" "time-night" ]
+	[[songs.night4]]
+		volume = "0.6"
+		triggers = [ "home" "time-night" ]
+	[[songs.night5]]
+		volume = "0.5"
+		triggers = [ "home" "time-night" ]
+	[[songs.nightintense1]]
+		volume = "0.5"
+		triggers = [ "home" "bloodmoon" ]
+	[[songs.nightintense2]]
+		volume = "0.5"
+		triggers = [ "home" "bloodmoon" ]
+	[[songs.nightintense3]]
+		volume = "0.75"
+		triggers = [ "home" "bloodmoon" ]
+	[[songs.nightcursed]]
+		volume = "0.5"
+		triggers = [ "home" "time-night" "biome-cursedBiome" ]
+		chance = "250"
+	[[songs.mountainday]]
+		volume = "0.5"
+		triggers = [ "home" "time-day" "biome-mountainBiomeD" ]
+		chance = "250"
+	[[songs.underground1]]
+		volume = "0.55"
+		triggers = [ "home" "height-underground" ]
+	[[songs.underground2]]
+		volume = "0.5"
+		triggers = [ "home" "height-underground" ]
+	[[songs.sunrise1]]
+		volume = "0.5"
+		triggers = [ "time-sunrise" ]
+	[[songs.sunrise2]]
+		volume = "0.65"
+		triggers = [ "time-sunrise" ]
+	[[songs.sunrise3]]
+		volume = "0.5"
+		triggers = [ "time-sunrise" ]
+	[songs.sunset1]
+		volume = "0.7"
+		triggers = [ "time-sunset" ]
+	[songs.sunset3]
+		volume = "0.7"
+		triggers = [ "time-sunset" ]
+	[[songs.day1]]
+		volume = "0.5"
+		triggers = [ "time-day" ]
+	[[songs.day2]]
+		volume = "0.5"
+		triggers = [ "time-day" ]
+	[[songs.day3]]
+		volume = "0.5"
+		triggers = [ "time-day" ]
+	[[songs.day4]]
+		volume = "0.5"
+		triggers = [ "time-day" ]
+	[[songs.day5]]
+		volume = "0.5"
+		triggers = [ "time-day" ]
+	[[songs.day6]]
+		volume = "0.5"
+		triggers = [ "time-day" ]
+	[[songs.day7]]
+		volume = "0.5"
+		triggers = [ "time-day" ]
+	[[songs.day8]]
+		volume = "0.5"
+		triggers = [ "time-day" ]
+	[[songs.day9]]
+		volume = "0.5"
+		triggers = [ "time-day" ]
+	[[songs.day10]]
+		volume = "0.5"
+		triggers = [ "time-day" ]
+	[[songs.day11]]
+		volume = "0.5"
+		triggers = [ "time-day" ]
+	[[songs.day12]]
+		volume = "0.5"
+		triggers = [ "time-day" ]
+	[[songs.day13]]
+		volume = "0.5"
+		triggers = [ "time-day" ]
+	[[songs.day14]]
+		volume = "0.5"
+		triggers = [ "time-day" ]
+	[[songs.night1]]
+		volume = "0.5"
+		triggers = [ "time-night" ]
+	[[songs.night2]]
+		volume = "0.5"
+		triggers = [ "time-night" ]
+	[[songs.night3]]
+		volume = "0.5"
+		triggers = [ "time-night" ]
+	[[songs.night4]]
+		volume = "0.5"
+		triggers = [ "time-night" ]
+	[[songs.night5]]
+		volume = "0.5"
+		triggers = [ "time-night" ]
+	[[songs.nightintense1]]
+		volume = "0.5"
+		triggers = [ "bloodmoon" ]
+	[[songs.nightintense2]]
+		volume = "0.5"
+		triggers = [ "bloodmoon" ]
+	[[songs.nightintense3]]
+		volume = "0.85"
+		triggers = [ "bloodmoon" ]
+	[[songs.nightcursed]]
+		volume = "0.5"
+		triggers = [ "time-night" "biome-cursedBiome" ]
+		chance = "250"
+	[[songs.mountainday]]
+		volume = "0.5"
+		triggers = [ "time-day" "biome-mountainBiomeD" ]
+		chance = "250"
+	[[songs.underground1]]
+		volume = "0.5"
+		triggers = [ "height-underground" ]
+	[[songs.underground2]]
+		volume = "0.5"
+		triggers = [ "height-underground" ]
+	[songs.adventure1]
+		volume = "0.6"
+		triggers = [ "time-day" ]
+		chance = "200"
+	[songs.adventure2]
+		volume = "0.6"
+		triggers = [ "time-day" ]
+		chance = "200"
+	[songs.adventure3]
+		volume = "0.6"
+		triggers = [ "time-day" ]
+		chance = "200"
+	[[songs.hmoon1]]
+		volume = "0.5"
+		triggers = [ "home" "harvestmoon" ]
+	[[songs.hmoon2]]
+		volume = "0.5"
+		triggers = [ "home" "harvestmoon" ]
+	[[songs.hmoon3]]
+		volume = "0.5"
+		triggers = [ "home" "harvestmoon" ]
+	[[songs.hmoon1]]
+		volume = "0.5"
+		triggers = [ "harvestmoon" ]
+	[[songs.hmoon2]]
+		volume = "0.5"
+		triggers = [ "harvestmoon" ]
+	[[songs.hmoon3]]
+		volume = "0.5"
+		triggers = [ "harvestmoon" ]
+	[[songs.alphadimension]]
+		volume = "0.5"
+		triggers = [ "home" "dimension-alpha" ]
+		play_once = "3"
+		must_finish = true
+	[[songs.alphadimension]]
+		volume = "0.5"
+		triggers = [ "dimension-alpha" ]
+		play_once = "3"
+		must_finish = true
+	[[songs.day4]]
+		volume = "0.5"
+		triggers = [ "home" "dimension-alpha" "time-day" ]
+	[[songs.day8]]
+		volume = "0.5"
+		triggers = [ "home" "dimension-alpha" "time-day" ]
+	[[songs.day13]]
+		volume = "0.5"
+		triggers = [ "home" "dimension-alpha" "time-day" ]
+	[[songs.night1]]
+		volume = "0.5"
+		triggers = [ "home" "dimension-alpha" "time-night" ]
+	[[songs.night3]]
+		volume = "0.5"
+		triggers = [ "home" "dimension-alpha" "time-night" ]
+	[[songs.sunrise1]]
+		volume = "0.5"
+		triggers = [ "home" "dimension-alpha" "time-sunrise" ]
+	[[songs.day4]]
+		volume = "0.5"
+		triggers = [ "dimension-alpha" "time-day" ]
+	[[songs.day8]]
+		volume = "0.5"
+		triggers = [ "dimension-alpha" "time-day" ]
+	[[songs.day13]]
+		volume = "0.5"
+		triggers = [ "dimension-alpha" "time-day" ]
+	[[songs.night1]]
+		volume = "0.5"
+		triggers = [ "dimension-alpha" "time-night" ]
+	[[songs.night3]]
+		volume = "0.5"
+		triggers = [ "dimension-alpha" "time-night" ]
+	[[songs.sunrise1]]
+		volume = "0.5"
+		triggers = [ "dimension-alpha" "time-sunrise" ]
+	[[songs.empty]]
+		volume = "0.25"
+		triggers = [ "dimension-creepy" ]
+		play_once = "3"
+	[[songs.empty]]
+		volume = "0.25"
+		triggers = [ "dimension-herobrine" ]
+		play_once = "3"
+		must_finish = true
+	[[songs.nightcursed]]
+		volume = "0.5"
+		triggers = [ "time-night" "dimension-herobrine" ]
+	[songs.daycursed1]
+		volume = "0.5"
+		triggers = [ "time-day" "dimension-herobrine" ]
+	[songs.daycursed2]
+		volume = "0.5"
+		triggers = [ "time-day" "dimension-herobrine" ]
+	[songs.mobbattle1]
+		volume = "0.5"
+		triggers = [ "mob-miniboss" ]
+	[songs.thegroundup]
+		triggers = [ "mob-herobrine" ]
+	[songs.cubeland]
+		triggers = [ "mob-herobrine" ]
+		#ABYSS MUSIC#
+	[songs.abyss1]
+		volume = "0.5"
+		triggers = [ "dimension-abyss" ]
+		#NETHER MUSIC#
+	[songs.heck1]
+		volume = "0.5"
+		triggers = [ "dimension-heck" ]
+	[songs.heck2]
+		volume = "0.5"
+		triggers = [ "dimension-heck" ]
+	[songs.heck3]
+		volume = "0.5"
+		triggers = [ "dimension-heck" ]
+	[songs.heck4]
+		volume = "0.4"
+		triggers = [ "dimension-heck" ]
+	[songs.heck5]
+		volume = "0.35"
+		triggers = [ "dimension-heck" ]
+	[songs.heck6]
+		volume = "0.35"
+		triggers = [ "dimension-heck" ]
+	[songs.heck7]
+		volume = "0.4"
+		triggers = [ "dimension-heck" ]
+	[songs.heck8]
+		volume = "0.4"
+		triggers = [ "dimension-heck" ]
+	[songs.heck9]
+		volume = "1.1"
+		triggers = [ "dimension-heck" ]
+	[songs.hecklowhp]
+		volume = "0.8"
+		chance = "2000000000"
+		triggers = [ "dimension-heck" "lowhp" ]
+		[songs.hecklowhp.loop]
+			from = "0"
+			to = "20700"
+			num_loops = "10"
+
+	[songs.bossheck]
+		volume = "0.5"
+		triggers = [ "dimension-heck" "mob-miniboss" ]
+		#END MUSIC
+	[songs.end1]
+		volume = "0.35"
+		triggers = [ "dimension-end" ]
+	[songs.end2]
+		volume = "0.5"
+		triggers = [ "dimension-end" ]
+		#ATUM MUSIC#
+	[songs.atum1]
+		volume = "0.5"
+		triggers = [ "dimension-atum" ]
+	[songs.atum2]
+		volume = "0.5"
+		triggers = [ "dimension-atum" ]
+	[songs.atum3]
+		volume = "0.5"
+		triggers = [ "dimension-atum" ]
+		#CAVE DIMENSION MUSIC#
+	[songs.cave1]
+		volume = "0.5"
+		triggers = [ "dimension-cave" ]
+	[songs.beneath1]
+		volume = "0.5"
+		triggers = [ "dimension-beneath" ]
+		#SPACE MUSIC#
+	[songs.space1]
+		volume = "0.5"
+		triggers = [ "dimension-space" ]
+	[songs.space2]
+		volume = "0.1"
+		triggers = [ "dimension-space" ]
+	[songs.space3]
+		volume = "0.5"
+		triggers = [ "dimension-space" ]
+	[songs.space4]
+		volume = "0.5"
+		triggers = [ "dimension-space" ]
+	[songs.space5]
+		volume = "0.5"
+		triggers = [ "dimension-space" ]
+	[songs.space6]
+		volume = "0.5"
+		triggers = [ "dimension-space" ]
+	[songs.space7]
+		triggers = [ "dimension-space" ]
+	[songs.moon]
+		volume = "0.5"
+		triggers = [ "dimension-moon" ]
+		play_once = "3"
+		must_finish = true
+	[songs.moon1]
+		volume = "0.20"
+		triggers = [ "dimension-moon" ]
+	[songs.moon2]
+		volume = "0.25"
+		triggers = [ "dimension-moon" ]
+	[songs.moon3]
+		volume = "0.25"
+		triggers = [ "dimension-moon" ]
+	[songs.planet1]
+		volume = "0.25"
+		triggers = [ "dimension-planet" ]
+	[songs.planet2]
+		volume = "0.25"
+		triggers = [ "dimension-planet" ]
+	[songs.planet3]
+		volume = "0.25"
+		triggers = [ "dimension-planet" ]
+		#WASTELAND MUSIC#
+	[songs.wasteland1]
+		volume = "0.25"
+		triggers = [ "dimension-lost" ]
+	[songs.wasteland3]
+		volume = "0.4"
+		triggers = [ "dimension-lost" ]
+	[songs.wasteland2]
+		volume = "0.25"
+		chance = "2000000000"
+		triggers = [ "dimension-lost" ]
+	[[songs.empty]]
+		volume = "0.5"
+		chance = "2000000000"
+		triggers = [ "dimension-lost" "time-night" ]
+		#TROPICS MUSIC#
+	[songs.tropics1]
+		volume = "0.3"
+		triggers = [ "dimension-tropics" "time-day" ]
+	[songs.tropics2]
+		volume = "0.3"
+		triggers = [ "dimension-tropics" "time-day" ]
+	[songs.tropics3]
+		volume = "0.3"
+		triggers = [ "dimension-tropics" "time-day" ]
+	[songs.tropics4]
+		volume = "0.3"
+		triggers = [ "dimension-tropics" "time-day" ]
+	[songs.tropics5]
+		volume = "0.3"
+		triggers = [ "dimension-tropics" "time-day" ]
+	[songs.tropics6]
+		volume = "0.3"
+		triggers = [ "dimension-tropics" "time-day" ]
+	[songs.tropicsnight1]
+		volume = "0.3"
+		triggers = [ "dimension-tropics" "time-night" ]
+	[songs.tropicsnight2]
+		volume = "0.3"
+		triggers = [ "dimension-tropics" "time-night" ]
+	[songs.tropicsnight3]
+		volume = "0.3"
+		triggers = [ "dimension-tropics" "time-night" ]
+	[songs.tropicsnight4]
+		volume = "0.3"
+		triggers = [ "dimension-tropics" "time-night" ]
+
+		#AOA MUSIC (THANK YOU ROBOT257!)
+	[songs.Abyss]
+		volume = "0.5"
+		triggers = [ "dimension-aoaabyss" ]
+	[songs.AncientCavern]
+		volume = "0.75"
+		triggers = [ "dimension-aoaancient_cavern" ]
+	[songs.Barathos]
+		volume = "0.6"
+		triggers = [ "dimension-aoabarathos" ]
+	[songs.Candyland]
+		volume = "0.5"
+		triggers = [ "dimension-aoacandyland" ]
+	[songs.Celeve]
+		volume = "0.5"
+		triggers = [ "dimension-aoaceleve" ]
+	[songs.Creeponia]
+		volume = "0.5"
+		triggers = [ "dimension-aoacreeponia" ]
+	[[songs.Crystevia]]
+		volume = "0.5"
+		triggers = [ "dimension-aoacrystevia" ]
+	[[songs.Deeplands]]
+		volume = "0.5"
+		triggers = [ "dimension-aoadeeplands" ]
+	[[songs.Deeplands]]
+		volume = "0.5"
+		triggers = [ "dimension-aoadustopia" ]
+	[songs.Gardencia]
+		volume = "0.5"
+		triggers = [ "dimension-aoagardencia" ]
+	[songs.Greckon]
+		volume = "0.5"
+		triggers = [ "dimension-aoagreckon" ]
+	[songs.Haven]
+		volume = "0.5"
+		triggers = [ "dimension-aoahaven" ]
+	[songs.Immortallis]
+		volume = "0.7"
+		triggers = [ "dimension-aoaimmortallis" ]
+	[songs.Iromine]
+		volume = "0.5"
+		triggers = [ "dimension-aoairomine" ]
+	[songs.LBorean]
+		volume = "0.5"
+		triggers = [ "dimension-aoalborean" ]
+	[songs.Finland]
+		volume = "0.5"
+		triggers = [ "dimension-aoalelyetia" ]
+	[songs.Lunalus]
+		volume = "0.5"
+		triggers = [ "dimension-aoalunalus" ]
+	[[songs.Crystevia]]
+		volume = "0.5"
+		triggers = [ "dimension-aoamysterium" ]
+	[songs.Precasia]
+		volume = "0.5"
+		triggers = [ "dimension-aoaprecasia" ]
+	[songs.Runandor]
+		volume = "0.5"
+		triggers = [ "dimension-aoarunandor" ]
+	[songs.Shyrelands]
+		volume = "0.5"
+		triggers = [ "dimension-aoashyrelands" ]
+	[songs.VoxPonds]
+		volume = "0.5"
+		triggers = [ "dimension-aoavox_ponds" ]
+	[songs.immortallishurt]
+		volume = "0.8"
+		chance = "2000000000"
+		triggers = [ "lowhp" "dimension-aoaimmortallis" ]
+	[[songs.shutup]]
+		volume = "0.2"
+		triggers = [ "mob-aoa3boss" ]
+
+
+		#MENU MUSIC#
+	[songs.menu1]
+		volume = "0.5"
+		triggers = [ "menu" ]
+	[[songs.menu2]]
+		volume = "0.5"
+		triggers = [ "menu" ]
+	[songs.menu3]
+		volume = "0.5"
+		triggers = [ "menu" ]
+		#DISABLE MUSIC#
+	[[songs.shutup]]
+		volume = "0.2"
+		triggers = [ "dimension-shut" "biome-shut" ]
+	[songs.broken]
+		volume = "0.5"
+		triggers = [ "dimension-broken" ]
+	[songs.Snowstorm]
+		volume = "0.5"
+		triggers = [ "dimension-broken" "raining" ]
+

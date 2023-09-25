@@ -1,0 +1,37 @@
+{
+	title: "HEY, That's me!",
+	x: -5.0d,
+	y: 0.5d,
+	text: [
+		"Ayy, That's MY Powder you got there... I'll give you some diamonds for it"
+	],
+	tasks: [{
+		uid: "1ce3a5d2",
+		type: "item",
+		items: [{
+			item: "aoa3:darkly_powder"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "bbbc46f1",
+		type: "item",
+		item: "aoa3:darkly_upgrade_kit"
+	},
+	{
+		uid: "86ad5adc",
+		type: "item",
+		item: "animalbikes:ponybike"
+	},
+	{
+		uid: "48439cdb",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 4
+	},
+	{
+		uid: "f7dba1c0",
+		type: "loot",
+		table: 7
+	}]
+}

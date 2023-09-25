@@ -1,0 +1,5 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"As the pharaoh withers into ashes, his remains fizzle. You feel a strong wave of magical energy spread outwards. You swear it felt like caged animals were finally set free...","color":"green","italic":true}]
+playsound bewitchment:werewolf_howl ambient @a[r=50] ~ ~ ~ 1 0.5
+gamestage silentadd @p witch

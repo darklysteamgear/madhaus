@@ -1,0 +1,29 @@
+{
+	x: -2.5d,
+	y: 6.0d,
+	description: "We floobs are here to take over!",
+	text: [
+		"such a classic mob"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "972fdb43",
+		type: "kill",
+		title: "Destroy the invaders!",
+		icon: "morecreeps:raygun",
+		entity: "morecreeps:floob",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "75bf1f7d",
+		type: "item",
+		item: "morecreeps:floob_achievement"
+	},
+	{
+		uid: "de968379",
+		type: "item",
+		item: "morecreeps:atom",
+		count: 6,
+		random_bonus: 12
+	}]
+}

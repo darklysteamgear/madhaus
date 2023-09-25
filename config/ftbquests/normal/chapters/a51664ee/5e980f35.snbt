@@ -1,0 +1,20 @@
+{
+	title: "A step closer to immortality",
+	x: 14.0d,
+	y: 0.0d,
+	text: [
+		"enough of these, and you'll be immortal in no time at all!"
+	],
+	tasks: [{
+		uid: "e3c77891",
+		type: "item",
+		items: [{
+			item: "scalinghealth:crystalshard"
+		}]
+	}],
+	rewards: [{
+		uid: "acc06850",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

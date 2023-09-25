@@ -1,0 +1,25 @@
+{
+	title: "A chest of BLOOOD",
+	x: 1.5d,
+	y: -3.0d,
+	description: "use the blood of your enemies in new and creativ ways!",
+	dependencies: [
+		"0548f2ff"
+	],
+	tasks: [{
+		uid: "fc0af617",
+		type: "item",
+		items: [{
+			id: "evilcraft:blood_chest",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "67a09c37",
+		type: "ftbmoney:money",
+		ftb_money: 500L,
+		random_bonus: 500
+	}]
+}

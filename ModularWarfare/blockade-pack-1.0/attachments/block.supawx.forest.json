@@ -1,0 +1,15 @@
+{
+  "displayName": "L96A1 Forest Suppressor",
+  "internalName": "block.supawx.forest",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "block.supawx.forest",
+      "displayName": "Forest L96A1 Suppressor - Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": true,
+    "hideFlash": true
+  }
+}

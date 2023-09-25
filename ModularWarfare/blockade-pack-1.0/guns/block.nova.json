@@ -1,0 +1,87 @@
+{
+    "internalName": "block.nova",
+    "displayName": "Nova",
+    "weaponType": "shotgun",
+	"extraLore": "A new star in the shotgun class.",
+    "customFlashTexture": "prototype.advanced.flash",
+    "gunDamage": 4.5,
+	"numBullets": 8,
+    "roundsPerMin": 70,
+	"weaponMaxRange": 30,
+    "allowEmptyMagazines": true,
+    "recoilPitch": 9,
+    "recoilYaw": 0.3,
+    "randomRecoilPitch": 0.0,
+    "randomRecoilYaw": 0.0,
+    "bulletSpread": 2.8,
+    "accuracySneakFactor": 0.9,
+    "moveSpeedModifier":0.9,
+    "allowSprintFiring": false,
+    "fireModes": [
+        "full",
+        "semi"
+    ],
+    "acceptedBullets": [
+        "block.12gauge"
+    ],
+    "internalAmmoStorage": 7,
+    "reloadTime": 90,
+    "dropBulletCasing": true,
+    "shellEjectOffsetNormal": {
+        "x": -1,
+        "y": 0,
+        "z": 1
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+    "acceptedAttachments": {
+    },
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "block.nova.shoot",
+                "soundNameDistant": "block.shotgun.shoot.distant",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "block.nova.shoot.sup",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponBolt": [
+            {
+                "soundEvent": "weaponBolt",
+                "soundName": "block.nova.pump"
+            }
+        ],
+        "weaponBulletLoad": [
+            {
+                "soundEvent": "weaponBulletLoad",
+                "soundName": "block.shotgun.chamber"
+            }
+        ]
+    },
+    "modelSkins": [
+        {
+            "internalName": "block.nova",
+            "skinAsset": "block.nova",
+            "displayName": "Default"
+        },
+		{
+            "internalName": "block.nova.gold",
+            "skinAsset": "block.nova.gold",
+            "displayName": "Gold"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Is just really cool, Is just really cool",
+	icon: "motnt:festive_tnt",
+	x: 14.5d,
+	y: -3.0d,
+	dependencies: [
+		"60e9d4b4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a8eb7f2f",
+		type: "observation",
+		title: "Watch the festive tnt",
+		icon: "motnt:festive_tnt",
+		match_type: "entity_id",
+		match: "supertnt:everything_tnt_1",
+		timer: 0L
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "...This is your last warning. Don't tempt your fate",
+	x: 4.5d,
+	y: 14.0d,
+	description: "Do not come any closer... Or you will suffer my wrath! This is the final warning before you start a war. YOU NEED TO PREPARE OR GET ANNIHILATED",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0d65fe45",
+		"8f84efa1"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "4f85e3ad",
+		type: "dimension",
+		icon: "dimdoors:marking_plate",
+		dim: 1001
+	}]
+}

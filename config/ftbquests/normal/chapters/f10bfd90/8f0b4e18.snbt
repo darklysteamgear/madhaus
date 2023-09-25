@@ -1,0 +1,25 @@
+{
+	title: "Silent Reset",
+	icon: "contenttweaker:time_resetter",
+	x: 15.5d,
+	y: 8.0d,
+	description: "Time to find one of these, silently...",
+	dependencies: [
+		"882b2beb"
+	],
+	optional: true,
+	tasks: [{
+		uid: "df44c1b1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:time_resetter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cd53e91a",
+		type: "gamestage",
+		stage: "stealth"
+	}]
+}

@@ -1,0 +1,67 @@
+{
+	title: "All the jelly!",
+	x: 81.0d,
+	y: -12.5d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "f0aef01b",
+		type: "item",
+		items: [{
+			item: "moreplanets:grape_jelly"
+		}]
+	},
+	{
+		uid: "70c6460f",
+		type: "item",
+		items: [{
+			item: "moreplanets:raspberry_jelly"
+		}]
+	},
+	{
+		uid: "9fb38686",
+		type: "item",
+		items: [{
+			item: "moreplanets:strawberry_jelly"
+		}]
+	},
+	{
+		uid: "2b0736ba",
+		type: "item",
+		items: [{
+			item: "moreplanets:berry_jelly"
+		}]
+	},
+	{
+		uid: "0e0bccf5",
+		type: "item",
+		items: [{
+			item: "moreplanets:lime_jelly"
+		}]
+	},
+	{
+		uid: "11048df5",
+		type: "item",
+		items: [{
+			item: "moreplanets:orange_jelly"
+		}]
+	},
+	{
+		uid: "b7de554c",
+		type: "item",
+		items: [{
+			item: "moreplanets:green_jelly"
+		}]
+	},
+	{
+		uid: "edea1502",
+		type: "item",
+		items: [{
+			item: "moreplanets:lemon_jelly"
+		}]
+	}],
+	rewards: [{
+		uid: "f425f558",
+		type: "item",
+		item: "sapturretmod:upgrade_economy_infinite"
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Look at it",
+	icon: "aether_legacy:enchanter",
+	x: 15.5d,
+	y: 11.5d,
+	description: "Gotta make sure you're for real",
+	dependencies: [
+		"f9383f92"
+	],
+	optional: true,
+	tasks: [{
+		uid: "cc181e31",
+		type: "observation",
+		title: "Altar",
+		icon: "aether_legacy:enchanter",
+		match_type: "block_id",
+		match: "aether_legacy:enchanter",
+		timer: 400L
+	},
+	{
+		uid: "8e2c659d",
+		type: "gamestage",
+		stage: "stealth"
+	}]
+}

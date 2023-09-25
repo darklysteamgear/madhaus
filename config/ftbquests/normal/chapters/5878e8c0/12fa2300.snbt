@@ -1,0 +1,17 @@
+{
+	x: -4.5d,
+	y: 50.0d,
+	shape: "circle",
+	dependencies: [
+		"f2bada8d",
+		"4156340d"
+	],
+	size: 5.0d,
+	tasks: [{
+		uid: "4649145f",
+		type: "dimension",
+		title: "Neptune",
+		icon: "extraplanets:neptune",
+		dim: -18
+	}]
+}

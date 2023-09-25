@@ -1,0 +1,25 @@
+{
+	x: -16.0d,
+	y: -4.0d,
+	shape: "circle",
+	description: "I'd be concerned if you haven't completed this",
+	size: 4.0d,
+	tasks: [{
+		uid: "e8f52657",
+		type: "dimension",
+		title: "Earth",
+		icon: "minecraft:grass",
+		dim: 0
+	}],
+	rewards: [{
+		uid: "c0c8ba3e",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "patchouli:madhaus_guide"
+			}
+		}
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "A truly maddening storage solution",
+	x: -2.5d,
+	y: 1.5d,
+	description: "The madness begins",
+	dependencies: [
+		"aeecb985"
+	],
+	tasks: [{
+		uid: "09670e7f",
+		type: "item",
+		items: [{
+			item: "colossalchests:chest_wall"
+		}]
+	}],
+	rewards: [{
+		uid: "91f77381",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	}]
+}

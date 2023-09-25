@@ -1,0 +1,15 @@
+{
+	x: 2.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "3216294e",
+		type: "forge_energy",
+		value: 100000000L
+	}],
+	rewards: [{
+		uid: "edaf896b",
+		type: "ftbmoney:money",
+		ftb_money: 25000L,
+		random_bonus: 25000
+	}]
+}

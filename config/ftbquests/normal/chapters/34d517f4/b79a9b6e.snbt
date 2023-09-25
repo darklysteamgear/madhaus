@@ -1,0 +1,27 @@
+{
+	title: "Gunpowder... LOTS of gunpowder",
+	x: 5.5d,
+	y: -3.0d,
+	description: "And THAT'S how the apples won the war!",
+	text: [
+		"... We don't talk about why I don't have any more sulphur. Those darn tinker's construct users had it comming"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "21b0c066",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "611cc1e5",
+		type: "item",
+		item: "minecraft:gunpowder"
+	}]
+}

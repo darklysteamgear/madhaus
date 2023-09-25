@@ -1,0 +1,88 @@
+{
+	x: 8.0d,
+	y: 0.0d,
+	or_tasks: true,
+	tasks: [{
+		uid: "404dba2f",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_red_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c6ee0d1c",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_bronze_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "498f48c5",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_green_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bfa2ee2c",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_gray_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "63b9a832",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_blue_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f2591831",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_white_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c2222a88",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_sapphire_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3877ce33",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_silver_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "30af1d76",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	},
+	{
+		uid: "fd45bbf3",
+		type: "loot",
+		table: 2
+	}]
+}

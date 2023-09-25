@@ -1,0 +1,21 @@
+{
+	title: "That's not diamond either...",
+	x: 6.5d,
+	y: 0.0d,
+	text: [
+		"I'm running out of ideas, so here's five bucks you cheapskate"
+	],
+	tasks: [{
+		uid: "78ab59e5",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "da6b748f",
+		type: "item",
+		item: "morecreeps:money",
+		count: 5
+	}]
+}

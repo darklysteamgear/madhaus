@@ -1,0 +1,11 @@
+{
+    "internalName": "block.tar21ammo",
+    "displayName": "TAR-21 Mag 20rnd",
+    "ammoCapacity": 20,
+	"reloadTimeFactor": 1,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.riflebullet"
+    ],
+    "allowEmptyMagazines": true
+}

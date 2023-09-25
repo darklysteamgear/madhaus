@@ -1,0 +1,22 @@
+{
+	title: "Deep underground",
+	x: -8.0d,
+	y: 0.5d,
+	tasks: [{
+		uid: "d785246e",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:basic_block_core 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "18d1d019",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "5e3649fa",
+		type: "xp",
+		xp: 1000
+	}]
+}

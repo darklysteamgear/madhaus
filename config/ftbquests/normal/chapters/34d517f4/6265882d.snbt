@@ -1,0 +1,22 @@
+{
+	title: "Blow em out of the sky!",
+	x: -2.0d,
+	y: 4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"17e73f18"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7d8adfe3",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:rocket_turret"
+		}]
+	}],
+	rewards: [{
+		uid: "427c9f34",
+		type: "ftbmoney:money",
+		ftb_money: 7000L
+	}]
+}

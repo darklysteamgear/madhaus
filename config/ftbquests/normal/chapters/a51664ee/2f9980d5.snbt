@@ -1,0 +1,18 @@
+{
+	title: "How useless",
+	x: 5.0d,
+	y: 1.5d,
+	tasks: [{
+		uid: "f2bd94bb",
+		type: "item",
+		items: [{
+			item: "bewitchment:garnet"
+		}]
+	}],
+	rewards: [{
+		uid: "2b67a02c",
+		type: "item",
+		auto: "enabled",
+		item: "poop:poop_raw_ingot"
+	}]
+}

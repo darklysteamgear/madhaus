@@ -1,0 +1,16 @@
+{
+	title: "Your dream burning inside.",
+	x: -8.0d,
+	y: -41.0d,
+	dependencies: [
+		"7a81a246"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cc467fce",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:item_basic_mars 1 2"
+		}]
+	}]
+}

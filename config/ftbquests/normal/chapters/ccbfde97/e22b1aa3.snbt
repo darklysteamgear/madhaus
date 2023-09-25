@@ -1,0 +1,13 @@
+{
+	title: "I have a pen",
+	x: -1.0d,
+	y: 0.0d,
+	description: "Are we really doing this?",
+	tasks: [{
+		uid: "bf130e8a",
+		type: "item",
+		items: [{
+			item: "memeinabottle:pen"
+		}]
+	}]
+}

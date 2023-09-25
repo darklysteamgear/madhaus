@@ -1,0 +1,26 @@
+{
+	title: "I feel so numb...",
+	icon: "fossil:shell",
+	x: -4.0d,
+	y: 2.0d,
+	dependencies: [
+		"4af62f7c",
+		"9aae55a5",
+		"530eab6d",
+		"3674a82b"
+	],
+	tasks: [{
+		uid: "02cc31cc",
+		type: "item",
+		items: [{
+			item: "scp:telekill_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "514d9d9e",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

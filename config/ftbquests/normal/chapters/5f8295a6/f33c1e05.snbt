@@ -1,0 +1,18 @@
+{
+	title: "Then I'll go to work under the birch tree",
+	x: 6.0d,
+	y: -1.5d,
+	dependencies: [
+		"f2b0271c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "865fd2d0",
+		type: "observation",
+		title: "Observe a log and a workbench",
+		icon: "minecraft:sapling 1 2",
+		match_type: "block_id",
+		match: "minecraft:log",
+		timer: 0L
+	}]
+}

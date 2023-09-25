@@ -1,0 +1,24 @@
+{
+	title: "Just put it on anything",
+	x: 0.5d,
+	y: -4.0d,
+	description: "Cake covered in olive oil? Delicious",
+	tasks: [{
+		uid: "a4b9a715",
+		type: "item",
+		items: [{
+			id: "rustic:fluid_bottle",
+			tag: {
+				Fluid: {
+					FluidName: "oliveoil",
+					Amount: 1000
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ea48f61c",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

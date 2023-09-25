@@ -1,0 +1,25 @@
+{
+	x: 3.0d,
+	y: -14.5d,
+	size: 3.0d,
+	tasks: [{
+		uid: "e6b26b42",
+		type: "observation",
+		title: "OK I pull up",
+		icon: "minecraft:minecart",
+		match_type: "entity_id",
+		match: "zoocraftdiscoveries:capybara",
+		timer: 60L
+	}],
+	rewards: [{
+		uid: "9dc8dbea",
+		type: "item",
+		item: "minecraft:minecart"
+	},
+	{
+		uid: "078c41e2",
+		type: "ftbmoney:money",
+		ftb_money: 500L,
+		random_bonus: 500
+	}]
+}

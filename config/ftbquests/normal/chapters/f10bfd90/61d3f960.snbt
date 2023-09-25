@@ -1,0 +1,37 @@
+{
+	title: "To the east farlands",
+	x: 15.0d,
+	y: 17.5d,
+	description: "Teleport to the east farlands. MAKE SURE YOU ARE IN AN ALPHA OR BETA DIMENSION!!!",
+	text: [
+		"There are many worlds with farlands. Discover them all!"
+	],
+	can_repeat: true,
+	dependencies: [
+		"7a8295b7",
+		"8877d14d"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "83614209",
+		type: "dimension",
+		dim: 58
+	},
+	{
+		uid: "a0561c50",
+		type: "item",
+		items: [{
+			item: "moreplanets:dark_energy_pearl"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "3e161a3b",
+		type: "command",
+		title: "To the farlands!",
+		icon: "minecraft:grass",
+		command: "/tp @p 12550750 75 100"
+	}]
+}

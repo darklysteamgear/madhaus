@@ -1,0 +1,53 @@
+{
+	title: "NOTEBLOCK MUSIC CREDITS",
+	x: -7.5d,
+	y: -6.0d,
+	description: "Let's give a huge hand to the people who created this wonderful and nostalgic note block music",
+	text: [
+		"Yogscast - Diggy Diggy Hole - Note Block Remake By grande1899",
+		"",
+		"Note Block Instrumental of \"Usher - DJ Got Us Fallin' in Love\" By Phase It",
+		"",
+		"Take Back The Night - Noteblock Orchestra By The Noteblock Orchestra",
+		"",
+		"Fallen Kingdom (Noteblock Edition) By Rellik Evets",
+		"",
+		"Through the Night - Note Block Remake (Minecraft Song) By grande1899",
+		"",
+		"Minecraft Note Blocks: Mad World - Gary Jules By Petraller",
+		"",
+		"🎵 \"Dragonhearted\" 🎵 TryHardNinja and Captain Sparklez [1.12+ Noteblock Cover] By EnderdracheLP",
+		"",
+		"CaptainSparklez - Find The Pieces - Minecraft Note Block Remake By grande1899",
+		"",
+		"TNT (Minecraft Parody) NoteBlock Version [instrumental] By Syachi Memes",
+		"",
+		"Original Minecraft Note Block Song #4 By grande1899",
+		"",
+		"sweden by c418 except it's kind of sad and very nostalgic By AquaSkye",
+		"",
+		"Mice On Venus but make it *E X T R A* nostalgic by EMBRR",
+		"",
+		"GALACTICRAFT",
+		"",
+		"Space Dust by White Bat Audio https://www.youtube.com/watch?v=LthYJZbEviA",
+		"",
+		"NETHER",
+		"",
+		"Harbinger by Mick Gordon https://www.youtube.com/watch?v=b2YG8DX0ees"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "d0eabac3",
+		type: "item",
+		items: [{
+			item: "minecraft:noteblock"
+		}]
+	}],
+	rewards: [{
+		uid: "8ef8468f",
+		type: "ftbmoney:money",
+		ftb_money: 3000L,
+		random_bonus: 2000
+	}]
+}

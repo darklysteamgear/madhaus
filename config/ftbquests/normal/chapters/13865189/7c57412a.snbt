@@ -1,0 +1,20 @@
+{
+	title: "oh-oh-oh, oh-oh-oh.",
+	icon: "galacticraftplanets:asteroids_block 1 1",
+	x: -4.5d,
+	y: -47.0d,
+	dependencies: [
+		"2e3e0ccd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6ad45ef1",
+		type: "dimension",
+		dim: 9004
+	}],
+	rewards: [{
+		uid: "f3bbe079",
+		type: "ftbmoney:money",
+		ftb_money: 20000L
+	}]
+}

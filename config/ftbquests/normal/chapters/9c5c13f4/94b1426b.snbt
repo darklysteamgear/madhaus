@@ -1,0 +1,45 @@
+{
+	icon: "botania:pylon 1 1",
+	x: 1.0d,
+	y: 12.0d,
+	dependencies: [
+		"e6f93daa"
+	],
+	tasks: [{
+		uid: "645c6e2e",
+		type: "item",
+		items: [{
+			item: "botania:livingwood"
+		}],
+		count: 8L
+	},
+	{
+		uid: "93f6aafc",
+		type: "item",
+		items: [{
+			item: "botania:livingwood 1 5"
+		}],
+		count: 3L
+	},
+	{
+		uid: "19a877ac",
+		type: "item",
+		items: [{
+			item: "botania:alfheimportal"
+		}]
+	},
+	{
+		uid: "d0beb670",
+		type: "item",
+		items: [{
+			item: "botania:pylon 1 1"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "6036c8df",
+		type: "ftbmoney:money",
+		ftb_money: 2500L,
+		random_bonus: 2500
+	}]
+}

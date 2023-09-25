@@ -1,0 +1,17 @@
+{
+	title: "GET ME OUT OF HERE!!!!",
+	icon: "midnight:double_midnight_grass",
+	x: -7.0d,
+	y: -3.0d,
+	size: 2.0d,
+	tasks: [{
+		uid: "73ea7827",
+		type: "dimension",
+		dim: -27
+	}],
+	rewards: [{
+		uid: "1f8ea4fa",
+		type: "ftbmoney:money",
+		ftb_money: 3000L
+	}]
+}

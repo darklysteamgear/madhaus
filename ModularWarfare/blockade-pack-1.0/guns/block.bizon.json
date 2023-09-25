@@ -1,0 +1,74 @@
+{
+    "internalName": "block.bizon",
+    "displayName": "Bizon",
+    "weaponType": "smg",
+	"extraLore": "The legacy of the sons of two legendary weapons makers.",
+    "customFlashTexture": "prototype.advanced.flash",
+    "gunDamage": 6.5,
+    "gunDamageHeadshotBonus": 1.5,
+    "roundsPerMin": 500,
+    "allowEmptyMagazines": true,
+    "recoilPitch": 3.8,
+    "recoilYaw": 0.5,
+    "randomRecoilPitch": 0.9,
+    "randomRecoilYaw": 0.0,
+    "bulletSpread": 1.2,
+    "accuracySneakFactor": 0.5,
+    "moveSpeedModifier": 1,
+    "allowSprintFiring": true,
+    "dropBulletCasing": true,
+    "fireModes": [
+        "full",
+        "burst",
+        "semi"
+    ],
+    "acceptedAmmo": [
+        "block.bizonammo"
+    ],
+    "shellEjectOffsetNormal": {
+        "x": -1,
+        "y": 0,
+        "z": 1
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "block.bizon.shoot",
+                "soundNameDistant": "block.plight.shoot.distant",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponUnload": [
+            {
+                "soundEvent": "weaponReload",
+                "soundName": "prototype.generic.reload"
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "block.bizon.shoot.sup",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+            }
+        ]
+    },
+    "acceptedAttachments": {
+    },
+    "modelSkins": [
+        {
+            "internalName": "block.bizon",
+            "skinAsset": "block.bizon",
+            "displayName": "Default"
+        }
+    ]
+}

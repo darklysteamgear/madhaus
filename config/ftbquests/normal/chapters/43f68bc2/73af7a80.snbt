@@ -1,0 +1,21 @@
+{
+	title: "Better then a bed!",
+	x: 0.5d,
+	y: -6.0d,
+	description: "You will want to craft/find one of these to skip the night!",
+	size: 2.0d,
+	tasks: [{
+		uid: "0489076c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:time_changer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "43c78e95",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	title: "Blue pear",
+	x: 78.0d,
+	y: -12.5d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "4a407e4a",
+		type: "item",
+		items: [{
+			item: "moreplanets:blue_pear"
+		}]
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Honey, wheres my SUPER SUIT?!?",
+	x: 78.5d,
+	y: -15.0d,
+	shape: "circle",
+	dependencies: [
+		"383ea986",
+		"b1e10be0",
+		"ea436489",
+		"062f1402"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "43beebb6",
+		type: "dimension",
+		title: "Fronos",
+		icon: "moreplanets:fronos_grass_block",
+		dim: -2545
+	}],
+	rewards: [{
+		uid: "41c3ca2a",
+		type: "ftbmoney:money",
+		ftb_money: 10000L,
+		random_bonus: 10000
+	}]
+}

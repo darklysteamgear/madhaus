@@ -1,0 +1,17 @@
+{
+	title: "Wait, that's not diamond",
+	x: 5.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "4c5bf0a2",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:gem 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "579010e1",
+		type: "ftbmoney:money",
+		ftb_money: 12000L
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "The Cornerlands",
+	x: 16.5d,
+	y: 15.0d,
+	description: "Teleport to the cornerlands! MAKE SURE YOU ARE IN AN ALPHA OR BETA DIMENSION BEFORE TELEPORTING!!!",
+	can_repeat: true,
+	dependencies: [
+		"7a8295b7",
+		"8877d14d"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "3683730e",
+		type: "dimension",
+		dim: 58
+	},
+	{
+		uid: "7e8d7029",
+		type: "item",
+		items: [{
+			item: "moreplanets:dark_energy_pearl"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "2bb94b5f",
+		type: "command",
+		title: "To the cornerlands!",
+		icon: "minecraft:grass",
+		command: "/tp @p 12550750 90 12550750"
+	}]
+}

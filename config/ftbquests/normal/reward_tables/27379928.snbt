@@ -1,0 +1,33 @@
+{
+	title: "Beginning Reward",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: "minecraft:ender_pearl",
+		count: 2
+	},
+	{
+		item: "minecraft:diamond",
+		count: 2
+	},
+	{
+		item: "thermalfoundation:upgrade 1 35"
+	},
+	{
+		item: "storagedrawers:upgrade_storage 1 4",
+		count: 6
+	},
+	{
+		item: {
+			id: "refinedstorage:storage_disk",
+			Damage: 3s,
+			tag: {
+				IdLeast: -6451226590331641510L,
+				IdMost: -3118104182729129462L
+			}
+		}
+	},
+	{
+		item: "thermalfoundation:storage_alloy"
+	}]
+}

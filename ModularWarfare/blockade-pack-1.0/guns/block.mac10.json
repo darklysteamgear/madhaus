@@ -1,0 +1,79 @@
+{
+    "internalName": "block.mac10",
+    "displayName": "MAC-10",
+    "weaponType": "smg",
+	"extraLore": "It would be fun if I had two of them and could slow down time. No, it's a bad idea though.",
+    "customFlashTexture": "prototype.advanced.flash",
+    "gunDamage": 6.5,
+    "gunDamageHeadshotBonus": 1.5,
+    "roundsPerMin": 580,
+    "allowEmptyMagazines": true,
+    "recoilPitch": 4.1,
+    "recoilYaw": 0.2,
+    "randomRecoilPitch": 0.8,
+    "randomRecoilYaw": 0.0,
+    "bulletSpread": 1.25,
+    "accuracySneakFactor": 0.5,
+    "moveSpeedModifier": 1,
+    "allowSprintFiring": true,
+    "dropBulletCasing": true,
+    "fireModes": [
+        "full",
+        "burst",
+        "semi"
+    ],
+    "acceptedAmmo": [
+        "block.mac10ammo"
+    ],
+    "shellEjectOffsetNormal": {
+        "x": -1,
+        "y": 0,
+        "z": 1
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "block.mac10.shoot",
+                "soundNameDistant": "block.plight.shoot.distant",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponUnload": [
+            {
+                "soundEvent": "weaponReload",
+                "soundName": "prototype.generic.reload"
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "block.mac10.shoot.sup",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+            }
+        ]
+    },
+    "acceptedAttachments": {
+    },
+    "modelSkins": [
+        {
+            "internalName": "block.mac10",
+            "skinAsset": "block.mac10",
+            "displayName": "Default"
+        },
+        {
+            "internalName":"block.mac10.gold",
+            "skinAsset":"block.mac10.gold",
+            "displayName":"Gold"
+        }
+    ]
+}

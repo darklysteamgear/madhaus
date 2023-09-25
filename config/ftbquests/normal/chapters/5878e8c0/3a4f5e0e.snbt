@@ -1,0 +1,12 @@
+{
+	x: 75.0d,
+	y: -39.0d,
+	shape: "square",
+	tasks: [{
+		uid: "770f206a",
+		type: "item",
+		items: [{
+			item: "moreplanets:alien_miner_part"
+		}]
+	}]
+}

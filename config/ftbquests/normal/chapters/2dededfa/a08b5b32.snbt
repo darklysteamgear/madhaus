@@ -1,0 +1,28 @@
+{
+	x: -2.0d,
+	y: 4.0d,
+	dependencies: [
+		"9aedaf0c"
+	],
+	tasks: [{
+		uid: "edd58438",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_empowerer"
+		}]
+	},
+	{
+		uid: "2f7ab051",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_display_stand"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "1718c59e",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

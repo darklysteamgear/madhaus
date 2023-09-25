@@ -1,0 +1,25 @@
+{
+	title: "We need more flint!",
+	x: 5.5d,
+	y: -1.0d,
+	text: [
+		"Here's a donation for the war effort... Yeah, I already used all of mine on arrows"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d93e035c",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 47"
+		}]
+	}],
+	rewards: [{
+		uid: "8bef1781",
+		type: "item",
+		item: "minecraft:flint"
+	}]
+}

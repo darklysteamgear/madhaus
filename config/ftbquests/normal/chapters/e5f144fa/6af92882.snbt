@@ -1,0 +1,24 @@
+{
+	title: "Wet the sponge",
+	x: 1.0d,
+	y: 1.5d,
+	description: "Very important that you wet the sponeg. That's how you clean stuff",
+	dependencies: [
+		"85b7279f",
+		"7c20a4ad"
+	],
+	tasks: [{
+		uid: "cedfc1d3",
+		type: "item",
+		items: [{
+			item: "minecraft:sponge 1 1"
+		}],
+		count: 20L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "7532784d",
+		type: "item",
+		item: "aoa3:magic_mending_compound"
+	}]
+}

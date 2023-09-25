@@ -1,0 +1,18 @@
+{
+    "name": "Custom Events",
+    "icon": "minecraft:writable_book",
+    "category": "events",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "text",
+            "text": "There are many different events in the world. Some that will benefit you, and others that may damn the world into chaos... Be careful out there! The custom events in this modpack are for you to discover through exploration, prepare yourself"
+        },
+        {
+        "type" : "image", 
+        "images": [
+            "madhaus:textures/book/custom.png"
+        ]
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"After killing the last of the mutants, forbidden knowledge enters your head. You feel as if you can make tools out of any... HEY, DON'T GET ANY FUNNY IDEAS WISEGUY. I KNOW WHY YOU DID THAT, YOU JUST WANT TINKER'S CONSTRUCT EMERADIC ARMOR SO YOU CAN ONE SHOT EVERYTHING!!! I'M NOT HAVING ANY OF IT, AND YOU AREN'T GETTING ANY OF MY BEANS THIS TIME!!!","color":"green","italic":true}]
+playsound minecraft:block.anvil.place ambient @a[r=50] ~ ~ ~ 1 0.5
+gamestage silentadd @p tcon

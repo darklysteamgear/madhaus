@@ -1,0 +1,74 @@
+{
+    "internalName":"block.aks74u",
+    "displayName":"AKS-74U",
+    "weaponType":"carbine",
+    "extraLore": "The younger brother of the legend.",
+    "customFlashTexture":"prototype.advanced.flash",
+    "gunDamage":8.85,
+    "gunDamageHeadshotBonus":1.5,
+    "roundsPerMin":400,
+    "allowEmptyMagazines":true,
+    "recoilPitch": 3.4,
+    "recoilYaw": 0.4,
+    "randomRecoilPitch": 0.8,
+    "randomRecoilYaw": 0.0,
+    "bulletSpread":0.25,
+    "accuracySneakFactor":0.125,
+    "moveSpeedModifier":1.0,
+    "allowSprintFiring":false,
+    "fireModes":[
+        "full",
+		"burst",
+        "semi"
+    ],
+    "acceptedAmmo":[
+        "block.aks74uammo"
+    ],
+    "dropBulletCasing":true,
+    "shellEjectOffsetNormal":{
+        "x":-1.0,
+        "y":0.0,
+        "z":1.0
+    },
+    "shellEjectOffsetAiming":{
+        "x":-0.2,
+        "y":0.12,
+        "z":0.5
+    },
+    "weaponSoundMap":{
+        "weaponFire":[
+            {
+                "soundEvent":"weaponFire",
+                "soundName":"block.aks74u.shoot",
+                "soundNameDistant":"block.rifle.shoot.distant",
+                "soundRange":64,
+                "soundMaxRange":96,
+                "soundFadeMultiplier":1
+            }
+        ],
+        "weaponUnload":[
+            {
+                "soundEvent":"weaponReload",
+                "soundName":"prototype.generic.reload"
+            }
+        ],
+        "weaponFireSuppressed":[
+            {
+                "soundEvent":"weaponFireSuppressed",
+                "soundName":"block.aks74u.shoot.sup",
+                "soundRange":30,
+                "soundMaxRange":50,
+                "soundFadeMultiplier":1
+            }
+        ]
+    },
+    "acceptedAttachments":{
+    },
+    "modelSkins":[
+        {
+            "internalName":"block.aks74u",
+            "skinAsset":"block.aks74u",
+            "displayName":"Default"
+        }
+    ]
+}

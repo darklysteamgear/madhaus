@@ -1,0 +1,23 @@
+{
+	title: "Now we're talking!",
+	x: 0.5d,
+	y: 6.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"2a0f71b7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "afa7d60d",
+		type: "item",
+		items: [{
+			item: "sapturretmod:turret_shotgun"
+		}]
+	}],
+	rewards: [{
+		uid: "abd6041b",
+		type: "ftbmoney:money",
+		ftb_money: 3500L,
+		random_bonus: 1000
+	}]
+}

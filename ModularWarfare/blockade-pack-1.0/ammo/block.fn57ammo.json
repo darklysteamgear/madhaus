@@ -1,0 +1,11 @@
+{
+    "internalName": "block.fn57ammo",
+    "displayName": "FN57 Mag 20rnd",
+    "numBullets": 1,
+    "ammoCapacity": 20,
+    "subAmmo": [
+        "block.pistolbullet"
+    ],
+    "magazineCount": 1,
+    "reloadTime": 9
+}

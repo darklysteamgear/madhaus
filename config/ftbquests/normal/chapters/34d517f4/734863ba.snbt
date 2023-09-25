@@ -1,0 +1,18 @@
+{
+	title: "Don't eat it... Give them to your soldiers!!!",
+	x: 1.0d,
+	y: -0.5d,
+	description: "Give them that rotten flesh to make them fight for you!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"c4a06031"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9d7067d1",
+		type: "item",
+		items: [{
+			item: "minecraft:rotten_flesh"
+		}]
+	}]
+}

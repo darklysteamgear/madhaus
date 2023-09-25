@@ -1,0 +1,16 @@
+{
+  "displayName": "SG 552 Scope",
+  "internalName": "block.scopeg552",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopeg552",
+      "displayName": "SG 552 Scope - Default"
+    }
+  ],
+  "sight": {
+    "scopeType": "4x",
+    "customOverlayTexture": "block.blockscope4x",
+    "modeType": "pip"
+  }
+}

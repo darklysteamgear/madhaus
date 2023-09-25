@@ -1,0 +1,18 @@
+{
+	title: "The new and old",
+	icon: "thebetweenlands:wisp",
+	x: -1.0d,
+	y: -1.0d,
+	description: "Kill the bosses! They start important events!",
+	size: 2.0d,
+	tasks: [{
+		uid: "d06f72bd",
+		type: "dimension",
+		dim: 69
+	}],
+	rewards: [{
+		uid: "479b9647",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	}]
+}

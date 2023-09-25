@@ -1,0 +1,73 @@
+{
+	title: "The Allies",
+	icon: "modularwarfare:block.m14",
+	x: -4.0d,
+	y: 0.5d,
+	description: "They're always good to have on your side.",
+	text: [
+		"If you give them some money, they will provide backup! that's how most things work anyway"
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"baf10050",
+		"36f19aa2",
+		"a3746fc7",
+		"349fcb68",
+		"403f5607",
+		"9007b9dd",
+		"50a173ad",
+		"5281391f",
+		"b2c406ab"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dbf36427",
+		type: "ftbmoney:money",
+		value: 22500L
+	},
+	{
+		uid: "86e22fba",
+		type: "item",
+		items: [{
+			item: "morecreeps:money"
+		}],
+		count: 50L
+	}],
+	rewards: [{
+		uid: "ce26484e",
+		type: "command",
+		title: "The troops!!!",
+		command: "/execute @p ~ ~ ~ summon minecraft:villager_golem"
+	},
+	{
+		uid: "777d0e2a",
+		type: "command",
+		title: "MORE TROOPS!!!",
+		command: "/execute @p ~ ~ ~ summon minecraft:villager_golem"
+	},
+	{
+		uid: "3dd1256c",
+		type: "command",
+		title: "The calvary!",
+		command: "/execute @p ~ ~ ~ summon scp:heavy_golem"
+	},
+	{
+		uid: "247b820b",
+		type: "command",
+		title: "Here come the hunters!",
+		command: "/execute @p ~ ~ ~ summon vampirism:advanced_hunter"
+	},
+	{
+		uid: "8ae0b75f",
+		type: "command",
+		title: "More hunters!!!",
+		command: "/execute @p ~ ~ ~ summon vampirism:advanced_hunter"
+	},
+	{
+		uid: "529c22eb",
+		type: "command",
+		title: "Is that...",
+		command: "/execute @p ~ ~ ~ summon herobrine:steve_survivor"
+	}]
+}

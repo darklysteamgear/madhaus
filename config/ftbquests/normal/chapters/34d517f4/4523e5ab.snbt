@@ -1,0 +1,26 @@
+{
+	title: "Some tartar sauce",
+	x: 2.0d,
+	y: 2.5d,
+	description: "When life gets you an MTAR...",
+	text: [
+		"You make tartar sauce"
+	],
+	hide_dependency_lines: true,
+	hide: true,
+	tasks: [{
+		uid: "bc6d7dce",
+		type: "item",
+		items: [{
+			item: "modularwarfare:block.tar21"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "84f2aa77",
+		type: "ftbmoney:money",
+		ftb_money: 2000L,
+		random_bonus: 500
+	}]
+}

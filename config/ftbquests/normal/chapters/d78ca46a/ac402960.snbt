@@ -1,0 +1,22 @@
+{
+	x: 7.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "fdf0b3cf",
+		type: "item",
+		items: [{
+			id: "ic2:nano_boots",
+			tag: {
+				charge: 1000000.0d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "87fdde52",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

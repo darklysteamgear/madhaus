@@ -1,0 +1,14 @@
+{
+	icon: "extraplanets:phobos",
+	x: 6.0d,
+	y: -10.0d,
+	shape: "circle",
+	size: 2.0d,
+	tasks: [{
+		uid: "69262d33",
+		type: "dimension",
+		title: "Phobos",
+		icon: "extraplanets:phobos",
+		dim: -1502
+	}]
+}

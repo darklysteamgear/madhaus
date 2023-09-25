@@ -1,0 +1,90 @@
+{
+	title: "Exotic Crops Bundle",
+	x: -1.0d,
+	y: 2.5d,
+	shape: "rsquare",
+	size: 2.0d,
+	tasks: [{
+		uid: "fc42113b",
+		type: "item",
+		items: [{
+			item: "harvestcraft:pineappleitem"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "9d574636",
+		type: "item",
+		items: [{
+			item: "harvestcraft:gingeritem"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "5cd04fd7",
+		type: "item",
+		items: [{
+			item: "harvestcraft:arrowrootitem"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "4aa39f11",
+		type: "item",
+		items: [{
+			item: "harvestcraft:kenafitem"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "903b3997",
+		type: "item",
+		items: [{
+			item: "harvestcraft:kiwiitem"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "4341f1f1",
+		type: "item",
+		items: [{
+			item: "harvestcraft:bambooshootitem"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "01ea1a82",
+		type: "item",
+		items: [{
+			item: "harvestcraft:soybeanitem"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "845530c8",
+		type: "item",
+		items: [{
+			item: "harvestcraft:papayaitem"
+		}],
+		count: 32L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "042a2461",
+		type: "item",
+		item: "ic2:dust 1 5",
+		count: 4
+	},
+	{
+		uid: "f96acead",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	}]
+}

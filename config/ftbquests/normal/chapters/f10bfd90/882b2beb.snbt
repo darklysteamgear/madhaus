@@ -1,0 +1,26 @@
+{
+	title: "Get the essence from the backrooms",
+	icon: "scp:nightvision_goggles",
+	x: 14.0d,
+	y: 7.0d,
+	description: "You can do it snake!",
+	dependencies: [
+		"cec54dfd",
+		"fe50a871",
+		"ff4980f2"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "0eca134f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:bessence"
+		}]
+	},
+	{
+		uid: "2edd4fa0",
+		type: "gamestage",
+		stage: "stealth"
+	}]
+}

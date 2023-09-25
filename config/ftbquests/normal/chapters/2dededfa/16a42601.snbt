@@ -1,0 +1,21 @@
+{
+	title: "Coaless smelting",
+	x: -8.0d,
+	y: 4.0d,
+	dependencies: [
+		"ee842ffd"
+	],
+	tasks: [{
+		uid: "86c1d223",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 44"
+		}]
+	}],
+	rewards: [{
+		uid: "efc682c0",
+		type: "ftbmoney:money",
+		ftb_money: 500L,
+		random_bonus: 500
+	}]
+}

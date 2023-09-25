@@ -1,0 +1,17 @@
+{
+	title: "Obtain a cursed diamond...",
+	x: 5.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "c08c4aab",
+		type: "item",
+		items: [{
+			item: "herobrine:cursed_diamond"
+		}]
+	}],
+	rewards: [{
+		uid: "1fb3fdca",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	}]
+}

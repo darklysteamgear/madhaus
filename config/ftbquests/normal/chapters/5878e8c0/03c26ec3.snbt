@@ -1,0 +1,12 @@
+{
+	x: 89.5d,
+	y: -3.0d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "39e58c53",
+		type: "item",
+		items: [{
+			item: "moreplanets:terraberry"
+		}]
+	}]
+}

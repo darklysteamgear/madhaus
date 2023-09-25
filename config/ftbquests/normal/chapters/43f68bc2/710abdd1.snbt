@@ -1,0 +1,27 @@
+{
+	title: "Dovakiin",
+	x: -1.0d,
+	y: -9.5d,
+	description: "Did you just kill that thing? Impressive.",
+	dependencies: [
+		"65c72aef"
+	],
+	tasks: [{
+		uid: "bece21f8",
+		type: "kill",
+		entity: "iceandfire:firedragon",
+		value: 1L
+	},
+	{
+		uid: "17624052",
+		type: "kill",
+		entity: "iceandfire:icedragon",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "23a5c81c",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 2
+	}]
+}

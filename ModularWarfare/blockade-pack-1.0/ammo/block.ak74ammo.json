@@ -1,0 +1,11 @@
+{
+    "internalName": "block.ak74ammo",
+    "displayName": "AK-74 Mag 30rnd",
+    "ammoCapacity": 30,
+	"reloadTimeFactor": 1.3,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.riflebullet"
+    ],
+    "allowEmptyMagazines": true
+}

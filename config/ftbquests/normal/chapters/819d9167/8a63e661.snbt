@@ -1,0 +1,23 @@
+{
+	title: "Why not make your own dimensions?",
+	x: -12.0d,
+	y: 0.0d,
+	size: 3.0d,
+	tasks: [{
+		uid: "0616a1f7",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:dimension_builder"
+		}]
+	}],
+	rewards: [{
+		uid: "9662f83d",
+		type: "ftbmoney:money",
+		ftb_money: 15000L
+	},
+	{
+		uid: "f23a16c0",
+		type: "item",
+		item: "rftoolsdim:dimlet_parcel"
+	}]
+}

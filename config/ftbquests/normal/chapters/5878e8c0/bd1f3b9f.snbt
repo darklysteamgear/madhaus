@@ -1,0 +1,12 @@
+{
+	x: 75.0d,
+	y: -40.0d,
+	shape: "square",
+	tasks: [{
+		uid: "8ff1c71d",
+		type: "item",
+		items: [{
+			item: "moreplanets:infected_purlonite_shard"
+		}]
+	}]
+}

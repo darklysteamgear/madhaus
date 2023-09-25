@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	dependencies: [
+		"a62bf368"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4bee63a3",
+		type: "kill",
+		title: "Revenge!",
+		entity: "specialmobs:specialzombie",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "fb41b5ef",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	}]
+}

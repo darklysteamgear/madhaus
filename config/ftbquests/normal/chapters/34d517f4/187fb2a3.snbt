@@ -1,0 +1,163 @@
+{
+	title: "RULE BRITANIA! BRITANIA RULES THE SEA!",
+	x: -6.5d,
+	y: -5.0d,
+	description: "Not as mighty as the USA, But still a major help in the war effort!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d036cb1e",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz_block"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "645ac4ac",
+		type: "item",
+		items: [{
+			item: "minecraft:wool 1 11"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "3e8e4d60",
+		type: "item",
+		items: [{
+			item: "minecraft:wool 1 11"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "17d96edb",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz_block"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "e46816b2",
+		type: "item",
+		items: [{
+			item: "minecraft:wool 1 11"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "0bb8f4b7",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "70dfc13f",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "9f3bc0dc",
+		type: "item",
+		items: [{
+			item: "minecraft:wool 1 11"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "68abf5f1",
+		type: "item",
+		items: [{
+			item: "minecraft:wool 1 11"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "436264c1",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "5a740672",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "c2974c0e",
+		type: "item",
+		items: [{
+			item: "minecraft:wool 1 11"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "82bd902a",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz_block"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "6428e6a8",
+		type: "item",
+		items: [{
+			item: "minecraft:wool 1 11"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "f2de14dc",
+		type: "item",
+		items: [{
+			item: "minecraft:wool 1 11"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "6cf541b0",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz_block"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "fab221ff",
+		type: "command",
+		title: "Hope you're not a vampire",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon vampirism:advanced_hunter"
+	},
+	{
+		uid: "70efab69",
+		type: "command",
+		title: "here they come!",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon vampirism:vampire_hunter"
+	},
+	{
+		uid: "84e9ac24",
+		type: "command",
+		title: "Heavy gunners INBOUND!!!",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon minecraft:villager_golem"
+	}]
+}

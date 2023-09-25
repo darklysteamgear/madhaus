@@ -1,0 +1,33 @@
+{
+	title: "Welcome to Yoglabs!",
+	x: 3.5d,
+	y: -3.5d,
+	text: [
+		"The home of innovation",
+		"Where the only limit",
+		"Is your limited imagination"
+	],
+	tasks: [{
+		uid: "45d689f7",
+		type: "item",
+		items: [{
+			item: "sync:item_shell_constructor"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c1d24bfd",
+		type: "item",
+		items: [{
+			item: "sync:item_shell_storage"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8bd4dee9",
+		type: "ftbmoney:money",
+		ftb_money: 15900L
+	}]
+}

@@ -1,0 +1,16 @@
+{
+  "displayName": "AUG A3 Scope",
+  "internalName": "block.scopea3",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopea3",
+      "displayName": "AUG A3 Scope - Default"
+    }
+  ],
+  "sight": {
+    "scopeType": "4x",
+    "customOverlayTexture": "block.blockscope4x",
+    "modeType": "pip"
+  }
+}

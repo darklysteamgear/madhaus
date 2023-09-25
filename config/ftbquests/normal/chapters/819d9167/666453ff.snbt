@@ -1,0 +1,24 @@
+{
+	title: "Space Balls",
+	icon: "extrautils2:snowglobe 1 1",
+	x: 2.0d,
+	y: -1.5d,
+	description: "BALLS IN OUTER SPACE!!! Bring a jetpack. Use the ancient clock's power on a portal made of potash to get to this futuristic land lost to time and space.",
+	text: [
+		""
+	],
+	dependencies: [
+		"58e4875b"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "906d829a",
+		type: "dimension",
+		dim: 113
+	}],
+	rewards: [{
+		uid: "e3e41c33",
+		type: "ftbmoney:money",
+		ftb_money: 8000L
+	}]
+}

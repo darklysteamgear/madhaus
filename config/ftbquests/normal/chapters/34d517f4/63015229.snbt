@@ -1,0 +1,24 @@
+{
+	title: "The start of AoA weapons and armor!",
+	x: 3.5d,
+	y: 11.0d,
+	description: "That mod has some good stuff in it",
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8833d1c1",
+		type: "item",
+		items: [{
+			item: "aoa3:infusion_table"
+		}]
+	}],
+	rewards: [{
+		uid: "da89a766",
+		type: "ftbmoney:money",
+		ftb_money: 2000L,
+		random_bonus: 700
+	}]
+}

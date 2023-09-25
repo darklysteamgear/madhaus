@@ -1,0 +1,31 @@
+{
+	title: "SACRIFICE YOUR FIRSTBORN SON",
+	x: 3.0d,
+	y: -4.5d,
+	dependencies: [
+		"a5df5fb2"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 3.0d,
+	tasks: [{
+		uid: "89fc2cf4",
+		type: "item",
+		items: [{
+			item: "mca:baby_boy"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "517bad29",
+		type: "item",
+		item: "morecreeps:baby_jar_full"
+	},
+	{
+		uid: "1ff868f9",
+		type: "ftbmoney:money",
+		ftb_money: 6200L
+	}]
+}

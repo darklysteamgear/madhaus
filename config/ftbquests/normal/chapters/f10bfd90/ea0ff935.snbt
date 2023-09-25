@@ -1,0 +1,38 @@
+{
+	icon: "stupidthings:propeller_hat",
+	x: 1.5d,
+	y: 4.0d,
+	text: [
+		"Make a wish upon a portal made of gravisand to visit a world almost familiar to my first world if I started playng during 1.7.3 and not during 1.8.1. Maybe one day this wish will be truly fufilled, for now, we can still dream."
+	],
+	dependencies: [
+		"442ab6a0"
+	],
+	tasks: [{
+		uid: "93dd58dd",
+		type: "dimension",
+		dim: 57
+	}],
+	rewards: [{
+		uid: "853d894c",
+		type: "item",
+		item: "iceandfire:fire_dragon_blood",
+		count: 3
+	},
+	{
+		uid: "9085aaca",
+		type: "ftbmoney:money",
+		ftb_money: 7000L
+	},
+	{
+		uid: "d49fdcd7",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "4c61a7b1",
+		type: "item",
+		item: "motnt:festive_tnt",
+		count: 8
+	}]
+}

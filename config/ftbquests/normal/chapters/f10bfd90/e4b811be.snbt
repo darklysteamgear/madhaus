@@ -1,0 +1,18 @@
+{
+	title: "Congratulations, you did it! You absolute moron. Just try to use the items this unlocks, idiot face.",
+	icon: "harvestcraft:bakedbeansitem",
+	x: 5.0d,
+	y: -7.5d,
+	description: "You did it, but why? Do you just want to steal my beans? You're gonna have to try harder then that buddy boy.",
+	dependencies: [
+		"ca391549",
+		"c77d1906",
+		"029b97f7",
+		"ed9e6283"
+	],
+	tasks: [{
+		uid: "1a3f31dd",
+		type: "checkmark",
+		title: "Kill all of them for... I don't want to say what this unlocks"
+	}]
+}

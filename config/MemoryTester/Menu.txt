@@ -1,0 +1,17 @@
+Header=You have [AllocatedMemory]MB of memory allocated. />Font:Lucida Console />FontType:bold />FontSize:30 />Color:0, 0, 0, 255
+
+Line1WhenOptimalMemory=Looks like you are all good to go! />Font:Lucida Console />FontType:bold />FontSize:30 />Color:0, 255, 0, 255
+
+
+Line1WhenNonoptimalMemory= STOP! I need [RecommendedMemory]MB of RAM to run properly! QUIT AND FEED THE BEAST HIS RAM!!! />Font:Lucida Console />FontType:bold />FontSize:16 />Color:255, 0, 0, 255
+
+ButtonStartText=Start
+
+ButtonStartBgColor=0, 255, 0, 255
+
+ButtonQuitText=Quit
+
+ButtonQuitBgColor=255, 0, 0, 255
+
+BackgroundImageDir=resources/backgroundImage.png
+

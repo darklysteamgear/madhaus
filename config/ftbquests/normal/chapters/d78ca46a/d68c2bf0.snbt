@@ -1,0 +1,20 @@
+{
+	x: 4.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "8b64e5b6",
+		type: "item",
+		items: [{
+			id: "botania:terrasteelboots",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4a2ed94d",
+		type: "ftbmoney:money",
+		ftb_money: 10000L,
+		random_bonus: 5000
+	}]
+}

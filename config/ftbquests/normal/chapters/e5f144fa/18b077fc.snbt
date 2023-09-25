@@ -1,0 +1,22 @@
+{
+	title: "Pres the buton for chbeeeseeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+	x: -2.0d,
+	y: -9.0d,
+	description: "cbeeese booton, I really hope I set up this quest right oh well whatever habe dceeeeeeheeeeseeeeeeee",
+	can_repeat: true,
+	dependencies: [
+		"798a5048"
+	],
+	tasks: [{
+		uid: "8835e16e",
+		type: "checkmark",
+		title: "Cheese button",
+		icon: "projectred-illumination:light_button 1 4"
+	}],
+	rewards: [{
+		uid: "9c898418",
+		type: "item",
+		auto: "enabled",
+		item: "moreplanets:cheese_milk_curd"
+	}]
+}

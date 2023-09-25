@@ -1,0 +1,15 @@
+{
+	icon: "moreplanets:alien_defender_beacon",
+	x: 3.5d,
+	y: 4.0d,
+	dependencies: [
+		"83877389"
+	],
+	tasks: [{
+		uid: "14cd9a90",
+		type: "gamestage",
+		title: "The UFO invasion happened...",
+		icon: "ic2:alloy_chestplate",
+		stage: "ufo"
+	}]
+}

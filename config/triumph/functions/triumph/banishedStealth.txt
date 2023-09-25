@@ -1,0 +1,6 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"...Wait, there is no wartorn battlefield. (Flips through script) How did you even, ahem. Here we are.","color":"gray","italic":true}]
+tellraw @p ["",{"text":"The aura of order remains true within you, as you have managed to never give in. Your light of justice shines brightly upon this world.","color":"gray","italic":true}]
+tellraw @p ["",{"text":"Herobrine, absolutely blindsided, found himself completely trapped within the walls of the backrooms. Somehow, with all of his omnipotence, he never saw you coming.","color":"gray","italic":true}]
+tellraw @p ["",{"text":"A true victory, in every sense. Even if no battle was fought, this war is won.","color":"green","italic":true}]

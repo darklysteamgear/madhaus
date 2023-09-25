@@ -1,0 +1,20 @@
+{
+	x: -4.0d,
+	y: 5.0d,
+	dependencies: [
+		"9aedaf0c"
+	],
+	tasks: [{
+		uid: "6485a5e8",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_xp_solidifier"
+		}]
+	}],
+	rewards: [{
+		uid: "d38fbad6",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

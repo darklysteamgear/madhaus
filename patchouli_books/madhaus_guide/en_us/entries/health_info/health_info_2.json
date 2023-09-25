@@ -1,0 +1,20 @@
+{
+    "name": "Health Mechanics",
+    "icon": "minecraft:writable_book",
+    "category": "health",
+        "sortnum": 2,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item":"scalinghealth:heartcontainer",
+            "text": "See these? They permanently increase your health count by 1 heart.They drop rarely from normal mobs. You better get grinding!"
+
+        },
+        {
+            "type": "entity",
+            "entity":"herobrine:steve_survivor",
+            "text": "You can have up to 5 times your normal health in this modpack!!!"
+
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+	title: "The cringe is strong, it hurts",
+	x: 3.0d,
+	y: 5.0d,
+	description: "why",
+	text: [
+		"Just, give it to me. I'll dispose of it properly before you end up using it for something stupid",
+		"",
+		"",
+		"...",
+		"Why aren't you giving it to me?",
+		"oh no... the creator forgot to make it consumable",
+		"AHHH FRICK, WHY AM I FORCED TO WATCH THIS?"
+	],
+	tasks: [{
+		uid: "9acb73e4",
+		type: "item",
+		items: [{
+			item: "memeinabottle:fidget"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0c5ed75c",
+		type: "ftbmoney:money",
+		ftb_money: 5500L
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 9.0d,
+	y: 14.0d,
+	description: "There is only one way to defeat him... and that is to continue onward. Do not give up!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"02be510d"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "fefc1bef",
+		type: "dimension",
+		title: "Continue onward",
+		dim: 1005
+	}]
+}

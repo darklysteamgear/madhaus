@@ -1,0 +1,30 @@
+{
+	title: "Call in the calvary!",
+	x: 0.0d,
+	y: -0.5d,
+	description: "Horses make them go faster on land!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"c4a06031"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fd275d17",
+		type: "item",
+		items: [{
+			id: "claysoldiers:doll_horse",
+			tag: {
+				dollHorse: {
+					type: 0
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "27c95deb",
+		type: "ftbmoney:money",
+		ftb_money: 1200L
+	}]
+}

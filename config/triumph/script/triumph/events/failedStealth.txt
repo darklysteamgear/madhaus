@@ -1,0 +1,17 @@
+setIcon(<minecraft:stone>)
+setTitle("Spotted")
+setDescription("...")
+
+addRewardFunction("triumph:stealthfailed")
+addParent("triumph:events/root")
+
+criteria = addCriteria("stealth", "triumph:gamestage")
+criteria.setStage("stealthfail")
+criteria.setCount(1)
+
+setRequirements("any")
+setHidden(true)
+setShowToast(false)
+setAnnounceToChat(false)
+setUncompletedIconColor(71,71,71)
+setPos(40,-11)

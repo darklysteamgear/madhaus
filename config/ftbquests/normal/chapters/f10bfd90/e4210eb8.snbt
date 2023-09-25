@@ -1,0 +1,29 @@
+{
+	title: "Create The Nether Reactor",
+	x: -3.5d,
+	y: -2.5d,
+	description: "Quest currently broken, old nether reactor mod does not play nicely with others, so just get a nether star",
+	text: [
+		"Just Like Oldschool Pocket Edition"
+	],
+	size: 1.5d,
+	optional: true,
+	tasks: [{
+		uid: "9ad208d0",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}]
+	}],
+	rewards: [{
+		uid: "f2ed3a66",
+		type: "item",
+		item: "minecraft:blaze_rod",
+		count: 6
+	},
+	{
+		uid: "35ca9ed5",
+		type: "ftbmoney:money",
+		ftb_money: 25000L
+	}]
+}

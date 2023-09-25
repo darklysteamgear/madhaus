@@ -1,0 +1,128 @@
+{
+	title: "Mythic",
+	loot_size: 1,
+	rewards: [{
+		item: "botania:blacklotus 1 1",
+		count: 16,
+		weight: 3
+	},
+	{
+		item: "minecraft:nether_star",
+		count: 2,
+		weight: 3
+	},
+	{
+		item: "extrautils2:opinium 1 4",
+		count: 2,
+		weight: 3
+	},
+	{
+		item: "extrautils2:unstableingots 1 2",
+		count: 2,
+		weight: 3
+	},
+	{
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		item: "scp:level5card",
+		weight: 3
+	},
+	{
+		ftb_money: 50000L,
+		type: "ftbmoney:money",
+		weight: 3
+	},
+	{
+		item: "minecraft:diamond",
+		count: 24,
+		weight: 3
+	},
+	{
+		item: {
+			id: "portalgun:item_portalgun",
+			tag: {
+				lastFired: 1b,
+				width: 1,
+				channelName: "Chell",
+				grabStrength: 4,
+				uuid: "Global",
+				username: "Global",
+				height: 2
+			}
+		},
+		weight: 3
+	},
+	{
+		item: "gravitygun:gravitygun 1 1",
+		weight: 3
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "mythic"
+			}
+		},
+		count: 2,
+		weight: 3
+	},
+	{
+		item: {
+			id: "ic2:nano_chestplate",
+			tag: {
+				charge: 1000000.0d
+			}
+		},
+		weight: 3
+	},
+	{
+		item: {
+			id: "ic2:nano_saber",
+			tag: {
+				charge: 160000.0d
+			}
+		},
+		weight: 3
+	},
+	{
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_netherstar"
+			}
+		},
+		weight: 3
+	},
+	{
+		item: "sapturretmod:turret_crate"
+	},
+	{
+		item: "sapturretmod:turret_flamethrower"
+	},
+	{
+		item: "sapturretmod:turret_laser"
+	},
+	{
+		item: "dmonsters:purgepill"
+	},
+	{
+		item: "contenttweaker:wish"
+	},
+	{
+		item: "modularwarfare:block.usp.snow"
+	},
+	{
+		item: "modularwarfare:block.aa12.z"
+	}],
+	loot_crate: {
+		string_id: "mythic",
+		color: 10816685,
+		glow: true,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 1
+		}
+	}
+}

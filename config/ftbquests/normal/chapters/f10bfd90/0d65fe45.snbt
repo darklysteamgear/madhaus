@@ -1,0 +1,35 @@
+{
+	title: "You're not supposed to be in here",
+	x: 5.0d,
+	y: 3.5d,
+	text: [
+		"GET OUT NOW"
+	],
+	dependencies: [
+		"6c6827f1",
+		"e62d4493"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "6afe45c4",
+		type: "dimension",
+		title: "...",
+		icon: "herobrine:herobrine_statue",
+		dim: 1000
+	}],
+	rewards: [{
+		uid: "f6dd6466",
+		type: "gamestage",
+		title: "F",
+		auto: "no_toast",
+		stage: "stealthfailed",
+		remove: true
+	},
+	{
+		uid: "4a59dbf2",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "cursed"
+	}]
+}

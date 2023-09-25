@@ -1,0 +1,28 @@
+{
+	title: "The crystal cavern",
+	icon: "quark:crystal_pane",
+	x: 9.0d,
+	y: -4.0d,
+	description: "CRYSTALLLSSSSS",
+	size: 2.0d,
+	tasks: [{
+		uid: "9a2a4988",
+		type: "observation",
+		title: "Find crystals",
+		icon: "quark:crystal",
+		match_type: "block_id",
+		match: "quark:crystal",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "4ed3da5c",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "6e808e51",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

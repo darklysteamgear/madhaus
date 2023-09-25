@@ -1,0 +1,22 @@
+{
+	x: -4.0d,
+	y: 2.5d,
+	tasks: [{
+		uid: "dd3f71a9",
+		type: "item",
+		items: [{
+			id: "ic2:nano_saber",
+			tag: {
+				charge: 160000.0d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f0aa30d9",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 15000
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "Pool day!",
+	x: 2.0d,
+	y: -2.5d,
+	description: "Give them lily pads to make them float!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"c4a06031"
+	],
+	hide: true,
+	tasks: [{
+		uid: "59373e9e",
+		type: "item",
+		items: [{
+			item: "minecraft:waterlily"
+		}]
+	}]
+}

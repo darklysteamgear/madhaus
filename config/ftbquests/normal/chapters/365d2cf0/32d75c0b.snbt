@@ -1,0 +1,20 @@
+{
+	title: "Kill the shadowlord",
+	icon: "aoa3:shadowlord_statue",
+	x: 4.0d,
+	y: 7.0d,
+	dependencies: [
+		"43621563"
+	],
+	tasks: [{
+		uid: "a916abaa",
+		type: "kill",
+		entity: "aoa3:shadowlord",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "4735fd43",
+		type: "loot",
+		table: 7
+	}]
+}

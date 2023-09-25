@@ -1,0 +1,20 @@
+{
+	x: -6.0d,
+	y: 8.0d,
+	dependencies: [
+		"5d41c1d9"
+	],
+	tasks: [{
+		uid: "cc8819ce",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxstorage"
+		}]
+	}],
+	rewards: [{
+		uid: "27d0e8ee",
+		type: "ftbmoney:money",
+		ftb_money: 2500L,
+		random_bonus: 2500
+	}]
+}

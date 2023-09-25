@@ -1,0 +1,10 @@
+{
+	title: "Armour",
+	icon: "minecraft:diamond_chestplate",
+	description: [
+		"Very OP armor sets"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

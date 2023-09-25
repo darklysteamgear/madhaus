@@ -1,0 +1,26 @@
+{
+	title: "NEVER ENOUGH CHEEEEEEEEEEEEEEESEEEEE",
+	x: -2.0d,
+	y: 0.5d,
+	dependencies: [
+		"63a1388d",
+		"7c20a4ad"
+	],
+	tasks: [{
+		uid: "27c447cb",
+		type: "fluid",
+		fluid: "cheese_milk_fluid",
+		amount: 420000
+	}],
+	rewards: [{
+		uid: "f6b1f1c3",
+		type: "item",
+		item: "morecreeps:money",
+		count: 20
+	},
+	{
+		uid: "86b1b60f",
+		type: "random",
+		table: 3
+	}]
+}

@@ -1,0 +1,16 @@
+{
+  "displayName": "Vintorez Desert Scope",
+  "internalName": "block.scopevssxdesert",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopevssx.desert",
+      "displayName": "Vintorez Desert Scope - Default"
+    }
+  ],
+  "sight": {
+    "scopeType": "15x",
+    "customOverlayTexture": "block.blockscopesvuasx",
+    "modeType": "pip"
+  }
+}

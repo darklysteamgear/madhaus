@@ -1,0 +1,67 @@
+{
+    "displayName": "Walther P99",
+    "internalName": "block.waltherp99",
+    "gunDamage": 7.25,
+	"gunDamageHeadshotBonus": 1.5,
+    "roundsPerMin": 235,
+    "allowEmptyMagazines": true,
+    "weaponType": "pistol",
+	"extraLore": "Stylish and dangerous. The best option for silent combat.",
+    "customFlashTexture": "prototype.advanced.flash",
+    "acceptedAmmo": [
+        "block.waltherp99ammo"
+    ],
+    "fireModes": [
+        "full",
+        "semi"
+    ],
+    "recoilPitch": 0.6,
+    "recoilYaw": 0.3,
+    "randomRecoilPitch": 0.6,
+    "randomRecoilYaw": 0.0,
+	"bulletSpread": 1.25,
+    "armPose": "ITEM",
+    "armPoseAiming": "BOW_AND_ARROW",
+    "accuracySneakFactor": 0.75,
+    "moveSpeedModifier": 1,
+    "allowSprintFiring": true,
+    "dropBulletCasing": true,
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "block.waltherp99.shoot",
+                "soundNameDistant": "block.plight.shoot.distant",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponReload": [
+            {
+                "soundEvent": "weaponReload",
+                "soundName": "block.waltherp99.reload"
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "block.waltherp99.shoot.sup",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+            }
+        ]
+    },
+    "acceptedAttachments": {
+        
+    },
+	"modelSkins": [
+        {
+            "internalName": "block.waltherp99",
+            "skinAsset": "block.waltherp99",
+            "displayName": "Default"
+        }
+    ]
+	
+}

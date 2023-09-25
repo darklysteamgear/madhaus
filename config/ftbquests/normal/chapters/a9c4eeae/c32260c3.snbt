@@ -1,0 +1,68 @@
+{
+	title: "Spring Crops Bundle",
+	x: 4.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	size: 2.0d,
+	tasks: [{
+		uid: "b7593da2",
+		type: "item",
+		items: [{
+			item: "harvestcraft:strawberryitem"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "9204cabd",
+		type: "item",
+		items: [{
+			item: "harvestcraft:parsnipitem"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "4f57a296",
+		type: "item",
+		items: [{
+			item: "harvestcraft:beanitem"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "22ce8b88",
+		type: "item",
+		items: [{
+			item: "harvestcraft:caulifloweritem"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "d3f8e5db",
+		type: "item",
+		items: [{
+			item: "minecraft:potato"
+		}],
+		count: 32L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "ef1fd8fb",
+		type: "item",
+		item: "industrialforegoing:crop_enrich_material_injector"
+	},
+	{
+		uid: "6cf3ef9a",
+		type: "item",
+		item: "industrialforegoing:fertilizer",
+		count: 64
+	},
+	{
+		uid: "5b4785a9",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	}]
+}

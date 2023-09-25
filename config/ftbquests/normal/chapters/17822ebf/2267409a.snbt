@@ -1,0 +1,31 @@
+{
+	title: "Just look at what you made me do to your world",
+	x: -0.5d,
+	y: 8.5d,
+	tasks: [{
+		uid: "127f6f27",
+		type: "item",
+		items: [{
+			id: "conarm:armor_plate",
+			tag: {
+				Material: "emeradic_actadd_plustic"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "340dcec0",
+		type: "command",
+		title: "Lava and fire",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon motnt:lava_tnt"
+	},
+	{
+		uid: "4be3a6d2",
+		type: "command",
+		title: "You heck",
+		auto: "enabled",
+		command: "/say You just don't give up, do you?"
+	}]
+}

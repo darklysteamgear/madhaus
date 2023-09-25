@@ -1,0 +1,10 @@
+{
+  "displayName": "MK3",
+  "internalName": "block.mk3",
+  "grenadeType": "frag",
+  "fuseTime": 3,
+  "damageWorld": true,
+  "explosionPower": 8,
+  "throwStrength": 1.0,
+  "throwerVulnerable": true
+}

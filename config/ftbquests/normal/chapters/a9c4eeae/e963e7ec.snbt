@@ -1,0 +1,76 @@
+{
+	title: "Fall Crops Bundle",
+	x: -4.0d,
+	y: -3.5d,
+	shape: "rsquare",
+	size: 2.0d,
+	tasks: [{
+		uid: "18249dfe",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cornitem"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "cab4b8e4",
+		type: "item",
+		items: [{
+			item: "harvestcraft:eggplantitem"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "e706adbf",
+		type: "item",
+		items: [{
+			item: "minecraft:pumpkin"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "c0fe13cd",
+		type: "item",
+		items: [{
+			item: "harvestcraft:sweetpotatoitem"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "64fb6b1a",
+		type: "item",
+		items: [{
+			item: "harvestcraft:rutabagaitem"
+		}],
+		count: 32L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "a161aa72",
+		type: "item",
+		item: "rustic:bee",
+		count: 12
+	},
+	{
+		uid: "4fd59e28",
+		type: "item",
+		item: "harvestcraft:queenbeeitem",
+		count: 12
+	},
+	{
+		uid: "1d7d8035",
+		type: "item",
+		item: "rustic:apiary",
+		count: 12
+	},
+	{
+		uid: "8d2e991f",
+		type: "item",
+		item: "harvestcraft:apiary",
+		count: 12
+	}]
+}

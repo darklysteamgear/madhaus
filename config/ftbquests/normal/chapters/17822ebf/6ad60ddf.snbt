@@ -1,0 +1,20 @@
+{
+	title: "USE SUPERTNT MASSIVE TNT OR GREATER AT YOUR OWN RISK",
+	icon: "galacticraftplanets:basic_item_venus 1 2",
+	x: -7.5d,
+	y: 0.0d,
+	description: "If you set off this TNT or any other TNT crafted with this one, you will mine very fast. this is an exploit that I am unable to fix. set this and any other tnt from supertnt off AT YOUR OWN RISK. supertnt TNT IS DANGEROUS AND WORLD BREAKING, but fun",
+	text: [
+		"On top of this, speedruns or normal runs using this bug is considered cheating. You can fix the bug by restarting the game (Yeah, it's annoying, but it's definetly worth keeping in this incredibly destructive mod)",
+		"Shoutout to Xeraster for creating such an entertaining TNT mod"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "c4961f4a",
+		type: "observation",
+		icon: "galacticraftplanets:basic_item_venus 1 2",
+		match_type: "block_id",
+		match: "supertnt:massivetnt",
+		timer: 0L
+	}]
+}

@@ -1,0 +1,88 @@
+{
+	x: 8.0d,
+	y: -1.0d,
+	or_tasks: true,
+	tasks: [{
+		uid: "0ecb9ab5",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_red_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "947ed9a9",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_bronze_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c310ea27",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_green_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a06f7c59",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_gray_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "eb75ba40",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_blue_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0707ac74",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_white_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "69fc6b5a",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_sapphire_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6239709e",
+		type: "item",
+		items: [{
+			item: "iceandfire:armor_silver_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "47c791cd",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	},
+	{
+		uid: "e83c0437",
+		type: "loot",
+		table: 2
+	}]
+}

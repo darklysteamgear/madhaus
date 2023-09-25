@@ -1,0 +1,20 @@
+{
+  "internalName": "block.fueling",
+  "maxStackSize": 64,
+  "displayName": "Fire mixture",
+  "renderBulletModel": false,
+
+  "shellSound": "casing_gauge_XDD",
+  "shellModelFileName": "block.boltx.obj",
+  "bulletProperties": {
+    "All": {
+      "potionEffects": [
+        {
+          "potionEffect": "wither",
+          "duration": 10,
+          "level": 1
+        }
+      ]
+    }
+  }
+}

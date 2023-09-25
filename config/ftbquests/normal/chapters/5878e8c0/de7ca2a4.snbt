@@ -1,0 +1,15 @@
+{
+	title: "The white rock",
+	icon: "extraplanets:uranus 1 7",
+	x: 16.0d,
+	y: 46.0d,
+	shape: "square",
+	description: "They knew exactly what they were doing",
+	tasks: [{
+		uid: "9c813d50",
+		type: "item",
+		items: [{
+			item: "extraplanets:uranus 1 7"
+		}]
+	}]
+}

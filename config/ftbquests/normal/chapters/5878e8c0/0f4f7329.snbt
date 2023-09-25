@@ -1,0 +1,14 @@
+{
+	x: 106.5d,
+	y: -19.0d,
+	shape: "pentagon",
+	description: "Kill them and steal all the cheeeseeeeeeeeee",
+	tasks: [{
+		uid: "88d37751",
+		type: "kill",
+		title: "THERES CHEESE IN THE FLOATERS!!!",
+		icon: "moreplanets:cheese_spore_berry",
+		entity: "moreplanets:cheese_floater",
+		value: 10L
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: -4.0d,
+	y: 1.0d,
+	description: "Don't worry, I won't blow you up (this time)",
+	tasks: [{
+		uid: "ea66062d",
+		type: "item",
+		items: [{
+			item: "tconstruct:slime_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8580494c",
+		type: "item",
+		items: [{
+			item: "tconstruct:slimesling"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8af3ff05",
+		type: "ftbmoney:money",
+		ftb_money: 500L,
+		random_bonus: 500
+	}]
+}

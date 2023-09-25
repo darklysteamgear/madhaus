@@ -1,0 +1,22 @@
+{
+	title: "THAT'S ALOTTA DAMAGE",
+	x: -1.0d,
+	y: -3.0d,
+	text: [
+		"Flex tape(tm) CAN MEND AND SEAL CRACKS AND SEAMS IN AN INSTANT! ... Just not the crack in my heart that my wife left me with"
+	],
+	tasks: [{
+		uid: "06c1de71",
+		type: "item",
+		items: [{
+			item: "memeinabottle:flex_tape"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "fed7f939",
+		type: "item",
+		item: "scalinghealth:healingitem 1 1",
+		count: 2
+	}]
+}

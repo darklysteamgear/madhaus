@@ -1,0 +1,72 @@
+{
+    "displayName": "FN57",
+    "internalName": "block.fn57",
+    "gunDamage": 7.5,
+	"gunDamageHeadshotBonus": 1.5,
+    "roundsPerMin": 260,
+    "allowEmptyMagazines": true,
+    "weaponType": "pistol",
+	"extraLore": "Weapons of real spies.",
+    "customFlashTexture": "prototype.advanced.flash",
+    "acceptedAmmo": [
+        "block.fn57ammo"
+    ],
+    "fireModes": [
+        "full",
+        "semi"
+    ],
+    "recoilPitch": 0.5,
+    "recoilYaw": 0.3,
+    "randomRecoilPitch": 0.5,
+    "randomRecoilYaw": 0.0,
+	"bulletSpread": 1.25,
+    "armPose": "ITEM",
+    "armPoseAiming": "BOW_AND_ARROW",
+    "accuracySneakFactor": 0.75,
+    "moveSpeedModifier": 1,
+    "allowSprintFiring": true,
+    "dropBulletCasing": true,
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "block.fn57.shoot",
+                "soundNameDistant": "block.plight.shoot.distant",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponReload": [
+            {
+                "soundEvent": "weaponReload",
+                "soundName": "block.fn57.reload"
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "block.fn57.shoot.sup",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+            }
+        ]
+    },
+    "acceptedAttachments": {
+        
+    },
+	"modelSkins": [
+        {
+            "internalName": "block.fn57",
+            "skinAsset": "block.fn57",
+            "displayName": "Default"
+        },
+        {
+            "internalName":"block.fn57.z",
+            "skinAsset":"block.fn57.z",
+            "displayName":"Zombie camo"
+        }
+    ]
+	
+}

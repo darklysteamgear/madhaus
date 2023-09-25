@@ -1,0 +1,33 @@
+{
+	title: "Thanks willy",
+	x: -10.5d,
+	y: 9.0d,
+	description: "Yeah that was helpful",
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "92425626",
+		type: "item",
+		title: "Off Roader",
+		items: [{
+			id: "vehicle:vehicle_crate",
+			tag: {
+				BlockEntityTag: {
+					vehicle: "vehicle:off_roader",
+					engineTier: 0,
+					wheelType: 0
+				}
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "31011f11",
+		type: "ftbmoney:money",
+		ftb_money: 6000L,
+		random_bonus: 6000
+	}]
+}

@@ -1,0 +1,16 @@
+setIcon(<minecraft:stone>)
+setTitle("This is it.. It's all or nothing!")
+setDescription("...")
+
+addRewardFunction("triumph:finale")
+addParent("triumph:events/root")
+
+criteria = addCriteria("finale", "triumph:gamestage")
+criteria.setStage("help")
+criteria.setCount(1)
+
+hideLines()
+setHidden(true)
+setShowToast(true)
+setAnnounceToChat(false)
+setPos(80,-24)

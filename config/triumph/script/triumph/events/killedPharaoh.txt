@@ -1,0 +1,13 @@
+setIcon(<minecraft:stone>)
+setTitle("Kill the Pharaoh")
+setDescription("Go to the atum and kill the pharaoh to release more magic into the world. It will be beneficial!")
+
+addRewardFunction("triumph:witch")
+addParent("triumph:events/root")
+
+criteria = addCriteria("pharaoh", "minecraft:player_killed_entity")
+criteria.setEntityType("atum:pharaoh")
+
+hideLines()
+alwaysVisible()
+setPos(5,77)

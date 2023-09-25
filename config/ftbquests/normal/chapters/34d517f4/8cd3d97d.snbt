@@ -1,0 +1,23 @@
+{
+	title: "BRRRRRRRRRRRRT",
+	x: -5.5d,
+	y: 7.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"2a0f71b7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "715e1c69",
+		type: "item",
+		items: [{
+			item: "sapturretmod:turret_minigun"
+		}]
+	}],
+	rewards: [{
+		uid: "b427fdc4",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 2250
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	x: 86.5d,
+	y: -3.0d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "e57dfa71",
+		type: "item",
+		items: [{
+			item: "moreplanets:terrapuff_herb"
+		}]
+	}]
+}

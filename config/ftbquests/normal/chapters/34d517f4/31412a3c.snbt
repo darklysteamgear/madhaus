@@ -1,0 +1,24 @@
+{
+	icon: "immersiveengineering:metal_device1 1 11",
+	x: 5.5d,
+	y: 9.0d,
+	description: "Wait... Is that a turret? How do I get one?!?",
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c8b60566",
+		type: "observation",
+		title: "Cheaper turrets?",
+		match_type: "entity_id",
+		match: "scp:heavy_golem",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "bf19dd4e",
+		type: "random",
+		table: 2
+	}]
+}

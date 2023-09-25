@@ -1,0 +1,13 @@
+{
+	icon: "minecraft:skull 1 5",
+	x: 0.5d,
+	y: -8.0d,
+	tasks: [{
+		uid: "88c2869f",
+		type: "observation",
+		title: "The dragons burned down my house!",
+		match_type: "entity_id",
+		match: "iceandfire:firedragon",
+		timer: 0L
+	}]
+}

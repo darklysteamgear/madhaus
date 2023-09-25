@@ -1,0 +1,21 @@
+{
+	title: "Delicious Marshmallows",
+	x: 2.0d,
+	y: 1.0d,
+	text: [
+		"Because Marshmallow"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e342a36b",
+		type: "item",
+		items: [{
+			item: "harvestcraft:marshmellowsitem"
+		}]
+	}],
+	rewards: [{
+		uid: "8fc5d816",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

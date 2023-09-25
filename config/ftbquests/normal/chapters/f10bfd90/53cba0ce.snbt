@@ -1,0 +1,65 @@
+{
+	icon: "tinkers_reforged:lavium_block",
+	x: 9.5d,
+	y: -0.5d,
+	dependencies: [
+		"f1c0f83c",
+		"e62d4493"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "4f53c23d",
+		type: "observation",
+		title: "Thank you for setting me free",
+		match_type: "entity_id",
+		match: "herobrine:herobrine_spy",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "84bf0cd4",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:diamond",
+		count: 32
+	},
+	{
+		uid: "6da32f9e",
+		type: "item",
+		auto: "enabled",
+		item: "herobrine:herobrine_statue"
+	},
+	{
+		uid: "68256e4b",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:gold_block",
+		count: 16
+	},
+	{
+		uid: "3e300d94",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:redstone_torch",
+		count: 64
+	},
+	{
+		uid: "3384670f",
+		type: "ftbmoney:money",
+		ftb_money: 50000L
+	},
+	{
+		uid: "af4842c3",
+		type: "gamestage",
+		auto: "invisible",
+		stage: "cursed"
+	},
+	{
+		uid: "9fc3e6d2",
+		type: "gamestage",
+		title: "the end",
+		auto: "no_toast",
+		stage: "endgame"
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Simple problems require simple solutions",
+	x: 1.5d,
+	y: 11.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"63015229",
+		"0fb388ca"
+	],
+	hide: true,
+	tasks: [{
+		uid: "08831afe",
+		type: "item",
+		items: [{
+			id: "aoa3:stampede",
+			tag: {
+				HideFlags: 2b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f7f9452d",
+		type: "ftbmoney:money",
+		ftb_money: 2000L,
+		random_bonus: 600
+	}]
+}

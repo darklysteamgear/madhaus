@@ -1,0 +1,17 @@
+{
+	title: "Eris",
+	icon: "extraplanets:eris",
+	x: 3.5d,
+	y: 80.0d,
+	shape: "circle",
+	description: "This is pretty far out...",
+	dependencies: [
+		"b09de162"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "139d69e9",
+		type: "dimension",
+		dim: -15
+	}]
+}

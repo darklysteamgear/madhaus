@@ -1,0 +1,11 @@
+{
+    "internalName": "block.type99ammo",
+    "displayName": "Type 99 Mag 30rnd",
+    "ammoCapacity": 30,
+	"reloadTimeFactor": 1.4,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.lmgbullet"
+    ],
+    "allowEmptyMagazines": true
+}

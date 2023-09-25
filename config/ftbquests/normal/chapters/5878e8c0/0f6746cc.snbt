@@ -1,0 +1,22 @@
+{
+	title: "Jupiter",
+	icon: "extraplanets:jupiter",
+	x: 31.5d,
+	y: -7.0d,
+	shape: "circle",
+	dependencies: [
+		"3c4e3527",
+		"82cf63e4",
+		"fc097234",
+		"a7bb91f5",
+		"12754842"
+	],
+	size: 7.0d,
+	tasks: [{
+		uid: "9b522e59",
+		type: "dimension",
+		title: "Jupiter",
+		icon: "extraplanets:jupiter 1 10",
+		dim: -15
+	}]
+}

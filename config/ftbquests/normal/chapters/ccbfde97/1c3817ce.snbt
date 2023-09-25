@@ -1,0 +1,29 @@
+{
+	icon: "morecreeps:money",
+	x: -7.0d,
+	y: 0.0d,
+	description: "He'll probably be back with another futile lawsuit, let's be real here",
+	text: [
+		"SMALL LOAN OF A MILLION DOLLARS",
+		"",
+		"",
+		"Well, that got pretty political very fast"
+	],
+	dependencies: [
+		"d294d4fc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a45064bb",
+		type: "kill",
+		title: "Looks like it's his last term",
+		entity: "memeinabottle:donald_trump",
+		value: 3L
+	}],
+	rewards: [{
+		uid: "cbbde93b",
+		type: "item",
+		item: "morecreeps:money",
+		count: 100
+	}]
+}

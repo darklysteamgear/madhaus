@@ -1,0 +1,132 @@
+{
+	title: "Le Casino Crappe",
+	icon: "thermalfoundation:coin 1 1",
+	loot_size: 1,
+	rewards: [{
+		item: "morecreeps:money",
+		count: 5,
+		random_bonus: 1,
+		weight: 10
+	},
+	{
+		item: "poop:poop_hardened",
+		weight: 50
+	},
+	{
+		item: "poop:poop_block",
+		weight: 25
+	},
+	{
+		item: "morecreeps:money",
+		count: 20,
+		weight: 5
+	},
+	{
+		item: "minecraft:diamond",
+		weight: 2
+	},
+	{
+		item: "minecraft:gold_ingot",
+		weight: 3
+	},
+	{
+		item: "poop:toilet_paper",
+		weight: 40
+	},
+	{
+		ftb_money: 1500L,
+		type: "ftbmoney:money",
+		weight: 10
+	},
+	{
+		item: "scalinghealth:heartcontainer",
+		weight: 2
+	},
+	{
+		item: "scalinghealth:difficultychanger"
+	},
+	{
+		item: "scalinghealth:difficultychanger 1 1",
+		weight: 10
+	},
+	{
+		item: "moreplanets:infected_wood_hoe",
+		weight: 50
+	},
+	{
+		item: "poop:poop_bricks",
+		weight: 50
+	},
+	{
+		item: "minecraft:emerald",
+		weight: 3
+	},
+	{
+		item: "minecraft:iron_ingot",
+		count: 2,
+		weight: 4
+	},
+	{
+		item: "iceandfire:sapphire_gem",
+		weight: 3
+	},
+	{
+		item: "aoa3:gem_bag",
+		weight: 10
+	},
+	{
+		item: "poop:poop_lantern",
+		weight: 50
+	},
+	{
+		title: "loser",
+		icon: "poop:poop_raw_ingot",
+		auto: "enabled",
+		command: "/say Loser",
+		type: "command",
+		weight: 75
+	},
+	{
+		item: "poop:poop_stairs",
+		weight: 50
+	},
+	{
+		item: "poop:poop_fence",
+		weight: 50
+	},
+	{
+		item: "poop:poop_trophy",
+		weight: 50
+	},
+	{
+		item: "plustic:osgloglasingot"
+	},
+	{
+		item: "quark:diamond_heart"
+	},
+	{
+		item: "poop:poop_pillar",
+		weight: 50
+	},
+	{
+		item: "poop:poop_lantern",
+		weight: 50
+	},
+	{
+		item: "modularwarfare:block.m2"
+	},
+	{
+		item: "contenttweaker:m249ammo_mold"
+	}],
+	loot_crate: {
+		string_id: "casino_crappe",
+		item_name: "La Casino Crappe",
+		color: 16777215,
+		glow: true,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

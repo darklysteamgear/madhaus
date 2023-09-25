@@ -1,0 +1,88 @@
+{
+    "internalName": "block.psg1",
+    "displayName": "PSG-1",
+    "weaponType": "carbine",
+	"extraLore": "H&K PSG-1. Very accurate, fast-firing and reliable model.",
+    "customFlashTexture": "prototype.advanced.flash",
+    "gunDamage": 21,
+    "gunDamageHeadshotBonus": 2,
+    "roundsPerMin": 60,
+    "allowEmptyMagazines": true,
+    "recoilPitch": 4.2,
+    "recoilYaw": 0.5,
+    "randomRecoilPitch": 0.8,
+    "randomRecoilYaw": 0.0,
+    "bulletSpread": 0.125,
+    "accuracySneakFactor": 0.125,
+    "moveSpeedModifier": 0.85,
+    "allowSprintFiring": false,
+    "fireModes": [
+        "full",
+        "semi"
+    ],
+    "acceptedAmmo": [
+        "block.psg1ammo"
+    ],
+    "dropBulletCasing": true,
+    "shellEjectOffsetNormal": {
+        "x": -1,
+        "y": 0,
+        "z": 1
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "block.psg1.shoot",
+                "soundNameDistant":"block.bolt.shoot.distant",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponUnload": [
+            {
+                "soundEvent": "weaponReload",
+                "soundName": "prototype.generic.reload"
+            }
+        ],
+		"weaponReload": [
+			{
+        "soundEvent": "weaponReload",
+        "soundName": "block.long20.reload"
+			}
+		],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "block.psg1.shoot.sup",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+            }
+        ]
+    },
+    "acceptedAttachments": {
+		"sight": [
+            "block.scopepsg1x",
+			"block.scopepsg1x.gold"
+        ]
+	},
+    "modelSkins": [
+        {
+            "internalName": "block.psg1",
+            "skinAsset": "block.psg1",
+            "displayName": "Default"
+        },
+		{
+            "internalName": "block.psg1.gold",
+            "skinAsset": "block.psg1.gold",
+            "displayName": "Gold"
+        }
+    ]
+}

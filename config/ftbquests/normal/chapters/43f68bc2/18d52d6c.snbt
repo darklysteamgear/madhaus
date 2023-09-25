@@ -1,0 +1,21 @@
+{
+	x: 2.0d,
+	y: -9.5d,
+	description: "FUS ROH DAH!",
+	dependencies: [
+		"65c72aef"
+	],
+	tasks: [{
+		uid: "5eb8979c",
+		type: "kill",
+		title: "The True Dragonborn",
+		entity: "iceandfire:firedragon",
+		value: 30L
+	}],
+	rewards: [{
+		uid: "c6634e9b",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 3
+	}]
+}

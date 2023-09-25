@@ -1,0 +1,18 @@
+{
+	title: "Singing ooooh",
+	x: 6.0d,
+	y: 1.5d,
+	dependencies: [
+		"047ed026"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ede7e045",
+		type: "item",
+		items: [{
+			item: "memeinabottle:trumpet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

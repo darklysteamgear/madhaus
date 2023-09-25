@@ -1,0 +1,18 @@
+{
+	title: "Put it on your head!",
+	x: -1.0d,
+	y: -4.5d,
+	description: "It's just like the first time... ah, Memories",
+	tasks: [{
+		uid: "521837ef",
+		type: "item",
+		items: [{
+			item: "minecraft:pumpkin"
+		}]
+	}],
+	rewards: [{
+		uid: "8c6c2d8d",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

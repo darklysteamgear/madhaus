@@ -1,0 +1,17 @@
+{
+	title: "Get Ready To DIE",
+	x: 0.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "144785b2",
+		type: "item",
+		items: [{
+			item: "aoa3:blood_pine"
+		}]
+	}],
+	rewards: [{
+		uid: "da48b55b",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	}]
+}

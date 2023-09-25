@@ -1,0 +1,23 @@
+{
+	x: -2.0d,
+	y: 1.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "962ea273",
+		type: "observation",
+		title: "Well, hotdiggitydog. what have we here?",
+		icon: "harvestcraft:hotdogitem",
+		match_type: "entity_id",
+		match: "morecreeps:hotdog",
+		timer: 20L
+	}],
+	rewards: [{
+		uid: "9cad177d",
+		type: "item",
+		item: "harvestcraft:hotdogitem"
+	}]
+}

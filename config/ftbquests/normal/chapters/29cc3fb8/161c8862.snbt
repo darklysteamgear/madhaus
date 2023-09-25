@@ -1,0 +1,21 @@
+{
+	title: "Empty Promises",
+	x: -3.0d,
+	y: -3.0d,
+	dependencies: [
+		"0548f2ff"
+	],
+	tasks: [{
+		uid: "b3a7fa22",
+		type: "item",
+		items: [{
+			item: "evilcraft:bowl_of_promises 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "f74b485d",
+		type: "ftbmoney:money",
+		ftb_money: 500L,
+		random_bonus: 500
+	}]
+}

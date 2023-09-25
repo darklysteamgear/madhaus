@@ -1,0 +1,27 @@
+Format this like name = url
+If you are trying to redirect to an already registered resource location Format it like name == location instead
+Any lines with Format in the name or = not present will not be read in
+Make sure each new entry is on a new line
+
+forest == minecraft:pokemondimforest.mp3
+gymbattle3 == https://www.youtube.com/watch?v=rjkirqo1zas
+swamp == https://www.youtube.com/watch?v=wluqytwk8l0
+furretwalk == https://www.youtube.com/watch?v=nvfygrfoufg
+default == minecraft:pokemondimdefault.mp3
+mountain == https://www.youtube.com/watch?v=eqsywebvwqm
+ocean == https://www.youtube.com/watch?v=pyyis1fasd0
+corruptedbattle == https://www.youtube.com/watch?v=mgvbxshrlea
+snow == https://www.youtube.com/watch?v=k5onzxczui4
+beach == https://www.youtube.com/watch?v=9ibamkh0ml4
+plains == https://www.youtube.com/watch?v=u0g12ebw4ky
+battle1 == https://www.youtube.com/watch?v=2jmty_niaxc
+gymbattle1 == https://www.youtube.com/watch?v=tnu6tuuts7a
+gymbattle2 == https://www.youtube.com/watch?v=quyjn57tycg
+battle3 == https://www.youtube.com/watch?v=cp-waxolel8
+battle2 == https://www.youtube.com/watch?v=r2rzxvvscsq
+desert == https://www.youtube.com/watch?v=85t-xbzrzta
+battle5 == https://www.youtube.com/watch?v=kwi02cpaod8
+battle4 == https://www.youtube.com/watch?v=xeap0sh3ozm
+battle7 == https://www.youtube.com/watch?v=qtzpna9yfjg
+battle6 == https://www.youtube.com/watch?v=o0lzktkv3li
+pokemart == https://www.youtube.com/watch?v=pyhpycmpjcy

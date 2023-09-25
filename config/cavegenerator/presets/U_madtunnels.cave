@@ -1,0 +1,179 @@
+{
+  imports: common_values.cave::NATURAL_STONE
+  dimensions: [ 0 ]
+  biomes: {
+    names: [
+      minecraft:ocean
+      minecraft:plains
+      minecraft:desert
+      minecraft:forest
+      minecraft:taiga
+      minecraft:swampland
+      minecraft:river
+      minecraft:hell
+      minecraft:sky
+      minecraft:frozen_ocean
+      minecraft:frozen_river
+      minecraft:ice_flats
+      minecraft:mushroom_island
+      minecraft:mushroom_island_shore
+      minecraft:beaches
+      minecraft:desert_hills
+      minecraft:forest_hills
+      minecraft:taiga_hills
+      minecraft:jungle
+      minecraft:jungle_hills
+      minecraft:jungle_edge
+      minecraft:deep_ocean
+      minecraft:stone_beach
+      minecraft:cold_beach
+      minecraft:birch_forest
+      minecraft:birch_forest_hills
+      minecraft:roofed_forest
+      minecraft:taiga_cold
+      minecraft:taiga_cold_hills
+      minecraft:redwood_taiga
+      minecraft:redwood_taiga_hills
+      minecraft:savanna
+      minecraft:savanna_rock
+      minecraft:mesa_rock
+      minecraft:mesa_clear_rock
+      minecraft:mutated_jungle
+      minecraft:mutated_birch_forest
+      minecraft:mutated_birch_forest_hills
+      minecraft:mutated_roofed_forest
+      minecraft:mutated_taiga_cold
+      minecraft:mutated_redwood_taiga
+      minecraft:mutated_redwood_taiga_hills
+      minecraft:mutated_savanna
+      minecraft:mutated_savanna_rock
+      herobrine:cursed_forest
+      abyssalcraft:darklands
+      abyssalcraft:darklands_forest
+      abyssalcraft:darklands_plains
+      abyssalcraft:coralium_infested_swamp
+      abyssalcraft:abyssal_wastelands
+      abyssalcraft:dreadlands
+      abyssalcraft:purified_dreadlands
+      abyssalcraft:dreadlands_forest
+      abyssalcraft:omothol
+      abyssalcraft:dark_realm
+      abyssalcraft:purged
+      biomesoplenty:gravel_beach
+      biomesoplenty:white_beach
+      biomesoplenty:origin_beach
+      biomesoplenty:bamboo_forest
+      biomesoplenty:bayou
+      biomesoplenty:bog
+      biomesoplenty:boreal_forest
+      biomesoplenty:brushland
+      biomesoplenty:chaparral
+      biomesoplenty:cherry_blossom_grove
+      biomesoplenty:cold_desert
+      biomesoplenty:coniferous_forest
+      biomesoplenty:dead_forest
+      biomesoplenty:dead_swamp
+      biomesoplenty:eucalyptus_forest
+      biomesoplenty:fen
+      biomesoplenty:flower_field
+      biomesoplenty:grassland
+      biomesoplenty:grove
+      biomesoplenty:land_of_lakes
+      biomesoplenty:lavender_fields
+      biomesoplenty:lush_desert
+      biomesoplenty:lush_swamp
+      biomesoplenty:mangrove
+      biomesoplenty:maple_woods
+      biomesoplenty:marsh
+      biomesoplenty:meadow
+      biomesoplenty:mystic_grove
+      biomesoplenty:ominous_woods
+      biomesoplenty:orchard
+      biomesoplenty:outback
+      biomesoplenty:prairie
+      biomesoplenty:rainforest
+      biomesoplenty:redwood_forest
+      biomesoplenty:sacred_springs
+      biomesoplenty:seasonal_forest
+      biomesoplenty:shield
+      biomesoplenty:shrubland
+      biomesoplenty:snowy_coniferous_forest
+      biomesoplenty:snowy_forest
+      biomesoplenty:temperate_rainforest
+      biomesoplenty:tropical_rainforest
+      biomesoplenty:tundra
+      biomesoplenty:wasteland
+      biomesoplenty:wetland
+      biomesoplenty:woodland
+      biomesoplenty:xeric_shrubland
+      biomesoplenty:redwood_forest_edge
+      biomesoplenty:pasture
+      biomesoplenty:oasis
+      biomesoplenty:snowy_tundra
+      biomesoplenty:coral_reef
+      biomesoplenty:kelp_forest
+      biomesoplenty:origin_island
+      biomesoplenty:tropical_island
+      biomesoplenty:volcanic_island
+      biomesoplenty:flower_island
+      biomesoplenty:corrupted_sands
+      biomesoplenty:fungi_forest
+      biomesoplenty:phantasmagoric_inferno
+      biomesoplenty:undergarden
+      biomesoplenty:visceral_heap
+    ]
+  }
+  blacklistBiomes: true
+  replaceableBlocks: $NATURAL_STONE
+  replaceDecorators: true
+  caverns: {
+    height: [ 5, 20 ]
+    generators: {
+      frequency: 0.025
+      gain: 1
+      type: Perlin
+      fractal: RigidMulti
+      lacunarity: 50
+      returnType: Distance2Div
+      perturb: true
+      perturbAmp: 50
+      perturbFreq: 0.005
+      invert: true
+      stretch: 0.05
+    }
+  }
+  rooms: {
+    scale: 0.25
+    stretch: 2.5
+  }
+  tunnels: {
+    # Most tunnels will spawn alone.
+    systemChance: 0.001
+    noiseYReduction: false
+    resizeBranches: false
+    scale: {
+      randFactor: 30
+      startVal: 0.25
+      startValRandFactor: 5
+    }
+    dPitch: {
+      factor: 0.01
+    }
+    # Spawn rate roughly in half.
+    count: 10
+    stretch: {
+      randFactor: 0.5
+      startVal: 0.1
+    }
+    dYaw: {
+      factor: 0.002
+      randFactor: 0.01
+      startVal: -0.1
+    }
+  }
+  caveBlocks: {
+    states: lava
+    height: [ 0, 5 ]
+  }
+  enabled: true
+}

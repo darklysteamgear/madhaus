@@ -1,0 +1,72 @@
+{
+	title: "The dark path...",
+	icon: "tconstruct:smeltery_controller",
+	x: -4.5d,
+	y: 6.0d,
+	description: "YOU MUST BE STOPPED",
+	text: [
+		"The Start Of some overpowered stuff"
+	],
+	tasks: [{
+		uid: "3da8b50d",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	},
+	{
+		uid: "acee98dc",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting 1 1"
+		}]
+	},
+	{
+		uid: "71051a5b",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting"
+		}]
+	},
+	{
+		uid: "432adb9d",
+		type: "item",
+		items: [{
+			item: "tconstruct:faucet"
+		}]
+	},
+	{
+		uid: "358237b5",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_io"
+		}]
+	}],
+	rewards: [{
+		uid: "369eb966",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 2500
+	},
+	{
+		uid: "20ab402d",
+		type: "command",
+		title: "You had to choose this path",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon motnt:cluster_tnt"
+	},
+	{
+		uid: "73d54844",
+		type: "command",
+		title: "You could have put your talents to something more then petty theft",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon motnt:fire_tnt"
+	},
+	{
+		uid: "0109ba4d",
+		type: "command",
+		title: "STOP THE CHEATER",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon lightning_bolt"
+	}]
+}

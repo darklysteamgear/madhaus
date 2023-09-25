@@ -1,0 +1,82 @@
+{
+    "internalName": "block.ntw20",
+    "displayName": "NTW-20",
+    "weaponType": "carbine",
+	"extraLore": "Player with NTW-20, or NTW-20 with player in hand?",
+    "customFlashTexture": "prototype.advanced.flash",
+    "gunDamage": 60,
+    "gunDamageHeadshotBonus": 2,
+    "roundsPerMin": 15,
+    "allowEmptyMagazines": true,
+    "recoilPitch": 7.0,
+    "recoilYaw": 0.5,
+    "randomRecoilPitch": 0.8,
+    "randomRecoilYaw": 0.0,
+    "bulletSpread": 0.1,
+    "accuracySneakFactor": 0.1,
+    "moveSpeedModifier": 0.05,
+    "allowSprintFiring": false,
+    "fireModes": [
+        "full",
+        "semi"
+    ],
+    "acceptedAmmo": [
+        "block.ntw20ammo"
+    ],
+    "dropBulletCasing": true,
+    "shellEjectOffsetNormal": {
+        "x": -1,
+        "y": 0,
+        "z": 1
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "block.ntw20.shoot",
+                "soundNameDistant":"block.bhard.shoot.distant",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponUnload": [
+            {
+                "soundEvent": "weaponReload",
+                "soundName": "prototype.generic.reload"
+            }
+        ],
+		"weaponReload": [
+			{
+        "soundEvent": "weaponReload",
+        "soundName": "block.long40.reload"
+			}
+		],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "block.ntw20.shoot.sup",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+            }
+        ]
+    },
+    "acceptedAttachments": {
+		"sight": [
+            "block.scopentw20x"
+        ]
+	},
+    "modelSkins": [
+        {
+            "internalName": "block.ntw20",
+            "skinAsset": "block.ntw20",
+            "displayName": "Default"
+        }
+    ]
+}

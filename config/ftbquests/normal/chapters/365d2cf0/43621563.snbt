@@ -1,0 +1,20 @@
+{
+	title: "Visit the abyss",
+	icon: {
+		id: "thermalexpansion:morb",
+		tag: {
+			Generic: 1b,
+			id: "zollerngalaxy:abyssalvillager"
+		}
+	},
+	x: 2.0d,
+	y: 7.0d,
+	dependencies: [
+		"5c0e6ab4"
+	],
+	tasks: [{
+		uid: "ec659cb4",
+		type: "dimension",
+		dim: 800
+	}]
+}

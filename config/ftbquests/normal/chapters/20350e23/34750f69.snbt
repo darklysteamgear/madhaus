@@ -1,0 +1,67 @@
+{
+	title: "It's time to take back the night!",
+	x: 4.0d,
+	y: -2.0d,
+	dependencies: [
+		"d37090b0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0bc1e21a",
+		type: "kill",
+		icon: "minecraft:skull 1 2",
+		entity: "specialmobs:specialzombie",
+		value: 50L
+	},
+	{
+		uid: "217e8e09",
+		type: "kill",
+		icon: "minecraft:skull 1 4",
+		entity: "specialmobs:specialcreeper",
+		value: 25L
+	},
+	{
+		uid: "af203d66",
+		type: "kill",
+		icon: "minecraft:skull",
+		entity: "specialmobs:specialskeleton",
+		value: 25L
+	},
+	{
+		uid: "84a07f1a",
+		type: "kill",
+		icon: "abyssalcraft:soulreaper",
+		entity: "aoa3:night_reaper",
+		value: 10L
+	},
+	{
+		uid: "101883d7",
+		type: "kill",
+		icon: "betternether:eye_seed",
+		entity: "aoa3:bugeye",
+		value: 10L
+	},
+	{
+		uid: "7cc7671b",
+		type: "kill",
+		icon: "minecraft:spider_eye",
+		entity: "specialmobs:specialspider",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "3646d963",
+		type: "item",
+		item: "scalinghealth:difficultychanger",
+		count: 5
+	},
+	{
+		uid: "e7e9345b",
+		type: "xp",
+		xp: 9001
+	},
+	{
+		uid: "b6a3f7e7",
+		type: "ftbmoney:money",
+		ftb_money: 20000L
+	}]
+}

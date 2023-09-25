@@ -1,0 +1,17 @@
+{
+	x: -1.0d,
+	y: 2.5d,
+	text: [
+		"You didn't really think I'd cap your health down to 5 hearts, did you? Hahahaha, that was the previous version. Well, you'll still lose health if you have more then 10 hearts when you die. It's fun watching you get so scared."
+	],
+	hide_dependency_lines: true,
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "ee82b19d",
+		type: "stat",
+		title: "Haha, Just kidding. You didn't really think I'd cap health THAT low",
+		stat: "stat.deaths",
+		value: 1
+	}]
+}

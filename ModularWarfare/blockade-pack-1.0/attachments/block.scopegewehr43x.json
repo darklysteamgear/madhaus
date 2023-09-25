@@ -1,0 +1,16 @@
+{
+  "displayName": "Gewehr 43 Scope",
+  "internalName": "block.scopegewehr43x",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopegewehr43x",
+      "displayName": "Gewehr 43 Scope - Default"
+    }
+  ],
+  "sight": {
+    "scopeType": "15x",
+    "customOverlayTexture": "block.blockscopegewehr43x",
+    "modeType": "pip"
+  }
+}

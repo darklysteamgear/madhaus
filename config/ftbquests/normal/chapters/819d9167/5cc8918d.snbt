@@ -1,0 +1,31 @@
+{
+	title: "Life finds a way",
+	icon: {
+		id: "thebetweenlands:critter",
+		tag: {
+			Entity: {
+				id: "thebetweenlands:dragonfly"
+			}
+		}
+	},
+	x: 2.0d,
+	y: -4.0d,
+	description: "...Even in a wasteland lost to time and space, life finds a way. Use the ancient clock's power on a portal made of runed obsidian to visit this dimension lost to time and space.",
+	text: [
+		""
+	],
+	dependencies: [
+		"58e4875b"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "57afa812",
+		type: "dimension",
+		dim: 112
+	}],
+	rewards: [{
+		uid: "e0671e34",
+		type: "ftbmoney:money",
+		ftb_money: 8000L
+	}]
+}

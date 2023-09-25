@@ -1,0 +1,17 @@
+{
+	title: "Venus",
+	x: -10.0d,
+	y: 4.0d,
+	shape: "circle",
+	dependencies: [
+		"5ff7dee4"
+	],
+	size: 4.0d,
+	tasks: [{
+		uid: "23068460",
+		type: "dimension",
+		title: "Venus",
+		icon: "galacticraftplanets:venus",
+		dim: 9005
+	}]
+}

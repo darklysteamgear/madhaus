@@ -1,0 +1,11 @@
+{
+    "internalName": "block.aekammo",
+    "displayName": "Kashtan Mag 20rnd ",
+    "ammoCapacity": 20,
+	"reloadTimeFactor": 0.9,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.smgbullet"
+    ],
+    "allowEmptyMagazines": true
+}

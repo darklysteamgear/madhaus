@@ -1,0 +1,127 @@
+{
+	title: "I'll make some cake!",
+	x: -1.0d,
+	y: -3.5d,
+	tasks: [{
+		uid: "9caed52b",
+		type: "item",
+		items: [{
+			item: "minecraft:cake"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "27cc8872",
+		type: "item",
+		items: [{
+			item: "harvestcraft:chocolatesprinklecakeitem"
+		}]
+	},
+	{
+		uid: "2dead79c",
+		type: "item",
+		items: [{
+			item: "harvestcraft:redvelvetcakeitem"
+		}]
+	},
+	{
+		uid: "6841d953",
+		type: "item",
+		items: [{
+			item: "harvestcraft:lemondrizzlecakeitem"
+		}]
+	},
+	{
+		uid: "911dfa29",
+		type: "item",
+		items: [{
+			item: "harvestcraft:pineappleupsidedowncake"
+		}]
+	},
+	{
+		uid: "00269171",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cheesecakeitem"
+		}]
+	},
+	{
+		uid: "e62e8808",
+		type: "item",
+		items: [{
+			item: "harvestcraft:rivermudcakeitem"
+		}]
+	},
+	{
+		uid: "5039229a",
+		type: "item",
+		items: [{
+			item: "harvestcraft:carrotcakeitem"
+		}]
+	},
+	{
+		uid: "fd0cdb3e",
+		type: "item",
+		items: [{
+			item: "harvestcraft:holidaycakeitem"
+		}]
+	},
+	{
+		uid: "d80710d6",
+		type: "item",
+		items: [{
+			item: "harvestcraft:mochicakeitem"
+		}]
+	},
+	{
+		uid: "e16314d1",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cherrycheesecake"
+		}]
+	},
+	{
+		uid: "2d515739",
+		type: "item",
+		items: [{
+			item: "harvestcraft:fruitcakeitem"
+		}]
+	},
+	{
+		uid: "399d918d",
+		type: "item",
+		items: [{
+			item: "harvestcraft:ricecakeitem"
+		}]
+	},
+	{
+		uid: "16b6aea0",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_food 1 8"
+		}]
+	},
+	{
+		uid: "e196205d",
+		type: "item",
+		items: [{
+			item: "harvestcraft:potatocakesitem"
+		}]
+	}],
+	rewards: [{
+		uid: "2b19f521",
+		type: "ftbmoney:money",
+		ftb_money: 25000L
+	},
+	{
+		uid: "74156554",
+		type: "choice",
+		table: 3
+	},
+	{
+		uid: "61151f7c",
+		type: "item",
+		item: "scalinghealth:difficultychanger"
+	}]
+}

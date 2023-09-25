@@ -1,0 +1,6 @@
+{
+  "music.chocoboremix": {
+    "category": "music",
+    "sounds": [{"name": "animalbikes:chocoboremix", "stream": true}]
+  }
+}

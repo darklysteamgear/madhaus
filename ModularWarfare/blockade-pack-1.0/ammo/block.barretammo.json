@@ -1,0 +1,11 @@
+{
+    "internalName": "block.barretammo",
+    "displayName": "Barrett Mag 5rnd",
+    "ammoCapacity": 5,
+	"reloadTimeFactor": 3.0,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.sniperbullet"
+    ],
+    "allowEmptyMagazines": true
+}

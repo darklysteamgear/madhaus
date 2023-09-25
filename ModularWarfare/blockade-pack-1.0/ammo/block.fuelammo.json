@@ -1,0 +1,11 @@
+{
+    "internalName": "block.fuelammo",
+    "displayName": "Flamethrower Fuel Mixture 1000L",
+    "ammoCapacity": 1000,
+	"reloadTimeFactor": 1.6,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.fueling"
+    ],
+    "allowEmptyMagazines": true
+}

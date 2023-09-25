@@ -1,0 +1,61 @@
+{
+	title: "I SWEAR I'M ONTERRLEGENT, PLAES COME BACKKKKKKKKKKK",
+	icon: {
+		id: "aoa3:laser_blaster",
+		tag: {
+			HideFlags: 2b
+		}
+	},
+	x: 2.5d,
+	y: -1.5d,
+	description: "pls come back :C",
+	dependencies: [
+		"93b9bec9"
+	],
+	tasks: [{
+		uid: "294b3922",
+		type: "item",
+		items: [{
+			id: "moreplanets:laser_gun",
+			tag: {
+				electricity: 100000.0f
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0809afd1",
+		type: "item",
+		items: [{
+			item: "extraplanets:item_tier6_rocket"
+		}],
+		consume_items: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9eae3509",
+		type: "item",
+		items: [{
+			item: "poop:poop_raw_ingot"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "4e3de99a",
+		type: "command",
+		title: "You really drove them mad",
+		icon: "dmonsters:purgepill",
+		command: "/say The aliens decide to come back, just to make you stop sending them your poop. Holy crap you're weird"
+	},
+	{
+		uid: "7ad3a779",
+		type: "gamestage",
+		title: "THEY COME BACK!!! UFO! UFO! UFO! UFO! UFO! UFO! UFO! UFO! UFO! UFO! UFO!UFO!UFO!UFO!UFO!UFO!UFO!",
+		icon: "moreplanets:alien_defender_beacon",
+		auto: "no_toast",
+		stage: "ufo"
+	}]
+}

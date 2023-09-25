@@ -1,0 +1,26 @@
+{
+	title: "Laser Drill",
+	x: 0.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "be0cfbdc",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_drill"
+		}],
+		count: 4L
+	},
+	{
+		uid: "d75b9aa9",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_base"
+		}]
+	}],
+	rewards: [{
+		uid: "31fed137",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

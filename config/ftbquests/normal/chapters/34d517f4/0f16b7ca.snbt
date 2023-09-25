@@ -1,0 +1,37 @@
+{
+	title: "Clay time is over.",
+	x: 0.0d,
+	y: -2.5d,
+	description: "Wow, that pun was bad",
+	hide_dependency_lines: true,
+	dependencies: [
+		"734863ba",
+		"534e0c79",
+		"c20849b0",
+		"8c1f7b71",
+		"9cce5e90",
+		"b143ac7c",
+		"fc96aba9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cd9f2f27",
+		type: "item",
+		items: [{
+			id: "claysoldiers:disruptor",
+			tag: {
+				disruptor: {
+					type: 0b
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ce7ab4eb",
+		type: "ftbmoney:money",
+		ftb_money: 2500L,
+		random_bonus: 2500
+	}]
+}

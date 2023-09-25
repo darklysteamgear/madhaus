@@ -1,0 +1,11 @@
+{
+    "internalName": "block.ntw20ammo",
+    "displayName": "NTW-20 Mag 3rnd",
+    "ammoCapacity": 3,
+	"reloadTimeFactor": 3.8,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.sniperbullet"
+    ],
+    "allowEmptyMagazines": true
+}

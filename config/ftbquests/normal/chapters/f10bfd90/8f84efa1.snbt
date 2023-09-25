@@ -1,0 +1,23 @@
+{
+	title: "Reset the world",
+	x: 6.0d,
+	y: 9.0d,
+	description: "Only a small peice to ending this madness.",
+	text: [
+		"Minecraft Alex and Steve say that someone knew the way to stop him in the past. The backwardsifier is only temporary, you must pick up the peices left behind. Find fragments of knowledge in the lost and broken worlds."
+	],
+	dependencies: [
+		"3ea8566f"
+	],
+	hide: true,
+	size: 3.0d,
+	tasks: [{
+		uid: "a791b4fe",
+		type: "item",
+		items: [{
+			item: "contenttweaker:time_resetter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

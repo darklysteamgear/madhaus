@@ -1,0 +1,18 @@
+{
+	title: "The supersoldier",
+	x: 0.0d,
+	y: -1.5d,
+	description: "Give them a diamond to make them become a supersoldier",
+	hide_dependency_lines: true,
+	dependencies: [
+		"c4a06031"
+	],
+	hide: true,
+	tasks: [{
+		uid: "81562a8b",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	}]
+}

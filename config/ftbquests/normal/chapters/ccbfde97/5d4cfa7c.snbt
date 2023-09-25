@@ -1,0 +1,20 @@
+{
+	x: 1.5d,
+	y: 4.0d,
+	tasks: [{
+		uid: "bd7981be",
+		type: "observation",
+		title: "What a grump",
+		icon: "biomesoplenty:double_plant 1 1",
+		match_type: "entity_id",
+		match: "memeinabottle:grumpy_cat",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "c93f2a21",
+		type: "item",
+		item: "harvestcraft:grubitem",
+		count: 6,
+		random_bonus: 6
+	}]
+}

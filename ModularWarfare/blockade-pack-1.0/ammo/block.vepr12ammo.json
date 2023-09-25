@@ -1,0 +1,11 @@
+{
+    "internalName": "block.vepr12ammo",
+    "displayName": "Vepr-12 Mag 8rnd ",
+    "ammoCapacity": 8,
+	"reloadTimeFactor": 1.6,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.12gauge"
+    ],
+    "allowEmptyMagazines": true
+}

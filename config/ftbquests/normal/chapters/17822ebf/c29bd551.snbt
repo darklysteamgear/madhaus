@@ -1,0 +1,31 @@
+{
+	title: "You REALLY Shouldn't have done that",
+	x: -1.5d,
+	y: 7.5d,
+	tasks: [{
+		uid: "2536f82c",
+		type: "item",
+		items: [{
+			id: "conarm:helmet_core",
+			tag: {
+				Material: "emeradic_actadd_plustic"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "866f10ca",
+		type: "command",
+		title: "Screw youuuuuuuuuu",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon motnt:cluster_tnt"
+	},
+	{
+		uid: "b5caf456",
+		type: "command",
+		title: "Eat fire and die",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon motnt:fire_tnt"
+	}]
+}

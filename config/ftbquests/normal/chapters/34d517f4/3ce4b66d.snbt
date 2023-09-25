@@ -1,0 +1,42 @@
+{
+	title: "OH NO, RUSSIAN SPIES!!!",
+	x: -8.5d,
+	y: -5.0d,
+	description: "THEY HAVE COME OUT OF THE SHADOWS TO STOP YOU!!! NOW TAKE THEM DOWN!!!!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1d5d63e3",
+		type: "item",
+		items: [{
+			item: "modularwarfare:block.dpm"
+		}]
+	}],
+	rewards: [{
+		uid: "51231e48",
+		type: "command",
+		title: "KGB AGENTS!!!",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon atum:assassin"
+	},
+	{
+		uid: "e0b15da8",
+		type: "command",
+		title: "KGB SPIES!!!",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon atum:assassin"
+	},
+	{
+		uid: "d50a015d",
+		type: "command",
+		title: "KGB SPIES!!!",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon atum:assassin"
+	}]
+}

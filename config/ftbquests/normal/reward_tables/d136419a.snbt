@@ -1,0 +1,148 @@
+{
+	title: "Legendary",
+	loot_size: 1,
+	rewards: [{
+		item: "botania:blacklotus 1 1",
+		count: 4
+	},
+	{
+		item: "thermalfoundation:material 1 167",
+		count: 4
+	},
+	{
+		item: "minecraft:diamond",
+		count: 4
+	},
+	{
+		item: "industrialforegoing:pink_slime",
+		count: 4
+	},
+	{
+		item: "minecraft:nether_star"
+	},
+	{
+		item: {
+			id: "thermalexpansion:cache",
+			tag: {
+				RSControl: 0b,
+				Creative: 0b,
+				Level: 4b
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:cell",
+			tag: {
+				Recv: 25000,
+				RSControl: 0b,
+				Facing: 5b,
+				Creative: 0b,
+				Energy: 0,
+				Level: 4b,
+				SideCache: [B;
+					2b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				],
+				Send: 25000
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:tank",
+			tag: {
+				RSControl: 0b,
+				Creative: 0b,
+				Level: 4b
+			}
+		}
+	},
+	{
+		item: {
+			id: "thermalexpansion:strongbox",
+			tag: {
+				RSControl: 0b,
+				Creative: 0b,
+				Level: 4b
+			}
+		}
+	},
+	{
+		item: "storagedrawers:upgrade_storage 1 4",
+		count: 4
+	},
+	{
+		item: "extrautils2:ingredients 1 10",
+		count: 2
+	},
+	{
+		ftb_money: 25000L,
+		type: "ftbmoney:money"
+	},
+	{
+		item: "gravitygun:gravitygun"
+	},
+	{
+		item: "poop:poop_block",
+		count: 64
+	},
+	{
+		item: "ic2:solar_helmet"
+	},
+	{
+		item: "ic2:te 1 8"
+	},
+	{
+		item: "scalinghealth:heartcontainer",
+		count: 4
+	},
+	{
+		item: "sapturretmod:turret_minigun"
+	},
+	{
+		item: "sapturretmod:turret_forcefield"
+	},
+	{
+		item: "sapturretmod:upgrade_health_2"
+	},
+	{
+		item: "sapturretmod:upgrade_economy_1"
+	},
+	{
+		item: "motnt:festive_tnt"
+	},
+	{
+		item: "poop:poop_hardened"
+	},
+	{
+		item: {
+			id: "roots:salmon_of_knowledge",
+			tag: {
+				crafter: "Nature",
+				advancements: [
+					"everything"
+				]
+			}
+		}
+	},
+	{
+		item: "weeping-angels:kontron_ingot",
+		count: 4,
+		random_bonus: 8
+	}],
+	loot_crate: {
+		string_id: "legendary",
+		color: 16761159,
+		glow: true,
+		drops: {
+			passive: 0,
+			monster: 1,
+			boss: 190
+		}
+	}
+}

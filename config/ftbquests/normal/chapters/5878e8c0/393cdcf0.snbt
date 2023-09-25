@@ -1,0 +1,21 @@
+{
+	title: "Kepler 22b",
+	icon: "extraplanets:kepler22b",
+	x: -19.5d,
+	y: -54.0d,
+	shape: "circle",
+	description: "The world of riches, just a little OP",
+	dependencies: [
+		"63ad3825",
+		"b270ced2",
+		"2e346f79",
+		"2e8708b0"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "170b48e1",
+		type: "dimension",
+		icon: "extraplanets:kepler22b_infected_grass",
+		dim: -22
+	}]
+}

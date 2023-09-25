@@ -1,0 +1,11 @@
+{
+    "internalName": "block.lewisammo",
+    "displayName": "Lewis Pan Mag 47rnd",
+    "ammoCapacity": 47,
+	"reloadTimeFactor": 2.5,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.lmgbullet"
+    ],
+    "allowEmptyMagazines": true
+}

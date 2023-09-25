@@ -1,0 +1,10 @@
+{
+    "internalName": "block.mp40ammo",
+    "displayName": "MP40 Mag 32rnd ",
+    "ammoCapacity": 32,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.smgbullet"
+    ],
+    "allowEmptyMagazines": true
+}

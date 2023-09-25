@@ -1,0 +1,12 @@
+{
+	title: "Get that silver and get away!",
+	x: 8.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "79c86a64",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 2"
+		}]
+	}]
+}

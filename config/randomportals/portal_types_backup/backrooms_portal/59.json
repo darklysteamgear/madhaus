@@ -1,0 +1,92 @@
+{
+	"frame": {
+		"type": "LATERAL_OR_VERTICAL",
+		"size": {
+			"lateral": {
+				"minWidth": 5,
+				"maxWidth": 30,
+				"minHeight": 5,
+				"maxHeight": 30
+			},
+			"verticalX": {
+				"minWidth": 5,
+				"maxWidth": 30,
+				"minHeight": 5,
+				"maxHeight": 30
+			},
+			"verticalZ": {
+				"minWidth": 5,
+				"maxWidth": 30,
+				"minHeight": 5,
+				"maxHeight": 30
+			}
+		},
+		"blocks": [],
+		"requiredCorner": "ANY_NON_AIR",
+		"cornerBlocksContributeToMinimumAmount": true,
+		"doGeneratedFramesDrop": true
+	},
+	"activation": {
+		"canBeActivatedByFire": false,
+		"activators": [
+			{
+				"registryName": "contenttweaker:wish",
+				"meta": 32767
+			}
+		],
+		"activatorConsumeBehavior": "CONSUME",
+		"spawnFireBeforeActivating": false,
+		"activationSounds": [
+			"minecraft:entity.player.levelup"
+		]
+	},
+	"color": {
+		"colors": [
+			"BLACK"
+		],
+		"dyeBehavior": "ONLY_DEFINED_COLORS"
+	},
+	"destination": {
+		"dimensionID": 1000,
+		"locationDetectionBehavior": "IGNORE_INITIAL",
+		"initialLocation": {
+			"x": 0,
+			"y": 62,
+			"z": 0,
+			"useTopSolidY": false
+		},
+		"coordinateMultiplier": 1.0,
+		"teleportToPortal": true,
+		"oneWay": true,
+		"ensureReturnToSameDimension": false,
+		"generatePortalIfNotFound": false,
+		"portalGenerationBehavior": "CLONE",
+		"generatedFrameType": "VERTICAL",
+		"generatedFrameSize": {
+			"lateral": {
+				"minWidth": 0,
+				"maxWidth": 3,
+				"minHeight": 0,
+				"maxHeight": 3
+			},
+			"verticalX": {
+				"minWidth": 0,
+				"maxWidth": 3,
+				"minHeight": 0,
+				"maxHeight": 3
+			},
+			"verticalZ": {
+				"minWidth": 0,
+				"maxWidth": 3,
+				"minHeight": 0,
+				"maxHeight": 3
+			}
+		}
+	},
+	"teleportationDelay": {
+		"lateral": 0,
+		"verticalX": 0,
+		"verticalZ": 0
+	},
+	"decorative": false
+}

@@ -1,0 +1,10 @@
+{
+  "displayName": "Stielhandgranate Mk.6",
+  "internalName": "block.stigrenadenodestroy",
+  "grenadeType": "frag",
+  "fuseTime": 4,
+  "damageWorld": false,
+  "explosionPower": 5,
+  "throwStrength": 0.8,
+  "throwerVulnerable": true
+}

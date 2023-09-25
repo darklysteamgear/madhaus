@@ -1,0 +1,10 @@
+{
+    "internalName": "block.krissammo",
+    "displayName": "Kriss Mag 13rnd ",
+    "ammoCapacity": 13,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.smgbullet"
+    ],
+    "allowEmptyMagazines": true
+}

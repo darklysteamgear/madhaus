@@ -1,0 +1,22 @@
+{
+	x: -2.0d,
+	y: 2.5d,
+	tasks: [{
+		uid: "d93dbe8a",
+		type: "item",
+		items: [{
+			id: "ic2:mining_laser",
+			tag: {
+				charge: 300000.0d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6526005c",
+		type: "ftbmoney:money",
+		ftb_money: 2500L,
+		random_bonus: 5000
+	}]
+}

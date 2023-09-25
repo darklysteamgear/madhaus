@@ -1,0 +1,360 @@
+{
+	title: "Guns",
+	icon: "morecreeps:gun",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "moreplanets:laser_gun",
+			tag: {
+				electricity: 100000.0f
+			}
+		}
+	},
+	{
+		item: "morecreeps:raygun"
+	},
+	{
+		item: "lcrdrfs:laser_blaster"
+	},
+	{
+		item: "modularwarfare:block.aa12"
+	},
+	{
+		item: "modularwarfare:block.abakan"
+	},
+	{
+		item: "modularwarfare:block.aek"
+	},
+	{
+		item: "modularwarfare:block.agram2000"
+	},
+	{
+		item: "modularwarfare:block.ak102"
+	},
+	{
+		item: "modularwarfare:block.ak103"
+	},
+	{
+		item: "modularwarfare:block.ak47"
+	},
+	{
+		item: "modularwarfare:block.ak47.gold"
+	},
+	{
+		item: "modularwarfare:block.ak47.snow"
+	},
+	{
+		item: "modularwarfare:block.ak74"
+	},
+	{
+		item: "modularwarfare:block.aks74u"
+	},
+	{
+		item: "modularwarfare:block.anaconda"
+	},
+	{
+		item: "modularwarfare:block.armordef"
+	},
+	{
+		item: "modularwarfare:block.armorplus"
+	},
+	{
+		item: "modularwarfare:block.asval"
+	},
+	{
+		item: "modularwarfare:block.auga3"
+	},
+	{
+		item: "modularwarfare:block.avs36"
+	},
+	{
+		item: "modularwarfare:block.barret"
+	},
+	{
+		item: "modularwarfare:block.bekas"
+	},
+	{
+		item: "modularwarfare:block.beretta"
+	},
+	{
+		item: "modularwarfare:block.boltx"
+	},
+	{
+		item: "modularwarfare:block.browning"
+	},
+	{
+		item: "modularwarfare:block.browningammo"
+	},
+	{
+		item: "modularwarfare:block.crossbow"
+	},
+	{
+		item: "modularwarfare:block.cz75"
+	},
+	{
+		item: "modularwarfare:block.cz75ammo"
+	},
+	{
+		item: "modularwarfare:block.deagle"
+	},
+	{
+		item: "modularwarfare:block.deagleammo"
+	},
+	{
+		item: "modularwarfare:block.famas"
+	},
+	{
+		item: "modularwarfare:block.famasammo"
+	},
+	{
+		item: "modularwarfare:block.fmg9"
+	},
+	{
+		item: "modularwarfare:block.fmg9ammo"
+	},
+	{
+		item: "modularwarfare:block.fn57"
+	},
+	{
+		item: "modularwarfare:block.fn57ammo"
+	},
+	{
+		item: "modularwarfare:block.glock"
+	},
+	{
+		item: "modularwarfare:block.glockammo"
+	},
+	{
+		item: "modularwarfare:block.helmetdef"
+	},
+	{
+		item: "modularwarfare:block.helmetplus"
+	},
+	{
+		item: "modularwarfare:block.honcho"
+	},
+	{
+		item: "modularwarfare:block.luger"
+	},
+	{
+		item: "modularwarfare:block.lugerammo"
+	},
+	{
+		item: "modularwarfare:block.m110"
+	},
+	{
+		item: "modularwarfare:block.m110ammo"
+	},
+	{
+		item: "modularwarfare:block.m14"
+	},
+	{
+		item: "modularwarfare:block.m14ammo"
+	},
+	{
+		item: "modularwarfare:block.m14ebr"
+	},
+	{
+		item: "modularwarfare:block.m14ebrammo"
+	},
+	{
+		item: "modularwarfare:block.m16a4"
+	},
+	{
+		item: "modularwarfare:block.m16a4ammo"
+	},
+	{
+		item: "modularwarfare:block.m3"
+	},
+	{
+		item: "modularwarfare:block.m700ammo"
+	},
+	{
+		item: "modularwarfare:block.m84"
+	},
+	{
+		item: "modularwarfare:block.mac10"
+	},
+	{
+		item: "modularwarfare:block.mac10ammo"
+	},
+	{
+		item: "modularwarfare:block.magnumlady"
+	},
+	{
+		item: "modularwarfare:block.mauzer"
+	},
+	{
+		item: "modularwarfare:block.mauzerammo"
+	},
+	{
+		item: "modularwarfare:block.mosin"
+	},
+	{
+		item: "modularwarfare:block.mosinammo"
+	},
+	{
+		item: "modularwarfare:block.p226"
+	},
+	{
+		item: "modularwarfare:block.p226ammo"
+	},
+	{
+		item: "modularwarfare:block.pistolbullet"
+	},
+	{
+		item: "modularwarfare:block.pm"
+	},
+	{
+		item: "modularwarfare:block.pmammo"
+	},
+	{
+		item: "modularwarfare:block.riflebullet"
+	},
+	{
+		item: "modularwarfare:block.scopea3"
+	},
+	{
+		item: "modularwarfare:block.scopeabax"
+	},
+	{
+		item: "modularwarfare:block.scopeawx"
+	},
+	{
+		item: "modularwarfare:block.scopeawx.forest"
+	},
+	{
+		item: "modularwarfare:block.scopebarretx"
+	},
+	{
+		item: "modularwarfare:block.scopecrossx"
+	},
+	{
+		item: "modularwarfare:block.scopefsx"
+	},
+	{
+		item: "modularwarfare:block.scopefsxsmaller"
+	},
+	{
+		item: "modularwarfare:block.scopeg36"
+	},
+	{
+		item: "modularwarfare:block.scopeg552"
+	},
+	{
+		item: "modularwarfare:block.scopegewehr43x"
+	},
+	{
+		item: "modularwarfare:block.scopekordsx"
+	},
+	{
+		item: "modularwarfare:block.scopekordsxz"
+	},
+	{
+		item: "modularwarfare:block.scopem110x"
+	},
+	{
+		item: "modularwarfare:block.scopem14ebrx"
+	},
+	{
+		item: "modularwarfare:block.scopem700x"
+	},
+	{
+		item: "modularwarfare:block.scopem700x.lady"
+	},
+	{
+		item: "modularwarfare:block.scopemp7"
+	},
+	{
+		item: "modularwarfare:block.scopentw20x"
+	},
+	{
+		item: "modularwarfare:block.scopepsg1x"
+	},
+	{
+		item: "modularwarfare:block.scopepsg1x.gold"
+	},
+	{
+		item: "modularwarfare:block.scopeqbu88x"
+	},
+	{
+		item: "modularwarfare:block.scopescoutx"
+	},
+	{
+		item: "modularwarfare:block.scopesr25x"
+	},
+	{
+		item: "modularwarfare:block.scopesr25x.snow"
+	},
+	{
+		item: "modularwarfare:block.scopesvdx"
+	},
+	{
+		item: "modularwarfare:block.scopesvt40x"
+	},
+	{
+		item: "modularwarfare:block.scopesvuasx"
+	},
+	{
+		item: "modularwarfare:block.scopevsk94x"
+	},
+	{
+		item: "modularwarfare:block.scopevssx"
+	},
+	{
+		item: "modularwarfare:block.scopevssxdesert"
+	},
+	{
+		item: "modularwarfare:block.scopexm8"
+	},
+	{
+		item: "modularwarfare:block.smgbullet"
+	},
+	{
+		item: "modularwarfare:block.sniperbullet"
+	},
+	{
+		item: "modularwarfare:block.stechkin"
+	},
+	{
+		item: "modularwarfare:block.stechkinammo"
+	},
+	{
+		item: "modularwarfare:block.tt"
+	},
+	{
+		item: "modularwarfare:block.ttammo"
+	},
+	{
+		item: "modularwarfare:block.usp"
+	},
+	{
+		item: "modularwarfare:block.uspammo"
+	},
+	{
+		item: "modularwarfare:block.waltherp99"
+	},
+	{
+		item: "modularwarfare:block.waltherp99ammo"
+	},
+	{
+		item: "modularwarfare:block.xm8"
+	},
+	{
+		item: "modularwarfare:block.xm8ammo"
+	},
+	{
+		item: "modularwarfare:block.deagle"
+	}],
+	loot_crate: {
+		string_id: "guns",
+		item_name: "Gun Chest",
+		color: 986895,
+		glow: true,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

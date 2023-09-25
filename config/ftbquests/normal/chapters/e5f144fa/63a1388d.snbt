@@ -1,0 +1,27 @@
+{
+	title: "Piss fart",
+	x: -3.0d,
+	y: 2.5d,
+	description: "I require some piss for none of your buisness just give me the piss",
+	dependencies: [
+		"94e5fc11",
+		"d2354814"
+	],
+	tasks: [{
+		uid: "05bc31c9",
+		type: "fluid",
+		fluid: "piss",
+		amount: 69000
+	}],
+	rewards: [{
+		uid: "df1c6083",
+		type: "item",
+		item: "morecreeps:money",
+		count: 20
+	},
+	{
+		uid: "ad55614c",
+		type: "random",
+		table: 3
+	}]
+}

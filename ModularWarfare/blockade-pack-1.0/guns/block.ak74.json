@@ -1,0 +1,74 @@
+{
+    "internalName":"block.ak74",
+    "displayName":"AK-74",
+    "weaponType":"carbine",
+    "extraLore": "Further development of the legendary AK-47.",
+    "customFlashTexture":"prototype.advanced.flash",
+    "gunDamage":8.95,
+    "gunDamageHeadshotBonus":1.5,
+    "roundsPerMin":410,
+    "allowEmptyMagazines":true,
+    "recoilPitch": 4.8,
+    "recoilYaw": 0.5,
+    "randomRecoilPitch": 1.0,
+    "randomRecoilYaw": 0.0,
+    "bulletSpread":0.25,
+    "accuracySneakFactor":0.125,
+    "moveSpeedModifier":0.9,
+    "allowSprintFiring":false,
+    "fireModes":[
+        "full",
+		"burst",
+        "semi"
+    ],
+    "acceptedAmmo":[
+        "block.ak74ammo"
+    ],
+    "dropBulletCasing":true,
+    "shellEjectOffsetNormal":{
+        "x":-1.0,
+        "y":0.0,
+        "z":1.0
+    },
+    "shellEjectOffsetAiming":{
+        "x":-0.2,
+        "y":0.12,
+        "z":0.5
+    },
+    "weaponSoundMap":{
+        "weaponFire":[
+            {
+                "soundEvent":"weaponFire",
+                "soundName":"block.ak74.shoot",
+                "soundNameDistant":"block.rifle.shoot.distant",
+                "soundRange":64,
+                "soundMaxRange":96,
+                "soundFadeMultiplier":1
+            }
+        ],
+        "weaponUnload":[
+            {
+                "soundEvent":"weaponReload",
+                "soundName":"prototype.generic.reload"
+            }
+        ],
+        "weaponFireSuppressed":[
+            {
+                "soundEvent":"weaponFireSuppressed",
+                "soundName":"block.ak74.shoot.sup",
+                "soundRange":30,
+                "soundMaxRange":50,
+                "soundFadeMultiplier":1
+            }
+        ]
+    },
+    "acceptedAttachments":{
+    },
+    "modelSkins":[
+        {
+            "internalName":"block.ak74",
+            "skinAsset":"block.ak74",
+            "displayName":"Default"
+        }
+    ]
+}

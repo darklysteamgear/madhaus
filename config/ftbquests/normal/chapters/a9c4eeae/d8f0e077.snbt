@@ -1,0 +1,102 @@
+{
+	title: "Animal Bundle",
+	x: -1.0d,
+	y: -9.0d,
+	shape: "rsquare",
+	size: 2.0d,
+	tasks: [{
+		uid: "70d6f164",
+		type: "item",
+		items: [{
+			item: "iceandfire:rotten_egg"
+		}],
+		count: 2L,
+		consume_items: true
+	},
+	{
+		uid: "e8390a95",
+		type: "item",
+		items: [{
+			item: "moreplanets:infected_egg"
+		}],
+		count: 4L,
+		consume_items: true
+	},
+	{
+		uid: "aa9bee20",
+		type: "item",
+		items: [{
+			item: "scp:dragonegg"
+		}],
+		count: 2L,
+		consume_items: true
+	},
+	{
+		uid: "b6ae4942",
+		type: "item",
+		items: [{
+			item: "minecraft:milk_bucket"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "46f6e5ce",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "spacemilk",
+				Amount: 1000
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f38792a5",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "cheese_milk_fluid",
+				Amount: 1000
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "63588848",
+		type: "item",
+		items: [{
+			item: "minecraft:wool"
+		}],
+		count: 16L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "bde23cbd",
+		type: "item",
+		item: "minecraft:diamond_block"
+	},
+	{
+		uid: "b6a725cc",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "f42c0d7c",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "81704fa6",
+		type: "item",
+		item: "galacticraftcore:cheese",
+		count: 2
+	}]
+}

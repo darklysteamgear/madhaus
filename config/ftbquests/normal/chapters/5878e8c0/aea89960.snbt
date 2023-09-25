@@ -1,0 +1,14 @@
+{
+	title: "Have fun mining this thing",
+	x: 84.5d,
+	y: -37.5d,
+	shape: "square",
+	description: "lol get destroyed",
+	tasks: [{
+		uid: "e511da74",
+		type: "item",
+		items: [{
+			item: "moreplanets:fallen_koentus_meteor"
+		}]
+	}]
+}

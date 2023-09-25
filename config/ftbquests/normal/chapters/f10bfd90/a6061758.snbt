@@ -1,0 +1,16 @@
+{
+	x: 12.0d,
+	y: 2.5d,
+	dependencies: [
+		"53cba0ce"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "b14a57b1",
+		type: "kill",
+		title: "You Cannot KILL ME",
+		entity: "herobrine:herobrine_spy",
+		value: 1L
+	}]
+}

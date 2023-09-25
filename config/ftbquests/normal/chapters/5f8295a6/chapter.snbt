@@ -1,0 +1,10 @@
+{
+	title: "TNT",
+	icon: "minecraft:tnt",
+	description: [
+		"I'm gonna blow up everything you've ever known!"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

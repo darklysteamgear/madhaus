@@ -1,0 +1,72 @@
+{
+    "displayName": "Gold Colt",
+    "internalName": "block.goldcolt",
+    "gunDamage": 9,
+	"gunDamageHeadshotBonus": 1.5,
+    "roundsPerMin": 220,
+    "allowEmptyMagazines": true,
+    "weaponType": "pistol",
+	"extraLore": "Gilded Colt. Just like in action films!",
+    "customFlashTexture": "prototype.advanced.flash",
+    "acceptedAmmo": [
+        "block.goldcoltammo"
+    ],
+    "fireModes": [
+        "full",
+        "semi"
+    ],
+    "recoilPitch": 0.7,
+    "recoilYaw": 0.3,
+    "randomRecoilPitch": 0.7,
+    "randomRecoilYaw": 0.0,
+	"bulletSpread": 1.25,
+    "armPose": "ITEM",
+    "armPoseAiming": "BOW_AND_ARROW",
+    "accuracySneakFactor": 0.75,
+    "moveSpeedModifier": 1,
+    "allowSprintFiring": true,
+    "dropBulletCasing": true,
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "block.goldcolt.shoot",
+                "soundNameDistant": "block.plight.shoot.distant",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponReload": [
+            {
+                "soundEvent": "weaponReload",
+                "soundName": "block.goldcolt.reload"
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "block.goldcolt.shoot.sup",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+            }
+        ]
+    },
+    "acceptedAttachments": {
+        
+    },
+	"modelSkins": [
+        {
+            "internalName": "block.goldcolt",
+            "skinAsset": "block.goldcolt",
+            "displayName": "Default"
+        },
+        {
+            "internalName":"block.goldcolt.classic",
+            "skinAsset":"block.goldcolt.classic",
+            "displayName":"Classic"
+        }
+    ]
+	
+}

@@ -1,0 +1,67 @@
+{
+    "displayName": "SIG P226",
+    "internalName": "block.p226",
+    "gunDamage": 6.75,
+	"gunDamageHeadshotBonus": 1.5,
+    "roundsPerMin": 280,
+    "allowEmptyMagazines": true,
+    "weaponType": "pistol",
+	"extraLore": "To defend against the opposing team.",
+    "customFlashTexture": "prototype.advanced.flash",
+    "acceptedAmmo": [
+        "block.p226ammo"
+    ],
+    "fireModes": [
+        "full",
+        "semi"
+    ],
+    "recoilPitch": 0.5,
+    "recoilYaw": 0.2,
+    "randomRecoilPitch": 0.6,
+    "randomRecoilYaw": 0.0,
+	"bulletSpread": 1.25,
+    "armPose": "ITEM",
+    "armPoseAiming": "BOW_AND_ARROW",
+    "accuracySneakFactor": 0.75,
+    "moveSpeedModifier": 1,
+    "allowSprintFiring": true,
+    "dropBulletCasing": true,
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "block.p226.shoot",
+                "soundNameDistant": "block.plight.shoot.distant",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponReload": [
+            {
+                "soundEvent": "weaponReload",
+                "soundName": "block.p226.reload"
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "block.p226.shoot.sup",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+            }
+        ]
+    },
+    "acceptedAttachments": {
+        
+    },
+	"modelSkins": [
+        {
+            "internalName": "block.p226",
+            "skinAsset": "block.p226",
+            "displayName": "Default"
+        }
+    ]
+	
+}

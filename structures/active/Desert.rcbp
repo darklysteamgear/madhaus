@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "biomes": "$DRY",
+      "weight": 1.0
+    },
+    {
+      "biomes": "$SANDY"
+    },
+    {
+      "biomes": "$HOT"
+    }
+  ],
+  "metadata": {
+    "title": "Desert",
+    "description": [
+      "Hot and deserty climates"
+    ]
+  }
+}

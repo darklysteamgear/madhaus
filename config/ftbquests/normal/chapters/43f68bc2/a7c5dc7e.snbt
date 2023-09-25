@@ -1,0 +1,17 @@
+{
+	title: "You know, I actually kinda like pineapple on pizzer",
+	x: -1.0d,
+	y: 1.0d,
+	text: [
+		"What? Did you actually expect a reward for my comment?"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "2eaa5185",
+		type: "item",
+		items: [{
+			item: "harvestcraft:hamandpineapplepizzaitem"
+		}]
+	}]
+}

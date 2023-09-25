@@ -1,0 +1,13 @@
+setIcon(<minecraft:stone>)
+setTitle("Kill the sludge menace")
+setDescription("Go to Neptune and kill the Snowman. Tales tell of ancient space age technology granted to those who slay him.")
+
+addRewardFunction("triumph:waste")
+addParent("triumph:events/root")
+
+criteria = addCriteria("alien", "minecraft:inventory_changed")
+criteria.addItem("extraplanets:t8key")
+
+hideLines()
+alwaysVisible()
+setPos(-70,77)

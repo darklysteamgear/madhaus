@@ -1,0 +1,36 @@
+{
+	title: "You've been GNOMED!",
+	x: 1.5d,
+	y: -3.0d,
+	text: [
+		"Ho ho ho ha ha, ho ho ho he ha. Hello there, old chum. I’m gnot an elf. I’m gnot a goblin. I’m a gnome. And you’ve been, GNOMED’"
+	],
+	tasks: [{
+		uid: "e33a10a5",
+		type: "observation",
+		icon: "grimoireofgaia:deco_garden_gnome",
+		match_type: "entity_id",
+		match: "memeinabottle:gnome",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "b7385b92",
+		type: "item",
+		auto: "enabled",
+		item: "grimoireofgaia:deco_garden_gnome",
+		count: 100
+	},
+	{
+		uid: "0612ba5a",
+		type: "item",
+		auto: "enabled",
+		item: "memeinabottle:gnome_hat"
+	},
+	{
+		uid: "f0c46a6d",
+		type: "item",
+		auto: "enabled",
+		item: "moreplanets:cheese_spore_wood_hoe",
+		count: 100
+	}]
+}

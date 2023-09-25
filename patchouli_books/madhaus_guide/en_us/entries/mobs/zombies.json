@@ -1,0 +1,47 @@
+{
+    "name": "Zombies, Creepers, Self-defense",
+    "icon": "minecraft:writable_book",
+    "category": "mobs",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Certain creatures, such as the zombie, now have the ability to group in hordes, find you, mess up your base, and swarm you. Be careful! If a zombie kills you, your corpse will reanimate and join their ranks, so watch out for them."
+        },
+                {
+        "type" : "image", 
+        "images": [
+            "madhaus:textures/book/zombos.png"
+        ]
+        },
+        {
+            "type": "text",
+            "text": "They are no longer the easy going zombies you once knew in vanilla, they're here to seriously heck you up. Along with zombies, creepers will break light sources, and blow up anything they really don't like."
+        },
+        {
+        "type" : "crafting", 
+        "recipe" : "openmodularturrets:turret_base_0_vanilla",
+        "text" : "Sometimes a good defense is the best offense. Make sure you build up your base if you want to survive against the madness!"
+        },
+        {
+        "type" : "crafting", 
+        "recipe" : "sapturretmod:turret_assembly",
+        "text" : "Another useful defense item"
+        },
+        {
+        "type" : "crafting", 
+        "recipe" : "claysoldiers:clay_soldier",
+        "text" : "Create minions to defend your base. There are many items you can drop them to give them an upgrade. Drop them rotten flesh to get them to stop loafing around!"
+        },
+        {
+        "type" : "crafting", 
+        "recipe" : "reforged:iron_katana",
+        "text" : "And sometimes a good offense is the best defense.be sure to check out reforged as well for some good starting equipment!"
+        },
+        {
+        "type" : "crafting", 
+        "recipe" : "reforged:musket",
+        "text" : "Old timey gun for some quick damage. Be sure to flip through JEI to find more useful weapons to fight back the madness."
+        }
+    ]
+}

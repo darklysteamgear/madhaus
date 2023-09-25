@@ -1,0 +1,25 @@
+{
+	x: 4.0d,
+	y: 3.0d,
+	description: "We're RICH!, WE'RE RIIICH!!!! THERES GOLD IN THEM HILLS",
+	tasks: [{
+		uid: "5087f280",
+		type: "observation",
+		title: "GOLD RUSH!!!",
+		icon: "densemetals:dense_gold_ore",
+		match_type: "block_id",
+		match: "densemetals:dense_gold_ore",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "a41a5813",
+		type: "item",
+		item: "rftoolsdim:dimlet_parcel"
+	},
+	{
+		uid: "e6832084",
+		type: "item",
+		item: "morecreeps:money",
+		count: 100
+	}]
+}

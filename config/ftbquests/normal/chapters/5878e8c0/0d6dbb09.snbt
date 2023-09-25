@@ -1,0 +1,12 @@
+{
+	x: 83.0d,
+	y: -6.5d,
+	shape: "square",
+	tasks: [{
+		uid: "34767a7b",
+		type: "item",
+		items: [{
+			item: "moreplanets:multalic_crystal_pieces"
+		}]
+	}]
+}

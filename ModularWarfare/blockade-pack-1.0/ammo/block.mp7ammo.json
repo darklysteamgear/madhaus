@@ -1,0 +1,10 @@
+{
+    "internalName": "block.mp7ammo",
+    "displayName": "MP7 Mag 20rnd ",
+    "ammoCapacity": 20,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.smgbullet"
+    ],
+    "allowEmptyMagazines": true
+}

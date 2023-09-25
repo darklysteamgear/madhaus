@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	dependencies: [
+		"c880d1e9"
+	],
+	tasks: [{
+		uid: "993357a2",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_slaughter_factory"
+		}]
+	}],
+	rewards: [{
+		uid: "391f96dd",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

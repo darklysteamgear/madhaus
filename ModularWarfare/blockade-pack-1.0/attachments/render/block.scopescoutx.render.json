@@ -1,0 +1,11 @@
+{
+  "modelFileName": "block.scopescoutx.obj",
+  "extra": {
+    "modelScale": 1.0
+  },
+  "sight": {
+    "fovZoom": 10.0,
+    "mouseSensitivityFactor": 0.5,
+    "rectileScale": 3.0
+  }
+}

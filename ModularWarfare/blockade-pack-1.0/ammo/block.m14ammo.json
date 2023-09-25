@@ -1,0 +1,11 @@
+{
+    "internalName": "block.m14ammo",
+    "displayName": "M14 Mag 10rnd",
+    "ammoCapacity": 10,
+	"reloadTimeFactor": 1.6,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.sniperbullet"
+    ],
+    "allowEmptyMagazines": true
+}

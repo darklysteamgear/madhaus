@@ -1,0 +1,16 @@
+{
+	x: -1.0d,
+	y: -4.0d,
+	tasks: [{
+		uid: "9a542143",
+		type: "xp",
+		value: 1000L,
+		points: false
+	}],
+	rewards: [{
+		uid: "ec860dae",
+		type: "ftbmoney:money",
+		ftb_money: 25000L,
+		random_bonus: 25000
+	}]
+}

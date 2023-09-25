@@ -1,0 +1,86 @@
+{
+    "internalName": "block.jackhammer",
+    "displayName": "Jackhammer",
+    "weaponType": "shotgun",
+	"extraLore": "There is currently only 1 working copy. She is in Blockade.",
+    "customFlashTexture": "prototype.advanced.flash",
+    "gunDamage": 2.2,
+	"numBullets": 9,
+    "roundsPerMin": 220,
+	"weaponMaxRange": 19,
+    "allowEmptyMagazines": true,
+    "recoilPitch": 8,
+    "recoilYaw": 0.5,
+    "randomRecoilPitch": 0.0,
+    "randomRecoilYaw": 0.0,
+    "bulletSpread": 3.45,
+    "accuracySneakFactor": 0.9,
+    "moveSpeedModifier":0.9,
+    "allowSprintFiring": false,
+    "fireModes": [
+        "full",
+        "semi"
+    ],
+    "acceptedAmmo": [
+        "block.jackhammerammo"
+    ],
+    "dropBulletCasing": true,
+    "shellEjectOffsetNormal": {
+        "x": -1,
+        "y": 0,
+        "z": 1
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+    "acceptedAttachments": {
+    },
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "block.jackhammer.shoot",
+                "soundNameDistant": "block.shotgun.shoot.distant",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "block.jackhammer.shoot.sup",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+            }
+        ],
+		"weaponReload": [
+			{
+        "soundEvent": "weaponReload",
+        "soundName": "block.long15.reload"
+			}
+		],
+        "weaponUnload": [
+            {
+                "soundEvent": "weaponReload",
+                "soundName": "prototype.generic.reload"
+            }
+        ]
+    },
+    "modelSkins": [
+        {
+            "internalName": "block.jackhammer",
+            "skinAsset": "block.jackhammer",
+            "displayName": "Default"
+        },
+		{
+            "internalName": "block.jackhammer.lady",
+            "skinAsset": "block.jackhammer.lady",
+            "displayName": "Lady"
+        }
+		
+    ]
+}

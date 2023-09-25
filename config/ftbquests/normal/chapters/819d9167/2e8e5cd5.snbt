@@ -1,0 +1,17 @@
+{
+	title: "A secret and scary place...",
+	icon: "beneath:teleporterbeneath",
+	x: -9.0d,
+	y: -1.0d,
+	size: 2.0d,
+	tasks: [{
+		uid: "9850f8ab",
+		type: "dimension",
+		dim: 10
+	}],
+	rewards: [{
+		uid: "f772f3b4",
+		type: "ftbmoney:money",
+		ftb_money: 15000L
+	}]
+}

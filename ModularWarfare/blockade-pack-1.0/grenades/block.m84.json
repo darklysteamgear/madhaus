@@ -1,0 +1,7 @@
+{
+  "displayName": "M84",
+  "internalName": "block.m84",
+  "grenadeType": "stun",
+  "fuseTime": 3,
+  "throwStrength": 1.0
+}

@@ -1,0 +1,14 @@
+{
+	title: "Radioactive",
+	x: 20.5d,
+	y: 11.0d,
+	shape: "square",
+	description: "I'm waking up to ash and dust",
+	tasks: [{
+		uid: "09af7b8e",
+		type: "item",
+		items: [{
+			item: "extraplanets:ceres 1 6"
+		}]
+	}]
+}

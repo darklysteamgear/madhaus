@@ -1,0 +1,20 @@
+{
+	title: "That's a nice house you got there",
+	icon: "midnight:unstable_seeds",
+	x: 0.5d,
+	y: 3.0d,
+	hide: true,
+	tasks: [{
+		uid: "8d75d034",
+		type: "observation",
+		title: "Is that... me?",
+		match_type: "entity_id",
+		match: "dmonsters:mutant_steve",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "a43d7926",
+		type: "item",
+		item: "motnt:festive_tnt"
+	}]
+}

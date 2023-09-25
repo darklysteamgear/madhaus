@@ -1,0 +1,82 @@
+{
+    "internalName": "block.barret",
+    "displayName": "Barrett",
+    "weaponType": "carbine",
+	"extraLore": "Every shot is worth its weight in gold.",
+    "customFlashTexture": "prototype.advanced.flash",
+    "gunDamage": 40,
+    "gunDamageHeadshotBonus": 2,
+    "roundsPerMin": 20,
+    "allowEmptyMagazines": true,
+    "recoilPitch": 6.5,
+    "recoilYaw": 0.5,
+    "randomRecoilPitch": 0.6,
+    "randomRecoilYaw": 0.0,
+    "bulletSpread": 0.1,
+    "accuracySneakFactor": 0.1,
+    "moveSpeedModifier": 0.72,
+    "allowSprintFiring": false,
+    "fireModes": [
+        "full",
+        "semi"
+    ],
+    "acceptedAmmo": [
+        "block.barretammo"
+    ],
+    "dropBulletCasing": true,
+    "shellEjectOffsetNormal": {
+        "x": -1,
+        "y": 0,
+        "z": 1
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "block.barret.shoot",
+                "soundNameDistant":"block.bhard.shoot.distant",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponUnload": [
+            {
+                "soundEvent": "weaponReload",
+                "soundName": "prototype.generic.reload"
+            }
+        ],
+		"weaponReload": [
+			{
+        "soundEvent": "weaponReload",
+        "soundName": "block.long30.reload"
+			}
+		],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "block.barret.shoot.sup",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+            }
+        ]
+    },
+    "acceptedAttachments": {
+		"sight": [
+			"block.scopebarretx"
+        ]
+	},
+    "modelSkins": [
+        {
+            "internalName": "block.barret",
+            "skinAsset": "block.barret",
+            "displayName": "Default"
+        }
+    ]
+}

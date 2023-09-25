@@ -1,0 +1,39 @@
+{
+	title: "Craft some CRAZY GOOD food",
+	icon: "actuallyadditions:item_knife",
+	x: -1.0d,
+	y: -2.5d,
+	shape: "diamond",
+	description: "Gordon Ramsey would be proud",
+	hide_dependency_lines: true,
+	dependencies: [
+		"1ba3bf93",
+		"c32260c3",
+		"1b0a88a8",
+		"a3ab608e",
+		"b98811ed",
+		"d8f0e077",
+		"1545813d",
+		"60d7689e",
+		"79ee3923",
+		"2f71e2ef",
+		"6e16ef28",
+		"e963e7ec"
+	],
+	hide: true,
+	tasks: [{
+		uid: "965a01b7",
+		type: "ftbmoney:money",
+		value: 10000L
+	}],
+	rewards: [{
+		uid: "6ee3caee",
+		type: "item",
+		item: "actuallyadditions:item_knife"
+	},
+	{
+		uid: "d103072a",
+		type: "loot",
+		table: 13
+	}]
+}

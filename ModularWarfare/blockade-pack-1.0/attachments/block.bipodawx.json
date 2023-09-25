@@ -1,0 +1,15 @@
+{
+  "displayName": "L96A1 Bipod",
+  "internalName": "block.bipodawx",
+  "attachmentType": "grip",
+  "modelSkins": [
+    {
+      "skinAsset": "block.bipodawx",
+      "displayName": "L96A1 Bipod - Default"
+    }
+  ],
+  "grip": {
+    "recoilPitchFactor": 2.0,
+    "recoilYawFactor": 2.0
+  }
+}

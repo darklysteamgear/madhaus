@@ -1,0 +1,28 @@
+{
+	title: "Oh my, how dangerous...",
+	x: -3.0d,
+	y: 1.5d,
+	description: "Try giving it snowballs!!!",
+	text: [
+		"Oh what? you thought I was going to give you something to actually help tame it? you're pretty entitled to think that I'm just going to hand over a snowball, you know that?"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f64ac29e",
+		type: "observation",
+		title: "Oh my, how dangerous...",
+		icon: "minecraft:snowball",
+		match_type: "entity_id",
+		match: "morecreeps:snowdevil",
+		timer: 20L
+	}],
+	rewards: [{
+		uid: "104f6259",
+		type: "ftbmoney:money",
+		ftb_money: 1200L
+	}]
+}

@@ -1,0 +1,16 @@
+{
+  "displayName": "Crossbow Scope",
+  "internalName": "block.scopecrossx",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopecrossx",
+      "displayName": "Crossbow Scope - Default"
+    }
+  ],
+  "sight": {
+    "scopeType": "15x",
+    "customOverlayTexture": "block.blockscopecrossx",
+    "modeType": "pip"
+  }
+}

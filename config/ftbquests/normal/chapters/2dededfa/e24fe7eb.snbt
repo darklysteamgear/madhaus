@@ -1,0 +1,25 @@
+{
+	title: "Wortwortwort",
+	x: -12.5d,
+	y: 1.5d,
+	description: "No not THAT kind of elite!",
+	dependencies: [
+		"8a53b7a0"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "7ef84117",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 2
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f19c9a48",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	}]
+}

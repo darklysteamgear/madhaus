@@ -1,0 +1,156 @@
+{
+	title: "The four memes of all that is cringe",
+	x: 3.0d,
+	y: 0.0d,
+	shape: "gear",
+	description: "You have done it, you have defeated the four memes of cringe!",
+	text: [
+		"Now please sacrifice your meme items so I may give you The 1000 degree knife of unbearable cringe",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"I don't get paid enough for this s***"
+	],
+	dependencies: [
+		"276ab55b",
+		"e662ae36",
+		"fa6bd89e",
+		"1c3817ce"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "64e849c8",
+		type: "item",
+		items: [{
+			item: "memeinabottle:onion"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "08955396",
+		type: "item",
+		items: [{
+			item: "mysticalworld:amethyst_knife"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "62d8c3fd",
+		type: "item",
+		items: [{
+			id: "vehicle:vehicle_crate",
+			tag: {
+				BlockEntityTag: {
+					vehicle: "vehicle:mini_bike",
+					engineTier: 0,
+					wheelType: 0
+				}
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5a6ac300",
+		type: "item",
+		items: [{
+			item: "harvestcraft:onionhamburgeritem"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "9d4d6a26",
+		type: "item",
+		items: [{
+			item: "morecreeps:money"
+		}],
+		count: 100L,
+		consume_items: true
+	},
+	{
+		uid: "763f227a",
+		type: "ftbmoney:money",
+		value: 42069L
+	}],
+	rewards: [{
+		uid: "478028c4",
+		type: "item",
+		item: {
+			id: "memeinabottle:hot_knife",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 138
+				},
+				{
+					lvl: 5s,
+					id: 148
+				},
+				{
+					lvl: 2s,
+					id: 87
+				},
+				{
+					lvl: 2s,
+					id: 100
+				}],
+				RepairCost: 23,
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "light_purple",
+					AttributeModifiers: [{
+						UUIDMost: -3341550330207581839L,
+						UUIDLeast: -8308832569402586827L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 8669110102068383311L,
+						UUIDLeast: -8447854343414049899L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 8226369028016063493L,
+						UUIDLeast: -5461873324503417169L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -9039937399257478786L,
+						UUIDLeast: -8640386225057071381L,
+						Amount: 0.5d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.legendary.name"
+				},
+				display: {
+					Name: "1000 Degree Knife Of Cringe"
+				}
+			}
+		}
+	},
+	{
+		uid: "c0080016",
+		type: "loot",
+		table: 13
+	}]
+}

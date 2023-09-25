@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	dependencies: [
+		"c880d1e9"
+	],
+	tasks: [{
+		uid: "602aaf50",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:water_resources_collector"
+		}]
+	}],
+	rewards: [{
+		uid: "a904ca7a",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

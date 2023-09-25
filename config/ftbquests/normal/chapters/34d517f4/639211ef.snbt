@@ -1,0 +1,26 @@
+{
+	title: "We need a bigger gun...",
+	x: -10.5d,
+	y: 7.0d,
+	description: "There are just too many, sir",
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "efffb2ad",
+		type: "item",
+		items: [{
+			item: "icbmclassic:launcherbase 1 1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cde56967",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 10000
+	}]
+}

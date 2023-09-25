@@ -1,0 +1,12 @@
+{
+	x: 9.0d,
+	y: 62.0d,
+	shape: "square",
+	tasks: [{
+		uid: "92d45f6f",
+		type: "item",
+		items: [{
+			item: "extraplanets:pluto 1 6"
+		}]
+	}]
+}

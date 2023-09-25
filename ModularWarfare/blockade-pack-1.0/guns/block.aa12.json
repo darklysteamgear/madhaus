@@ -1,0 +1,85 @@
+{
+    "internalName": "block.aa12",
+    "displayName": "AA-12",
+    "weaponType": "shotgun",
+	"extraLore": "Strange weapon. It looks like an assault rifle, but inside is a shotgun.",
+    "customFlashTexture": "prototype.advanced.flash",
+    "gunDamage": 2.35,
+	"numBullets": 8,
+    "roundsPerMin": 240,
+	"weaponMaxRange": 18,
+    "allowEmptyMagazines": true,
+    "recoilPitch": 10,
+    "recoilYaw": 0.5,
+    "randomRecoilPitch": 0.0,
+    "randomRecoilYaw": 0.0,
+    "bulletSpread": 3.35,
+    "accuracySneakFactor": 0.9,
+    "moveSpeedModifier":0.9,
+    "allowSprintFiring": false,
+    "fireModes": [
+        "full",
+        "semi"
+    ],
+    "acceptedAmmo": [
+        "block.aa12ammo"
+    ],
+    "dropBulletCasing": true,
+    "shellEjectOffsetNormal": {
+        "x": -1,
+        "y": 0,
+        "z": 1
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+    "acceptedAttachments": {
+    },
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "block.aa12.shoot",
+                "soundNameDistant": "block.shotgun.shoot.distant",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "block.aa12.shoot.sup",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+            }
+        ],
+		"weaponReload": [
+			{
+        "soundEvent": "weaponReload",
+        "soundName": "block.long20.reload"
+			}
+		],
+        "weaponUnload": [
+            {
+                "soundEvent": "weaponReload",
+                "soundName": "prototype.generic.reload"
+            }
+        ]
+    },
+    "modelSkins": [
+        {
+            "internalName": "block.aa12",
+            "skinAsset": "block.aa12",
+            "displayName": "Default"
+        },
+		{
+            "internalName": "block.aa12.z",
+            "skinAsset": "block.aa12.z",
+            "displayName": "Zombie"
+        }
+    ]
+}

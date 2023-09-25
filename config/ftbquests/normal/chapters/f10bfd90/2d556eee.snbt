@@ -1,0 +1,23 @@
+{
+	title: "Need more help? summon me!",
+	x: 12.0d,
+	y: 18.5d,
+	can_repeat: true,
+	dependencies: [
+		"98894346"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5d2f7e8d",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}]
+	}],
+	rewards: [{
+		uid: "b5422b11",
+		type: "command",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon herobrine:steve_survivor"
+	}]
+}

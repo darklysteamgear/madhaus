@@ -1,0 +1,44 @@
+{
+	title: "HCTON SI DAED",
+	x: 15.0d,
+	y: -0.5d,
+	can_repeat: true,
+	dependencies: [
+		"53cba0ce"
+	],
+	hide: true,
+	tasks: [{
+		uid: "69f2b0b5",
+		type: "observation",
+		icon: "tinkers_reforged:lavium_block",
+		match_type: "block_id",
+		match: "herobrine:herobrine_alter",
+		timer: 0L
+	},
+	{
+		uid: "0e426bc1",
+		type: "gamestage",
+		stage: "cursed"
+	}],
+	rewards: [{
+		uid: "6c22e91e",
+		type: "command",
+		title: "I CANNOT BE STOPPED",
+		auto: "enabled",
+		command: "/kill @p"
+	},
+	{
+		uid: "40f314c3",
+		type: "command",
+		title: "OEMSPFEMOSMFPOEOFS",
+		auto: "enabled",
+		command: "/say EM POTS TONNAC UOY"
+	},
+	{
+		uid: "357eed66",
+		type: "command",
+		title: "NO",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon lightning_bolt"
+	}]
+}

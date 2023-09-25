@@ -1,0 +1,20 @@
+{
+	x: -2.0d,
+	y: 6.0d,
+	dependencies: [
+		"722e52af"
+	],
+	tasks: [{
+		uid: "17792c07",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_coal_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "6e9d67f7",
+		type: "ftbmoney:money",
+		ftb_money: 1000L,
+		random_bonus: 500
+	}]
+}

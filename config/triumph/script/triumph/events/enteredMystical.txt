@@ -1,0 +1,24 @@
+setIcon(<minecraft:stone>)
+setTitle("Mystical")
+setDescription("...")
+
+addRewardFunction("triumph:mystical")
+addParent("triumph:events/root")
+
+criteria = addCriteria("betweenlands", "triumph:changed_dimension")
+criteria.setDimensionDestination(69)
+criteria.setCount(1)
+
+criteria = addCriteria("aether", "triumph:changed_dimension")
+criteria.setDimensionDestination(70)
+criteria.setCount(1)
+
+criteria = addCriteria("nether", "triumph:changed_dimension")
+criteria.setDimensionDestination(-1)
+criteria.setCount(1)
+
+setHidden(true)
+setShowToast(false)
+setAnnounceToChat(false)
+setUncompletedIconColor(71,71,71)
+setPos(28,-11)

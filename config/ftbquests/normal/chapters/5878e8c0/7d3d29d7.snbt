@@ -1,0 +1,12 @@
+{
+	x: 18.5d,
+	y: 2.5d,
+	shape: "square",
+	tasks: [{
+		uid: "256820b9",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:item_basic_asteroids 1 4"
+		}]
+	}]
+}

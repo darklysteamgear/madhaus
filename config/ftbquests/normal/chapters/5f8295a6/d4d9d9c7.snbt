@@ -1,0 +1,27 @@
+{
+	title: "To help me ease the burden of this task",
+	x: -0.5d,
+	y: -3.0d,
+	dependencies: [
+		"6f9a8774"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ea5eee67",
+		type: "item",
+		items: [{
+			item: "minecraft:sand"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "3984247e",
+		type: "ftbmoney:money",
+		ftb_money: 25000L
+	},
+	{
+		uid: "21c18bc8",
+		type: "random",
+		table: 6
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	icon: "botania:manaresource 1 9",
+	x: 3.0d,
+	y: 12.0d,
+	dependencies: [
+		"94b1426b"
+	],
+	tasks: [{
+		uid: "cc4b8657",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 7"
+		}]
+	},
+	{
+		uid: "334f0def",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 8"
+		}]
+	},
+	{
+		uid: "bafd9e49",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "29d98bd1",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 2500
+	}]
+}

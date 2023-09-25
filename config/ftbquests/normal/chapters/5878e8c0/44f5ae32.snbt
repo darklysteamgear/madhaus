@@ -1,0 +1,12 @@
+{
+	x: 75.0d,
+	y: -41.0d,
+	shape: "square",
+	tasks: [{
+		uid: "cef9e3dc",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:item_basic_moon 1 2"
+		}]
+	}]
+}

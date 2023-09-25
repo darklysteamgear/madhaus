@@ -1,0 +1,11 @@
+{
+  "modelFileName": "block.scopeg36.obj",
+  "extra": {
+    "modelScale": 1.0
+  },
+  "sight": {
+    "fovZoom": 6.0,
+    "mouseSensitivityFactor": 0.8,
+    "rectileScale": 2
+  }
+}

@@ -1,0 +1,32 @@
+{
+	x: 3.5d,
+	y: -3.5d,
+	shape: "octagon",
+	can_repeat: true,
+	dependencies: [
+		"efcfef2c"
+	],
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "9ae8981b",
+		type: "kill",
+		icon: "aoa3:creep_statue",
+		entity: "aoa3:creep",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "ecbf8d35",
+		type: "random",
+		table: 6
+	},
+	{
+		uid: "352f18ab",
+		type: "random",
+		table: 6
+	},
+	{
+		uid: "4864db77",
+		type: "random",
+		table: 6
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "Because there must be something I can craft",
+	x: -0.5d,
+	y: -1.5d,
+	dependencies: [
+		"fad42d95"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d8f87367",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 64L
+	}]
+}

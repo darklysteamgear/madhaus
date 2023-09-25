@@ -1,0 +1,16 @@
+{
+  "displayName": "AN-94 Abakan Scope",
+  "internalName": "block.scopeabax",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopeabax",
+      "displayName": "AN-94 Abakan Scope - Default"
+    }
+  ],
+  "sight": {
+    "scopeType": "4x",
+    "customOverlayTexture": "block.blockscopeabax",
+    "modeType": "pip"
+  }
+}

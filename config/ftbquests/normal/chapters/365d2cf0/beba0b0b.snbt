@@ -1,0 +1,20 @@
+{
+	icon: "minecraft:carrot",
+	x: 2.0d,
+	y: -6.0d,
+	dependencies: [
+		"60786a19"
+	],
+	tasks: [{
+		uid: "afcf831a",
+		type: "kill",
+		title: "Well aint this carrots",
+		entity: "aoa3:primitive_carrotop",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "eca5ca04",
+		type: "item",
+		item: "harvestcraft:carrotcakeitem"
+	}]
+}

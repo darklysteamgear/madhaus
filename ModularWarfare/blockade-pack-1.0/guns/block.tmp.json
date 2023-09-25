@@ -1,0 +1,74 @@
+{
+    "internalName": "block.tmp",
+    "displayName": "TMP",
+    "weaponType": "smg",
+	"extraLore": "Like a pistol, but at the same time a machine gun.",
+    "customFlashTexture": "prototype.advanced.flash",
+    "gunDamage": 6.75,
+    "gunDamageHeadshotBonus": 1.5,
+    "roundsPerMin": 570,
+    "allowEmptyMagazines": true,
+    "recoilPitch": 3.6,
+    "recoilYaw": 0.2,
+    "randomRecoilPitch": 0.7,
+    "randomRecoilYaw": 0.0,
+    "bulletSpread": 1.25,
+    "accuracySneakFactor": 0.5,
+    "moveSpeedModifier": 1,
+    "allowSprintFiring": true,
+    "dropBulletCasing": true,
+    "fireModes": [
+        "full",
+        "burst",
+        "semi"
+    ],
+    "acceptedAmmo": [
+        "block.tmpammo"
+    ],
+    "shellEjectOffsetNormal": {
+        "x": -1,
+        "y": 0,
+        "z": 1
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "block.tmp.shoot",
+                "soundNameDistant": "block.plight.shoot.distant",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponUnload": [
+            {
+                "soundEvent": "weaponReload",
+                "soundName": "prototype.generic.reload"
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "block.tmp.shoot.sup",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+            }
+        ]
+    },
+    "acceptedAttachments": {
+    },
+    "modelSkins": [
+        {
+            "internalName": "block.tmp",
+            "skinAsset": "block.tmp",
+            "displayName": "Default"
+        }
+    ]
+}

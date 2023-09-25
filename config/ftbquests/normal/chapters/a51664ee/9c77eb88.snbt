@@ -1,0 +1,69 @@
+{
+	title: "Even more useless",
+	x: 6.5d,
+	y: 1.5d,
+	text: [
+		"I hope you know I'm just doing this to bloat your inventory so you have to go back to the surface"
+	],
+	tasks: [{
+		uid: "31fb9b72",
+		type: "item",
+		items: [{
+			item: "bewitchment:opal"
+		}]
+	}],
+	rewards: [{
+		uid: "33278451",
+		type: "item",
+		auto: "enabled",
+		item: "rftoolsdim:dimlet_memory_unit"
+	},
+	{
+		uid: "80bb42db",
+		type: "item",
+		auto: "enabled",
+		item: "rftoolsdim:dimlet_type_controller"
+	},
+	{
+		uid: "379ff8b1",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:golden_apple 1 1"
+	},
+	{
+		uid: "eed2c184",
+		type: "item",
+		auto: "enabled",
+		item: "natura:edibles 1 10"
+	},
+	{
+		uid: "d3487af6",
+		type: "item",
+		auto: "enabled",
+		item: "extrautils2:magicapple"
+	},
+	{
+		uid: "21d96bac",
+		type: "item",
+		auto: "enabled",
+		item: "grimoireofgaia:food_small_apple_gold"
+	},
+	{
+		uid: "fde0a0c1",
+		type: "item",
+		auto: "enabled",
+		item: "harvestcraft:applesnowitem"
+	},
+	{
+		uid: "53956590",
+		type: "item",
+		auto: "enabled",
+		item: "abyssalcraft:ahoe"
+	},
+	{
+		uid: "a62b94f2",
+		type: "item",
+		auto: "enabled",
+		item: "bewitchment:garnet"
+	}]
+}

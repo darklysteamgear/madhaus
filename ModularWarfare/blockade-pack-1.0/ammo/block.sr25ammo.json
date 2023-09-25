@@ -1,0 +1,11 @@
+{
+    "internalName": "block.sr25ammo",
+    "displayName": "SR-25 Mag 20rnd",
+    "ammoCapacity": 20,
+	"reloadTimeFactor": 2.4,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.sniperbullet"
+    ],
+    "allowEmptyMagazines": true
+}

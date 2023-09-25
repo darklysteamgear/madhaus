@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "7f9d61ef",
+		type: "item",
+		items: [{
+			item: "aether_legacy:gravitite_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "005b3c07",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

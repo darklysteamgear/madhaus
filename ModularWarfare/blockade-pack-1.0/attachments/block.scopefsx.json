@@ -1,0 +1,16 @@
+{
+  "displayName": "FN F2000 Scope",
+  "internalName": "block.scopefsx",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopefsx",
+      "displayName": "FN F2000 Scope - Default"
+    }
+  ],
+  "sight": {
+    "scopeType": "2x",
+    "customOverlayTexture": "block.blockscopefsx",
+    "modeType": "pip"
+  }
+}

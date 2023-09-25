@@ -1,0 +1,16 @@
+{
+	title: "Every mountain every valley",
+	x: 18.5d,
+	y: 3.0d,
+	dependencies: [
+		"7d3f52ba"
+	],
+	hide: true,
+	tasks: [{
+		uid: "11bd654f",
+		type: "item",
+		items: [{
+			item: "motnt:tnt20"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "Old school ruby!",
+	x: 3.5d,
+	y: 1.5d,
+	tasks: [{
+		uid: "53d1f6f6",
+		type: "item",
+		items: [{
+			item: "projectred-core:resource_item 1 200"
+		}]
+	}],
+	rewards: [{
+		uid: "208af439",
+		type: "ftbmoney:money",
+		ftb_money: 2100L
+	}]
+}

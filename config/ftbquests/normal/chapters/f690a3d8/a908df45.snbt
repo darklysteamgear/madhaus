@@ -1,0 +1,43 @@
+{
+	title: "Misc. Dimension Tracks (Part One)",
+	icon: "minecraft:dirt 1 2",
+	x: 3.0d,
+	y: -3.0d,
+	description: "Credit for all of these tracks goes to all of these amazing people. Go support them!",
+	text: [
+		"ABYSS SOUNDTRACK:",
+		"",
+		"AlongCameJosh - Horror Creepypasta 1 OST: Can I Be Your Friend? [No Copyright Music]",
+		"",
+		"",
+		"ALPHA DIMENSION SOUNDTRACK:",
+		"",
+		"C418 - Alpha (Slowed down)",
+		"",
+		"C418 - Alpha OST (Only soundtrack from original alpha)",
+		"",
+		"",
+		"ATUM SOUNDTRACK:",
+		"",
+		"Fantasy & World Music by the Fiechters - Dark Egyptian Music - Mists of Egypt",
+		"",
+		"Wombat Noises Audio - The Legend of Narmer",
+		"",
+		"Sodas & Lyrics - Egyptian Instrumental Music No Copyright",
+		"",
+		"",
+		"BENEATH SOUNDTRACK:",
+		"",
+		"Audio Thumps - In A Dark Cave (Copyright Free Music) | Scary"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "7a0c59a8",
+		type: "observation",
+		title: "Dimension Tracks",
+		icon: "minecraft:noteblock",
+		match_type: "block_id",
+		match: "",
+		timer: 0L
+	}]
+}

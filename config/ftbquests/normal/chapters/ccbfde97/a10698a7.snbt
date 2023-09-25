@@ -1,0 +1,56 @@
+{
+	title: "AND STAY DEAD!!!",
+	icon: "thebetweenlands:pyrad_flame",
+	x: 3.0d,
+	y: -4.0d,
+	description: "And stay dead!!!",
+	text: [
+		"I'd really like my flamethrower back",
+		"I'll give you 20 bucks if you give it back",
+		"...",
+		"You're not going to give it back, are you?",
+		"Wow, you're pretty awful.",
+		"Look, I'll even throw in 10 cents",
+		"Oooh, COME ON!"
+	],
+	dependencies: [
+		"24dbb32d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "75bfdd02",
+		type: "kill",
+		title: "Oh thank goodness, that meme should STAY dead",
+		entity: "memeinabottle:knuckles",
+		value: 1L
+	},
+	{
+		uid: "eb27209d",
+		type: "item",
+		items: [{
+			id: "mekanism:flamethrower",
+			tag: {
+				mekData: {
+					stored: {
+						amount: 24000,
+						gasName: "hydrogen"
+					}
+				}
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "34e6d85b",
+		type: "item",
+		item: "morecreeps:money",
+		count: 25
+	},
+	{
+		uid: "79756f4f",
+		type: "item",
+		item: "thermalfoundation:coin 1 1"
+	}]
+}

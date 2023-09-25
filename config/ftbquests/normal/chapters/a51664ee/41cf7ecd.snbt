@@ -1,0 +1,17 @@
+{
+	title: "Why do I even bother anymore?",
+	x: 9.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "dcd7b2ff",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:gem 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "0b3f6ea4",
+		type: "ftbmoney:money",
+		ftb_money: 3000L
+	}]
+}

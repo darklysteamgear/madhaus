@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: 2.0d,
+	text: [
+		"Wow, you are really fat"
+	],
+	tasks: [{
+		uid: "cb4a2297",
+		type: "stat",
+		stat: "stat.cakeSlicesEaten",
+		value: 800
+	}],
+	rewards: [{
+		uid: "5371455a",
+		type: "ftbmoney:money",
+		ftb_money: 25000L,
+		random_bonus: 25000
+	}]
+}

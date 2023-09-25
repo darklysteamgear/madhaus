@@ -1,0 +1,30 @@
+{
+	icon: "evilcraft:werewolf_bone",
+	x: -2.0d,
+	y: 0.0d,
+	description: "A duck walked up to a lemonade stand....",
+	text: [
+		"Oh wait, that's the wrong meme",
+		"Frick, heck"
+	],
+	tasks: [{
+		uid: "a66e77d3",
+		type: "observation",
+		title: "Such cringe, much why",
+		match_type: "entity_id",
+		match: "memeinabottle:doge_wolf",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "6a3b25e5",
+		type: "item",
+		item: "minecraft:bone",
+		count: 24
+	},
+	{
+		uid: "bbbe2766",
+		type: "item",
+		item: "harvestcraft:lemonaideitem",
+		count: 5
+	}]
+}

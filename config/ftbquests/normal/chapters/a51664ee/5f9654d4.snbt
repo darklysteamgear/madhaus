@@ -1,0 +1,26 @@
+{
+	x: 5.0d,
+	y: 3.0d,
+	text: [
+		"SO MUCH... I'm not feeling nice today, so here's something really useless"
+	],
+	tasks: [{
+		uid: "dfb1a864",
+		type: "observation",
+		title: "A whole lotta metal",
+		icon: "densemetals:dense_iron_ore",
+		match_type: "block_id",
+		match: "densemetals:dense_iron_ore",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "506519a0",
+		type: "xp_levels",
+		xp_levels: 3
+	},
+	{
+		uid: "102e2383",
+		type: "item",
+		item: "poop:poop_katana"
+	}]
+}

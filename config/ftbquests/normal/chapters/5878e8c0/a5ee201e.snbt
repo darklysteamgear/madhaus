@@ -1,0 +1,13 @@
+{
+	title: "Crystalsss",
+	x: 15.0d,
+	y: 46.0d,
+	shape: "square",
+	tasks: [{
+		uid: "433ca6e9",
+		type: "item",
+		items: [{
+			item: "extraplanets:uranus 1 3"
+		}]
+	}]
+}

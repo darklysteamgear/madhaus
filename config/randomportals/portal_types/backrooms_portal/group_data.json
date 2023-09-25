@@ -1,0 +1,28 @@
+{
+	"blacklistAllUndefinedDimensions": true,
+	"activationDimensionIDBlacklist": [],
+	"defaultDimensionID": 59,
+	"entitySpawns": {
+		"59": {
+			"rate": 2000,
+			"entities": {
+				"herobrine:infected_chicken": {
+					"nbt": "{}",
+					"weight": 100.0
+				},
+				"herobrine:infected_villager": {
+					"nbt": "{}",
+					"weight": 100.0
+				},
+				"herobrine:infected_cow": {
+					"nbt": "{}",
+					"weight": 100.0
+				},
+				"herobrine:infected_sheep": {
+					"nbt": "{}",
+					"weight": 100.0
+				}
+			}
+		}
+	}
+}

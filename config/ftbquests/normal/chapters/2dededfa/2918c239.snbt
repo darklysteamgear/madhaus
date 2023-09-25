@@ -1,0 +1,20 @@
+{
+	title: "Circuit time!",
+	x: -2.0d,
+	y: 9.5d,
+	dependencies: [
+		"cca8a160"
+	],
+	tasks: [{
+		uid: "18631129",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit"
+		}]
+	}],
+	rewards: [{
+		uid: "401a90bb",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	}]
+}

@@ -1,0 +1,5 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"Fragments of Anu scatter across the plains... As you think about the journey that brought you here, you begin to daydream... Weird fantasies and visions of monsters that can fit inside your pocket dance around in your head. Your daydream turns into it's own wish. You feel the energy from Anu's fragments begin to glow as you snap back to reality. Can a wish like this really come true?","color":"yellow","italic":true}]
+playsound minecraft:entity.ghast.scream ambient ambient @a[r=50] ~ ~ ~ 1 0.5
+gamestage silentadd @p pokemon

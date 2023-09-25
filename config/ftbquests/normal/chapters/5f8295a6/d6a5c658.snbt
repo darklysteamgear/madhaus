@@ -1,0 +1,17 @@
+{
+	title: "And I'll use it all to build a city",
+	x: 7.5d,
+	y: -1.5d,
+	dependencies: [
+		"d6224f8a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "018fdab2",
+		type: "item",
+		items: [{
+			item: "minecraft:stonebrick"
+		}],
+		count: 100L
+	}]
+}

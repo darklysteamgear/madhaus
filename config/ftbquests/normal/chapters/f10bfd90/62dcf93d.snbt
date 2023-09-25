@@ -1,0 +1,21 @@
+{
+	icon: "biomesoplenty:biome_block",
+	x: -1.0d,
+	y: 2.0d,
+	text: [
+		"Make a wish upon a portal made of iron blocks to visit a parallel world untouched until now by the player."
+	],
+	dependencies: [
+		"442ab6a0"
+	],
+	tasks: [{
+		uid: "c2174558",
+		type: "dimension",
+		dim: 60
+	}],
+	rewards: [{
+		uid: "29541093",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	}]
+}

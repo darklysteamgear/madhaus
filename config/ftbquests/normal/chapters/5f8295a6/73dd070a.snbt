@@ -1,0 +1,16 @@
+{
+	title: "Up everything you've ever known known known known",
+	x: 11.0d,
+	y: 3.0d,
+	dependencies: [
+		"62cb4502"
+	],
+	hide: true,
+	tasks: [{
+		uid: "11a46eae",
+		type: "item",
+		items: [{
+			item: "motnt:tnt10"
+		}]
+	}]
+}

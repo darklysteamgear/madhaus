@@ -1,0 +1,22 @@
+{
+	title: "*BFG DIVISION INTENSIFIES*",
+	icon: "aoa3:chainsaw",
+	x: -2.5d,
+	y: -7.5d,
+	description: "Im aboutta go doom 2016 on these zombies",
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	size: 3.0d,
+	tasks: [{
+		uid: "3e3053ba",
+		type: "item",
+		items: [{
+			item: "aoa3:chainsaw"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

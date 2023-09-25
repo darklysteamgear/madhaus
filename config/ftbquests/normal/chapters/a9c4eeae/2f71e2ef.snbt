@@ -1,0 +1,113 @@
+{
+	title: "Artisan's Bundle",
+	x: -1.0d,
+	y: 6.0d,
+	shape: "rsquare",
+	size: 2.0d,
+	tasks: [{
+		uid: "10928c01",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "canolaoil",
+				Amount: 1000
+			}
+		}],
+		count: 4L,
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "07ce837f",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cheeseitem"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "2f6e0420",
+		type: "item",
+		items: [{
+			item: "harvestcraft:honeyitem"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "13aa7233",
+		type: "item",
+		items: [{
+			item: "harvestcraft:pearjellyitem"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "e0be43ea",
+		type: "item",
+		items: [{
+			item: "minecraft:apple"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "49f67581",
+		type: "item",
+		items: [{
+			item: "harvestcraft:apricotitem"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "96ae3dbe",
+		type: "item",
+		items: [{
+			item: "harvestcraft:orangeitem"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "b1bf5ba7",
+		type: "item",
+		items: [{
+			item: "harvestcraft:peachitem"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "857fe5ff",
+		type: "item",
+		items: [{
+			item: "harvestcraft:pomegranateitem"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "991640ab",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cherryitem"
+		}],
+		count: 32L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "ee9ad14e",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "269d98f4",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	}]
+}

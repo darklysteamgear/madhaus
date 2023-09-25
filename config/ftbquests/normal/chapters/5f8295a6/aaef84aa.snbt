@@ -1,0 +1,53 @@
+{
+	title: "Shoot your arrows in the air!!!!!! Arrows in the aaaiiirrrrr!! (solo)",
+	x: 22.5d,
+	y: -3.0d,
+	dependencies: [
+		"cb224afb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f9703029",
+		type: "observation",
+		title: "Observe an explosion from the world buster tnt at point blank... and destroy everything",
+		icon: "motnt:worldbuster_tnt",
+		match_type: "entity_id",
+		match: "supertnt:end_tnt_1",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "8a6853fe",
+		type: "random",
+		table: 6
+	},
+	{
+		uid: "7ea44dfb",
+		type: "random",
+		table: 6
+	},
+	{
+		uid: "58a6352b",
+		type: "random",
+		table: 6
+	},
+	{
+		uid: "ddaa4d0c",
+		type: "random",
+		table: 6
+	},
+	{
+		uid: "e1af95af",
+		type: "random",
+		table: 6
+	},
+	{
+		uid: "0c579de1",
+		type: "ftbmoney:money",
+		ftb_money: 100000L
+	},
+	{
+		uid: "4774450f",
+		type: "random",
+		table: 4
+	}]
+}

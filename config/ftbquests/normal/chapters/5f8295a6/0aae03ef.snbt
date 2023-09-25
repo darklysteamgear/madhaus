@@ -1,0 +1,11 @@
+{
+	x: 6.0d,
+	y: 4.5d,
+	tasks: [{
+		uid: "73a4b05f",
+		type: "kill",
+		title: "Creeper's KO'd",
+		entity: "specialmobs:specialcreeper",
+		value: 25L
+	}]
+}

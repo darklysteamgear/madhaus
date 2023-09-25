@@ -1,0 +1,23 @@
+{
+	title: "Primitive!",
+	x: -6.5d,
+	y: 11.0d,
+	description: "Yet, kind of effective?",
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "72490332",
+		type: "item",
+		items: [{
+			item: "reforged:javelin"
+		}]
+	}],
+	rewards: [{
+		uid: "12a970df",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

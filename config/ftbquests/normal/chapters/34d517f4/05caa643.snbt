@@ -1,0 +1,18 @@
+{
+	title: "The creeper's trying to steal all of our stuff again!",
+	icon: "minecraft:skull 1 4",
+	x: -2.5d,
+	y: 11.0d,
+	description: "SO fight fight and take back the night night!",
+	text: [
+		"Wait... that's not how it goes"
+	],
+	tasks: [{
+		uid: "0f40055a",
+		type: "observation",
+		title: "Revenge.",
+		match_type: "entity_id",
+		match: "specialmobs:specialcreeper",
+		timer: 0L
+	}]
+}

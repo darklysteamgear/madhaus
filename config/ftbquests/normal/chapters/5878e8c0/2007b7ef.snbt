@@ -1,0 +1,19 @@
+{
+	title: "CHEESE BALL",
+	icon: "moreplanets:cheese_milk_ore",
+	x: 104.5d,
+	y: -21.5d,
+	shape: "circle",
+	description: "Mmmm soo much CHEESE",
+	dependencies: [
+		"c1c7f9b6",
+		"0f4f7329",
+		"86991086"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "fc100201",
+		type: "dimension",
+		dim: -2543
+	}]
+}

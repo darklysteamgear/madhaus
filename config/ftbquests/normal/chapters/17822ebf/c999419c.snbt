@@ -1,0 +1,33 @@
+{
+	title: "L O G",
+	x: -4.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "862d4b35",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Log"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "logWood"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "72f91cde",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "fa1ee13f",
+		type: "loot",
+		table: 0
+	}]
+}

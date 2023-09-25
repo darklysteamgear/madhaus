@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: -1.5d,
+	description: "Ask Erebon for assistance",
+	dependencies: [
+		"87e84f70"
+	],
+	tasks: [{
+		uid: "a8fa1ca1",
+		type: "item",
+		items: [{
+			item: "aoa3:immortallis_realmstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

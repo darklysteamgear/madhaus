@@ -1,0 +1,25 @@
+{
+	title: "That stench, I've smelled it before...",
+	icon: "moreplanets:infected_grass_block",
+	x: 85.5d,
+	y: -6.5d,
+	shape: "circle",
+	dependencies: [
+		"0369b0d9",
+		"03c26ec3",
+		"29f2d581",
+		"c559447a",
+		"0d6dbb09",
+		"1fd760a2",
+		"f04850e0",
+		"d9c720e8"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "e7d1fc0b",
+		type: "dimension",
+		title: "Infected",
+		icon: "moreplanets:infected_grass_block",
+		dim: -2544
+	}]
+}

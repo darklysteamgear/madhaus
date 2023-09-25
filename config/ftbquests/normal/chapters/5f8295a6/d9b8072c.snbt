@@ -1,0 +1,13 @@
+{
+	title: "I came to dig dig dig dig",
+	x: -0.5d,
+	y: 4.5d,
+	tasks: [{
+		uid: "b53f5ad9",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}],
+		count: 100L
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	x: 85.0d,
+	y: -3.0d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "2777001f",
+		type: "item",
+		items: [{
+			item: "moreplanets:infected_sugar_cane"
+		}]
+	}]
+}

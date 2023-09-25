@@ -1,0 +1,20 @@
+{
+	title: "Ok... That's just destabilized redstone",
+	x: 8.0d,
+	y: 0.0d,
+	text: [
+		"Ever'one gangsta til D E ST A B I LI Z E D   R E D S T O NE"
+	],
+	tasks: [{
+		uid: "d6a92399",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 893"
+		}]
+	}],
+	rewards: [{
+		uid: "fff6ac95",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	}]
+}

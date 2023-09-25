@@ -1,0 +1,25 @@
+{
+	title: "More power requires better cable",
+	x: -10.5d,
+	y: 1.5d,
+	description: "mmm yes",
+	dependencies: [
+		"7701af6f"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "4581e30d",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 1
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d42a66a0",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

@@ -1,0 +1,82 @@
+setIcon(<minecraft:stone>)
+setTitle("Spotted")
+setDescription("...")
+
+addRewardFunction("triumph:spotted")
+addParent("triumph:events/root")
+
+
+criteria = addCriteria("fake_herobrine_mage", "minecraft:player_hurt_entity")
+criteria.setEntityType("herobrine:fake_herobrine_mage")
+criteria.setCount(1)
+
+criteria = addCriteria("herobrine_builder", "minecraft:player_hurt_entity")
+criteria.setEntityType("herobrine:herobrine_builder")
+criteria.setCount(1)
+
+criteria = addCriteria("herobrine_mage", "minecraft:player_hurt_entity")
+criteria.setEntityType("herobrine:herobrine_mage")
+criteria.setCount(1)
+
+criteria = addCriteria("herobrine_spy", "minecraft:player_hurt_entity")
+criteria.setEntityType("herobrine:herobrine_spy")
+criteria.setCount(1)
+
+criteria = addCriteria("herobrine_warrior", "minecraft:player_hurt_entity")
+criteria.setEntityType("herobrine:herobrine_warrior")
+criteria.setCount(1)
+
+criteria = addCriteria("infected_bat", "minecraft:player_hurt_entity")
+criteria.setEntityType("herobrine:infected_bat")
+criteria.setCount(1)
+
+criteria = addCriteria("infected_chicken", "minecraft:player_hurt_entity")
+criteria.setEntityType("herobrine:infected_chicken")
+criteria.setCount(1)
+
+criteria = addCriteria("infected_cow", "minecraft:player_hurt_entity")
+criteria.setEntityType("herobrine:infected_cow")
+criteria.setCount(1)
+
+criteria = addCriteria("infected_donkey", "minecraft:player_hurt_entity")
+criteria.setEntityType("herobrine:infected_donkey")
+criteria.setCount(1)
+
+criteria = addCriteria("infected_horse", "minecraft:player_hurt_entity")
+criteria.setEntityType("herobrine:infected_horse")
+criteria.setCount(1)
+
+criteria = addCriteria("infected_llama", "minecraft:player_hurt_entity")
+criteria.setEntityType("herobrine:infected_llama")
+criteria.setCount(1)
+
+criteria = addCriteria("infected_mooshroom", "minecraft:player_hurt_entity")
+criteria.setEntityType("herobrine:infected_mooshroom")
+criteria.setCount(1)
+
+criteria = addCriteria("infected_pig", "minecraft:player_hurt_entity")
+criteria.setEntityType("herobrine:infected_pig")
+criteria.setCount(1)
+
+criteria = addCriteria("infected_rabbit", "minecraft:player_hurt_entity")
+criteria.setEntityType("herobrine:infected_rabbit")
+criteria.setCount(1)
+
+criteria = addCriteria("infected_sheep", "minecraft:player_hurt_entity")
+criteria.setEntityType("herobrine:infected_sheep")
+criteria.setCount(1)
+
+criteria = addCriteria("infected_villager", "minecraft:player_hurt_entity")
+criteria.setEntityType("herobrine:infected_villager")
+criteria.setCount(1)
+
+criteria = addCriteria("infected_wolf", "minecraft:player_hurt_entity")
+criteria.setEntityType("herobrine:infected_wolf")
+criteria.setCount(1)
+
+setRequirements("any")
+setHidden(true)
+setShowToast(false)
+setAnnounceToChat(false)
+setUncompletedIconColor(71,71,71)
+setPos(40,-11)

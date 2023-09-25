@@ -1,0 +1,18 @@
+{
+	x: 6.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "3f83a888",
+		type: "observation",
+		title: "So, You've made it to day 100",
+		icon: "minecraft:chest",
+		match_type: "entity_id",
+		match: "grimoireofgaia:mimic",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "8b9378de",
+		type: "ftbmoney:money",
+		ftb_money: 20000L
+	}]
+}

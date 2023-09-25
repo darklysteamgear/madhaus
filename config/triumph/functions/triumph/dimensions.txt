@@ -1,0 +1,5 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"A peice of the sludge menace crawls at you... Before you can react, it absorbs into you, and you feel a surge of knowledge on creating dimensions enter your head.","color":"blue","italic":true}]
+playsound rftoolsdim:deep_rumble ambient @a[r=50] ~ ~ ~ 1 0.5
+gamestage silentadd @p dimension

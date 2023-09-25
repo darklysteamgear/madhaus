@@ -1,0 +1,28 @@
+{
+	title: "I'm gonna put you in the hospital",
+	x: -2.5d,
+	y: 9.5d,
+	tasks: [{
+		uid: "df194282",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "conarm:leggings_core"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "cea847a6",
+		type: "command",
+		title: "STOP, GO TO JAIL YOU CHEATING SCUM",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon motnt:warp_tnt"
+	},
+	{
+		uid: "2a9eaf16",
+		type: "command",
+		title: "Don't drop the soap",
+		command: "/execute @p ~ ~ ~ summon motnt:tnt20"
+	}]
+}

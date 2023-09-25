@@ -1,0 +1,1 @@
+Source for this version of sound physics. Added this version instead of version on curse due to the version on curse throwing multiple errors and being much less optimized. https://github.com/djpadbit/Sound-Physics/releases

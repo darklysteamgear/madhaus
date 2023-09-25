@@ -1,0 +1,11 @@
+{
+    "internalName": "block.avs36ammo",
+    "displayName": "AVS-36 Mag 15rnd",
+    "ammoCapacity": 15,
+	"reloadTimeFactor": 1.4,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.sniperbullet"
+    ],
+    "allowEmptyMagazines": true
+}

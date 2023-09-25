@@ -1,0 +1,38 @@
+{
+	x: -1.0d,
+	y: 3.0d,
+	text: [
+		"Make a wish upon a portal made of glowing darkstone bricks to visit a world of cliffs that has been lost to time."
+	],
+	dependencies: [
+		"442ab6a0"
+	],
+	tasks: [{
+		uid: "a77d089a",
+		type: "dimension",
+		icon: "minecraft:bedrock",
+		dim: 55
+	}],
+	rewards: [{
+		uid: "6e56d3c3",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 4
+	},
+	{
+		uid: "da9acdce",
+		type: "item",
+		item: "motnt:festive_tnt",
+		count: 6
+	},
+	{
+		uid: "4d049920",
+		type: "ftbmoney:money",
+		ftb_money: 8000L
+	},
+	{
+		uid: "951b0143",
+		type: "random",
+		table: 3
+	}]
+}

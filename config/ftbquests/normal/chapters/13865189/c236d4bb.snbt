@@ -1,0 +1,21 @@
+{
+	title: "They laughed and said;",
+	x: -7.0d,
+	y: -9.5d,
+	dependencies: [
+		"0507365f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bd0bf5c3",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:basic_item 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "492b9f49",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	}]
+}

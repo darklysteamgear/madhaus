@@ -1,0 +1,24 @@
+{
+	title: "End Tracks",
+	icon: "minecraft:end_portal_frame",
+	x: 1.5d,
+	y: 3.0d,
+	description: "Credit for all of these tracks goes to all of these amazing people. Go support them!",
+	text: [
+		"END",
+		"",
+		"C418 - The End",
+		"",
+		"Celestial Fury - Minecraft: The End [Celestial Fury Metal Cover]"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "44fc0815",
+		type: "observation",
+		title: "End Tracks",
+		icon: "minecraft:noteblock",
+		match_type: "block_id",
+		match: "",
+		timer: 0L
+	}]
+}

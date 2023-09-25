@@ -1,0 +1,19 @@
+{
+	title: "From coal to diamonds",
+	x: -11.5d,
+	y: 7.0d,
+	description: "One of the greatest things about ic2",
+	size: 3.0d,
+	tasks: [{
+		uid: "813a9eb4",
+		type: "item",
+		items: [{
+			item: "ic2:crafting 1 18"
+		}]
+	}],
+	rewards: [{
+		uid: "6233fab3",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	}]
+}

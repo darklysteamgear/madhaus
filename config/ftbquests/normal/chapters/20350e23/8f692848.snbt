@@ -1,0 +1,20 @@
+{
+	title: "My sword's made of diamonds so come at me BRO",
+	x: 2.0d,
+	y: -2.0d,
+	dependencies: [
+		"a62bf368"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d1cd8fd5",
+		type: "kill",
+		entity: "galacticraftplanets:creeper_boss",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "93c1534e",
+		type: "ftbmoney:money",
+		ftb_money: 20000L
+	}]
+}

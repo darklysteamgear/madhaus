@@ -1,0 +1,17 @@
+{
+	title: "Dark and spooooky",
+	icon: "extrautils2:teleporter 1 1",
+	x: -3.0d,
+	y: -3.0d,
+	size: 2.0d,
+	tasks: [{
+		uid: "db0f4a61",
+		type: "dimension",
+		dim: -11325
+	}],
+	rewards: [{
+		uid: "2053b6c7",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	}]
+}

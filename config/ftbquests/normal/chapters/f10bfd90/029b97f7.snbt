@@ -1,0 +1,27 @@
+{
+	x: 4.5d,
+	y: -6.0d,
+	dependencies: [
+		"ab0a92a8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0a8c2445",
+		type: "kill",
+		title: "I’ll find that key, inside of me, as we try to level up.",
+		icon: "xreliquary:mob_charm_fragment 1 1",
+		entity: "mutantbeasts:mutant_skeleton",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "c0d2e177",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "8b15f703",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

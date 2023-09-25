@@ -1,0 +1,15 @@
+[[xenomorphqueen]]
+	[[xenomorphqueen.trigger]]
+		name = "mob"
+		level = "1"
+		resource_name = "zollerngalaxy:xenomorphqueen"
+		detection_range = "2000"
+		identifier = "XenoQ"
+		priority = "1"
+	[[xenomorphqueen.trigger]]
+		resource_name = "biome"
+		identifier = "blocker"
+
+[music]
+	[music.furretwalk]
+		triggers = ["time-day" "dimension-61"]

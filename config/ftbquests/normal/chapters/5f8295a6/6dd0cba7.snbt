@@ -1,0 +1,17 @@
+{
+	title: "I'll mine it all with TNT",
+	x: 9.0d,
+	y: 0.0d,
+	dependencies: [
+		"d6a5c658"
+	],
+	hide: true,
+	tasks: [{
+		uid: "975d6d41",
+		type: "item",
+		items: [{
+			item: "motnt:mining_tnt"
+		}],
+		count: 10L
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	title: "I have a pineapple",
+	x: 1.5d,
+	y: 1.0d,
+	dependencies: [
+		"e22b1aa3"
+	],
+	tasks: [{
+		uid: "4f973893",
+		type: "item",
+		items: [{
+			item: "memeinabottle:pineapple"
+		}]
+	}]
+}

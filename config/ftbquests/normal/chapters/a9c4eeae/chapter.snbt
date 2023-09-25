@@ -1,0 +1,10 @@
+{
+	title: "Community Bundles",
+	icon: "aether_legacy:present",
+	description: [
+		"What is this? Stardew valley?"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

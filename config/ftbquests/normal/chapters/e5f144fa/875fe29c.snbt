@@ -1,0 +1,114 @@
+{
+	title: "LAZER BEEEEAAAAM",
+	x: -1.0d,
+	y: -3.0d,
+	description: "Pew pew pew pewpewpewpew",
+	dependencies: [
+		"e3183566"
+	],
+	tasks: [{
+		uid: "d0d30e05",
+		type: "item",
+		items: [{
+			id: "moreplanets:laser_gun",
+			tag: {
+				electricity: 100000.0f
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c3ee7908",
+		type: "item",
+		items: [{
+			id: "ic2:mining_laser",
+			tag: {
+				charge: 300000.0d
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4e011d0b",
+		type: "item",
+		items: [{
+			id: "aoa3:laser_blaster",
+			tag: {
+				HideFlags: 2b
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1f69c08f",
+		type: "item",
+		items: [{
+			item: "lcrdrfs:laser_blaster"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "252a815d",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:laser_turret"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "2f41eefd",
+		type: "item",
+		items: [{
+			item: "icbmclassic:laserdetonator"
+		}],
+		consume_items: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4abf68d7",
+		type: "item",
+		items: [{
+			item: "deepresonance:laser"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "1a3dab47",
+		type: "item",
+		items: [{
+			item: "buildcraftsilicon:laser"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "30a63b15",
+		type: "item",
+		items: [{
+			item: "sapturretmod:turret_laser"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "f29b4040",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_laser_relay"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "1005eb29",
+		type: "item",
+		title: "LEGALIZE NUCLEAR BOMBS",
+		item: "extraplanets:nuclear_bomb",
+		count: 100
+	}]
+}

@@ -1,0 +1,10 @@
+{
+	title: "Miscellaneous",
+	icon: "minecraft:bucket",
+	description: [
+		"I don't even know what half this stuff is"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

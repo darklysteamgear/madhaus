@@ -1,0 +1,11 @@
+{
+    "internalName": "block.m1924ammo",
+    "displayName": "MAC M1924 Mag 25rnd",
+    "ammoCapacity": 25,
+	"reloadTimeFactor": 1.4,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.lmgbullet"
+    ],
+    "allowEmptyMagazines": true
+}

@@ -1,0 +1,26 @@
+{
+	title: "The ultimate cable",
+	x: -15.0d,
+	y: 1.5d,
+	description: "of ultimate destiny",
+	dependencies: [
+		"e24fe7eb"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "199ef830",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 3
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1e892c3b",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

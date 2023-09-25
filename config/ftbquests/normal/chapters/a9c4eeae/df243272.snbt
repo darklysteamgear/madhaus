@@ -1,0 +1,36 @@
+{
+	title: "Wiggly Bois",
+	icon: "actuallyadditions:item_worm",
+	x: -1.0d,
+	y: -1.0d,
+	shape: "rsquare",
+	description: "Give me your wormwood so I can convert them to WIGGLY BOIS",
+	text: [
+		"Man, look at him GO! HE WIGGLIN LIKE A BOI"
+	],
+	dependencies: [
+		"1ba3bf93",
+		"c32260c3",
+		"e963e7ec"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7c5cfe38",
+		type: "item",
+		items: [{
+			item: "bewitchment:wormwood"
+		}],
+		count: 4L,
+		consume_items: true
+	},
+	{
+		uid: "36805f7a",
+		type: "ftbmoney:money",
+		value: 200L
+	}],
+	rewards: [{
+		uid: "300b43ab",
+		type: "item",
+		item: "actuallyadditions:item_worm"
+	}]
+}

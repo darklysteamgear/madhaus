@@ -1,0 +1,26 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"a62bf368"
+	],
+	tasks: [{
+		uid: "eafa2f77",
+		type: "stat",
+		title: "mega oof",
+		icon: "evilcraft:condensed_blood",
+		stat: "stat.deaths",
+		value: 20
+	}],
+	rewards: [{
+		uid: "d566a7fc",
+		type: "item",
+		item: "tconstruct:edible 1 33",
+		count: 8
+	},
+	{
+		uid: "60e22679",
+		type: "ftbmoney:money",
+		ftb_money: 1200L
+	}]
+}

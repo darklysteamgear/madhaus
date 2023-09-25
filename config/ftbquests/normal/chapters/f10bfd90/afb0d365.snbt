@@ -1,0 +1,43 @@
+{
+	x: 2.0d,
+	y: 3.0d,
+	text: [
+		"Make a wish upon a portal made of origin leaves to visit the world we've all seen, but never could visit.",
+		"",
+		"",
+		"Let's give a huge hand to the major community effort put into actually finding this seed",
+		"Here is a list of all the contributors of people who helped find this amazing peice of minecraft history:",
+		"",
+		"https://docs.google.com/spreadsheets/d/1zdJWcdTydLClg0jy-fpKLH5nR8xTyY1tvZ-vc1u0W8o/edit#gid=0"
+	],
+	dependencies: [
+		"442ab6a0"
+	],
+	tasks: [{
+		uid: "f3fd2e23",
+		type: "dimension",
+		icon: "biomesoplenty:leaves_2 1 8",
+		dim: 54
+	}],
+	rewards: [{
+		uid: "55544c2c",
+		type: "ftbmoney:money",
+		ftb_money: 8000L
+	},
+	{
+		uid: "c8403c74",
+		type: "item",
+		item: "motnt:festive_tnt",
+		count: 4
+	},
+	{
+		uid: "95e9be90",
+		type: "loot",
+		table: 4
+	},
+	{
+		uid: "115ca840",
+		type: "item",
+		item: "minecraft:boat"
+	}]
+}

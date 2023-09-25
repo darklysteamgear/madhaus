@@ -1,0 +1,17 @@
+{
+	title: "A map, Darkly!",
+	x: 1.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "80f8d477",
+		type: "item",
+		items: [{
+			item: "antiqueatlas:empty_antique_atlas"
+		}]
+	}],
+	rewards: [{
+		uid: "1927532e",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	}]
+}

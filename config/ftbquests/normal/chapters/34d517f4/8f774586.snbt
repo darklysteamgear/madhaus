@@ -1,0 +1,22 @@
+{
+	title: "Teleporty!",
+	x: -1.0d,
+	y: 4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"17e73f18"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f6043e75",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:teleporter_turret"
+		}]
+	}],
+	rewards: [{
+		uid: "22865e7b",
+		type: "ftbmoney:money",
+		ftb_money: 7000L
+	}]
+}

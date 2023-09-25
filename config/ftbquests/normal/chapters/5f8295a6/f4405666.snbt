@@ -1,0 +1,16 @@
+{
+	x: -0.5d,
+	y: 1.5d,
+	dependencies: [
+		"15ebbe1f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "56689368",
+		type: "kill",
+		title: "Just wait a sec gotta kill this pig pig pig pig",
+		icon: "fossil:pig_syringe",
+		entity: "abyssalcraft:evilpig",
+		value: 10L
+	}]
+}

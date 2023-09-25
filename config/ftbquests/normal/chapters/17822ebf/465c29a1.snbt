@@ -1,0 +1,89 @@
+{
+	title: "I'm so tired... Just take it. JUST TAKE IT ALREADY",
+	x: 2.5d,
+	y: 6.0d,
+	description: "I give up... you have bested me. also, I just don't really feel like adding any more quests here",
+	text: [
+		"Yeah, just feeling lazy today, so here are all of my beans you scundrel, scum of the earth, cheating, no good, no fun, barbarian that makes overpowered fricking hecking tinkers construct stuff",
+		"",
+		"",
+		"...",
+		"What did it cost?",
+		"Everything."
+	],
+	dependencies: [
+		"0898c21c",
+		"69068c41",
+		"e147eb8e",
+		"c29bd551",
+		"bf50ae5e",
+		"542690f4",
+		"e5c9a9d3",
+		"f1eb32b1",
+		"0c031f9d",
+		"c4cc642d",
+		"d8674085",
+		"6b04d7e7",
+		"1a957d31",
+		"ccd193f4",
+		"f221374f",
+		"21f44805",
+		"0090a7e6",
+		"1f2bd8dc",
+		"6cd37924",
+		"a6ca613d",
+		"533d9bc5",
+		"b4253c98",
+		"2267409a",
+		"6a0cb0b2",
+		"e5f88407"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a675c660",
+		type: "item",
+		items: [{
+			id: "tconstruct:large_sword_blade",
+			tag: {
+				Material: "emeradic_actadd_plustic"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f00f4dd3",
+		type: "item",
+		item: "harvestcraft:bakedbeansitem",
+		count: 100
+	},
+	{
+		uid: "4358f777",
+		type: "item",
+		item: "harvestcraft:beanitem",
+		count: 100
+	},
+	{
+		uid: "13ad2d11",
+		type: "item",
+		item: "harvestcraft:jellybeansitem",
+		count: 100
+	},
+	{
+		uid: "4fd22f5e",
+		type: "item",
+		item: "twilightforest:magic_beans",
+		count: 30
+	},
+	{
+		uid: "841421df",
+		type: "item",
+		item: "harvestcraft:beansontoastitem",
+		count: 100
+	},
+	{
+		uid: "035fe1f9",
+		type: "ftbmoney:money",
+		ftb_money: 125000L
+	}]
+}

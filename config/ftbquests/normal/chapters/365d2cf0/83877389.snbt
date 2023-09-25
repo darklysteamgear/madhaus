@@ -1,0 +1,14 @@
+{
+	title: "Visit Lunalus",
+	icon: "aoa3:lunalons",
+	x: 2.0d,
+	y: 5.0d,
+	dependencies: [
+		"d5af450f"
+	],
+	tasks: [{
+		uid: "c7da04b3",
+		type: "dimension",
+		dim: 816
+	}]
+}

@@ -1,0 +1,5 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"All kinds of creeps and weirdos begin pouring out of the portal you opened... Fragments of a lost past. Wishes really can come true","color":"white","italic":true}]
+playsound minecraft:morecreeps:welcome ambient @a[r=50] ~ ~ ~ 1 0.5
+gamestage silentadd @p creeps

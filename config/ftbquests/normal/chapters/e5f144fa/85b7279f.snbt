@@ -1,0 +1,75 @@
+{
+	title: "CHEEEEEEEEEEEEEEEEEEEEEEEEEEEESSSSSSSSEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE",
+	x: 0.0d,
+	y: 0.0d,
+	description: "cheese pls",
+	text: [
+		"Cheeese for some CHEEEEEEEEEEEEEEEEEEESE"
+	],
+	dependencies: [
+		"e3183566"
+	],
+	tasks: [{
+		uid: "20fc79be",
+		type: "item",
+		items: [{
+			id: "openblocks:tank",
+			tag: {
+				tank: {
+					FluidName: "cheese_milk_fluid",
+					Amount: 16000
+				}
+			}
+		}],
+		count: 20L,
+		consume_items: true
+	},
+	{
+		uid: "b75908ac",
+		type: "item",
+		items: [{
+			id: "openblocks:tank",
+			tag: {
+				tank: {
+					FluidName: "gaseous_cheese_milk",
+					Amount: 16000
+				}
+			}
+		}],
+		count: 20L,
+		consume_items: true
+	},
+	{
+		uid: "96df0968",
+		type: "item",
+		items: [{
+			item: "moreplanets:cheese_milk_curd"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "0b0865c5",
+		type: "item",
+		item: "moreplanets:cheese_milk_curd",
+		count: 420
+	},
+	{
+		uid: "bef3373a",
+		type: "item",
+		item: "moreplanets:cheese_spore_berry",
+		count: 999
+	},
+	{
+		uid: "4b8d730e",
+		type: "item",
+		item: "moreplanets:cheese_fish",
+		count: 69
+	},
+	{
+		uid: "0b3529e9",
+		type: "item",
+		item: "moreplanets:cheese_slime_block",
+		count: 420
+	}]
+}

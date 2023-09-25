@@ -1,0 +1,79 @@
+{
+    "internalName":"block.rpk",
+    "displayName":"RPK",
+    "weaponType":"carbine",
+    "extraLore": "The smugglers brought in so many of them that they were given away for free.",
+    "customFlashTexture":"prototype.advanced.flash",
+    "gunDamage":9.5,
+    "gunDamageHeadshotBonus":1.5,
+    "roundsPerMin":400,
+    "allowEmptyMagazines":true,
+    "recoilPitch": 4.5,
+    "recoilYaw": 0.4,
+    "randomRecoilPitch": 0.6,
+    "randomRecoilYaw": 0.0,
+    "bulletSpread":0.25,
+    "accuracySneakFactor":0.125,
+    "moveSpeedModifier":0.87,
+    "allowSprintFiring":false,
+    "fireModes":[
+        "full",
+        "semi"
+    ],
+    "acceptedAmmo":[
+        "block.rpkammo"
+    ],
+    "dropBulletCasing":true,
+    "shellEjectOffsetNormal":{
+        "x":-1.0,
+        "y":0.0,
+        "z":1.0
+    },
+    "shellEjectOffsetAiming":{
+        "x":-0.2,
+        "y":0.12,
+        "z":0.5
+    },
+    "weaponSoundMap":{
+        "weaponFire":[
+            {
+                "soundEvent":"weaponFire",
+                "soundName":"block.rpk.shoot",
+                "soundNameDistant":"block.lmg.shoot.distant",
+                "soundRange":64,
+                "soundMaxRange":96,
+                "soundFadeMultiplier":1
+            }
+        ],
+        "weaponUnload":[
+            {
+                "soundEvent":"weaponReload",
+                "soundName":"prototype.generic.reload"
+            }
+        ],
+		"weaponReload": [
+			{
+        "soundEvent": "weaponReload",
+        "soundName": "block.long15.reload"
+			}
+		],
+        "weaponFireSuppressed":[
+            {
+                "soundEvent":"weaponFireSuppressed",
+                "soundName":"block.rpk.shoot.sup",
+                "soundRange":30,
+                "soundMaxRange":50,
+                "soundFadeMultiplier":1
+            }
+        ]
+    },
+    "acceptedAttachments":{
+    },
+    "modelSkins":[
+        {
+            "internalName":"block.rpk",
+            "skinAsset":"block.rpk",
+            "displayName":"Default"
+        }
+    ]
+}

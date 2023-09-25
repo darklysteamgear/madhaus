@@ -1,0 +1,20 @@
+{
+	x: -12.0d,
+	y: -46.5d,
+	shape: "circle",
+	dependencies: [
+		"393cdcf0"
+	],
+	size: 6.0d,
+	tasks: [{
+		uid: "e463e24f",
+		type: "checkmark",
+		title: "Kepler System",
+		icon: "minecraft:double_plant"
+	}],
+	rewards: [{
+		uid: "9b52ff54",
+		type: "ftbmoney:money",
+		ftb_money: 25000L
+	}]
+}

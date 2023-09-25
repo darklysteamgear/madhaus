@@ -1,0 +1,17 @@
+{
+	x: 1.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "56e68563",
+		type: "item",
+		items: [{
+			item: "teslacorelib:machine_case"
+		}]
+	}],
+	rewards: [{
+		uid: "685d6ae2",
+		type: "ftbmoney:money",
+		ftb_money: 2500L,
+		random_bonus: 2500
+	}]
+}

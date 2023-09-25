@@ -1,0 +1,25 @@
+{
+	title: "Don't forget the essentials!!!",
+	x: 2.0d,
+	y: 7.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"63015229"
+	],
+	hide: true,
+	tasks: [{
+		uid: "25e6771a",
+		type: "item",
+		items: [{
+			id: "aoa3:grenade",
+			tag: {
+				HideFlags: 2b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "8db351a2",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 1.0d,
+	y: 5.0d,
+	dependencies: [
+		"c880d1e9"
+	],
+	tasks: [{
+		uid: "74afb567",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:latex_processing_unit"
+		}]
+	}],
+	rewards: [{
+		uid: "acb309c1",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Sludge em!",
+	x: -7.0d,
+	y: 4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"63015229"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e1a07a49",
+		type: "item",
+		items: [{
+			id: "aoa3:sludge_sniper",
+			tag: {
+				HideFlags: 2b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "af8ccded",
+		type: "ftbmoney:money",
+		ftb_money: 2700L,
+		random_bonus: 1000
+	}]
+}

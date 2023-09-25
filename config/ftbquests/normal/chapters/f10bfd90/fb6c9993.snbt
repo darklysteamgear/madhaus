@@ -1,0 +1,27 @@
+{
+	title: "To 0 80 0",
+	x: 17.5d,
+	y: 17.0d,
+	description: "If you get too lost, you can use this to get back to the zero coordinates",
+	can_repeat: true,
+	dependencies: [
+		"7a8295b7",
+		"8877d14d"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "6fdde1e1",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "ea100398",
+		type: "command",
+		title: "Back to zero",
+		icon: "minecraft:bedrock",
+		command: "/tp @p 0 75 0"
+	}]
+}

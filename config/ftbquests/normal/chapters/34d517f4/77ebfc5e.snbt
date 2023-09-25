@@ -1,0 +1,41 @@
+{
+	title: "Modern problems require modern solutions!",
+	x: 3.5d,
+	y: -5.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bb06f65e",
+		type: "item",
+		items: [{
+			item: "modularwarfare:block.glock"
+		}]
+	}],
+	rewards: [{
+		uid: "8c1e51fa",
+		type: "command",
+		title: "modern",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon specialmobs:gatlingskeleton"
+	},
+	{
+		uid: "e8ede75a",
+		type: "command",
+		title: "h",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon specialmobs:gatlingskeleton"
+	},
+	{
+		uid: "32c904e0",
+		type: "command",
+		title: "hhh",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon specialmobs:gatlingskeleton"
+	}]
+}

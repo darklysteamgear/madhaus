@@ -1,0 +1,27 @@
+{
+	title: "Gravity defying blocks",
+	x: 84.5d,
+	y: -38.5d,
+	shape: "square",
+	tasks: [{
+		uid: "52cee6ed",
+		type: "item",
+		items: [{
+			item: "moreplanets:gravity_creep_block"
+		}]
+	},
+	{
+		uid: "675831ee",
+		type: "item",
+		items: [{
+			item: "moreplanets:gravity_creep_extractor"
+		}]
+	},
+	{
+		uid: "aeaa244f",
+		type: "item",
+		items: [{
+			item: "moreplanets:creep_block"
+		}]
+	}]
+}

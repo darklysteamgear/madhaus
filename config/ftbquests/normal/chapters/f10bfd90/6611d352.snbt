@@ -1,0 +1,22 @@
+{
+	title: "Take a vacation! [CURRENTLY BROKEN]",
+	icon: "harvestcraft:tropicalgarden",
+	x: -5.0d,
+	y: -2.5d,
+	description: "It might come back eventually. Tropicraft is far too broken for me to include it. It breaks the replay mod, which is a huge no",
+	text: [
+		"I might fix the 1.12.2 version myself. Stay tuned in for the next update if I really do!"
+	],
+	size: 1.5d,
+	optional: true,
+	tasks: [{
+		uid: "c1d98d1c",
+		type: "dimension",
+		dim: -153
+	}],
+	rewards: [{
+		uid: "79675a0e",
+		type: "ftbmoney:money",
+		ftb_money: 15000L
+	}]
+}

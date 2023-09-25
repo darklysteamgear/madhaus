@@ -1,0 +1,17 @@
+{
+	title: "Alien rubies!",
+	x: 11.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "e9a70b15",
+		type: "item",
+		items: [{
+			item: "extraplanets:tier5_items 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "d7768d54",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: -3.0d,
+	y: -3.0d,
+	description: "Oil is pretty cool ngl",
+	dependencies: [
+		"e3183566",
+		"875fe29c"
+	],
+	tasks: [{
+		uid: "1f6f864c",
+		type: "biome",
+		title: "OIL",
+		icon: {
+			id: "thermalexpansion:florb",
+			tag: {
+				Fluid: "oil"
+			}
+		},
+		biome: "buildcraftenergy:oil_desert"
+	}],
+	rewards: [{
+		uid: "d2f0e427",
+		type: "item",
+		item: "morecreeps:money",
+		count: 20
+	},
+	{
+		uid: "44dd5c80",
+		type: "random",
+		table: 3
+	}]
+}

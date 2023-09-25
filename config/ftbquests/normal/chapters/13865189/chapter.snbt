@@ -1,0 +1,10 @@
+{
+	title: "Moonquest",
+	icon: "galacticraftplanets:rocket_t3 1 4",
+	description: [
+		"A young dwarf is dreaming of a world he's never seen"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

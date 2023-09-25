@@ -1,0 +1,18 @@
+{
+    "name": "Overworld",
+    "icon": "minecraft:writable_book",
+    "category": "underground",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "text",
+            "text": "The overworld is filled with many custom dungeons as well, you never know what you will find in this madhaus. Take care when exploring!"
+        },
+                {
+        "type" : "image", 
+        "images": [
+            "madhaus:textures/book/scp.png"
+        ]
+        }
+    ]
+}

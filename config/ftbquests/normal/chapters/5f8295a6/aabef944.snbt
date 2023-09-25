@@ -1,0 +1,19 @@
+{
+	title: "'Cause TNT is just awesome",
+	icon: "motnt:tnt100",
+	x: 18.5d,
+	y: -1.5d,
+	dependencies: [
+		"33ad63f3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "62726b2d",
+		type: "observation",
+		title: "Observe placing a tnt x100",
+		icon: "motnt:tnt100",
+		match_type: "block_id",
+		match: "motnt:tnt100",
+		timer: 20L
+	}]
+}

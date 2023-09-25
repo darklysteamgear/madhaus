@@ -1,0 +1,22 @@
+{
+	title: "Fallen down",
+	x: 0.5d,
+	y: 0.0d,
+	shape: "circle",
+	description: "Sometimes even shooting stars find wishes that miss their marks",
+	text: [
+		"But when the night gets too dark,",
+		"And the road home seems too far,",
+		"We'll see the sun come up again,",
+		"We will climb higher than we've been,",
+		"We got a fire that burns within"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "59b88679",
+		type: "item",
+		items: [{
+			item: "nyx:fallen_star"
+		}]
+	}]
+}

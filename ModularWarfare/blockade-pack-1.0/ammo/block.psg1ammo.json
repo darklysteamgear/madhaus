@@ -1,0 +1,11 @@
+{
+    "internalName": "block.psg1ammo",
+    "displayName": "PSG-1 Mag 6rnd",
+    "ammoCapacity": 6,
+	"reloadTimeFactor": 2.0,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.sniperbullet"
+    ],
+    "allowEmptyMagazines": true
+}

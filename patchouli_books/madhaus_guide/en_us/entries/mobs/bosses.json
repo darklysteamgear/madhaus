@@ -1,0 +1,18 @@
+{
+    "name": "Bosses",
+    "icon": "minecraft:writable_book",
+    "category": "mobs",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "There are several bosses in this mad world. If you think you are ready, face them! Killing a boss will decrease the difficulty, and defeating some bosses even unlock events and even crafting recipies, so go out there and take back the night!"
+        },
+                {
+        "type" : "image", 
+        "images": [
+            "madhaus:textures/book/creeper.png"
+        ]
+        }
+    ]
+}

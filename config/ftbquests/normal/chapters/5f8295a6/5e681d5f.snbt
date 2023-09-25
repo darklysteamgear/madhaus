@@ -1,0 +1,17 @@
+{
+	title: "Because I am a creeper I will rob",
+	icon: "minecraft:skull 1 4",
+	x: 12.0d,
+	y: -0.5d,
+	dependencies: [
+		"9bd2cca3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "63066077",
+		type: "kill",
+		title: "Kill 5 creeps from grimoire of gaia",
+		entity: "grimoireofgaia:creep",
+		value: 5L
+	}]
+}

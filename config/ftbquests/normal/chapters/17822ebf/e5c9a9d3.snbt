@@ -1,0 +1,22 @@
+{
+	title: "I will crash the game if you don't stop",
+	x: -2.5d,
+	y: 7.5d,
+	tasks: [{
+		uid: "f9018cb4",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "conarm:helmet_core"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4a1d78f0",
+		type: "command",
+		title: "Fart you",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon tnt"
+	}]
+}

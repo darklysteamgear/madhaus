@@ -1,0 +1,11 @@
+{
+    "internalName": "block.gewehr43ammo",
+    "displayName": "Gewehr 43 Mag 10rnd",
+    "ammoCapacity": 10,
+	"reloadTimeFactor": 2.0,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.sniperbullet"
+    ],
+    "allowEmptyMagazines": true
+}

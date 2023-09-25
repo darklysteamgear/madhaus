@@ -1,0 +1,111 @@
+{
+	title: "I came to blow up everything you've ever known",
+	icon: "minecraft:tnt_minecart",
+	loot_size: 1,
+	rewards: [{
+		item: "minecraft:tnt",
+		count: 12,
+		weight: 5
+	},
+	{
+		item: "ic2:te 1 1",
+		weight: 5
+	},
+	{
+		item: "mekanism:obsidiantnt"
+	},
+	{
+		item: "stupidthings:reverse_tnt"
+	},
+	{
+		item: "ic2:te 1 2"
+	},
+	{
+		item: "minecraft:tnt",
+		count: 32
+	},
+	{
+		item: "motnt:warp_tnt"
+	},
+	{
+		item: "motnt:mining_tnt"
+	},
+	{
+		item: "motnt:fire_tnt"
+	},
+	{
+		item: "motnt:lightning_tnt"
+	},
+	{
+		item: "motnt:ocean_tnt"
+	},
+	{
+		item: "motnt:lava_tnt"
+	},
+	{
+		item: "motnt:gravity_tnt"
+	},
+	{
+		item: "motnt:bunkerbuster_tnt"
+	},
+	{
+		item: "motnt:chunkbuster_tnt"
+	},
+	{
+		item: "motnt:biomebuster_tnt"
+	},
+	{
+		item: "motnt:slimy_tnt"
+	},
+	{
+		item: "motnt:cluster_tnt"
+	},
+	{
+		item: "motnt:packed_tnt"
+	},
+	{
+		item: "motnt:festive_tnt"
+	},
+	{
+		item: "motnt:floating_tnt"
+	},
+	{
+		item: "motnt:absorb_tnt"
+	},
+	{
+		item: "motnt:tnt5"
+	},
+	{
+		item: "motnt:tnt10"
+	},
+	{
+		item: "motnt:tnt20"
+	},
+	{
+		item: "motnt:tnt100"
+	},
+	{
+		item: "motnt:tnt200"
+	},
+	{
+		item: "motnt:tnt500"
+	},
+	{
+		item: "motnt:tnt1000"
+	},
+	{
+		item: "motnt:blackhole_tnt"
+	},
+	{
+		item: "motnt:troll_tnt"
+	},
+	{
+		item: "motnt:rising_tnt"
+	},
+	{
+		item: "motnt:flatter_tnt"
+	},
+	{
+		item: "motnt:zeus_tnt"
+	}]
+}

@@ -1,0 +1,5 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"A whirling fragment of the dead boss phases into you... You gain knowledge from a long dead engineer on incredible technology.","color":"blue","italic":true}]
+playsound rftools:teleport_whoosh ambient @a[r=50] ~ ~ ~ 1 0.5
+gamestage silentadd @p tools

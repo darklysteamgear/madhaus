@@ -1,0 +1,15 @@
+{
+	title: "Callisto",
+	icon: "extraplanets:callisto",
+	x: 24.5d,
+	y: -12.0d,
+	shape: "circle",
+	size: 2.0d,
+	tasks: [{
+		uid: "6be30e3f",
+		type: "dimension",
+		title: "Callisto",
+		icon: "extraplanets:callisto",
+		dim: -1505
+	}]
+}

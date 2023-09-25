@@ -1,0 +1,20 @@
+{
+	x: 1.5d,
+	y: 3.0d,
+	description: "Look at him go!!!",
+	tasks: [{
+		uid: "54c80220",
+		type: "observation",
+		title: "Bongo Time!!!",
+		icon: "tropicraft:bongo 1 2",
+		match_type: "entity_id",
+		match: "memeinabottle:bongo_cat",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "5e0da130",
+		type: "item",
+		item: "botania:forestdrum",
+		random_bonus: 1
+	}]
+}

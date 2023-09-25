@@ -1,0 +1,5 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"You see something trailing you back home in the sky... You were followed","color":"blue","italic":true}]
+playsound rftools:teleport_whoosh ambient @a[r=50] ~ ~ ~ 1 0.5
+gamestage silentadd @p ufo

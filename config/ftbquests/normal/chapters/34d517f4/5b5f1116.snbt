@@ -1,0 +1,21 @@
+{
+	title: "BOOM BOOM to you too creeper!",
+	x: 0.5d,
+	y: 1.5d,
+	hide: true,
+	tasks: [{
+		uid: "4c6fffb1",
+		type: "item",
+		items: [{
+			item: "lcrdrfs:creepssile_bazookoid"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "43748165",
+		type: "ftbmoney:money",
+		ftb_money: 2000L,
+		random_bonus: 500
+	}]
+}

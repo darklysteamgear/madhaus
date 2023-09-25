@@ -1,0 +1,13 @@
+{
+	x: 9.0d,
+	y: 43.0d,
+	shape: "circle",
+	size: 2.0d,
+	tasks: [{
+		uid: "fc9a9bb4",
+		type: "dimension",
+		title: "Oberon",
+		icon: "extraplanets:oberon",
+		dim: -1509
+	}]
+}

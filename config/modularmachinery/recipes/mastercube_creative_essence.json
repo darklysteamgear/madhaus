@@ -1,0 +1,45 @@
+{
+    "machine": "mastercube",
+    "registryName": "mastercube_creative_essence",
+    "recipeTime": 72000,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 1000000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "projectex:final_star"
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "extendedcrafting:material@13"
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "pixelmon:master_ball",
+			"nbt": {
+            "display": {
+                "Lore": [
+                    "Synthetic Master Ball"
+					]
+				}
+			}
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "experience",
+            "amount": 1000000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "contenttweaker:creative_essence"
+        }
+    ]
+}

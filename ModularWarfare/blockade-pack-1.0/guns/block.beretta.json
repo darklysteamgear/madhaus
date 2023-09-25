@@ -1,0 +1,67 @@
+{
+    "displayName": "Beretta",
+    "internalName": "block.beretta",
+    "gunDamage": 8,
+	"gunDamageHeadshotBonus": 1.5,
+    "roundsPerMin": 270,
+    "allowEmptyMagazines": true,
+    "weaponType": "pistol",
+	"extraLore": "Italian passion. It's a pity you can't take two at once. Wait. can you?",
+    "customFlashTexture": "prototype.advanced.flash",
+    "acceptedAmmo": [
+        "block.berettaammo"
+    ],
+    "fireModes": [
+        "full",
+        "semi"
+    ],
+    "recoilPitch": 0.8,
+    "recoilYaw": 0.3,
+    "randomRecoilPitch": 0.7,
+    "randomRecoilYaw": 0.0,
+	"bulletSpread": 1.25,
+    "armPose": "ITEM",
+    "armPoseAiming": "BOW_AND_ARROW",
+    "accuracySneakFactor": 0.75,
+    "moveSpeedModifier": 1,
+    "allowSprintFiring": true,
+    "dropBulletCasing": true,
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "block.beretta.shoot",
+                "soundNameDistant": "block.plight.shoot.distant",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponReload": [
+            {
+                "soundEvent": "weaponReload",
+                "soundName": "block.beretta.reload"
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "block.beretta.shoot.sup",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+            }
+        ]
+    },
+    "acceptedAttachments": {
+        
+    },
+	"modelSkins": [
+        {
+            "internalName": "block.beretta",
+            "skinAsset": "block.beretta",
+            "displayName": "Default"
+        }
+    ]
+	
+}

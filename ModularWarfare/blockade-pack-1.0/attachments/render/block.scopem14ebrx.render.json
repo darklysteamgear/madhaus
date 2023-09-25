@@ -1,0 +1,11 @@
+{
+  "modelFileName": "block.scopem14ebrx.obj",
+  "extra": {
+    "modelScale": 1.0
+  },
+  "sight": {
+    "fovZoom": 8.0,
+    "mouseSensitivityFactor": 0.5,
+    "rectileScale": 0.8
+  }
+}

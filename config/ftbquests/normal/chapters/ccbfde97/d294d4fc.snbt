@@ -1,0 +1,16 @@
+{
+	x: -5.0d,
+	y: 0.0d,
+	shape: "octagon",
+	description: "Bing bong",
+	size: 3.0d,
+	tasks: [{
+		uid: "d16af5fa",
+		type: "observation",
+		title: "HE HAS COME BACK FOR ANOTHER VOTE RECOUNT!",
+		icon: "memeinabottle:trump_hair",
+		match_type: "entity_id",
+		match: "memeinabottle:donald_trump",
+		timer: 0L
+	}]
+}

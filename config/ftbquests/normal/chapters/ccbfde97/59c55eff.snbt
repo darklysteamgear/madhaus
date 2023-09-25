@@ -1,0 +1,15 @@
+{
+	title: "Oh no...",
+	x: 3.0d,
+	y: -12.0d,
+	shape: "circle",
+	description: "The start of something awful",
+	size: 2.0d,
+	tasks: [{
+		uid: "19fe6e41",
+		type: "item",
+		items: [{
+			item: "memeinabottle:meme_in_a_bottle"
+		}]
+	}]
+}

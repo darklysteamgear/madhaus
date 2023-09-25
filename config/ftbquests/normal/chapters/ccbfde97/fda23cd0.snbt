@@ -1,0 +1,17 @@
+{
+	title: "PILLS HERE",
+	x: 3.0d,
+	y: -5.0d,
+	tasks: [{
+		uid: "43671d7e",
+		type: "item",
+		items: [{
+			item: "memeinabottle:pills"
+		}]
+	}],
+	rewards: [{
+		uid: "601702f7",
+		type: "item",
+		item: "scp:panacea_pills"
+	}]
+}

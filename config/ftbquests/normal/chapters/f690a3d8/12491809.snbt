@@ -1,0 +1,37 @@
+{
+	title: "Nether Tracks",
+	icon: "minecraft:netherrack",
+	x: -1.5d,
+	y: 3.0d,
+	description: "Credit for all of these tracks goes to all of these amazing people. Go support them!",
+	text: [
+		"BACKGROUND:",
+		"",
+		"C418 - Ballad of the Cats (Minecraft Volume Beta)",
+		"",
+		"C418 - Warmth (Minecraft Volume Beta)",
+		"",
+		"C418 - Concrete Halls (Minecraft Volume Beta)",
+		"",
+		"Celestial Fury - Minecraft - Ballad of the Cats [Metal Cover]",
+		"",
+		"Karim Thomas II - Disturbed - Hell (Instrumental Cover)",
+		"",
+		"MOSH BITS - [METAL COVER] - Minecraft - Pigstep",
+		"",
+		"Celestial Fury - Minecraft - Warmth (Nether Soundtrack) [Guitar Cover]",
+		"",
+		"Celestial Fury - Minecraft - Dead Voxel [Metal Cover]",
+		"",
+		"Mick Gordon - 14. Harbinger"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "5e942cf8",
+		type: "observation",
+		icon: "minecraft:noteblock",
+		match_type: "block_id",
+		match: "",
+		timer: 0L
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "\"His\" Dimension...",
+	icon: "herobrine:cursed_diamond_block",
+	x: 5.0d,
+	y: 2.0d,
+	shape: "circle",
+	text: [
+		"...You really shouldn't go here",
+		"",
+		"",
+		"",
+		"",
+		"Let's give another big hand for the people who found this seed!",
+		"What an amazing community!",
+		"https://mcatho.me/herobrinecredits"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e31a5dfe",
+		"2f13005a"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "680d6875",
+		type: "dimension",
+		title: "Visit dimension: NULL",
+		dim: 59
+	}],
+	rewards: [{
+		uid: "939ac435",
+		type: "ftbmoney:money",
+		ftb_money: 6666L,
+		random_bonus: 13334
+	}]
+}

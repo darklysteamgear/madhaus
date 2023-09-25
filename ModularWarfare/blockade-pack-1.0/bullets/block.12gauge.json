@@ -1,0 +1,8 @@
+{
+  "internalName": "block.12gauge",
+  "maxStackSize": 64,
+  "displayName": "12 Gauge",
+  "renderBulletModel": false,
+  "shellSound": "casing_gauge1",
+  "shellModelFileName": "12gauge.obj"
+}

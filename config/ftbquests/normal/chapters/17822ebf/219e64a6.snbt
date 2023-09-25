@@ -1,0 +1,20 @@
+{
+	x: 3.0d,
+	y: -2.0d,
+	text: [
+		"Try the Slime Islands in the sky. Mine the leaves for a chance to get these."
+	],
+	tasks: [{
+		uid: "69b8eb63",
+		type: "item",
+		items: [{
+			item: "tconstruct:edible 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "2b56176a",
+		type: "ftbmoney:money",
+		ftb_money: 2500L,
+		random_bonus: 2500
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	title: "The fact that it just lingers... oh no",
+	x: -2.0d,
+	y: -9.0d,
+	shape: "circle",
+	description: "WHY, IT SMELLS LIKE A DEAD SKUNK!!! UGH",
+	size: 2.0d,
+	tasks: [{
+		uid: "382e0775",
+		type: "item",
+		items: [{
+			item: "memeinabottle:lingering_meme_in_a_bottle"
+		}]
+	}]
+}

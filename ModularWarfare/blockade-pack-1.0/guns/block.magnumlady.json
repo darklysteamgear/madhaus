@@ -1,0 +1,85 @@
+{
+    "displayName": "Magnum Lady",
+    "internalName": "block.magnumlady",
+    "gunDamage": 10.5,
+	"gunDamageHeadshotBonus": 1.5,
+    "roundsPerMin": 115,
+    "allowEmptyMagazines": true,
+    "weaponType": "revolver",
+	"extraLore": "The gun with the size of a lady's handbag and a stunning knockdown.",
+    "customFlashTexture": "prototype.advanced.flash",
+    "fireModes": [
+        "full",
+        "semi"
+    ],
+    "acceptedBullets": [
+        "block.44magnum"
+    ],
+    "internalAmmoStorage": 5,
+    "reloadTime": 120,
+    "recoilPitch": 2,
+    "recoilYaw": 0.4,
+    "randomRecoilPitch": 1.75,
+    "randomRecoilYaw": 0.0,
+	"bulletSpread": 1.08,
+    "armPose": "ITEM",
+    "armPoseAiming": "BOW_AND_ARROW",
+    "accuracySneakFactor": 0.75,
+    "moveSpeedModifier": 1,
+    "allowSprintFiring": true,
+    "dropBulletCasing": false,
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "block.magnumlady.shoot",
+                "soundNameDistant": "block.pmedium.shoot.distant",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponReload": [
+            {
+                "soundEvent": "weaponReload",
+                "soundName": "block.glock.reload"
+            }
+        ],
+        "weaponUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "prototype.generic.unload"
+            }
+        ],
+        "weaponLoad": [
+            {
+                "soundEvent": "weaponLoad",
+                "soundName": "prototype.generic.load"
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "block.magnumlady.shoot.sup",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponBulletLoad": [
+            {
+                "soundEvent": "weaponBulletLoad",
+                "soundName": "block.shotgun.chamber"
+            }
+        ]
+    },
+    "acceptedAttachments": {      
+    },
+    "modelSkins": [
+        {
+            "internalName": "block.magnumlady",
+            "skinAsset": "block.magnumlady",
+            "displayName": "Default"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+	title: "This is getting pretty edgy...",
+	x: 0.0d,
+	y: -3.0d,
+	dependencies: [
+		"0548f2ff"
+	],
+	tasks: [{
+		uid: "06fd9362",
+		type: "item",
+		items: [{
+			id: "evilcraft:blood_infuser",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a2a45449",
+		type: "loot",
+		table: 11
+	},
+	{
+		uid: "6c392064",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	}]
+}

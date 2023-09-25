@@ -1,0 +1,30 @@
+{
+	title: "Your dream burning, like a rocket inside.",
+	icon: "galacticraftplanets:mars 1 6",
+	x: -8.0d,
+	y: -35.5d,
+	dependencies: [
+		"fbe3db52"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3ecb751b",
+		type: "dimension",
+		dim: 9003
+	}],
+	rewards: [{
+		uid: "7c2512d5",
+		type: "loot",
+		table: 7
+	},
+	{
+		uid: "da210af9",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "299f09e2",
+		type: "ftbmoney:money",
+		ftb_money: 20000L
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "I don't know why you want to DIE",
+	x: 5.5d,
+	y: 6.0d,
+	tasks: [{
+		uid: "a52e9455",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:bow_limb"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5fed2854",
+		type: "command",
+		title: "You could have just done AoA armor",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon lightning_bolt"
+	},
+	{
+		uid: "63e97032",
+		type: "command",
+		title: "But here we are",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon tnt"
+	}]
+}

@@ -1,0 +1,10 @@
+{
+	title: "AoA",
+	icon: "aoa3:shadow_sword",
+	description: [
+		"Battle Foes And Kill Off Evils In AoA"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

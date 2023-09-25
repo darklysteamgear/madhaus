@@ -1,0 +1,21 @@
+{
+	icon: "morecreeps:ram16k",
+	x: 0.5d,
+	y: 6.0d,
+	can_repeat: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "71c34ade",
+		type: "kill",
+		title: "Tedd is better",
+		entity: "morecreeps:robot_todd",
+		value: 35L
+	}],
+	rewards: [{
+		uid: "f54c1925",
+		type: "item",
+		item: "morecreeps:ram16k",
+		count: 8,
+		random_bonus: 8
+	}]
+}

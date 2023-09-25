@@ -1,0 +1,13 @@
+{
+	"zombies": {
+    "selector": {
+      "gamestages": {
+        "not": {
+          "and": [
+          	"guns"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+	title: "Conarm is pretty crappy if you ask me",
+	x: -3.5d,
+	y: 9.5d,
+	description: "Why not use AoA armor?",
+	tasks: [{
+		uid: "c92df936",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "conarm:armor_plate"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2e5bd899",
+		type: "command",
+		title: "Eat poop",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon motnt:mining_tnt"
+	},
+	{
+		uid: "a13530b3",
+		type: "command",
+		title: "Yeah, it sucks",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon motnt:lava_tnt"
+	}]
+}

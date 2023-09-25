@@ -1,0 +1,20 @@
+{
+	x: -7.0d,
+	y: 3.0d,
+	dependencies: [
+		"2235140f"
+	],
+	tasks: [{
+		uid: "1964f210",
+		type: "item",
+		items: [{
+			item: "aether_legacy:enchanted_gravitite"
+		}]
+	}],
+	rewards: [{
+		uid: "02b02ce2",
+		type: "ftbmoney:money",
+		ftb_money: 7500L,
+		random_bonus: 2500
+	}]
+}

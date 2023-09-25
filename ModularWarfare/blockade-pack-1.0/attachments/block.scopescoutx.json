@@ -1,0 +1,16 @@
+{
+  "displayName": "Scout Scope",
+  "internalName": "block.scopescoutx",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopescoutx",
+      "displayName": "Scout Scope - Default"
+    }
+  ],
+  "sight": {
+    "scopeType": "15x",
+    "customOverlayTexture": "block.blockscopescoutx",
+    "modeType": "pip"
+  }
+}

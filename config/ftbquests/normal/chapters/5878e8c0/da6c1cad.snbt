@@ -1,0 +1,19 @@
+{
+	x: 33.0d,
+	y: 18.0d,
+	shape: "circle",
+	dependencies: [
+		"69ab546a",
+		"7ffde029",
+		"85446b8a",
+		"9d676788"
+	],
+	size: 6.0d,
+	tasks: [{
+		uid: "73626e43",
+		type: "dimension",
+		title: "Saturn",
+		icon: "extraplanets:saturn",
+		dim: -16
+	}]
+}

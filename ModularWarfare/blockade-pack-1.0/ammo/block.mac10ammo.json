@@ -1,0 +1,10 @@
+{
+    "internalName": "block.mac10ammo",
+    "displayName": "MAC-10 Mag 30rnd ",
+    "ammoCapacity": 30,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.smgbullet"
+    ],
+    "allowEmptyMagazines": true
+}

@@ -1,0 +1,17 @@
+{
+	title: "Infinite water!",
+	x: -7.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "e3902aaf",
+		type: "item",
+		items: [{
+			item: "buildcraftfactory:pump"
+		}]
+	}],
+	rewards: [{
+		uid: "c7a4b9d4",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

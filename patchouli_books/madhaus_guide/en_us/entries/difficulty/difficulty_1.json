@@ -1,0 +1,28 @@
+{
+    "name": "Difficulty Basics",
+    "icon": "minecraft:writable_book",
+    "category": "health",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "text",
+            "text": "The higher the difficulty, the harder the mobs become... you can get the difficulty down through killing bosses/minibosses, slaying hordes, or killing blight creatures. be careful! Difficulty will increase every time you die. Luckily, it maxes out at 50. there are special artifacts you can buy or find in dungeons to reduce the difficulty... or you could increase it."
+        },
+                {
+        "type" : "image", 
+        "images": [
+            "madhaus:textures/book/blight.png"
+        ]
+        },
+        {
+            "type" : "spotlight",
+            "item": "scalinghealth:difficultychanger",
+            "text": "This can be used to reduce the difficulty."
+        },
+        {
+            "type" : "spotlight",
+            "item": "scalinghealth:difficultychanger:1",
+            "text": "This can be used to increase the difficulty."
+        }
+    ]
+}

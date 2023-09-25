@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: 10.0d,
+	dependencies: [
+		"d740ebed"
+	],
+	tasks: [{
+		uid: "bfed0cea",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}]
+	}],
+	rewards: [{
+		uid: "92e94950",
+		type: "ftbmoney:money",
+		ftb_money: 1500L,
+		random_bonus: 500
+	}]
+}

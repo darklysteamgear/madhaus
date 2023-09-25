@@ -1,0 +1,5 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"A comet composed of red living matter passes through the sky, leaving a trail of thick red ooze in it's wake. Your skin starts to crawl as peices of the ooze dissapate into the atmosphere...","color":"dark_green","italic":true}]
+playsound srparasites:ancient.pod ambient @a[r=50] ~ ~ ~ 1 0.5
+gamestage silentadd @p infested

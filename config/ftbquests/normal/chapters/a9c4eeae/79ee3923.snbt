@@ -1,0 +1,81 @@
+{
+	title: "Year Round Bundle",
+	x: -1.0d,
+	y: -5.5d,
+	shape: "rsquare",
+	size: 2.0d,
+	tasks: [{
+		uid: "4dd76146",
+		type: "item",
+		items: [{
+			item: "aoa3:eye_bulb"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "cec354f8",
+		type: "item",
+		items: [{
+			item: "aoa3:luna_globe"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "c7bbdbb2",
+		type: "item",
+		items: [{
+			item: "aoa3:lunacrike"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "9870a603",
+		type: "item",
+		items: [{
+			item: "aoa3:lunalons"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "23cdb4b2",
+		type: "item",
+		items: [{
+			item: "aoa3:mystic_shrooms"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "85916356",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_wart"
+		}],
+		count: 32L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "d0272a0a",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "5b505d11",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "5a981735",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "potioncore:repair"
+			}
+		}
+	}]
+}

@@ -1,0 +1,8 @@
+{
+  "internalName": "block.boltx",
+  "maxStackSize": 64,
+  "displayName": "Bolt",
+  "renderBulletModel": true,
+  "shellSound": "casing_gauge1",
+  "shellModelFileName": "block.boltx.obj"
+}

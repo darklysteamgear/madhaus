@@ -1,0 +1,22 @@
+{
+	title: "Mother russia bleeds",
+	x: -5.0d,
+	y: -0.5d,
+	hide_dependency_lines: true,
+	hide: true,
+	tasks: [{
+		uid: "94e6a8b7",
+		type: "item",
+		items: [{
+			item: "modularwarfare:block.ppsh41"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bd7c7511",
+		type: "ftbmoney:money",
+		ftb_money: 2000L,
+		random_bonus: 500
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "POWER",
+	icon: "thermalfoundation:material 1 161",
+	x: -4.0d,
+	y: 3.0d,
+	description: "YESSSS",
+	dependencies: [
+		"63a1388d",
+		"94e5fc11"
+	],
+	tasks: [{
+		uid: "cd1d198d",
+		type: "forge_energy",
+		value: 1000000L
+	}],
+	rewards: [{
+		uid: "611dbf60",
+		type: "item",
+		item: "morecreeps:money",
+		count: 20
+	},
+	{
+		uid: "403d3a29",
+		type: "random",
+		table: 3
+	}]
+}

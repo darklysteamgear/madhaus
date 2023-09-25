@@ -1,0 +1,36 @@
+{
+	title: "He ain't goin nowhere anymore!",
+	icon: "animalbikes:slimebike",
+	x: 3.0d,
+	y: -9.5d,
+	description: "Here, take his bike or unicycle or whatever he was riding",
+	text: [
+		"Screw it, it's a bike now"
+	],
+	dependencies: [
+		"f18dde50"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f8cf0f43",
+		type: "kill",
+		title: "He ain't goin nowhere anymore!",
+		icon: "bewitchment:toe_of_frog",
+		entity: "memeinabottle:me_me_big_boi",
+		value: 3L
+	}],
+	rewards: [{
+		uid: "d92c7f33",
+		type: "item",
+		item: {
+			id: "vehicle:vehicle_crate",
+			tag: {
+				BlockEntityTag: {
+					vehicle: "vehicle:mini_bike",
+					engineTier: 0,
+					wheelType: 0
+				}
+			}
+		}
+	}]
+}

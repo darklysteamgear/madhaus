@@ -1,0 +1,28 @@
+{
+	title: "Metal Gear Style",
+	icon: "scp:nightvision_goggles",
+	x: 15.0d,
+	y: 5.0d,
+	shape: "circle",
+	description: "Find a way to silently end the madness. Stealth camouflage?! Can't you even die right!",
+	text: [
+		"Don't get spotted, EVER."
+	],
+	hide: true,
+	size: 2.0d,
+	optional: true,
+	tasks: [{
+		uid: "49ce9042",
+		type: "dimension",
+		title: "The Stealth Option...",
+		dim: 1006
+	}],
+	rewards: [{
+		uid: "33cbc3ae",
+		type: "gamestage",
+		title: "Stealth",
+		team_reward: true,
+		auto: "no_toast",
+		stage: "stealth"
+	}]
+}

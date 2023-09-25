@@ -1,0 +1,21 @@
+{
+	title: "His dream burning like a rocket inside.",
+	x: -8.0d,
+	y: -15.5d,
+	dependencies: [
+		"5fe66e89"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1a4eec42",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:nose_cone"
+		}]
+	}],
+	rewards: [{
+		uid: "e72b497d",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	}]
+}

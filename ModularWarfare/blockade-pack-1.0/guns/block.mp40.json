@@ -1,0 +1,73 @@
+{
+    "internalName": "block.mp40",
+    "displayName": "MP40",
+    "weaponType": "smg",
+	"extraLore": "This exotic was brought straight from the last century.",
+    "customFlashTexture": "prototype.advanced.flash",
+    "gunDamage": 8,
+    "gunDamageHeadshotBonus": 1.5,
+    "roundsPerMin": 470,
+    "allowEmptyMagazines": true,
+    "recoilPitch": 4.1,
+    "recoilYaw": 0.5,
+    "randomRecoilPitch": 1.0,
+    "randomRecoilYaw": 0.0,
+    "bulletSpread": 1.25,
+    "accuracySneakFactor": 0.5,
+    "moveSpeedModifier": 1,
+    "allowSprintFiring": true,
+    "dropBulletCasing": true,
+    "fireModes": [
+        "full",
+        "semi"
+    ],
+    "acceptedAmmo": [
+        "block.mp40ammo"
+    ],
+    "shellEjectOffsetNormal": {
+        "x": -1,
+        "y": 0,
+        "z": 1
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "block.mp40.shoot",
+                "soundNameDistant": "block.smg.shoot.distant",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponUnload": [
+            {
+                "soundEvent": "weaponReload",
+                "soundName": "prototype.generic.reload"
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "block.mp40.shoot.sup",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+            }
+        ]
+    },
+    "acceptedAttachments": {
+    },
+    "modelSkins": [
+        {
+            "internalName": "block.mp40",
+            "skinAsset": "block.mp40",
+            "displayName": "Default"
+        }
+    ]
+}

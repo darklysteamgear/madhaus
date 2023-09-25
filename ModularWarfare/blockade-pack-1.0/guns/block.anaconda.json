@@ -1,0 +1,88 @@
+{
+    "displayName": "Anaconda",
+    "internalName": "block.anaconda",
+    "gunDamage": 13,
+	"gunDamageHeadshotBonus": 1.5,
+    "roundsPerMin": 100,
+    "allowEmptyMagazines": true,
+    "weaponType": "revolver",
+	"extraLore": "For connoisseurs of the classics, at the same time for risky guys!",
+    "customFlashTexture": "prototype.advanced.flash",
+    "fireModes": [
+        "full",
+        "semi"
+    ],
+    "acceptedBullets": [
+        "block.44magnum"
+    ],
+    "internalAmmoStorage": 6,
+    "reloadTime": 120,
+    "recoilPitch": 2.5,
+    "recoilYaw": 0.5,
+    "randomRecoilPitch": 2.5,
+    "randomRecoilYaw": 0.0,
+	"bulletSpread": 1.05,
+    "armPose": "ITEM",
+    "armPoseAiming": "BOW_AND_ARROW",
+    "accuracySneakFactor": 0.75,
+    "moveSpeedModifier": 1,
+    "allowSprintFiring": true,
+    "dropBulletCasing": false,
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "block.anaconda.shoot",
+                "soundNameDistant": "block.phard.shoot.distant",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponReload": [
+            {
+                "soundEvent": "weaponReload",
+                "soundName": "block.glock.reload"
+            }
+        ],
+        "weaponUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "prototype.generic.unload"
+            }
+        ],
+        "weaponLoad": [
+            {
+                "soundEvent": "weaponLoad",
+                "soundName": "prototype.generic.load"
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "block.anaconda.shoot.sup",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponBulletLoad": [
+            {
+                "soundEvent": "weaponBulletLoad",
+                "soundName": "block.shotgun.chamber"
+            }
+        ]
+    },
+    "acceptedAttachments": {
+		"flashlight": [
+            "prototype.tactical_flashlight"
+        ]
+	},
+    "modelSkins": [
+        {
+            "internalName": "block.anaconda",
+            "skinAsset": "block.anaconda",
+            "displayName": "Default"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Be careful when you sleep...",
+	icon: "minecraft:bed 1 14",
+	x: 0.5d,
+	y: -3.0d,
+	text: [
+		"You never really know what's going to happen if you sleep...",
+		"...You might just find that you really can't",
+		""
+	],
+	tasks: [{
+		uid: "efcf904d",
+		type: "observation",
+		match_type: "block_id",
+		match: "minecraft:bed",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "c0955902",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

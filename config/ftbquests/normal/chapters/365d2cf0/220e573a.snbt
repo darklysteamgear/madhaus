@@ -1,0 +1,153 @@
+{
+	x: 5.5d,
+	y: -3.5d,
+	dependencies: [
+		"d7449d92"
+	],
+	tasks: [{
+		uid: "58d726d4",
+		type: "kill",
+		title: "Kill The C.R.E.E.P 10 Times!!! (Overpowered Much?)",
+		icon: "aoa3:gold_creep_statue",
+		entity: "aoa3:creep",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "0c78149d",
+		type: "random",
+		auto: "enabled",
+		table: 6
+	},
+	{
+		uid: "ca4388c2",
+		type: "random",
+		auto: "enabled",
+		table: 6
+	},
+	{
+		uid: "4ae6314e",
+		type: "random",
+		auto: "enabled",
+		table: 6
+	},
+	{
+		uid: "ae0e07e1",
+		type: "random",
+		auto: "enabled",
+		table: 6
+	},
+	{
+		uid: "ff3eaf6e",
+		type: "random",
+		auto: "enabled",
+		table: 6
+	},
+	{
+		uid: "348eec61",
+		type: "random",
+		auto: "enabled",
+		table: 6
+	},
+	{
+		uid: "4506f25c",
+		type: "random",
+		auto: "enabled",
+		table: 6
+	},
+	{
+		uid: "9d51d562",
+		type: "random",
+		auto: "enabled",
+		table: 6
+	},
+	{
+		uid: "ea8dac2a",
+		type: "random",
+		auto: "enabled",
+		table: 6
+	},
+	{
+		uid: "c5f1b501",
+		type: "random",
+		auto: "enabled",
+		table: 6
+	},
+	{
+		uid: "12114970",
+		type: "random",
+		auto: "enabled",
+		table: 6
+	},
+	{
+		uid: "68b5e7fb",
+		type: "random",
+		auto: "enabled",
+		table: 6
+	},
+	{
+		uid: "ac646a21",
+		type: "random",
+		auto: "enabled",
+		table: 6
+	},
+	{
+		uid: "8c295676",
+		type: "random",
+		auto: "enabled",
+		table: 6
+	},
+	{
+		uid: "7aa7e374",
+		type: "random",
+		auto: "enabled",
+		table: 6
+	},
+	{
+		uid: "6dfa9d4e",
+		type: "random",
+		auto: "enabled",
+		table: 6
+	},
+	{
+		uid: "d8147a1c",
+		type: "random",
+		auto: "enabled",
+		table: 6
+	},
+	{
+		uid: "60861192",
+		type: "random",
+		auto: "enabled",
+		table: 6
+	},
+	{
+		uid: "134a8960",
+		type: "random",
+		auto: "enabled",
+		table: 6
+	},
+	{
+		uid: "18f02c21",
+		type: "random",
+		auto: "enabled",
+		table: 6
+	},
+	{
+		uid: "17b072d6",
+		type: "random",
+		auto: "enabled",
+		table: 6
+	},
+	{
+		uid: "69eba182",
+		type: "random",
+		auto: "enabled",
+		table: 6
+	},
+	{
+		uid: "c297cbcd",
+		type: "random",
+		auto: "enabled",
+		table: 6
+	}]
+}

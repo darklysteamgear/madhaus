@@ -1,0 +1,23 @@
+{
+	title: "Hopes And Dreams",
+	x: 0.5d,
+	y: 3.0d,
+	shape: "heart",
+	description: "When you wish upon a star, any dream can come true",
+	text: [
+		"Use wishes to activate portals that will take you to alternate and past worlds. Some lost to time, some abandoned...",
+		"",
+		"Wishes are a glimmer of hope in a world of madness"
+	],
+	dependencies: [
+		"2f13005a"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "f1ca24cc",
+		type: "item",
+		items: [{
+			item: "contenttweaker:wish"
+		}]
+	}]
+}

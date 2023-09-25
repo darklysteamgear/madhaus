@@ -1,0 +1,99 @@
+{
+	title: "GIVE ME YOUR BOOKS",
+	x: -7.5d,
+	y: -3.0d,
+	dependencies: [
+		"3d2a11f7"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "be365637",
+		type: "item",
+		items: [{
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "mysticalworld:world_guide"
+			}
+		}],
+		consume_items: true
+	},
+	{
+		uid: "580f3d42",
+		type: "item",
+		items: [{
+			item: "theoneprobe:probenote"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1bd10b41",
+		type: "item",
+		items: [{
+			item: "valkyrielib:guide"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bef25af9",
+		type: "item",
+		items: [{
+			item: "conarm:book"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a27fcdec",
+		type: "item",
+		items: [{
+			item: "openblocks:info_book"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "5db11396",
+		type: "item",
+		items: [{
+			item: "tconstruct:book"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "234d7c5c",
+		type: "command",
+		title: "Thank You!",
+		icon: "minecraft:gold_ingot",
+		auto: "enabled",
+		command: "/say Thank you for your patronage, But I'm still going to kill you, I hope you don't mind. Welcome to madhaus >:D"
+	},
+	{
+		uid: "c5050f7d",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "f3b001c6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "casino_crappe"
+			}
+		}
+	},
+	{
+		uid: "8adb03bc",
+		type: "command",
+		title: "Please come again!",
+		icon: "minecraft:diamond",
+		auto: "enabled",
+		command: "/kill @p"
+	}]
+}

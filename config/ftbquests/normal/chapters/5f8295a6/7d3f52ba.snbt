@@ -1,0 +1,13 @@
+{
+	title: "Im gonna blow it all up",
+	x: 18.5d,
+	y: 4.5d,
+	tasks: [{
+		uid: "3a243177",
+		type: "item",
+		items: [{
+			item: "motnt:tnt5"
+		}],
+		count: 100L
+	}]
+}

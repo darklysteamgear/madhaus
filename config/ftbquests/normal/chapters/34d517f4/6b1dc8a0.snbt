@@ -1,0 +1,33 @@
+{
+	title: "Now you're \"ready\" to take on the russian winter!",
+	x: -10.5d,
+	y: -1.0d,
+	description: "Wait a minute...",
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "751dd938",
+		type: "item",
+		title: "Lawn Mower",
+		items: [{
+			id: "vehicle:vehicle_crate",
+			tag: {
+				BlockEntityTag: {
+					vehicle: "vehicle:lawn_mower",
+					engineTier: 0,
+					wheelType: 0
+				}
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "fc379857",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	}]
+}

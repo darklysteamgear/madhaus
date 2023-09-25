@@ -1,0 +1,56 @@
+{
+	title: "Couldn't be bothered",
+	x: 7.5d,
+	y: -1.5d,
+	text: [
+		"We're all gonna die anyway, so I couldn't be bothered to finish this questline. I dunno, go to the crystal dimension or something. this mod is too big. I recommend taking a look at the wiki. shoutout to the creator of AoA, Scimiguy",
+		"IF YOU WANT ME TO COMPLETE THIS, PESTER ME ON THE MODPACK DISCORD: https://discord.gg/tueM2AM5Q2"
+	],
+	dependencies: [
+		"470bece9",
+		"406ccc8f",
+		"39bb0f5e",
+		"8660cf68",
+		"00fef114",
+		"53c553c8",
+		"e52cca21",
+		"2324d4e9",
+		"220e573a",
+		"bed4ace8",
+		"32d75c0b",
+		"73dd8703",
+		"dfdd1463"
+	],
+	tasks: [{
+		uid: "87e5da7c",
+		type: "item",
+		items: [{
+			item: "poop:poop_raw_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "13df8756",
+		type: "loot",
+		table: 7
+	},
+	{
+		uid: "9be7e4e3",
+		type: "random",
+		table: 10
+	},
+	{
+		uid: "8a3ffe02",
+		type: "random",
+		table: 10
+	},
+	{
+		uid: "7df484ee",
+		type: "random",
+		table: 10
+	},
+	{
+		uid: "2e5d4d8e",
+		type: "loot",
+		table: 13
+	}]
+}

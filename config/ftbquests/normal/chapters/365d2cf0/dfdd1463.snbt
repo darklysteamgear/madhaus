@@ -1,0 +1,45 @@
+{
+	title: "Give up a weapon forged in your enemy's blood and pay the toll",
+	icon: "srparasites:ada_manducater_drop",
+	x: 6.0d,
+	y: -1.5d,
+	description: "Only then will I rid this world of the pest",
+	dependencies: [
+		"92bd2807"
+	],
+	hide: true,
+	tasks: [{
+		uid: "656dcdc4",
+		type: "item",
+		items: [{
+			item: "aoa3:lunaver_coin"
+		}],
+		count: 5L
+	},
+	{
+		uid: "e87c4ebc",
+		type: "item",
+		items: [{
+			item: "srparasites:weapon_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ba7e6f03",
+		type: "gamestage",
+		title: "Goodbye pest",
+		icon: "srparasites:infestedbush 1 1",
+		auto: "enabled",
+		stage: "infested",
+		remove: true
+	},
+	{
+		uid: "cd62a01f",
+		type: "command",
+		title: "Goodbye",
+		icon: "moreplanets:infected_vines",
+		auto: "enabled",
+		command: "/say The world grows silent, as the pest is smited from the realms of this world..."
+	}]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Chance Cubes",
+    "icon": "minecraft:writable_book",
+    "category": "loot",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Chance cubes are a way to get some quick loot... or to blow yourself up in this madhaus. be sure to looik out for them around the world as you explore!"
+        },
+                {
+        "type" : "image", 
+        "images": [
+            "madhaus:textures/book/chance.png"
+        ]
+        }
+    ]
+}

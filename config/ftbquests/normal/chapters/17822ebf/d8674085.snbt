@@ -1,0 +1,22 @@
+{
+	title: "Bye Bye, Scum",
+	x: -2.5d,
+	y: 10.5d,
+	tasks: [{
+		uid: "f1515e51",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "conarm:boots_core"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c36c91a8",
+		type: "command",
+		title: "Goodbye",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon motnt:warp_tnt"
+	}]
+}

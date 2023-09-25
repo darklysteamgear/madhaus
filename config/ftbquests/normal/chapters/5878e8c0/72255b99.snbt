@@ -1,0 +1,87 @@
+{
+	title: "Burning Bright",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "circle",
+	description: "Explore the solar system",
+	dependencies: [
+		"da6c1cad",
+		"6154da77",
+		"3eacf1c8",
+		"00407966",
+		"2d1604b0",
+		"3796beef",
+		"b515021c",
+		"d6971b0d",
+		"12fa2300",
+		"0f6746cc",
+		"f86961c2",
+		"8f66845b"
+	],
+	size: 8.0d,
+	tasks: [{
+		uid: "7ea560b6",
+		type: "checkmark",
+		title: "Explorer",
+		icon: "extrautils2:suncrystal"
+	}],
+	rewards: [{
+		uid: "fbc92360",
+		type: "ftbmoney:money",
+		ftb_money: 100000L,
+		random_bonus: 150000
+	},
+	{
+		uid: "271c56fe",
+		type: "item",
+		item: "modularwarfare:block.fmg9.gold"
+	},
+	{
+		uid: "40565dba",
+		type: "item",
+		item: "aoa3:magic_mending_compound",
+		count: 3,
+		random_bonus: 3
+	},
+	{
+		uid: "e93ae39a",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					id: 70,
+					lvl: 1s
+				}]
+			}
+		}
+	},
+	{
+		uid: "5c803242",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					id: 144,
+					lvl: 1s
+				}]
+			}
+		}
+	},
+	{
+		uid: "14fa5644",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					id: 51,
+					lvl: 1s
+				}]
+			}
+		},
+		count: 2,
+		random_bonus: 3
+	}]
+}

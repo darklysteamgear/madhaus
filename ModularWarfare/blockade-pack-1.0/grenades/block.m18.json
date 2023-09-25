@@ -1,0 +1,10 @@
+{
+  "displayName": "M18",
+  "internalName": "block.m18",
+  "grenadeType": "smoke",
+  "smokeTime": 20,
+  "fuseTime": 3,
+  "damageWorld": false,
+  "explosionPower": 6,
+  "throwStrength": 1.0
+}

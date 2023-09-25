@@ -1,0 +1,21 @@
+{
+	title: "Steel Beams",
+	x: -3.0d,
+	y: 8.5d,
+	description: "... But that's DUST!",
+	dependencies: [
+		"cca8a160"
+	],
+	tasks: [{
+		uid: "7c5b107f",
+		type: "item",
+		items: [{
+			item: "mekanism:otherdust 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "fb7ae61a",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

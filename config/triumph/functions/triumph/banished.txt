@@ -1,0 +1,5 @@
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+tellraw @p ["",{"text":"A wave of pure relief washes over you, as the screams of the entity you sought to defeat ring across your sorched world... The fighting has ended, and herobrine has been banished.","color":"green","italic":true}]
+tellraw @p ["",{"text":"The world goes silent... as if to give us a moment to reflect on this hard fought battle. Many older members of Haus hope to rejoin now, and rebuild the lost and broken worlds.","color":"green","italic":true}]
+tellraw @p ["",{"text":"This is truly a wonderful day. The madness he brought with him may be gone, but there is still much that needs to be done. The game never ends.","color":"green","italic":true}]

@@ -1,0 +1,72 @@
+{
+    "internalName": "block.vsk94",
+    "displayName": "VSK-94",
+    "weaponType": "carbine",
+	"extraLore": "Spetsnaz sniper rifle.",
+    "customFlashTexture": "prototype.advanced.flash",
+    "gunDamage": 8.5,
+    "gunDamageHeadshotBonus": 1.5,
+    "roundsPerMin": 500,
+    "allowEmptyMagazines": true,
+    "recoilPitch": 2.6,
+    "recoilYaw": 0.4,
+    "randomRecoilPitch": 0.3,
+    "randomRecoilYaw": 0.0,
+    "bulletSpread": 0.125,
+    "accuracySneakFactor": 0.125,
+    "moveSpeedModifier": 0.88,
+    "allowSprintFiring": false,
+    "fireModes": [
+        "full",
+        "semi"
+    ],
+    "acceptedAmmo": [
+        "block.vsk94ammo"
+    ],
+    "dropBulletCasing": true,
+    "shellEjectOffsetNormal": {
+        "x": -1,
+        "y": 0,
+        "z": 1
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "block.vsk94.shoot",
+                "soundRange": 64,
+                "soundMaxRange": 96,
+                "soundFadeMultiplier": 1
+            }
+        ],
+		"weaponReload": [
+			{
+        "soundEvent": "weaponReload",
+        "soundName": "block.long20.reload"
+			}
+		],
+        "weaponUnload": [
+            {
+                "soundEvent": "weaponReload",
+                "soundName": "prototype.generic.reload"
+            }
+        ]
+    },
+    "acceptedAttachments": {
+		"sight": [
+			"block.scopevsk94x"
+        ]
+	},
+    "modelSkins": [
+        {
+            "internalName": "block.vsk94",
+            "skinAsset": "block.vsk94",
+            "displayName": "Default"
+        }
+    ]
+}

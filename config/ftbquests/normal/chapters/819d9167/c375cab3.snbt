@@ -1,0 +1,32 @@
+{
+	title: "Pokemon world?",
+	x: 6.0d,
+	y: -2.0d,
+	description: "Something just doesn't seem right...",
+	text: [
+		"Pokemobs isn't even installed...",
+		"... You know the truth of this world is hidden somewhere here"
+	],
+	dependencies: [
+		"58e4875b"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "204f4ed2",
+		type: "dimension",
+		icon: "ancientbeasts:pokey",
+		dim: 61
+	}],
+	rewards: [{
+		uid: "f1c00c8e",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "3d7f1559",
+		type: "ftbmoney:money",
+		ftb_money: 1000L,
+		random_bonus: 6500
+	}]
+}

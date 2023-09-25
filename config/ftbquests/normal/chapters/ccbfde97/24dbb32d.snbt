@@ -1,0 +1,35 @@
+{
+	x: 3.0d,
+	y: -3.0d,
+	description: "Some memes should stay in the past! quick, take my flamethrower!!!",
+	text: [
+		"I want that back though, please"
+	],
+	tasks: [{
+		uid: "8a58c804",
+		type: "observation",
+		title: "KILL IT, KILL IT WITH FIRE!!!",
+		icon: "cfm:fire_pit_on",
+		match_type: "entity_id",
+		match: "memeinabottle:knuckles",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "3051ec76",
+		type: "item",
+		team_reward: false,
+		auto: "enabled",
+		item: {
+			id: "mekanism:flamethrower",
+			tag: {
+				mekData: {
+					stored: {
+						amount: 24000,
+						gasName: "hydrogen"
+					}
+				}
+			}
+		},
+		only_one: true
+	}]
+}

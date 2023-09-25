@@ -1,0 +1,25 @@
+{
+	title: "What season is it again?",
+	icon: {
+		id: "thermaldynamics:cover",
+		tag: {
+			Meta: 0b,
+			Block: "extrautils2:redstoneclock"
+		}
+	},
+	x: 2.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "151276d8",
+		type: "item",
+		icon: "extrautils2:ingredients 1 1",
+		items: [{
+			item: "sereneseasons:season_clock"
+		}]
+	}],
+	rewards: [{
+		uid: "24b56029",
+		type: "ftbmoney:money",
+		ftb_money: 3000L
+	}]
+}

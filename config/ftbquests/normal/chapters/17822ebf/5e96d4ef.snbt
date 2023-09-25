@@ -1,0 +1,33 @@
+{
+	title: "Rip and tear",
+	x: 3.0d,
+	y: 0.0d,
+	description: "There is A LOT in the nether... go ahead, and explore for yourself! I'm not going to give you any direction in there",
+	dependencies: [
+		"361e34d7"
+	],
+	tasks: [{
+		uid: "bab9be2c",
+		type: "dimension",
+		dim: -1
+	},
+	{
+		uid: "064cf51b",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "d83c4203",
+		type: "ftbmoney:money",
+		ftb_money: 5000L,
+		random_bonus: 5000
+	},
+	{
+		uid: "6de4e33d",
+		type: "loot",
+		table: 5
+	}]
+}

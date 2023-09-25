@@ -1,0 +1,41 @@
+{
+	title: "All of your items that's my job",
+	x: 12.0d,
+	y: -3.0d,
+	dependencies: [
+		"5e681d5f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "023e191a",
+		type: "kill",
+		icon: "minecraft:diamond",
+		entity: "morecreeps:thief",
+		value: 5L
+	}],
+	rewards: [{
+		uid: "84c3d858",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "fc3afba1",
+		type: "random",
+		table: 6
+	},
+	{
+		uid: "457d9216",
+		type: "random",
+		table: 6
+	},
+	{
+		uid: "79ad984f",
+		type: "random",
+		table: 6
+	},
+	{
+		uid: "5542d302",
+		type: "ftbmoney:money",
+		ftb_money: 50000L
+	}]
+}

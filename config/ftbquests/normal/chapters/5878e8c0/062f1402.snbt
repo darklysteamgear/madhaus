@@ -1,0 +1,14 @@
+{
+	x: 76.5d,
+	y: -12.5d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "bea44546",
+		type: "observation",
+		title: "Berry Man!",
+		icon: "biomesoplenty:berries",
+		match_type: "entity_id",
+		match: "moreplanets:giant_blueberry",
+		timer: 0L
+	}]
+}

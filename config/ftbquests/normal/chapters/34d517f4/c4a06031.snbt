@@ -1,0 +1,33 @@
+{
+	title: "Raise an army!",
+	x: 5.5d,
+	y: -5.0d,
+	description: "This mod holds so many memories for me",
+	text: [
+		"Thank you SanAndreasP for reviving this, it was one of the mods I would not play minecraft without as a kid",
+		"When I found out how to mod minecraft, this and the turret mod were the mods I would always play with"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "846374ec",
+		type: "item",
+		items: [{
+			id: "claysoldiers:doll_soldier",
+			tag: {
+				dollSoldier: {
+					team: "ca383b5d-ddaf-4523-9001-5a5685ef5fba"
+				}
+			}
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "5a6cd013",
+		type: "ftbmoney:money",
+		ftb_money: 1200L
+	}]
+}

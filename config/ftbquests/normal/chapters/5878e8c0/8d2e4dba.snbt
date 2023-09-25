@@ -1,0 +1,13 @@
+{
+	x: 13.0d,
+	y: -15.0d,
+	shape: "circle",
+	size: 2.0d,
+	tasks: [{
+		uid: "3116fee3",
+		type: "dimension",
+		title: "Deimos",
+		icon: "extraplanets:deimos",
+		dim: -1503
+	}]
+}

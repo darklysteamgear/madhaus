@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: -8.0d,
+	dependencies: [
+		"ddbc4cb6",
+		"34412fbe"
+	],
+	tasks: [{
+		uid: "7421dd75",
+		type: "item",
+		items: [{
+			item: "evilcraft:bowl_of_promises 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "0262539e",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	}]
+}

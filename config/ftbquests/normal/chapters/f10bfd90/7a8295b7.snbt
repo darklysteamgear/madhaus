@@ -1,0 +1,92 @@
+{
+	title: "End it, silently",
+	icon: {
+		id: "ic2:nightvision_goggles",
+		tag: {
+			charge: 200000.0d
+		}
+	},
+	x: 19.0d,
+	y: 13.0d,
+	shape: "pentagon",
+	description: "You did it quietly... I have no idea how you did that. Well done!",
+	dependencies: [
+		"bffbbc9a"
+	],
+	hide: true,
+	size: 2.0d,
+	optional: true,
+	tasks: [{
+		uid: "8bf92342",
+		type: "item",
+		items: [{
+			item: "contenttweaker:charged_herobrine_banisher"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8c489c8c",
+		type: "gamestage",
+		stage: "stealth"
+	}],
+	rewards: [{
+		uid: "4003ebe4",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "banished"
+	},
+	{
+		uid: "759daa7c",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "infested",
+		remove: true
+	},
+	{
+		uid: "23a72af3",
+		type: "loot",
+		table: 13
+	},
+	{
+		uid: "b5451d8a",
+		type: "loot",
+		table: 13
+	},
+	{
+		uid: "5b2780de",
+		type: "loot",
+		table: 13
+	},
+	{
+		uid: "f752d129",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "cf39c40b",
+		type: "loot",
+		table: 13
+	},
+	{
+		uid: "ba579e97",
+		type: "gamestage",
+		auto: "disabled",
+		stage: "cursed",
+		remove: true
+	},
+	{
+		uid: "b546fd35",
+		type: "gamestage",
+		auto: "disabled",
+		stage: "finalbattle",
+		remove: true
+	},
+	{
+		uid: "1ddab08c",
+		type: "gamestage",
+		auto: "disabled",
+		stage: "endgame",
+		remove: true
+	}]
+}

@@ -1,0 +1,10 @@
+{
+	title: "Hahaha It's fun watching you suffer",
+	icon: "cfm:fire_pit_on",
+	description: [
+		"now DIE!!!"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

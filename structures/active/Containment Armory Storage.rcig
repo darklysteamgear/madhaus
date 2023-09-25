@@ -1,0 +1,237 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "Containment Armory Storage",
+  "items": [
+    {
+      "weight": 0.4858947992324829,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "modularwarfare:block.p90ammo",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "ammocount": {
+              "nbtType": "int",
+              "nbt": 50
+            },
+            "skinId": {
+              "nbtType": "int",
+              "nbt": 0
+            },
+            "bullet": {
+              "nbtType": "compound",
+              "nbt": {
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "modularwarfare:block.smgbullet"
+                },
+                "Count": {
+                  "nbtType": "byte",
+                  "nbt": 1
+                },
+                "Damage": {
+                  "nbtType": "short",
+                  "nbt": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.1894346475601196,
+      "min": 12,
+      "max": 64,
+      "item": {
+        "id": "modularwarfare:block.smgbullet",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.005751589313149452,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "modularwarfare:block.p90.snow",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.3978064954280853,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "modularwarfare:block.mk3nodestroy",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.11158588528633118,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "modularwarfare:block.xm8",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.20703016221523285,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "modularwarfare:block.xm8ammo",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 12,
+      "max": 64,
+      "item": {
+        "id": "modularwarfare:block.riflebullet",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.1442086547613144,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "modularwarfare:block.scopexm8",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.013752810657024384,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "modularwarfare:block.l96a1",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.18405085802078247,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "modularwarfare:block.l96a1ammo",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.028885602951049805,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "modularwarfare:block.supawx.forest",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.05511390045285225,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "modularwarfare:block.scopeawx",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.03422137722373009,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "modularwarfare:block.bipodawx",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0019995670299977064,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "modularwarfare:block.l96a1.gold",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 12,
+      "max": 64,
+      "item": {
+        "id": "modularwarfare:block.sniperbullet",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.5121370553970337,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "mekanism:dirtydust",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.5121370553970337,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "mekanism:sawdust",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.5121370553970337,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "mekanism:dirtydust",
+        "damage": 3,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.5121370553970337,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "mekanism:dirtydust",
+        "damage": 4,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.5121370553970337,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "mekanism:dirtydust",
+        "damage": 5,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

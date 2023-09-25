@@ -1,0 +1,464 @@
+{
+    "Profession": "vtt:armsdealer",
+    "Career": "smallarmsdealer",
+    "Offers": {
+        "Recipes": [
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 2,"max": 4}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "morecreeps:money",
+                    "Count": [
+                        {"min": 10,"max": 25}
+                    ]
+                },
+                "sell": {
+                    "id":"modularwarfare:block.44magnum",
+                    "Count": {"min":8, "max":16}
+                },
+                "CareerLevel": 1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 2,"max": 4}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "morecreeps:money",
+                    "Count": [
+                        {"min": 10,"max": 25}
+                    ]
+                },
+                "sell": {
+                    "id":"modularwarfare:block.pistolbullet",
+                    "Count": {"min":16, "max":24}
+                },
+                "CareerLevel": 1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 15,"max": 25},
+                        {"min": 15,"max": 25},
+                        {"min": 15,"max": 25},
+                        {"min": 15,"max": 25},
+                        {"min": 15,"max": 25},
+                        {"min": 15,"max": 25},
+                        {"min": 15,"max": 25}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "morecreeps:money",
+                    "Count": [
+                        {"min": 20,"max": 50},
+                        {"min": 20,"max": 50},
+                        {"min": 20,"max": 50},
+                        {"min": 20,"max": 50},
+                        {"min": 20,"max": 50},
+                        {"min": 20,"max": 50},
+                        {"min": 20,"max": 50}
+                    ]
+                },
+                "sell": {
+                    "id": [
+                        "modularwarfare:block.swm29",
+                        "modularwarfare:block.pm",
+                        "modularwarfare:block.glock",
+                        "modularwarfare:block.magnumlady",
+                        "modularwarfare:block.waltherp99",
+                        "modularwarfare:block.usp",
+                        "modularwarfare:block.beretta"
+
+                    ],
+                    "Count": [1,1,1,1,1,1,1]
+                },
+                "CareerLevel": 2
+            },
+                        {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 20,"max": 30},
+                        {"min": 20,"max": 30},
+                        {"min": 20,"max": 30},
+                        {"min": 20,"max": 30},
+                        {"min": 20,"max": 30},
+                        {"min": 20,"max": 30},
+                        {"min": 20,"max": 30},
+                        {"min": 20,"max": 30}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "morecreeps:money",
+                    "Count": [
+                        {"min": 20,"max": 50},
+                        {"min": 20,"max": 50},
+                        {"min": 20,"max": 50},
+                        {"min": 20,"max": 50},
+                        {"min": 20,"max": 50},
+                        {"min": 20,"max": 50},
+                        {"min": 20,"max": 50},
+                        {"min": 20,"max": 50}
+                    ]
+                },
+                "sell": {
+                    "id": [
+                        "modularwarfare:block.p226",
+                        "modularwarfare:block.luger",
+                        "modularwarfare:block.stechkin",
+                        "modularwarfare:block.mauzer",
+                        "modularwarfare:block.deagle",
+                        "modularwarfare:block.tt",
+                        "modularwarfare:block.cz75",
+                        "modularwarfare:block.browning"
+
+                    ],
+                    "Count": [1,1,1,1,1,1,1,1]
+                },
+                "CareerLevel": 4,
+                "Chance" : 0.30
+            },
+                        {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 20,"max": 40},
+                        {"min": 50,"max": 64},
+                        {"min": 20,"max": 40}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "morecreeps:money",
+                    "Count": [
+                        {"min": 20,"max": 50},
+                        {"min": 50,"max": 50},
+                        {"min": 20,"max": 50}
+                    ]
+                },
+                "sell": {
+                    "id": [
+                        "modularwarfare:block.fn57",
+                        "modularwarfare:block.goldcolt",
+                        "modularwarfare:block.anaconda"
+
+                    ],
+                    "Count": [1,1,1]
+                },
+                "CareerLevel": 5,
+                "Chance" : 0.10
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 4,"max": 5}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "morecreeps:money",
+                    "Count": [
+                        {"min": 25,"max": 30}
+                    ]
+                },
+                "sell": {
+                    "id":"modularwarfare:block.pmammo",
+                    "Count": {"min":1, "max":2}
+                },
+                "CareerLevel": 3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 4,"max": 5}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "morecreeps:money",
+                    "Count": [
+                        {"min": 25,"max": 30}
+                    ]
+                },
+                "sell": {
+                    "id":"modularwarfare:block.glockammo",
+                    "Count": {"min":1, "max":2}
+                },
+                "CareerLevel": 3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 4,"max": 5}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "morecreeps:money",
+                    "Count": [
+                        {"min": 25,"max": 30}
+                    ]
+                },
+                "sell": {
+                    "id":"modularwarfare:block.waltherp99ammo",
+                    "Count": {"min":1, "max":2}
+                },
+                "CareerLevel": 3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 4,"max": 5}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "morecreeps:money",
+                    "Count": [
+                        {"min": 25,"max": 30}
+                    ]
+                },
+                "sell": {
+                    "id":"modularwarfare:block.uspammo",
+                    "Count": {"min":1, "max":2}
+                },
+                "CareerLevel": 3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 4,"max": 5}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "morecreeps:money",
+                    "Count": [
+                        {"min": 25,"max": 30}
+                    ]
+                },
+                "sell": {
+                    "id":"modularwarfare:block.berettaammo",
+                    "Count": {"min":1, "max":2}
+                },
+                "CareerLevel": 3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 4,"max": 5}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "morecreeps:money",
+                    "Count": [
+                        {"min": 25,"max": 30}
+                    ]
+                },
+                "sell": {
+                    "id":"modularwarfare:block.p226ammo",
+                    "Count": {"min":1, "max":2}
+                },
+                "CareerLevel": 3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 4,"max": 5}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "morecreeps:money",
+                    "Count": [
+                        {"min": 25,"max": 30}
+                    ]
+                },
+                "sell": {
+                    "id":"modularwarfare:block.lugerammo",
+                    "Count": {"min":1, "max":2}
+                },
+                "CareerLevel": 3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 4,"max": 5}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "morecreeps:money",
+                    "Count": [
+                        {"min": 25,"max": 30}
+                    ]
+                },
+                "sell": {
+                    "id":"modularwarfare:block.stechkinammo",
+                    "Count": {"min":1, "max":2}
+                },
+                "CareerLevel": 3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 4,"max": 5}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "morecreeps:money",
+                    "Count": [
+                        {"min": 25,"max": 30}
+                    ]
+                },
+                "sell": {
+                    "id":"modularwarfare:block.mauzerammo",
+                    "Count": {"min":1, "max":2}
+                },
+                "CareerLevel": 3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 4,"max": 5}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "morecreeps:money",
+                    "Count": [
+                        {"min": 25,"max": 30}
+                    ]
+                },
+                "sell": {
+                    "id":"modularwarfare:block.ttammo",
+                    "Count": {"min":1, "max":2}
+                },
+                "CareerLevel": 3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 4,"max": 5}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "morecreeps:money",
+                    "Count": [
+                        {"min": 25,"max": 30}
+                    ]
+                },
+                "sell": {
+                    "id":"modularwarfare:block.deagleammo",
+                    "Count": {"min":1, "max":2}
+                },
+                "CareerLevel": 3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 4,"max": 5}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "morecreeps:money",
+                    "Count": [
+                        {"min": 25,"max": 30}
+                    ]
+                },
+                "sell": {
+                    "id":"modularwarfare:block.cz75ammo",
+                    "Count": {"min":1, "max":2}
+                },
+                "CareerLevel": 3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 4,"max": 5}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "morecreeps:money",
+                    "Count": [
+                        {"min": 25,"max": 30}
+                    ]
+                },
+                "sell": {
+                    "id":"modularwarfare:block.browningammo",
+                    "Count": {"min":1, "max":2}
+                },
+                "CareerLevel": 3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 4,"max": 5}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "morecreeps:money",
+                    "Count": [
+                        {"min": 25,"max": 30}
+                    ]
+                },
+                "sell": {
+                    "id":"modularwarfare:block.fn57ammo",
+                    "Count": {"min":1, "max":2}
+                },
+                "CareerLevel": 3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [
+                        {"min": 4,"max": 5}
+                    ]
+                 },       
+                "buyB": {
+                    "id": "morecreeps:money",
+                    "Count": [
+                        {"min": 25,"max": 30}
+                    ]
+                },
+                "sell": {
+                    "id":"modularwarfare:block.goldcoltammo",
+                    "Count": {"min":1, "max":2}
+                },
+                "CareerLevel": 3
+            }
+        ]
+    }
+}

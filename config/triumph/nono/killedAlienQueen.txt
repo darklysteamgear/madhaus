@@ -1,0 +1,13 @@
+setIcon(<minecraft:stone>)
+setTitle("Kill the Xenomorph Queen")
+setDescription("Go to centotl and kill the xenomorph queen")
+
+addRewardFunction("triumph:waste")
+addParent("triumph:events/root")
+
+criteria = addCriteria("sludgemenace", "minecraft:player_killed_entity")
+criteria.setEntityType("zollerngalaxy:xenomorphqueen")
+
+hideLines()
+alwaysVisible()
+setPos(-75,119)

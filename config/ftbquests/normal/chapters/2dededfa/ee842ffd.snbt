@@ -1,0 +1,19 @@
+{
+	title: "Time to get INDUSTRIAL",
+	x: -7.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "53cd9118",
+		type: "item",
+		items: [{
+			item: "ic2:forge_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "656431db",
+		type: "ftbmoney:money",
+		ftb_money: 600L
+	}]
+}

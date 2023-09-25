@@ -1,0 +1,31 @@
+{
+	title: "You really did ask for it",
+	x: -1.5d,
+	y: 9.5d,
+	tasks: [{
+		uid: "cd02a018",
+		type: "item",
+		items: [{
+			id: "conarm:leggings_core",
+			tag: {
+				Material: "emeradic_actadd_plustic"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "87510441",
+		type: "command",
+		title: "Go to nether",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon motnt:tnt200"
+	},
+	{
+		uid: "16e6f75d",
+		type: "command",
+		title: "THE NUKE",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon pandorasbox:pandorasbox"
+	}]
+}

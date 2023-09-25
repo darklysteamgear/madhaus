@@ -1,0 +1,29 @@
+{
+	title: "YOU MUST PAY THE PRICE FOR IMMORTALITY",
+	x: -3.5d,
+	y: 8.5d,
+	tasks: [{
+		uid: "efae0910",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "conarm:armor_trim"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "51afb0b9",
+		type: "command",
+		title: "This is the price you must pay",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon motnt:lava_tnt"
+	},
+	{
+		uid: "cae243d2",
+		type: "command",
+		title: "Boom Boom Hecker",
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon motnt:tnt100"
+	}]
+}

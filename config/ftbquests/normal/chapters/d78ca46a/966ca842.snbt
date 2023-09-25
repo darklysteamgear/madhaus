@@ -1,0 +1,19 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "6d89eba5",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_helm_quartz"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d2c5eb94",
+		type: "ftbmoney:money",
+		ftb_money: 1500L,
+		random_bonus: 1500
+	}]
+}

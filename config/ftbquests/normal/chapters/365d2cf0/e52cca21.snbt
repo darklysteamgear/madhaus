@@ -1,0 +1,24 @@
+{
+	title: "Visit Barathos",
+	icon: "aoa3:barathos_hellstone",
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"03eee307"
+	],
+	tasks: [{
+		uid: "5d08a164",
+		type: "dimension",
+		dim: 802
+	}],
+	rewards: [{
+		uid: "c167564d",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "aa1e7dd9",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	}]
+}

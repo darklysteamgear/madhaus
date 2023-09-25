@@ -1,0 +1,13 @@
+setIcon(<minecraft:stone>)
+setTitle("Kill the Primordial Malevolence")
+setDescription("Go to the betweenlands and kill the Primordial, many tales tell of vast knowledge stored within it's eye")
+
+addRewardFunction("triumph:tools")
+addParent("triumph:events/root")
+
+criteria = addCriteria("primordial", "minecraft:player_killed_entity")
+criteria.setEntityType("thebetweenlands:fortress_boss")
+
+hideLines()
+alwaysVisible()
+setPos(-35,77)

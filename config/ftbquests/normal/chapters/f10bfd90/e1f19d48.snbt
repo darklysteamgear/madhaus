@@ -1,0 +1,37 @@
+{
+	x: -0.5d,
+	y: 4.0d,
+	text: [
+		"Make a wish upon a portal made of white bricks to visit a familiar world from a time long ago."
+	],
+	dependencies: [
+		"442ab6a0"
+	],
+	tasks: [{
+		uid: "7cae213f",
+		type: "dimension",
+		icon: "minecraft:skull",
+		dim: 58
+	}],
+	rewards: [{
+		uid: "1710e3e8",
+		type: "item",
+		item: "motnt:festive_tnt",
+		count: 2
+	},
+	{
+		uid: "0cfd6222",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "95458f09",
+		type: "ftbmoney:money",
+		ftb_money: 6000L
+	},
+	{
+		uid: "09986359",
+		type: "item",
+		item: "minecraft:painting"
+	}]
+}

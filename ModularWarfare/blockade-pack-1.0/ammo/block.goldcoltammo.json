@@ -1,0 +1,11 @@
+{
+    "internalName": "block.goldcoltammo",
+    "displayName": "Colt Mag 7rnd",
+    "numBullets": 1,
+    "ammoCapacity": 7,
+    "subAmmo": [
+        "block.pistolbullet"
+    ],
+    "magazineCount": 1,
+    "reloadTime": 4
+}

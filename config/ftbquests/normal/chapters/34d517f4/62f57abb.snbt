@@ -1,0 +1,187 @@
+{
+	title: "MURICA!!!",
+	x: -0.5d,
+	y: -5.0d,
+	description: "F*** YEAH!!! COMMIN AGAIN TO SAVE THE M***F*** DAY YEAH!!!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"05caa643"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2d37a8e0",
+		type: "item",
+		items: [{
+			item: "ic2:plate 1 4"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "1c2b811c",
+		type: "item",
+		items: [{
+			item: "ic2:plate 1 2"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "6532bebc",
+		type: "item",
+		items: [{
+			item: "minecraft:wool 1 14"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "85b50b74",
+		type: "item",
+		items: [{
+			item: "minecraft:wool 1 14"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "2a2b9feb",
+		type: "item",
+		items: [{
+			item: "ic2:plate 1 2"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "a4643720",
+		type: "item",
+		items: [{
+			item: "ic2:plate 1 4"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "5457facd",
+		type: "item",
+		items: [{
+			item: "minecraft:wool"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "3d95216a",
+		type: "item",
+		items: [{
+			item: "minecraft:wool"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "fbabd0f8",
+		type: "item",
+		items: [{
+			item: "minecraft:wool 1 14"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "aabbb017",
+		type: "item",
+		items: [{
+			item: "minecraft:wool 1 14"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "795fe924",
+		type: "item",
+		items: [{
+			item: "minecraft:wool 1 14"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "b5133cb6",
+		type: "item",
+		items: [{
+			item: "minecraft:wool 1 14"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "9da896a7",
+		type: "item",
+		items: [{
+			item: "minecraft:wool"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "3079095a",
+		type: "item",
+		items: [{
+			item: "minecraft:wool"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "766498ad",
+		type: "item",
+		items: [{
+			item: "minecraft:wool"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "06116b6a",
+		type: "item",
+		items: [{
+			item: "minecraft:wool"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "4b4f9f6d",
+		type: "command",
+		title: "Call the troops!!!",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon minecraft:villager_golem"
+	},
+	{
+		uid: "bb7f31cc",
+		type: "command",
+		title: "Call the troops!!!",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon minecraft:villager_golem"
+	},
+	{
+		uid: "587ed26f",
+		type: "command",
+		title: "Call the troops!!!",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon minecraft:villager_golem"
+	},
+	{
+		uid: "9f0383f8",
+		type: "command",
+		title: "Call the troops!!!",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon minecraft:villager_golem"
+	},
+	{
+		uid: "f8b6206e",
+		type: "command",
+		title: "Heavy gunner support inbound",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon scp:heavy_golem"
+	},
+	{
+		uid: "8a7bd0d5",
+		type: "command",
+		title: "Heavy gunner support inbound!",
+		team_reward: true,
+		auto: "enabled",
+		command: "/execute @p ~ ~ ~ summon scp:heavy_golem"
+	}]
+}

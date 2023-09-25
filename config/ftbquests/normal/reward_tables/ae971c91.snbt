@@ -1,0 +1,154 @@
+{
+	title: "Skin Drop",
+	icon: "modularwarfare:block.psg1.gold",
+	loot_size: 1,
+	rewards: [{
+		item: "modularwarfare:block.m700.lady"
+	},
+	{
+		item: "modularwarfare:block.vintorez.desert"
+	},
+	{
+		item: "modularwarfare:block.nova.gold"
+	},
+	{
+		item: "modularwarfare:block.ak47.snow"
+	},
+	{
+		item: "modularwarfare:block.saiga.gold"
+	},
+	{
+		item: "modularwarfare:block.l96a1.forest"
+	},
+	{
+		item: "modularwarfare:block.fn57.z"
+	},
+	{
+		item: "modularwarfare:block.m249.desert"
+	},
+	{
+		item: "modularwarfare:block.psg1.gold"
+	},
+	{
+		item: "modularwarfare:block.spas12.z"
+	},
+	{
+		item: "modularwarfare:block.kord.z"
+	},
+	{
+		item: "modularwarfare:block.l96a1.gold"
+	},
+	{
+		item: "modularwarfare:block.m249.z"
+	},
+	{
+		item: "modularwarfare:block.mg42.lady"
+	},
+	{
+		item: "modularwarfare:block.p90.snow"
+	},
+	{
+		item: "modularwarfare:block.ak47.gold"
+	},
+	{
+		item: "modularwarfare:block.saiga.snow"
+	},
+	{
+		item: "modularwarfare:block.minigun.z"
+	},
+	{
+		item: "modularwarfare:block.pkp.gold"
+	},
+	{
+		item: "modularwarfare:block.sr25.snow"
+	},
+	{
+		item: "modularwarfare:block.jackhammer.lady"
+	},
+	{
+		item: "modularwarfare:block.mac10.gold"
+	},
+	{
+		item: "modularwarfare:block.aa12.z"
+	},
+	{
+		item: "modularwarfare:block.g36c.veteran"
+	},
+	{
+		item: "modularwarfare:block.goldcolt.classic"
+	},
+	{
+		item: "modularwarfare:block.usp.snow"
+	},
+	{
+		item: "modularwarfare:block.m4a1.gold"
+	},
+	{
+		item: "modularwarfare:block.asval.z"
+	},
+	{
+		item: "modularwarfare:block.deagle.gold"
+	},
+	{
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "COMMON"
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "UNCOMMON"
+			}
+		},
+		weight: 3
+	},
+	{
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "RARE"
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "EPIC"
+			}
+		}
+	},
+	{
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "RELIC"
+			}
+		}
+	},
+	{
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "IE:MASTERWORK"
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "skin_drop",
+		item_name: "Skin Drop",
+		color: 16776960,
+		glow: true,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

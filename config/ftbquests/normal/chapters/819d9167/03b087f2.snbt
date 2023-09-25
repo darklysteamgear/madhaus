@@ -1,0 +1,20 @@
+{
+	title: "Gooey Goodness",
+	x: -8.0d,
+	y: -4.0d,
+	dependencies: [
+		"f1115f43"
+	],
+	tasks: [{
+		uid: "95c732c8",
+		type: "item",
+		items: [{
+			item: "midnight:cook_stinger_egg"
+		}]
+	}],
+	rewards: [{
+		uid: "395e3af1",
+		type: "loot",
+		table: 1
+	}]
+}

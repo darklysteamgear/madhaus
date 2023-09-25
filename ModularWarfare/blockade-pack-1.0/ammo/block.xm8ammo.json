@@ -1,0 +1,11 @@
+{
+    "internalName": "block.xm8ammo",
+    "displayName": "XM8 Mag 25rnd",
+    "ammoCapacity": 25,
+	"reloadTimeFactor": 1.1,
+    "magazineCount": 1,
+    "subAmmo": [
+        "block.riflebullet"
+    ],
+    "allowEmptyMagazines": true
+}

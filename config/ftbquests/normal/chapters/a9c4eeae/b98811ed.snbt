@@ -1,0 +1,39 @@
+{
+	title: "Summer Foraging Bundle",
+	x: -9.0d,
+	y: 2.5d,
+	shape: "rsquare",
+	size: 2.0d,
+	tasks: [{
+		uid: "ad9b8416",
+		type: "item",
+		items: [{
+			item: "harvestcraft:grapeitem"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "b63b68bc",
+		type: "item",
+		items: [{
+			item: "harvestcraft:spiceleafitem"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "ae1d52e6",
+		type: "item",
+		items: [{
+			item: "harvestcraft:peasitem"
+		}],
+		count: 32L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "b8bdd77c",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	}]
+}

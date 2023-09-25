@@ -1,0 +1,18 @@
+{
+	title: "Clay made of iron",
+	x: 1.0d,
+	y: -1.5d,
+	description: "Give them iron ingots to make them more sturdy!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"c4a06031"
+	],
+	hide: true,
+	tasks: [{
+		uid: "474ea9e3",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}]
+}

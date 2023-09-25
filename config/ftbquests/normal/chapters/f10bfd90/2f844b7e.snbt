@@ -1,0 +1,27 @@
+{
+	title: "Just like oldschool pocket edition",
+	x: -3.5d,
+	y: -4.5d,
+	dependencies: [
+		"e4210eb8"
+	],
+	optional: true,
+	tasks: [{
+		uid: "24cb9a33",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "originallava",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "29cc580b",
+		type: "ftbmoney:money",
+		ftb_money: 3500L
+	}]
+}

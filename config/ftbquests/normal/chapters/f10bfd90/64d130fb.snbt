@@ -1,0 +1,35 @@
+{
+	title: "Summon the Mutant Enderman",
+	icon: "mutantbeasts:endersoul_hand",
+	x: 1.5d,
+	y: -10.5d,
+	description: "You can find him in cursed or abyssal lands",
+	can_repeat: true,
+	size: 3.0d,
+	tasks: [{
+		uid: "a24fa2f6",
+		type: "item",
+		items: [{
+			item: "xreliquary:mob_ingredient 1 11"
+		}],
+		count: 8L,
+		consume_items: true
+	},
+	{
+		uid: "bf395090",
+		type: "item",
+		items: [{
+			item: "mutantbeasts:chemical_x"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c15d3182",
+		type: "command",
+		title: "Teleporty bossman",
+		icon: "minecraft:nether_star",
+		command: "/execute @p ~ ~ ~ summon mutantbeasts:mutant_enderman"
+	}]
+}

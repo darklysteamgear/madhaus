@@ -1,0 +1,19 @@
+{
+	title: "OH LAWD HE COMIN",
+	icon: "harvestcraft:frograwitem",
+	x: 3.0d,
+	y: -7.5d,
+	shape: "square",
+	description: "Big boi",
+	text: [
+		"T H I C C"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "572d5870",
+		type: "observation",
+		match_type: "entity_id",
+		match: "memeinabottle:me_me_big_boi",
+		timer: 0L
+	}]
+}

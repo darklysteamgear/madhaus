@@ -1,0 +1,16 @@
+{
+  "displayName": "NTW-20 Scope",
+  "internalName": "block.scopentw20x",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "block.scopentw20x",
+      "displayName": "NTW-20 Scope - Default"
+    }
+  ],
+  "sight": {
+    "scopeType": "15x",
+    "customOverlayTexture": "block.blockscopentw20x",
+    "modeType": "pip"
+  }
+}
